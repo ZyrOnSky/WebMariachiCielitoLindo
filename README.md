@@ -15,6 +15,20 @@ View your app in AI Studio: https://ai.studio/apps/b4da8933-dd5f-4428-8b65-e8187
 
 1. Install dependencies:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
+2. Run the app:
    `npm run dev`
+
+## Deploy on Netlify
+
+This project includes a ready-to-use `netlify.toml`.
+
+1. Push this repository to GitHub.
+2. In Netlify, create a new site from that repository.
+3. Build settings are already configured by `netlify.toml`:
+   - Build command: `npm run build`
+   - Publish directory: `dist`
+4. Trigger a deploy.
+
+Notes:
+- The app is a SPA and `netlify.toml` already includes a redirect to `index.html`.
+- Firebase web config is loaded from `firebase-applet-config.json` currently tracked in the repository.
