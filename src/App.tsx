@@ -8,6 +8,7 @@ import RepertoireView from './components/RepertoireView';
 import AdminView from './components/AdminView';
 import logoMain from '../medios/logos/logo.svg';
 import logoMobile from '../medios/logos/logmovil.svg';
+import logoHeader from '../medios/logos/logo_head_foot.png';
 import logoFooter from '../medios/logos/logo_head_foot_gra.png';
 
 export default function App() {
@@ -106,9 +107,9 @@ export default function App() {
               decoding="async"
             />
             <img
-              src={logoMobile}
+              src={logoHeader}
               alt="Mariachi Cielito Lindo"
-              className="md:hidden h-11 w-11 object-contain rounded-full"
+              className="md:hidden h-14 w-auto object-contain"
               loading="eager"
               decoding="async"
             />
@@ -181,7 +182,7 @@ export default function App() {
         <AnimatePresence mode="wait">
           {currentView === 'home' && <HomeView key="home" setView={setCurrentView} />}
           {currentView === 'about' && <AboutView key="about" setView={setCurrentView} />}
-          {currentView === 'gallery' && <GalleryView key="gallery" setView={setCurrentView} />}
+          {currentView === 'gallery' && <GalleryView key="gallery" setView={setCurrentView} onYoutubePlayerStateChange={handleYoutubePlayerStateChange} />}
           {currentView === 'repertoire' && <RepertoireView key="repertoire" setView={setCurrentView} onYoutubePlayerStateChange={handleYoutubePlayerStateChange} />}
           {currentView === 'contact' && <ContactView key="contact" />}
           {currentView === 'admin' && <AdminView key="admin" setView={setCurrentView} />}

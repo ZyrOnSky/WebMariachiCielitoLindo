@@ -170,20 +170,37 @@ export const ContactView = () => {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-16 items-start">
           <div>
-            <div className="space-y-10">
-              <div className="flex items-start gap-6">
-                <div className="w-12 h-12 border border-outline-variant/30 flex items-center justify-center text-primary flex-shrink-0 rounded-full"><Phone size={20} /></div>
-                <div><p className="text-xs text-on-surface-variant uppercase tracking-widest mb-2 font-bold">WhatsApp</p><p className="text-xl font-medium text-on-surface">+593 98 721 6439</p></div>
+            <div className="space-y-6 md:space-y-10">
+              <div className="flex items-start gap-3 md:gap-6">
+                <div className="w-10 h-10 md:w-12 md:h-12 border border-outline-variant/30 flex items-center justify-center text-primary flex-shrink-0 rounded-full"><Phone size={18} className="md:w-5 md:h-5" /></div>
+                <div>
+                  <p className="text-xs text-on-surface-variant uppercase tracking-widest mb-2 md:mb-3 font-bold">Teléfonos</p>
+                  <div className="space-y-1 md:space-y-2">
+                    <div>
+                      <p className="text-xs text-on-surface-variant mb-0.5 md:mb-1">Llamadas:</p>
+                      <p className="text-base md:text-lg font-medium text-on-surface">0992882624</p>
+                    </div>
+                    <div>
+                      <p className="text-xs text-on-surface-variant mb-0.5 md:mb-1">WhatsApp y llamadas:</p>
+                      <p className="text-base md:text-lg font-medium text-on-surface">0987216439</p>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div className="flex items-start gap-6">
-                <div className="w-12 h-12 border border-outline-variant/30 flex items-center justify-center text-primary flex-shrink-0 rounded-full"><Mail size={20} /></div>
-                <div><p className="text-xs text-on-surface-variant uppercase tracking-widest mb-2 font-bold">Correo Electrónico</p><p className="text-xl font-medium text-on-surface">contacto@cielitolindo.com</p></div>
+              <div className="flex items-start gap-3 md:gap-6">
+                <div className="w-10 h-10 md:w-12 md:h-12 border border-outline-variant/30 flex items-center justify-center text-primary flex-shrink-0 rounded-full"><Mail size={18} className="md:w-5 md:h-5" /></div>
+                  <div>
+                    <p className="text-xs text-on-surface-variant uppercase tracking-widest mb-2 md:mb-2 font-bold">Correo Electrónico</p>
+                    <p className="text-xs sm:text-sm md:text-lg lg:text-xl font-medium text-on-surface leading-tight break-normal">
+                      mariachicielitolindoecuador<wbr />@gmail.com
+                    </p>
+                  </div>
               </div>
-              <div className="flex items-start gap-6">
-                <div className="w-12 h-12 border border-outline-variant/30 flex items-center justify-center text-primary flex-shrink-0 rounded-full"><MapPin size={20} /></div>
-                <div><p className="text-xs text-on-surface-variant uppercase tracking-widest mb-2 font-bold">Ubicación</p><p className="text-xl font-medium text-on-surface">Guayaquil, Ecuador</p></div>
+              <div className="flex items-start gap-3 md:gap-6">
+                <div className="w-10 h-10 md:w-12 md:h-12 border border-outline-variant/30 flex items-center justify-center text-primary flex-shrink-0 rounded-full"><MapPin size={18} className="md:w-5 md:h-5" /></div>
+                <div><p className="text-xs text-on-surface-variant uppercase tracking-widest mb-2 md:mb-2 font-bold">Ubicación</p><p className="text-base md:text-xl font-medium text-on-surface">Cdla. Bolivariana Mz. I VILLA 4<br />Guayaquil – Ecuador.</p></div>
               </div>
             </div>
           </div>

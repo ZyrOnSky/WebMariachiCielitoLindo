@@ -60,13 +60,18 @@ const PHOTO_SLIDES = Object.entries(PHOTO_MODULES)
     };
   });
 
-export default function GalleryView({ setView }: { setView: (v: ViewState) => void, key?: string }) {
+export default function GalleryView({ setView, onYoutubePlayerStateChange }: { setView: (v: ViewState) => void, onYoutubePlayerStateChange?: (isOpen: boolean) => void, key?: string }) {
   const [activePhoto, setActivePhoto] = useState(0);
   const [isPhotoModalOpen, setIsPhotoModalOpen] = useState(false);
   const [modalPhotoIndex, setModalPhotoIndex] = useState(0);
   const [activeVideoPlayer, setActiveVideoPlayer] = useState<{ id: string; title: string; desc: string } | null>(null);
 
   const totalPhotos = PHOTO_SLIDES.length;
+
+  useEffect(() => {
+    onYoutubePlayerStateChange?.(Boolean(activeVideoPlayer));
+    return () => onYoutubePlayerStateChange?.(false);
+  }, [activeVideoPlayer, onYoutubePlayerStateChange]);
 
   useEffect(() => {
     if (totalPhotos <= 1) return;
@@ -122,7 +127,13 @@ export default function GalleryView({ setView }: { setView: (v: ViewState) => vo
             </div>
           </div>
 
-          <div className="relative overflow-hidden rounded-3xl border border-primary/30 bg-surface-container-low min-h-[380px] lg:min-h-[640px] group">
+          <div className="relative overflow-hidden rounded-3xl border border-primary/30 bg-surface-container-low min-h-[340px] sm:min-h-[380px] lg:min-h-[640px] group cursor-pointer" onClick={() =>
+            setActiveVideoPlayer({
+              id: FEATURED_YOUTUBE_ID,
+              title: 'Mariachi Internacional Cielito Lindo',
+              desc: 'Comparte con nosotros nuesros recuerdos mas simbolicos junto a ustedes.',
+            })
+          }>
             <img
               src={`https://img.youtube.com/vi/${FEATURED_YOUTUBE_ID}/maxresdefault.jpg`}
               alt="Video destacado de Mariachi Cielito Lindo"
@@ -133,24 +144,27 @@ export default function GalleryView({ setView }: { setView: (v: ViewState) => vo
 
             <div className="absolute inset-0 flex items-center justify-center">
               <button
-                onClick={() =>
+                onClick={(e) => {
+                  e.stopPropagation();
                   setActiveVideoPlayer({
                     id: FEATURED_YOUTUBE_ID,
                     title: 'Mariachi Internacional Cielito Lindo',
                     desc: 'Comparte con nosotros nuesros recuerdos mas simbolicos junto a ustedes.',
                   })
                 }
-                className="w-20 h-20 md:w-24 md:h-24 rounded-full bg-primary/20 backdrop-blur-md border border-primary/50 flex items-center justify-center text-primary hover:bg-primary hover:text-on-primary transition-all group-hover:scale-110"
+                }
+                className="hidden sm:flex w-20 h-20 md:w-24 md:h-24 rounded-full bg-primary/20 backdrop-blur-md border border-primary/50 items-center justify-center text-primary hover:bg-primary hover:text-on-primary transition-all group-hover:scale-110"
                 aria-label="Reproducir video destacado"
               >
                 <Play size={34} className="ml-1" />
               </button>
             </div>
 
-            <div className="absolute bottom-0 left-0 right-0 p-6 md:p-8">
-              <span className="border border-primary text-primary text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-4 inline-block">Video Destacado</span>
-              <h3 className="font-serif text-2xl md:text-4xl text-on-surface mb-2">Mariachi Internacional Cielito Lindo</h3>
-              <p className="text-sm md:text-base text-on-surface-variant">Comparte con nosotros nuesros recuerdos mas simbolicos junto a ustedes.</p>
+            <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-6 md:p-8">
+              <span className="border border-primary text-primary text-[10px] sm:text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-3 sm:mb-4 inline-block">Video Destacado</span>
+              <span className="sm:hidden block text-[10px] uppercase tracking-[0.2em] text-primary mb-2 font-bold">Toca para reproducir</span>
+              <h3 className="font-serif text-xl sm:text-2xl md:text-4xl leading-tight text-on-surface mb-2">Mariachi Internacional Cielito Lindo</h3>
+              <p className="text-xs sm:text-sm md:text-base leading-snug sm:leading-normal text-on-surface-variant max-w-xl">Comparte con nosotros nuestros recuerdos mas simbolicos junto a ustedes.</p>
             </div>
           </div>
 

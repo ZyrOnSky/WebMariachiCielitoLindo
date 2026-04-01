@@ -799,11 +799,11 @@ export default function AdminView({ setView }: { setView: (v: ViewState) => void
 
   if (!user || (role !== 'admin' && role !== 'musician')) {
     return (
-      <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -20 }} className="min-h-screen bg-surface flex items-center justify-center px-6">
-        <div className="w-full max-w-md bg-surface-container-low p-8 rounded-3xl border border-outline-variant/10 ambient-shadow">
+      <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -20 }} className="min-h-screen bg-surface flex items-start justify-center px-4 sm:px-6 pt-40 sm:pt-36 md:pt-32 pb-24">
+        <div className="w-full max-w-md bg-surface-container-low p-6 sm:p-8 rounded-3xl border border-outline-variant/10 ambient-shadow mt-4">
           <div className="mb-10 text-center">
             <span className="text-error text-xs font-bold uppercase tracking-widest mb-3 block">Acceso Restringido</span>
-            <h1 className="font-serif text-3xl md:text-4xl text-on-surface mb-4">Portal de Músicos <br />y Admin</h1>
+            <h1 className="font-serif text-2xl sm:text-3xl md:text-4xl leading-tight text-on-surface mb-4">Portal de Músicos <br className="sm:hidden" />y Admin</h1>
             <p className="text-sm text-on-surface-variant">
               Inicia sesión con tu cuenta de Google. Sólo los correos habilitados por la administración podrán ingresar al panel y ver la información.
             </p>
@@ -916,11 +916,11 @@ export default function AdminView({ setView }: { setView: (v: ViewState) => void
   }
 
   return (
-    <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -20 }} className="pt-32 pb-24 px-6 md:px-12 lg:px-24 min-h-screen bg-surface">
+    <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -20 }} className="pt-40 sm:pt-36 md:pt-32 pb-24 px-4 sm:px-6 md:px-12 lg:px-24 min-h-screen bg-surface">
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 mb-8">
           <div>
-            <h1 className="font-serif text-4xl md:text-5xl mb-2 text-on-surface">Panel de Control</h1>
+            <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl leading-tight mb-2 text-on-surface">Panel de Control</h1>
             <p className="text-on-surface-variant font-light">Bienvenido, {user.displayName} ({role})</p>
           </div>
           <button onClick={handleLogout} className="border border-error/50 text-error px-6 py-3 font-medium rounded-xl hover:bg-error/10 transition-colors flex items-center gap-2">
