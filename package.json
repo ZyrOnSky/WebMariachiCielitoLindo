@@ -9,7 +9,10 @@
     "preview": "vite preview",
     "clean": "rm -rf dist",
     "lint": "tsc --noEmit",
-    "seed:songs": "node scripts/seedSongs.mjs"
+    "seed:songs": "node scripts/seedSongs.mjs",
+    "wp:extract": "node scripts/wpMigrationPrep.mjs",
+    "wp:extract:scan": "node scripts/wpMigrationPrep.mjs --scan-pages",
+    "wp:report": "node scripts/wpMigrationReport.mjs"
   },
   "dependencies": {
     "@google/genai": "^1.29.0",

@@ -1,11 +1,14 @@
 import { useEffect, useRef, useState, MouseEvent } from 'react';
-import { Play, Pause, Volume2, VolumeX, Menu, X } from 'lucide-react';
+import { Play, Pause, Volume2, VolumeX, Menu, X, Facebook, Instagram, Youtube, MessageCircle } from 'lucide-react';
 import { AnimatePresence, motion } from 'motion/react';
 import { ViewState } from './types';
 import { HomeView, AboutView, ContactView } from './components/BasicViews';
 import GalleryView from './components/GalleryView';
 import RepertoireView from './components/RepertoireView';
 import AdminView from './components/AdminView';
+import logoMain from '../medios/logos/logo.svg';
+import logoMobile from '../medios/logos/logmovil.svg';
+import logoFooter from '../medios/logos/logo_head_foot_gra.png';
 
 export default function App() {
   const [currentView, setCurrentView] = useState<ViewState>('home');
@@ -90,8 +93,25 @@ export default function App() {
       {/* Navigation */}
       <nav className="fixed top-0 w-full z-40 glass-effect border-b border-outline-variant/10">
         <div className="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
-          <button onClick={() => setCurrentView('home')} className="font-serif text-2xl tracking-tighter text-primary hover:opacity-80 transition-opacity">
-            Mariachi Cielito Lindo
+          <button
+            onClick={() => setCurrentView('home')}
+            aria-label="Ir al inicio"
+            className="hover:opacity-90 transition-opacity"
+          >
+            <img
+              src={logoMain}
+              alt="Mariachi Cielito Lindo"
+              className="hidden md:block h-12 w-auto object-contain"
+              loading="eager"
+              decoding="async"
+            />
+            <img
+              src={logoMobile}
+              alt="Mariachi Cielito Lindo"
+              className="md:hidden h-11 w-11 object-contain rounded-full"
+              loading="eager"
+              decoding="async"
+            />
           </button>
           <div className="hidden md:flex items-center gap-8 font-label text-sm tracking-wide">
             {navLinks.map(link => (
@@ -170,14 +190,52 @@ export default function App() {
 
       {/* Footer */}
       <footer className="w-full py-12 px-6 md:px-12 lg:px-24 bg-surface-container-lowest border-t border-outline-variant/10 flex flex-col md:flex-row justify-between items-center gap-8 relative z-30">
-        <div className="font-serif text-primary opacity-80 text-xl text-center md:text-left">
-          Mariachi Cielito Lindo
+        <div className="w-full md:w-auto flex justify-center md:justify-start">
+          <img
+            src={logoFooter}
+            alt="Mariachi Cielito Lindo"
+            className="h-14 md:h-16 w-auto object-contain"
+            loading="lazy"
+            decoding="async"
+          />
         </div>
-        <div className="flex flex-wrap justify-center gap-6 md:gap-8 font-label text-sm">
-          <a href="#" className="text-on-surface-variant hover:text-primary transition-colors">Facebook</a>
-          <a href="#" className="text-on-surface-variant hover:text-primary transition-colors">Instagram</a>
-          <a href="#" className="text-on-surface-variant hover:text-primary transition-colors">YouTube</a>
-          <a href="#" className="text-on-surface-variant hover:text-primary transition-colors">WhatsApp</a>
+        <div className="flex flex-wrap justify-center gap-4 md:gap-5 font-label text-sm">
+          <a
+            href="https://www.facebook.com/Mariachicielitolindoec"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook"
+            className="w-10 h-10 rounded-full border border-outline-variant/30 text-on-surface-variant hover:text-primary hover:border-primary transition-colors flex items-center justify-center"
+          >
+            <Facebook size={18} />
+          </a>
+          <a
+            href="https://www.instagram.com/mariachicielitolindoec/?hl=en"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+            className="w-10 h-10 rounded-full border border-outline-variant/30 text-on-surface-variant hover:text-primary hover:border-primary transition-colors flex items-center justify-center"
+          >
+            <Instagram size={18} />
+          </a>
+          <a
+            href="https://www.youtube.com/channel/UCqsvmHSNoKFsSGModRy3yuQ"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="YouTube"
+            className="w-10 h-10 rounded-full border border-outline-variant/30 text-on-surface-variant hover:text-primary hover:border-primary transition-colors flex items-center justify-center"
+          >
+            <Youtube size={18} />
+          </a>
+          <a
+            href="https://api.whatsapp.com/send/?phone=593987216439&text=%21Buen+d%C3%ADa%21+Deseo+la+mejor+serenata+de+Guayaquil%21&type=phone_number&app_absent=0"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="WhatsApp"
+            className="w-10 h-10 rounded-full border border-outline-variant/30 text-on-surface-variant hover:text-primary hover:border-primary transition-colors flex items-center justify-center"
+          >
+            <MessageCircle size={18} />
+          </a>
         </div>
         <div className="text-on-surface-variant text-xs font-light text-center md:text-right">
           © 2026 Mariachi Cielito Lindo. Todos los derechos reservados.

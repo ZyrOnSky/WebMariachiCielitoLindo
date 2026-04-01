@@ -1,0 +1,5114 @@
+{
+  "meta": {
+    "extractedAt": "2026-04-01T05:51:14.486Z",
+    "apiBase": "https://mariachicielitolindoec.com/wp-json/wp/v2",
+    "totalSongs": 255,
+    "songsWithMega": 0,
+    "songsWithoutMega": 255,
+    "scanPages": false
+  },
+  "songs": [
+    {
+      "source": "wordpress",
+      "sourceId": 5182,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/mi-viejo/",
+      "title": "Mi Viejo",
+      "artist": "Vicente Fernandez",
+      "artists": [
+        "Vicente Fernandez"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Dia del Padre"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5179,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/cuando-queria-ser-grande/",
+      "title": "Cuando Quería Ser Grande",
+      "artist": "Alejandro Fernández",
+      "artists": [
+        "Alejandro Fernández"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Dia del Padre"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5175,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/probablemente/",
+      "title": "Probablemente",
+      "artist": "Marco Antonio Solís",
+      "artists": [
+        "Marco Antonio Solís"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Despecho"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5174,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/yo-soy-el-aventurero/",
+      "title": "Yo soy el aventurero",
+      "artist": "Pedro Fernandez",
+      "artists": [
+        "Pedro Fernandez"
+      ],
+      "genres": [
+        "Son"
+      ],
+      "occasions": [
+        "Fiesta Mexicana",
+        "Show Bailable"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5173,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/el-aventurero/",
+      "title": "El aventurero",
+      "artist": "",
+      "artists": [],
+      "genres": [
+        "Cumbias"
+      ],
+      "occasions": [
+        "Fiesta Mexicana",
+        "Show Bailable"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5172,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/la-cancion-del-mariachi/",
+      "title": "La canción del mariachi",
+      "artist": "Alejandro Fernández",
+      "artists": [
+        "Alejandro Fernández"
+      ],
+      "genres": [
+        "Son"
+      ],
+      "occasions": [
+        "Fiesta Mexicana"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5171,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/adios-amor/",
+      "title": "Adios amor",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Despecho"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5170,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/dulce-pecado/",
+      "title": "Dulce pecado",
+      "artist": "Pedro Fernandez",
+      "artists": [
+        "Pedro Fernandez"
+      ],
+      "genres": [
+        "Vals Ranchero"
+      ],
+      "occasions": [
+        "Despecho"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5168,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/espana-cali/",
+      "title": "España cali",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Corrido"
+      ],
+      "occasions": [
+        "Show Bailable"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5167,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/el-sopilote-mojado/",
+      "title": "El sopilote mojado",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Corrido"
+      ],
+      "occasions": [
+        "Fiesta Mexicana"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5166,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/el-barrilito/",
+      "title": "El barrilito",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Corrido"
+      ],
+      "occasions": [
+        "Fiesta Mexicana"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5165,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/vengo-a-decirte-que-te-estoy-queriendo/",
+      "title": "Vengo a decirte que te estoy queriendo",
+      "artist": "",
+      "artists": [],
+      "genres": [
+        "Cumbias"
+      ],
+      "occasions": [
+        "Show Bailable"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5164,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/ambato-tierra-de-flores/",
+      "title": "Ambato tierra de flores",
+      "artist": "",
+      "artists": [],
+      "genres": [
+        "Cumbias"
+      ],
+      "occasions": [
+        "Show Bailable"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5163,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/asi-se-goza/",
+      "title": "Así se goza",
+      "artist": "",
+      "artists": [],
+      "genres": [
+        "Cumbias"
+      ],
+      "occasions": [
+        "Show Bailable"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5162,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/chola-cuencana/",
+      "title": "Chola cuencana",
+      "artist": "",
+      "artists": [],
+      "genres": [
+        "Cumbias"
+      ],
+      "occasions": [
+        "Show Bailable"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5161,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/pobre-corazon/",
+      "title": "Pobre corazón",
+      "artist": "",
+      "artists": [],
+      "genres": [
+        "Cumbias"
+      ],
+      "occasions": [
+        "Show Bailable"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5160,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/en-vida/",
+      "title": "En vida",
+      "artist": "",
+      "artists": [],
+      "genres": [
+        "Cumbias"
+      ],
+      "occasions": [
+        "Show Bailable"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5159,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/en-vida-segundo-rosero/",
+      "title": "En vida (Segundo Rosero)",
+      "artist": "",
+      "artists": [],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Velorios"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5158,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/vivir-la-vida/",
+      "title": "Vivir la vida",
+      "artist": "Alberto Barros",
+      "artists": [
+        "Alberto Barros"
+      ],
+      "genres": [
+        "Cumbias"
+      ],
+      "occasions": [
+        "Show Bailable"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5157,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/mi-nina-bonitachino-y-nacho/",
+      "title": "Mi niña bonita(Chino y Nacho)",
+      "artist": "Alberto Barros",
+      "artists": [
+        "Alberto Barros"
+      ],
+      "genres": [
+        "Cumbias"
+      ],
+      "occasions": [
+        "Show Bailable"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5156,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/la-vida-es-un-carnaval/",
+      "title": "La vida es un carnaval",
+      "artist": "Alberto Barros",
+      "artists": [
+        "Alberto Barros"
+      ],
+      "genres": [
+        "Cumbias"
+      ],
+      "occasions": [
+        "Show Bailable"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5155,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/la-murga/",
+      "title": "La murga",
+      "artist": "Alberto Barros",
+      "artists": [
+        "Alberto Barros"
+      ],
+      "genres": [
+        "Cumbias"
+      ],
+      "occasions": [
+        "Show Bailable"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5154,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/lloraras/",
+      "title": "Llorarás",
+      "artist": "Alberto Barros",
+      "artists": [
+        "Alberto Barros"
+      ],
+      "genres": [
+        "Cumbias"
+      ],
+      "occasions": [
+        "Show Bailable"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5153,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/la-reina-del-swing/",
+      "title": "La reina del swing",
+      "artist": "Alberto Barros",
+      "artists": [
+        "Alberto Barros"
+      ],
+      "genres": [
+        "Cumbias"
+      ],
+      "occasions": [
+        "Show Bailable"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5152,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/si-me-dejas-no-vale/",
+      "title": "Si me dejas no vale",
+      "artist": "Alberto Barros",
+      "artists": [
+        "Alberto Barros"
+      ],
+      "genres": [
+        "Cumbias"
+      ],
+      "occasions": [
+        "Show Bailable"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5151,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/es-mentiroso/",
+      "title": "Es mentiroso",
+      "artist": "Alberto Barros",
+      "artists": [
+        "Alberto Barros"
+      ],
+      "genres": [
+        "Cumbias"
+      ],
+      "occasions": [
+        "Show Bailable"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5150,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/tabaco-y-ron/",
+      "title": "Tabaco y ron",
+      "artist": "Alberto Barros",
+      "artists": [
+        "Alberto Barros"
+      ],
+      "genres": [
+        "Cumbias"
+      ],
+      "occasions": [
+        "Show Bailable"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5149,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/si-una-vez/",
+      "title": "Si una vez",
+      "artist": "Lucero",
+      "artists": [
+        "Lucero"
+      ],
+      "genres": [
+        "Cumbias"
+      ],
+      "occasions": [
+        "Show Bailable"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5148,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/nunca-es-suficiente/",
+      "title": "Nunca es suficiente",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Cumbias"
+      ],
+      "occasions": [
+        "Show Bailable"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5147,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/mariachi-loco/",
+      "title": "Mariachi loco",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Cumbias"
+      ],
+      "occasions": [
+        "Fiesta Mexicana",
+        "Show Bailable"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5146,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/las-velas/",
+      "title": "Las velas",
+      "artist": "Alberto Barros",
+      "artists": [
+        "Alberto Barros"
+      ],
+      "genres": [
+        "Cumbias"
+      ],
+      "occasions": [
+        "Show Bailable"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5145,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/la-bruja/",
+      "title": "La bruja",
+      "artist": "Alberto Barros",
+      "artists": [
+        "Alberto Barros"
+      ],
+      "genres": [
+        "Cumbias"
+      ],
+      "occasions": [
+        "Show Bailable"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5144,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/despacito-2/",
+      "title": "Despacito",
+      "artist": "Alberto Barros",
+      "artists": [
+        "Alberto Barros"
+      ],
+      "genres": [
+        "Cumbias"
+      ],
+      "occasions": [
+        "Show Bailable"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5143,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/como-la-flor/",
+      "title": "Como la flor",
+      "artist": "Lucero",
+      "artists": [
+        "Lucero"
+      ],
+      "genres": [
+        "Cumbias"
+      ],
+      "occasions": [
+        "Show Bailable"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5142,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/carmen/",
+      "title": "Carmen",
+      "artist": "Alberto Barros",
+      "artists": [
+        "Alberto Barros"
+      ],
+      "genres": [
+        "Cumbias"
+      ],
+      "occasions": [
+        "Show Bailable"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5141,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/hasta-las-seis-de-la-manana/",
+      "title": "Hasta las seis de la mañana",
+      "artist": "Alberto Barros",
+      "artists": [
+        "Alberto Barros"
+      ],
+      "genres": [
+        "Cumbias"
+      ],
+      "occasions": [
+        "Show Bailable"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5140,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/caballo-viejo/",
+      "title": "Caballo viejo",
+      "artist": "Alberto Barros",
+      "artists": [
+        "Alberto Barros"
+      ],
+      "genres": [
+        "Cumbias"
+      ],
+      "occasions": [
+        "Show Bailable"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5139,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/no-me-se-rajar/",
+      "title": "No me se rajar",
+      "artist": "Vicente Fernandez",
+      "artists": [
+        "Vicente Fernandez"
+      ],
+      "genres": [
+        "Corrido"
+      ],
+      "occasions": [
+        "Dia del Padre",
+        "Fiesta Mexicana"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5138,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/alla-en-el-rancho-grande/",
+      "title": "Allá en el rancho grande",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Corrido"
+      ],
+      "occasions": [
+        "Fiesta Mexicana"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5137,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/es-la-mujer/",
+      "title": "Es la mujer",
+      "artist": "Alejandro Fernández",
+      "artists": [
+        "Alejandro Fernández"
+      ],
+      "genres": [
+        "Corrido"
+      ],
+      "occasions": [
+        "Dia de la Madre",
+        "Fiesta Mexicana"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5136,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/me-gustas-mucho/",
+      "title": "Me gustas mucho",
+      "artist": "Rocío Dúrcal",
+      "artists": [
+        "Rocío Dúrcal"
+      ],
+      "genres": [
+        "Corrido"
+      ],
+      "occasions": [
+        "Fiesta Mexicana",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5135,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/ojitos-verdes/",
+      "title": "Ojitos verdes",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Corrido"
+      ],
+      "occasions": [
+        "Fiesta Mexicana"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5133,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/matalas/",
+      "title": "Mátalas",
+      "artist": "Alejandro Fernández",
+      "artists": [
+        "Alejandro Fernández"
+      ],
+      "genres": [
+        "Corrido"
+      ],
+      "occasions": [
+        "Fiesta Mexicana"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5132,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/la-tequilera/",
+      "title": "La tequilera",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Corrido"
+      ],
+      "occasions": [
+        "Fiesta Mexicana"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5131,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/la-ley-del-monte/",
+      "title": "La ley del monte",
+      "artist": "Vicente Fernandez",
+      "artists": [
+        "Vicente Fernandez"
+      ],
+      "genres": [
+        "Corrido"
+      ],
+      "occasions": [
+        "Fiesta Mexicana"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5130,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/la-calandria/",
+      "title": "La calandria",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Corrido"
+      ],
+      "occasions": [
+        "Fiesta Mexicana"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5129,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/copitas-de-mexcal/",
+      "title": "Copitas de mexcal",
+      "artist": "Javier Solís",
+      "artists": [
+        "Javier Solís"
+      ],
+      "genres": [
+        "Corrido"
+      ],
+      "occasions": [
+        "Fiesta Mexicana"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5128,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/jalisco-no-te-rajes/",
+      "title": "Jalisco no te rajes",
+      "artist": "Javier Solís",
+      "artists": [
+        "Javier Solís"
+      ],
+      "genres": [
+        "Corrido"
+      ],
+      "occasions": [
+        "Fiesta Mexicana"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5127,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/canta-canta/",
+      "title": "Canta canta",
+      "artist": "Javier Solís",
+      "artists": [
+        "Javier Solís"
+      ],
+      "genres": [
+        "Corrido"
+      ],
+      "occasions": [
+        "Fiesta Mexicana"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5126,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/rata-de-dos-patas/",
+      "title": "Rata de dos patas",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Despecho"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5125,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/el-cigarrillo/",
+      "title": "El cigarrillo",
+      "artist": "Ana Gabriel",
+      "artists": [
+        "Ana Gabriel"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Despecho"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5124,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/es-demasiado-tarde/",
+      "title": "Es demasiado tarde",
+      "artist": "Ana Gabriel",
+      "artists": [
+        "Ana Gabriel"
+      ],
+      "genres": [
+        "Ranchera"
+      ],
+      "occasions": [
+        "Despecho"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5123,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/la-diferencia/",
+      "title": "La diferencia",
+      "artist": "Juan Gabriel",
+      "artists": [
+        "Juan Gabriel"
+      ],
+      "genres": [
+        "Ranchera"
+      ],
+      "occasions": [
+        "Despecho"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5122,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/hasta-que-te-conoci/",
+      "title": "Hasta que te conocí",
+      "artist": "Juan Gabriel",
+      "artists": [
+        "Juan Gabriel"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Despecho"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5121,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/cataclismo-2/",
+      "title": "Cataclismo",
+      "artist": "Javier Solís",
+      "artists": [
+        "Javier Solís"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5120,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/pa-todo-el-ano/",
+      "title": "Pa todo el año",
+      "artist": "Vicente Fernandez",
+      "artists": [
+        "Vicente Fernandez"
+      ],
+      "genres": [
+        "Ranchera"
+      ],
+      "occasions": [
+        "Despecho",
+        "Fiesta Mexicana"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5119,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/volver-volver/",
+      "title": "Volver volver",
+      "artist": "Vicente Fernandez",
+      "artists": [
+        "Vicente Fernandez"
+      ],
+      "genres": [
+        "Ranchera"
+      ],
+      "occasions": [
+        "Fiesta Mexicana"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5118,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/probablemente-ya/",
+      "title": "Probablemente ya",
+      "artist": "Juan Gabriel",
+      "artists": [
+        "Juan Gabriel"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Despecho"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5117,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/aunque-no-sea-mayo/",
+      "title": "Aunque no sea mayo",
+      "artist": "Vicente Fernandez",
+      "artists": [
+        "Vicente Fernandez"
+      ],
+      "genres": [
+        "Corrido"
+      ],
+      "occasions": [
+        "Dia de la Madre"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5116,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/en-mi-viejo-san-juan/",
+      "title": "En mi viejo San Juan",
+      "artist": "Javier Solís",
+      "artists": [
+        "Javier Solís"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Recibimiento"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5115,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/el-ausente/",
+      "title": "El ausente",
+      "artist": "Vicente Fernandez",
+      "artists": [
+        "Vicente Fernandez"
+      ],
+      "genres": [
+        "Corrido"
+      ],
+      "occasions": [
+        "Despecho"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5114,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/collar-de-lagrimas/",
+      "title": "Collar de lágrimas",
+      "artist": "Julio Jaramillo",
+      "artists": [
+        "Julio Jaramillo"
+      ],
+      "genres": [
+        "Cumbias"
+      ],
+      "occasions": [
+        "Fiesta Mexicana"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5113,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/a-mi-lindo-ecuador/",
+      "title": "A mi lindo Ecuador",
+      "artist": "",
+      "artists": [],
+      "genres": [
+        "Cumbias"
+      ],
+      "occasions": [
+        "Fiesta Mexicana"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5112,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/abrazame/",
+      "title": "Abrázame",
+      "artist": "Alejandro Fernández",
+      "artists": [
+        "Alejandro Fernández"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Dia del amor y amistad",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5111,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/senora-senora/",
+      "title": "Señora señora",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Dia de la Madre"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5110,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/regalo-de-un-hijo/",
+      "title": "Regalo de un hijo",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Huapango"
+      ],
+      "occasions": [
+        "Dia de la Madre"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5109,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/querida-amiga/",
+      "title": "Querida amiga",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Dia de la Madre"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5108,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/pintor/",
+      "title": "Pintor",
+      "artist": "Julio Jaramillo",
+      "artists": [
+        "Julio Jaramillo"
+      ],
+      "genres": [
+        "Vals Ranchero"
+      ],
+      "occasions": [
+        "Dia de la Madre"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5107,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/mama-si-llego-a-viejo/",
+      "title": "Mamá si llego a viejo",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Cumbias"
+      ],
+      "occasions": [
+        "Dia de la Madre"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5106,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/ay-chavela/",
+      "title": "Ay Chavela",
+      "artist": "Pedro Fernandez",
+      "artists": [
+        "Pedro Fernandez"
+      ],
+      "genres": [
+        "Corrido"
+      ],
+      "occasions": [
+        "Cumpleaños",
+        "Fiesta Mexicana",
+        "Quinceañeras"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5105,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/como-te-pago/",
+      "title": "Como te pago",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Dia de la Madre"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5104,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/canto-a-la-madre/",
+      "title": "Canto a la madre",
+      "artist": "Pedro Fernandez",
+      "artists": [
+        "Pedro Fernandez"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Dia de la Madre"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5103,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/bendita-madre/",
+      "title": "Bendita Madre",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Dia de la Madre"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5102,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/a-mi-manera/",
+      "title": "A mi manera",
+      "artist": "Vicente Fernandez",
+      "artists": [
+        "Vicente Fernandez"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Cumpleaños",
+        "Dia del Padre",
+        "Velorios"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5101,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/a-esa-mujer/",
+      "title": "A esa mujer",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Dia de la Madre"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5100,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/a-la-sombra-de-mi-madre/",
+      "title": "A la sombra de mi madre",
+      "artist": "Leodan",
+      "artists": [
+        "Leodan"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Cumpleaños",
+        "Dia de la Madre"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5099,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/mi-virgen-bella/",
+      "title": "Mi Vírgen bella",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Alabanza"
+      ],
+      "occasions": [
+        "Serenata a la Virgen"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5098,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/madre-de-los-jovenes/",
+      "title": "Madre de los jóvenes",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Alabanza"
+      ],
+      "occasions": [
+        "Serenata a la Virgen"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5097,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/pescador-de-hombres/",
+      "title": "Pescador de hombres",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Alabanza"
+      ],
+      "occasions": [
+        "Serenata a la Virgen"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5096,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/la-guadalupana-2/",
+      "title": "La Guadalupana",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Alabanza"
+      ],
+      "occasions": [
+        "Serenata a la Virgen"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5095,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/hoy-te-quiero-cantar/",
+      "title": "Hoy te quiero cantar",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Serenata a la Virgen"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5094,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/hoy-he-vuelto-madre-a-recordar/",
+      "title": "Hoy he vuelto madre a recordar",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Serenata a la Virgen"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5093,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/he-oido-en-la-montana/",
+      "title": "He oído en la montaña",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Serenata a la Virgen"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5092,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/como-no-creer-en-dios/",
+      "title": "Como no creer en Dios",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Serenata a la Virgen"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5091,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/alabare/",
+      "title": "Alabaré",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Alabanza"
+      ],
+      "occasions": [
+        "Serenata a la Virgen"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5090,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/ave-maria/",
+      "title": "Ave María",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Serenata a la Virgen"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5089,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/santa-maria/",
+      "title": "Santa María",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Serenata a la Virgen"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5088,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/dios-esta-aqui/",
+      "title": "Dios esta aquí",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Serenata a la Virgen"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5087,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/amor-eterno-a-la-virgen/",
+      "title": "Amor eterno a la Vírgen",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Serenata a la Virgen"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5086,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/todopoderoso/",
+      "title": "Todopoderoso",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Alabanza"
+      ],
+      "occasions": [
+        "Celebración Cristiana"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5085,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/te-vengo-a-decir/",
+      "title": "Te vengo a decir",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Alabanza"
+      ],
+      "occasions": [
+        "Celebración Cristiana"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5084,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/si-cristo-toca-tu-puerta/",
+      "title": "Si Cristo toca tu puerta",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Alabanza"
+      ],
+      "occasions": [
+        "Celebración Cristiana"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5083,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/por-el-camino/",
+      "title": "Por el camino",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Alabanza"
+      ],
+      "occasions": [
+        "Celebración Cristiana"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5082,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/peldanos/",
+      "title": "Peldaños",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Alabanza"
+      ],
+      "occasions": [
+        "Celebración Cristiana"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5081,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/mujer-virtuosa/",
+      "title": "Mujer virtuosa",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Alabanza"
+      ],
+      "occasions": [
+        "Celebración Cristiana"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5080,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/la-nina-de-tus-ojos/",
+      "title": "La niña de tus ojos",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Celebración Cristiana",
+        "Quinceañeras"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5079,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/la-boda/",
+      "title": "La boda",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Alabanza"
+      ],
+      "occasions": [
+        "Celebración Cristiana"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5078,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/josue-uno-nueve/",
+      "title": "Josué uno nueve",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Alabanza"
+      ],
+      "occasions": [
+        "Celebración Cristiana"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5077,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/jesus-es-mi-pastor/",
+      "title": "Jesús es mi pastor",
+      "artist": "Leodan",
+      "artists": [
+        "Leodan"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Celebración Cristiana"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5076,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/damasco/",
+      "title": "Damasco",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Alabanza"
+      ],
+      "occasions": [
+        "Celebración Cristiana"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5075,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/vasija-de-barro/",
+      "title": "Vasija de barro",
+      "artist": "Julio Jaramillo",
+      "artists": [
+        "Julio Jaramillo"
+      ],
+      "genres": [
+        "Pasillo"
+      ],
+      "occasions": [
+        "Velorios"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5074,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/yo-te-extranare/",
+      "title": "Yo te extrañaré",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Velorios"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5073,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/sin-verte/",
+      "title": "Sin verte",
+      "artist": "Pedro Fernandez",
+      "artists": [
+        "Pedro Fernandez"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Despecho",
+        "Velorios"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5072,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/por-algo-me-han-de-recordar/",
+      "title": "Por algo me han de recordar",
+      "artist": "Julio Jaramillo",
+      "artists": [
+        "Julio Jaramillo"
+      ],
+      "genres": [
+        "Corrido"
+      ],
+      "occasions": [
+        "Velorios"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5071,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/nube-viajera/",
+      "title": "Nube viajera",
+      "artist": "Alejandro Fernández",
+      "artists": [
+        "Alejandro Fernández"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Despecho",
+        "Velorios"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5070,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/nadie-es-eterno-en-el-mundo/",
+      "title": "Nadie es eterno en el mundo",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Velorios"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5069,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/el-rey/",
+      "title": "El rey",
+      "artist": "Vicente Fernandez",
+      "artists": [
+        "Vicente Fernandez"
+      ],
+      "genres": [
+        "Vals Ranchero"
+      ],
+      "occasions": [
+        "Cumpleaños"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5068,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/madre-carinito-santo/",
+      "title": "Madre cariñito santo",
+      "artist": "Julio Jaramillo",
+      "artists": [
+        "Julio Jaramillo"
+      ],
+      "genres": [
+        "Pasillo"
+      ],
+      "occasions": [
+        "Dia de la Madre",
+        "Velorios"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5067,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/donde-estas-corazon/",
+      "title": "Donde estas corazón",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Despecho",
+        "Velorios"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5066,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/cuando-un-amigo-se-va/",
+      "title": "Cuando un amigo se va",
+      "artist": "Marco Antonio Solís",
+      "artists": [
+        "Marco Antonio Solís"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Velorios"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5065,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/cuatro-cirios/",
+      "title": "Cuatro cirios",
+      "artist": "Javier Solís",
+      "artists": [
+        "Javier Solís"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Velorios"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5064,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/con-la-tierra-encima/",
+      "title": "Con la tierra encima",
+      "artist": "Javier Solís",
+      "artists": [
+        "Javier Solís"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Velorios"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5063,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/como-quien-pierde-una-estrella/",
+      "title": "Como quien pierde una estrella",
+      "artist": "Alejandro Fernández",
+      "artists": [
+        "Alejandro Fernández"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Despecho",
+        "Reconciliaciones",
+        "Serenata Romántica",
+        "Velorios"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5062,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/alzo-mi-voz/",
+      "title": "Alzo mi voz",
+      "artist": "Javier Solís",
+      "artists": [
+        "Javier Solís"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Velorios"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5061,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/amor-eterno/",
+      "title": "Amor Eterno",
+      "artist": "Rocío Dúrcal",
+      "artists": [
+        "Rocío Dúrcal"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Dia de la Madre"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5060,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/amigo/",
+      "title": "Amigo",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Celebración Cristiana",
+        "Cumpleaños",
+        "Dia del amor y amistad",
+        "Quinceañeras",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5059,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/algo-de-me-fue-contigo-madre/",
+      "title": "Algo de me fue contigo madre",
+      "artist": "Rocío Dúrcal",
+      "artists": [
+        "Rocío Dúrcal"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Velorios"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5058,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/si-no-te-hubieras-ido/",
+      "title": "Si no te hubieras ido",
+      "artist": "Marco Antonio Solís",
+      "artists": [
+        "Marco Antonio Solís"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Velorios"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5057,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/perdon/",
+      "title": "Perdón",
+      "artist": "Alejandro Fernández",
+      "artists": [
+        "Alejandro Fernández",
+        "Vicente Fernandez"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Reconciliaciones",
+        "Serenata Romántica",
+        "Velorios"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5056,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/que-dios-te-bendiga-2/",
+      "title": "Que Dios te bendiga",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Cumbias"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Cumpleaños",
+        "Dia del amor y amistad",
+        "Quinceañeras",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5055,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/magicas-princesas/",
+      "title": "Mágicas princesas",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Cumpleaños",
+        "Quinceañeras"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5054,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/no-crezcas-mas/",
+      "title": "No crezcas mas",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Cumpleaños",
+        "Quinceañeras"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5053,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/yo-te-esperaba/",
+      "title": "Yo te esperaba",
+      "artist": "Rocío Dúrcal",
+      "artists": [
+        "Rocío Dúrcal"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Cumpleaños",
+        "Quinceañeras"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5052,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/ya-tiene-quince-anos/",
+      "title": "Ya tiene quince años",
+      "artist": "Julio Jaramillo",
+      "artists": [
+        "Julio Jaramillo"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Cumpleaños",
+        "Quinceañeras"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5051,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/quinceanera/",
+      "title": "Quinceañera",
+      "artist": "Vicente Fernandez",
+      "artists": [
+        "Vicente Fernandez"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Cumpleaños",
+        "Quinceañeras"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5049,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/mi-nina-bonita/",
+      "title": "Mi niña bonita",
+      "artist": "Vicente Fernandez",
+      "artists": [
+        "Vicente Fernandez"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Cumpleaños",
+        "Quinceañeras"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5048,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/luisa-maria/",
+      "title": "Luisa Maria",
+      "artist": "Juan Gabriel",
+      "artists": [
+        "Juan Gabriel"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Cumpleaños",
+        "Quinceañeras"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5047,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/el-camino-de-la-vida/",
+      "title": "El camino de la vida",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Vals Ranchero"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Cumpleaños",
+        "Quinceañeras",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5046,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/quince-primaveras/",
+      "title": "Quince primaveras",
+      "artist": "Vicente Fernandez",
+      "artists": [
+        "Vicente Fernandez"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Cumpleaños",
+        "Quinceañeras"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5045,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/abrazame-muy-fuerte/",
+      "title": "Abrázame muy fuerte",
+      "artist": "Juan Gabriel",
+      "artists": [
+        "Juan Gabriel"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5044,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/me-gusta/",
+      "title": "Me gusta",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5043,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/triunfamos/",
+      "title": "Triunfamos",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5042,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/mi-tonta-forma-de-querer/",
+      "title": "Mi tonta forma de querer",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Dia del amor y amistad",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5041,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/yo-puedo-hacer/",
+      "title": "Yo puedo hacer",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Reconciliaciones"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5040,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/ya-lo-pasado-pasado/",
+      "title": "Ya lo pasado pasado",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Despecho",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5039,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/veinte-y-cinco-rosas/",
+      "title": "Veinte y cinco rosas",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Despecho",
+        "Reconciliaciones"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5038,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/usted/",
+      "title": "Usted",
+      "artist": "Luis Miguel",
+      "artists": [
+        "Luis Miguel"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5037,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/un-hombre-normal/",
+      "title": "Un hombre normal",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Despecho"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5036,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/toda-una-vida/",
+      "title": "Toda una vida",
+      "artist": "Javier Solís",
+      "artists": [
+        "Javier Solís"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5035,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/te-he-prometido/",
+      "title": "Te he prometido",
+      "artist": "Leodan",
+      "artists": [
+        "Leodan"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Despecho"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5034,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/te-amare-toda-la-vida/",
+      "title": "Te amare toda la vida",
+      "artist": "Javier Solís",
+      "artists": [
+        "Javier Solís"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5033,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/somos-novios/",
+      "title": "Somos novios",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5032,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/sombras/",
+      "title": "Sombras",
+      "artist": "Javier Solís",
+      "artists": [
+        "Javier Solís"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Despecho"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5031,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/solamente-una-vez/",
+      "title": "Solamente una vez",
+      "artist": "Luis Miguel",
+      "artists": [
+        "Luis Miguel"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5030,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/sin-ti/",
+      "title": "Sin ti",
+      "artist": "Vicente Fernandez",
+      "artists": [
+        "Vicente Fernandez"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5029,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/si-quieres/",
+      "title": "Si quieres",
+      "artist": "Juan Gabriel",
+      "artists": [
+        "Juan Gabriel"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5028,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/serenata-huasteca/",
+      "title": "Serenata huasteca",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Huapango"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5027,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/senora-bonita/",
+      "title": "Señora bonita",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5026,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/secreto-de-amor/",
+      "title": "Secreto de amor",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5025,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/sabor-a-mi/",
+      "title": "Sabor a mi",
+      "artist": "Luis Miguel",
+      "artists": [
+        "Luis Miguel"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5024,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/sabes-una-cosa/",
+      "title": "Sabes una cosa",
+      "artist": "Luis Miguel",
+      "artists": [
+        "Luis Miguel"
+      ],
+      "genres": [
+        "Son"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5023,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/reloj/",
+      "title": "Reloj",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5022,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/que-se-mueran-de-envidia/",
+      "title": "Que se mueran de envidia",
+      "artist": "Javier Solís",
+      "artists": [
+        "Javier Solís"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5021,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/que-bonito-amor/",
+      "title": "Que bonito amor",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Vals Ranchero"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5020,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/prometo/",
+      "title": "Prometo",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5019,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/por-una-mujer-bonita/",
+      "title": "Por una mujer bonita",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5018,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/por-debajo-de-la-mesa/",
+      "title": "Por debajo de la mesa",
+      "artist": "Luis Miguel",
+      "artists": [
+        "Luis Miguel"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5017,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/por-amor/",
+      "title": "Por amor",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5016,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/pideme-la-luna/",
+      "title": "Pídeme la luna",
+      "artist": "Leodan",
+      "artists": [
+        "Leodan"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5015,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/perfume-de-gardenias/",
+      "title": "Perfume de gardenias",
+      "artist": "Javier Solís",
+      "artists": [
+        "Javier Solís"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5014,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/perfidia/",
+      "title": "Perfidia",
+      "artist": "Javier Solís",
+      "artists": [
+        "Javier Solís"
+      ],
+      "genres": [],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5013,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/para-siempre/",
+      "title": "Para siempre",
+      "artist": "Vicente Fernandez",
+      "artists": [
+        "Vicente Fernandez"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5012,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/ojitos-traidores/",
+      "title": "Ojitos Traidores",
+      "artist": "Javier Solís",
+      "artists": [
+        "Javier Solís"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5011,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/obsesion/",
+      "title": "Obsesión",
+      "artist": "Javier Solís",
+      "artists": [
+        "Javier Solís"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5010,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/nosotros/",
+      "title": "Nosotros",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5009,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/nina-amada-mia/",
+      "title": "Niña amada mía",
+      "artist": "Alejandro Fernández",
+      "artists": [
+        "Alejandro Fernández"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5008,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/munequita-linda/",
+      "title": "Muñequita Linda",
+      "artist": "Javier Solís",
+      "artists": [
+        "Javier Solís"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5007,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/mucho-corazon/",
+      "title": "Mucho Corazón",
+      "artist": "Luis Miguel",
+      "artists": [
+        "Luis Miguel"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5006,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/motivos/",
+      "title": "Motivos",
+      "artist": "Vicente Fernandez",
+      "artists": [
+        "Vicente Fernandez"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5005,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/mil-anos/",
+      "title": "Mil años",
+      "artist": "Leodan",
+      "artists": [
+        "Leodan"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5004,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/mia/",
+      "title": "Mia",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5003,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/mi-razon-de-ser/",
+      "title": "Mi razon de ser",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5002,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/mi-mayor-anhelo/",
+      "title": "Mi mayor anhelo",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5001,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/mi-forma-de-sentir/",
+      "title": "Mi forma de sentir",
+      "artist": "Pedro Fernandez",
+      "artists": [
+        "Pedro Fernandez"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 5000,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/mi-eterno-amor-secreto/",
+      "title": "Mi eterno amor secreto",
+      "artist": "Marco Antonio Solís",
+      "artists": [
+        "Marco Antonio Solís"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4999,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/mi-companera/",
+      "title": "Mi compañera",
+      "artist": "Vicente Fernandez",
+      "artists": [
+        "Vicente Fernandez"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4998,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/mas-que-tu-amigo/",
+      "title": "Mas que tu amigo",
+      "artist": "Pedro Fernandez",
+      "artists": [
+        "Pedro Fernandez"
+      ],
+      "genres": [
+        "Cumbias"
+      ],
+      "occasions": [
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4997,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/mas-alla/",
+      "title": "Mas allá",
+      "artist": "Javier Solís",
+      "artists": [
+        "Javier Solís"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Cumpleaños",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4996,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/mary-es-mi-amor/",
+      "title": "Mary es mi amor",
+      "artist": "Javier Solís",
+      "artists": [
+        "Javier Solís"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4995,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/malaguena/",
+      "title": "Malagueña",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Huapango"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4994,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/madrigal/",
+      "title": "Madrigal",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Cumpleaños",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4993,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/luz-de-luna/",
+      "title": "Luz de luna",
+      "artist": "Javier Solís",
+      "artists": [
+        "Javier Solís"
+      ],
+      "genres": [
+        "Huapango"
+      ],
+      "occasions": [
+        "Despecho"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4992,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/loco/",
+      "title": "Loco",
+      "artist": "Alejandro Fernández",
+      "artists": [
+        "Alejandro Fernández"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4991,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/lo-mucho-que-te-quiero/",
+      "title": "Lo mucho que te quiero",
+      "artist": "Pedro Fernandez",
+      "artists": [
+        "Pedro Fernandez"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Cumpleaños",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4990,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/la-venia-bendita/",
+      "title": "La venia bendita",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Vals Ranchero"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4989,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/la-propuesta/",
+      "title": "La propuesta",
+      "artist": "Ana Gabriel",
+      "artists": [
+        "Ana Gabriel"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4988,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/la-mejor-de-todas/",
+      "title": "La mejor de todas",
+      "artist": "Pedro Fernandez",
+      "artists": [
+        "Pedro Fernandez"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4987,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/la-gloria-eres-tu/",
+      "title": "La gloria eres tu",
+      "artist": "Luis Miguel",
+      "artists": [
+        "Luis Miguel"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4986,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/la-barca/",
+      "title": "La barca",
+      "artist": "Luis Miguel",
+      "artists": [
+        "Luis Miguel"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4985,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/jurame/",
+      "title": "Júrame",
+      "artist": "Luis Miguel",
+      "artists": [
+        "Luis Miguel"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4984,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/historia-de-un-amor/",
+      "title": "Historia de un amor",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4983,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/hechizo/",
+      "title": "Hechizo",
+      "artist": "Ana Gabriel",
+      "artists": [
+        "Ana Gabriel"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4982,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/he-sabido-que-te-amaba/",
+      "title": "He sabido que te amaba",
+      "artist": "Javier Solís",
+      "artists": [
+        "Javier Solís"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4981,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/gema/",
+      "title": "Gema",
+      "artist": "Javier Solís",
+      "artists": [
+        "Javier Solís"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Cumpleaños",
+        "Dia del amor y amistad",
+        "Quinceañeras",
+        "Reconciliaciones",
+        "Serenata a la Virgen",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4980,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/flor-sin-retono/",
+      "title": "Flor sin retoño",
+      "artist": "Javier Solís",
+      "artists": [
+        "Javier Solís"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Despecho"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4979,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/flor-de-azalea/",
+      "title": "Flor de azalea",
+      "artist": "Javier Solís",
+      "artists": [
+        "Javier Solís"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4977,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/esposa/",
+      "title": "Esposa",
+      "artist": "Julio Jaramillo",
+      "artists": [
+        "Julio Jaramillo"
+      ],
+      "genres": [
+        "Pasillo"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia de la Madre",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4976,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/eso-y-mas/",
+      "title": "Eso y mas",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4975,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/esclavo-y-amo/",
+      "title": "Esclavo y amo",
+      "artist": "Javier Solís",
+      "artists": [
+        "Javier Solís"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4974,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/entrega-total/",
+      "title": "Entrega total",
+      "artist": "Javier Solís",
+      "artists": [
+        "Javier Solís"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4973,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/el-triste/",
+      "title": "El triste",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Despecho"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4972,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/el-privilegio-de-amar/",
+      "title": "El privilegio de amar",
+      "artist": "Lucero",
+      "artists": [
+        "Lucero"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4971,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/el-prendedor/",
+      "title": "El prendedor",
+      "artist": "Vicente Fernandez",
+      "artists": [
+        "Vicente Fernandez"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4970,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/el-loco/",
+      "title": "El loco",
+      "artist": "Javier Solís",
+      "artists": [
+        "Javier Solís"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4969,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/el-destino/",
+      "title": "El destino",
+      "artist": "Juan Gabriel",
+      "artists": [
+        "Juan Gabriel",
+        "Rocío Dúrcal"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4968,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/el-amor-mas-grande-del-planeta/",
+      "title": "El amor mas grande del planeta",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4967,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/disename/",
+      "title": "Diséñame",
+      "artist": "Javier Solís",
+      "artists": [
+        "Javier Solís"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4966,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/despacito/",
+      "title": "Despacito",
+      "artist": "Pedro Fernandez",
+      "artists": [
+        "Pedro Fernandez"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4965,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/de-que-manera-te-olvido/",
+      "title": "De que manera te olvido",
+      "artist": "Vicente Fernandez",
+      "artists": [
+        "Vicente Fernandez"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Despecho"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4964,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/contigo-en-la-distancia/",
+      "title": "Contigo en la distancia",
+      "artist": "Alejandro Fernández",
+      "artists": [
+        "Alejandro Fernández"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4963,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/contigo-aprendi/",
+      "title": "Contigo aprendí",
+      "artist": "Alejandro Fernández",
+      "artists": [
+        "Alejandro Fernández"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4962,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/con-los-anos-que-me-quedan/",
+      "title": "Con los años que me quedan",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4961,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/como-fue/",
+      "title": "Como fue",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4960,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/cien-anos/",
+      "title": "Cien años",
+      "artist": "Javier Solís",
+      "artists": [
+        "Javier Solís"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4959,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/cielo-rojo/",
+      "title": "Cielo rojo",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Huapango"
+      ],
+      "occasions": [
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4958,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/cenizas/",
+      "title": "Cenizas",
+      "artist": "Javier Solís",
+      "artists": [
+        "Javier Solís"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Despecho"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4957,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/cataclismo/",
+      "title": "Cataclismo",
+      "artist": "Javier Solís",
+      "artists": [
+        "Javier Solís"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4955,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/carino/",
+      "title": "Cariño",
+      "artist": "Lucero",
+      "artists": [
+        "Lucero"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4954,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/bonita/",
+      "title": "Bonita",
+      "artist": "Javier Solís",
+      "artists": [
+        "Javier Solís"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4953,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/besame-mucho/",
+      "title": "Bésame mucho",
+      "artist": "Vicente Fernandez",
+      "artists": [
+        "Vicente Fernandez"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4952,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/besame/",
+      "title": "Bésame",
+      "artist": "Luis Miguel",
+      "artists": [
+        "Luis Miguel"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4951,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/amorsito-corazon/",
+      "title": "Amorsito corazón",
+      "artist": "Javier Solís",
+      "artists": [
+        "Javier Solís"
+      ],
+      "genres": [],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4950,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/amarte-es-un-placer/",
+      "title": "Amarte es un placer",
+      "artist": "Luis Miguel",
+      "artists": [
+        "Luis Miguel"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4949,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/amarte-a-la-antigua/",
+      "title": "Amarte a la antigua",
+      "artist": "Pedro Fernandez",
+      "artists": [
+        "Pedro Fernandez"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4948,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/amar-y-vivir/",
+      "title": "Amar y vivir",
+      "artist": "Vicente Fernandez",
+      "artists": [
+        "Vicente Fernandez"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4947,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/amar-y-querer/",
+      "title": "Amar y querer",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4946,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/algo-mas/",
+      "title": "Algo mas",
+      "artist": "Natalia Jiménez",
+      "artists": [
+        "Natalia Jiménez"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4945,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/despierta/",
+      "title": "Despierta",
+      "artist": "Vicente Fernandez",
+      "artists": [
+        "Vicente Fernandez"
+      ],
+      "genres": [],
+      "occasions": [
+        "Aniversarios",
+        "Cumpleaños",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4944,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/cielito-lindo/",
+      "title": "Cielito Lindo",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Vals Ranchero"
+      ],
+      "occasions": [
+        "Fiesta Mexicana"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4943,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/ramo-de-flores/",
+      "title": "Ramo de Flores",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Cumpleaños"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4942,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/en-tu-dia/",
+      "title": "En tu dia",
+      "artist": "Javier Solís",
+      "artists": [
+        "Javier Solís"
+      ],
+      "genres": [
+        "Corrido"
+      ],
+      "occasions": [
+        "Cumpleaños"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4940,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/felicidades/",
+      "title": "Felicidades",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [],
+      "occasions": [
+        "Cumpleaños"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4939,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/felicitacion/",
+      "title": "Felicitación",
+      "artist": "Julio Jaramillo",
+      "artists": [
+        "Julio Jaramillo"
+      ],
+      "genres": [
+        "Vals Ranchero"
+      ],
+      "occasions": [
+        "Cumpleaños"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4938,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/las-mananitas/",
+      "title": "Las Mañanitas",
+      "artist": "",
+      "artists": [],
+      "genres": [],
+      "occasions": [
+        "Cumpleaños"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4937,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/happy-birthday-venezolano/",
+      "title": "Happy Birthday Venezolano",
+      "artist": "",
+      "artists": [],
+      "genres": [],
+      "occasions": [
+        "Cumpleaños"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4936,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/happy-birthday-cristiano/",
+      "title": "Happy Birthday Cristiano",
+      "artist": "",
+      "artists": [],
+      "genres": [],
+      "occasions": [
+        "Celebración Cristiana",
+        "Cumpleaños"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4935,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/happy-birthday/",
+      "title": "Happy Birthday",
+      "artist": "",
+      "artists": [],
+      "genres": [],
+      "occasions": [
+        "Cumpleaños"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4755,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/me-muero/",
+      "title": "Me muero",
+      "artist": "Natalia Jiménez",
+      "artists": [
+        "Natalia Jiménez"
+      ],
+      "genres": [
+        "Balada"
+      ],
+      "occasions": [
+        "Reconciliaciones"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4754,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/la-guadalupana/",
+      "title": "La Guadalupana",
+      "artist": "Miriam Solís",
+      "artists": [
+        "Miriam Solís"
+      ],
+      "genres": [
+        "Alabanza"
+      ],
+      "occasions": [
+        "Serenata a la Virgen"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4753,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/el-aguacate/",
+      "title": "El aguacate",
+      "artist": "Julio Jaramillo",
+      "artists": [
+        "Julio Jaramillo"
+      ],
+      "genres": [
+        "Pasillo"
+      ],
+      "occasions": [
+        "Aniversarios"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4752,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/pollera-colorada/",
+      "title": "Pollera Colorada",
+      "artist": "Alberto Barros",
+      "artists": [
+        "Alberto Barros"
+      ],
+      "genres": [
+        "Cumbias"
+      ],
+      "occasions": [
+        "Fiesta Mexicana"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4751,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/hermoso-carino/",
+      "title": "Hermoso cariño",
+      "artist": "Vicente Fernandez",
+      "artists": [
+        "Vicente Fernandez"
+      ],
+      "genres": [
+        "Vals Ranchero"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Cumpleaños"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4750,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/si-se-fue-se-fue/",
+      "title": "Si se fue se fue",
+      "artist": "Francy",
+      "artists": [
+        "Francy"
+      ],
+      "genres": [],
+      "occasions": [
+        "Despecho"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4749,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/son-de-la-negra/",
+      "title": "Son de la negra",
+      "artist": "Mariachi Vargas",
+      "artists": [
+        "Mariachi Vargas"
+      ],
+      "genres": [
+        "Son"
+      ],
+      "occasions": [
+        "Fiesta Mexicana"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4748,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/nuestro-juramento/",
+      "title": "Nuestro Juramento",
+      "artist": "Julio Jaramillo",
+      "artists": [
+        "Julio Jaramillo"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Serenata Romántica",
+        "Velorios"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4747,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/te-lo-pido-por-favor/",
+      "title": "Te lo pido por favor",
+      "artist": "Juan Gabriel",
+      "artists": [
+        "Juan Gabriel"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Dia de la Madre"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4746,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/carino-de-mis-carinos/",
+      "title": "Cariño de mis cariños",
+      "artist": "Lucero",
+      "artists": [
+        "Lucero"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Dia del amor y amistad"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4745,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/como-han-pasado-los-anos/",
+      "title": "Como han pasado los años",
+      "artist": "Rocío Dúrcal",
+      "artists": [
+        "Rocío Dúrcal"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4744,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/en-tu-pelo/",
+      "title": "En tu pelo",
+      "artist": "Javier Solís",
+      "artists": [
+        "Javier Solís"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Cumpleaños"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4743,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/la-mitad-que-me-faltaba/",
+      "title": "La mitad que me faltaba",
+      "artist": "Alejandro Fernández",
+      "artists": [
+        "Alejandro Fernández"
+      ],
+      "genres": [
+        "Huapango"
+      ],
+      "occasions": [
+        "Dia del amor y amistad"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4742,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/estos-celos/",
+      "title": "Estos celos",
+      "artist": "Vicente Fernandez",
+      "artists": [
+        "Vicente Fernandez"
+      ],
+      "genres": [],
+      "occasions": [
+        "Despecho"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4741,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/la-bikina/",
+      "title": "La Bikina",
+      "artist": "",
+      "artists": [],
+      "genres": [
+        "Son"
+      ],
+      "occasions": [
+        "Despecho",
+        "Fiesta Mexicana"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4651,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/yo-no-fui/",
+      "title": "Yo no fui",
+      "artist": "Pedro Fernandez",
+      "artists": [
+        "Pedro Fernandez"
+      ],
+      "genres": [
+        "Cumbias"
+      ],
+      "occasions": [
+        "Cumpleaños",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4650,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/mujeres-divinas/",
+      "title": "Mujeres Divinas",
+      "artist": "Vicente Fernandez",
+      "artists": [
+        "Vicente Fernandez"
+      ],
+      "genres": [
+        "Vals Ranchero"
+      ],
+      "occasions": [
+        "Cumpleaños",
+        "Despecho",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    },
+    {
+      "source": "wordpress",
+      "sourceId": 4649,
+      "sourceUrl": "https://mariachicielitolindoec.com/cancion/si-nos-dejan/",
+      "title": "Si nos dejan",
+      "artist": "Luis Miguel",
+      "artists": [
+        "Luis Miguel"
+      ],
+      "genres": [
+        "Boleros"
+      ],
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "megaUrl": "",
+      "youtubeUrl": "",
+      "dots": 3
+    }
+  ]
+}
