@@ -41,6 +41,37 @@ function extractYouTubeId(url?: string) {
   }
 }
 
+function getPaginationArray(current: number, total: number): (number | string)[] {
+  if (total <= 7) return Array.from({ length: total }, (_, i) => i + 1);
+
+  const pages: (number | string)[] = [1];
+  let start = Math.max(2, current - 1);
+  let end = Math.min(total - 1, current + 1);
+
+  if (current <= 3) {
+    end = 4;
+  }
+  
+  if (current >= total - 2) {
+    start = total - 3;
+  }
+
+  if (start > 2) {
+    pages.push('...');
+  }
+
+  for (let i = start; i <= end; i++) {
+    pages.push(i);
+  }
+
+  if (end < total - 1) {
+    pages.push('...');
+  }
+
+  pages.push(total);
+  return pages;
+}
+
 export default function RepertoireView({
   setView: _setView,
   onYoutubePlayerStateChange,
@@ -731,17 +762,20 @@ export default function RepertoireView({
                 &lt;
               </button>
 
-              {Array.from({ length: totalPages }, (_, i) => i + 1).map((pageNum) => (
+              {getPaginationArray(currentPage, totalPages).map((pageItem, idx) => (
                 <button
-                  key={pageNum}
-                  onClick={() => setCurrentPage(pageNum)}
+                  key={`page-${idx}`}
+                  onClick={() => typeof pageItem === 'number' ? setCurrentPage(pageItem) : null}
+                  disabled={typeof pageItem !== 'number'}
                   className={`w-10 h-10 rounded-full flex items-center justify-center transition-colors ${
-                    currentPage === pageNum
+                    currentPage === pageItem
                       ? 'bg-primary/20 text-primary font-bold'
+                      : typeof pageItem !== 'number'
+                      ? 'bg-transparent text-on-surface-variant cursor-default'
                       : 'bg-surface-container text-on-surface-variant hover:text-primary'
                   }`}
                 >
-                  {pageNum}
+                  {pageItem}
                 </button>
               ))}
 

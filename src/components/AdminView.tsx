@@ -17,6 +17,7 @@ import {
   Users,
   X,
 } from 'lucide-react';
+import toast from 'react-hot-toast';
 import { ViewState } from '../types';
 import { auth, db, handleFirestoreError, OperationType } from '../firebase';
 import {
@@ -147,6 +148,7 @@ export default function AdminView({ setView }: { setView: (v: ViewState) => void
   const [editSongOccasions, setEditSongOccasions] = useState<string[]>([]);
   const [editSongGenreSearch, setEditSongGenreSearch] = useState('');
   const [editSongOccasionSearch, setEditSongOccasionSearch] = useState('');
+  const [isSavingEdit, setIsSavingEdit] = useState(false);
 
   const [newUser, setNewUser] = useState({ email: '', name: '', role: 'musician' });
 
@@ -242,7 +244,7 @@ export default function AdminView({ setView }: { setView: (v: ViewState) => void
               await signOut(auth);
               setUser(null);
               setRole(null);
-              alert('Acceso Denegado: Tu cuenta de Google no ha sido autorizada por el administrador. Contáctalo para solicitar acceso.');
+              toast.error('Acceso Denegado: Tu cuenta de Google no ha sido autorizada por el administrador. Contáctalo para solicitar acceso.');
             }
           }
         } catch (error: any) {
@@ -252,9 +254,9 @@ export default function AdminView({ setView }: { setView: (v: ViewState) => void
           setRole(null);
 
           if (error?.code === 'permission-denied') {
-            alert('Acceso Denegado: Tu cuenta no tiene permisos para acceder o las reglas de seguridad de Firebase no han sido actualizadas. Contacta al administrador.');
+            toast.error('Acceso Denegado: Tu cuenta no tiene permisos para acceder o las reglas de seguridad de Firebase no han sido actualizadas. Contacta al administrador.');
           } else {
-            alert('Ocurrió un error al verificar tu cuenta. Por favor, intenta de nuevo.');
+            toast.error('Ocurrió un error al verificar tu cuenta. Por favor, intenta de nuevo.');
           }
         }
       } else {
@@ -463,7 +465,7 @@ export default function AdminView({ setView }: { setView: (v: ViewState) => void
       await signInWithPopup(auth, provider);
     } catch (error: any) {
       console.error('Error signing in:', error);
-      alert(`No se pudo iniciar sesión con Google: ${error.message}`);
+      toast.error(`No se pudo iniciar sesión con Google: ${error.message}`);
     }
   };
 
@@ -473,7 +475,7 @@ export default function AdminView({ setView }: { setView: (v: ViewState) => void
     const password = loginCredentials.password;
 
     if (!email || !password) {
-      alert('Ingresa correo y contraseña.');
+      toast.error('Ingresa correo y contraseña.');
       return;
     }
 
@@ -483,9 +485,9 @@ export default function AdminView({ setView }: { setView: (v: ViewState) => void
     } catch (error: any) {
       console.error('Error email login:', error);
       if (error?.code === 'auth/invalid-credential' || error?.code === 'auth/wrong-password' || error?.code === 'auth/user-not-found') {
-        alert('Credenciales inválidas. Verifica correo y contraseña.');
+        toast.error('Credenciales inválidas. Verifica correo y contraseña.');
       } else {
-        alert(`No se pudo iniciar sesión: ${error?.message || 'Error desconocido.'}`);
+        toast.error(`No se pudo iniciar sesión: ${error?.message || 'Error desconocido.'}`);
       }
     } finally {
       setAuthBusy(false);
@@ -499,33 +501,33 @@ export default function AdminView({ setView }: { setView: (v: ViewState) => void
     const confirmPassword = registerCredentials.confirmPassword;
 
     if (!email || !password || !confirmPassword) {
-      alert('Completa todos los campos.');
+      toast.error('Completa todos los campos.');
       return;
     }
     if (password !== confirmPassword) {
-      alert('La confirmación de contraseña no coincide.');
+      toast.error('La confirmación de contraseña no coincide.');
       return;
     }
     if (!isValidCorporatePassword(password)) {
-      alert('La contraseña debe tener mínimo 8 caracteres, mayúscula, minúscula y número.');
+      toast.error('La contraseña debe tener mínimo 8 caracteres, mayúscula, minúscula y número.');
       return;
     }
 
     setAuthBusy(true);
     try {
       await createUserWithEmailAndPassword(auth, email, password);
-      alert('Cuenta creada. Si tu correo está autorizado en invitaciones, entrarás automáticamente al panel.');
+      toast.success('Cuenta creada. Si tu correo está autorizado en invitaciones, entrarás automáticamente al panel.');
       setRegisterCredentials({ email: '', password: '', confirmPassword: '' });
     } catch (error: any) {
       console.error('Error email register:', error);
       if (error?.code === 'auth/email-already-in-use') {
-        alert('Este correo ya está registrado. Usa iniciar sesión.');
+        toast.error('Este correo ya está registrado. Usa iniciar sesión.');
       } else if (error?.code === 'auth/invalid-email') {
-        alert('Correo inválido.');
+        toast.error('Correo inválido.');
       } else if (error?.code === 'auth/weak-password') {
-        alert('Contraseña débil. Usa una más fuerte.');
+        toast.error('Contraseña débil. Usa una más fuerte.');
       } else {
-        alert(`No se pudo registrar: ${error?.message || 'Error desconocido.'}`);
+        toast.error(`No se pudo registrar: ${error?.message || 'Error desconocido.'}`);
       }
     } finally {
       setAuthBusy(false);
@@ -535,17 +537,17 @@ export default function AdminView({ setView }: { setView: (v: ViewState) => void
   const handlePasswordReset = async () => {
     const email = loginCredentials.email.trim().toLowerCase();
     if (!email) {
-      alert('Escribe tu correo primero para enviar recuperación.');
+      toast.error('Escribe tu correo primero para enviar recuperación.');
       return;
     }
 
     setAuthBusy(true);
     try {
       await sendPasswordResetEmail(auth, email);
-      alert('Se envió un correo para restablecer la contraseña.');
+      toast.success('Se envió un correo para restablecer la contraseña.');
     } catch (error: any) {
       console.error('Error password reset:', error);
-      alert(`No se pudo enviar recuperación: ${error?.message || 'Error desconocido.'}`);
+      toast.error(`No se pudo enviar recuperación: ${error?.message || 'Error desconocido.'}`);
     } finally {
       setAuthBusy(false);
     }
@@ -624,8 +626,9 @@ export default function AdminView({ setView }: { setView: (v: ViewState) => void
 
   const handleSaveSongEdit = async (e: FormEvent) => {
     e.preventDefault();
-    if (!user || role !== 'admin' || !editingSong) return;
+    if (!user || role !== 'admin' || !editingSong || isSavingEdit) return;
 
+    setIsSavingEdit(true);
     try {
       const cleanedArtist = editingSong.artist.trim();
       const cleanedGenres = uniqueSorted(editSongGenres);
@@ -648,9 +651,13 @@ export default function AdminView({ setView }: { setView: (v: ViewState) => void
         await upsertCatalogList('artists', [...ARTISTS, cleanedArtist]);
       }
 
+      toast.success('Canción guardada correctamente');
       setEditingSong(null);
     } catch (error) {
-      handleFirestoreError(error, OperationType.UPDATE, `songs/${editingSong.id}`);
+      console.error(error);
+      toast.error('Error updating song: Ensure fields match constraints (max labels limits). Check console for details.');
+    } finally {
+      setIsSavingEdit(false);
     }
   };
 
@@ -659,6 +666,7 @@ export default function AdminView({ setView }: { setView: (v: ViewState) => void
     if (!window.confirm('¿Estás seguro de eliminar esta canción?')) return;
     try {
       await deleteDoc(doc(db, 'songs', id));
+      toast.success('Canción eliminada exitosamente');
     } catch (error) {
       handleFirestoreError(error, OperationType.DELETE, `songs/${id}`);
     }
@@ -682,9 +690,9 @@ export default function AdminView({ setView }: { setView: (v: ViewState) => void
 
     try {
       await navigator.clipboard.writeText(text);
-      alert('Lista de enlaces Mega copiada al portapapeles.');
+      toast.success('Lista de enlaces Mega copiada al portapapeles.');
     } catch {
-      alert('No se pudo copiar la lista.');
+      toast.error('No se pudo copiar la lista.');
     }
   };
 
@@ -704,7 +712,7 @@ export default function AdminView({ setView }: { setView: (v: ViewState) => void
       await deleteDoc(doc(db, 'rejected_users', newUser.email)).catch(() => undefined);
 
       setNewUser({ email: '', name: '', role: 'musician' });
-      alert('Invitación enviada correctamente. El usuario podrá acceder cuando inicie sesión con su cuenta de Google.');
+      toast.success('Invitación enviada correctamente. El usuario podrá acceder cuando inicie sesión con su cuenta de Google.');
     } catch (error) {
       handleFirestoreError(error, OperationType.CREATE, 'pending_users');
     }
@@ -772,7 +780,7 @@ export default function AdminView({ setView }: { setView: (v: ViewState) => void
     const nextValue = window.prompt('Nuevo nombre', previousValue)?.trim();
     if (!nextValue || nextValue === previousValue) return;
     if (catalog[type].some((v) => v.toLowerCase() === nextValue.toLowerCase())) {
-      alert('Ese valor ya existe.');
+      toast.error('Ese valor ya existe.');
       return;
     }
 
@@ -1630,11 +1638,11 @@ export default function AdminView({ setView }: { setView: (v: ViewState) => void
                 </div>
 
                 <div className="flex gap-3 justify-end pt-4 border-t border-outline-variant/20">
-                  <button type="button" onClick={() => setEditingSong(null)} className="px-4 py-2 rounded-lg border border-outline-variant/30 text-on-surface">
+                  <button type="button" onClick={() => setEditingSong(null)} disabled={isSavingEdit} className="px-4 py-2 rounded-lg border border-outline-variant/30 text-on-surface disabled:opacity-50 disabled:cursor-not-allowed">
                     Cancelar
                   </button>
-                  <button type="submit" className="px-4 py-2 rounded-lg border border-primary/40 text-primary bg-primary/10 flex items-center gap-2">
-                    <Check size={16} /> Guardar cambios
+                  <button type="submit" disabled={isSavingEdit} className="px-4 py-2 rounded-lg border border-primary/40 text-primary bg-primary/10 flex items-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed">
+                    {isSavingEdit ? "Guardando..." : <><Check size={16} /> Guardar cambios</>}
                   </button>
                 </div>
               </form>

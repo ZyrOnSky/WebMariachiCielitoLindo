@@ -6,6 +6,7 @@ import { HomeView, AboutView, ContactView } from './components/BasicViews';
 import GalleryView from './components/GalleryView';
 import RepertoireView from './components/RepertoireView';
 import AdminView from './components/AdminView';
+import { Toaster } from 'react-hot-toast';
 import logoMain from '../medios/logos/logo.svg';
 import logoMobile from '../medios/logos/logmovil.svg';
 import logoHeader from '../medios/logos/logo_head_foot.png';
@@ -85,8 +86,8 @@ export default function App() {
     setThemeMode((prev) => (prev === 'dark' ? 'light' : 'dark'));
   };
 
-  return (
-    <div className="min-h-screen relative overflow-hidden bg-surface">
+  return (    <>
+      <Toaster position="bottom-right" toastOptions={{ duration: 4000 }} />    <div className="min-h-screen relative overflow-hidden bg-surface">
       {/* Audio Element */}
       <audio 
         ref={audioRef} 
@@ -175,12 +176,12 @@ export default function App() {
         {/* Mobile Menu */}
         <AnimatePresence>
           {isMobileMenuOpen && (
-            <motion.div 
+            <motion.div
               key="mobile-menu"
               initial={{ opacity: 0, height: 0 }}
               animate={{ opacity: 1, height: 'auto' }}
               exit={{ opacity: 0, height: 0 }}
-              className="md:hidden bg-surface-container-low border-b border-outline-variant/10 overflow-hidden"
+              className="md:hidden bg-surface-container-low border-b border-outline-variant/10 overflow-hidden mobile-dropdown-menu"
             >
               <div className="flex flex-col px-6 py-4 gap-4">
                 {navLinks.map(link => (
@@ -276,5 +277,6 @@ export default function App() {
         </div>
       </footer>
     </div>
+    </>
   );
 }

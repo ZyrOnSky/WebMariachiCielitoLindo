@@ -146,6 +146,11 @@ body {
   color: rgba(255, 248, 237, 0.82);
 }
 
+:root[data-theme='light'] .site-nav .mobile-dropdown-menu .text-on-surface-variant,
+:root[data-theme='light'] .site-nav .mobile-dropdown-menu .text-on-surface {
+  color: var(--color-on-surface-variant);
+}
+
 :root[data-theme='dark'] .text-shadow-editorial {
   text-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
 }

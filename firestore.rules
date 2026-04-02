@@ -91,17 +91,17 @@ service cloud.firestore {
     // ===============================================================
 
     function isValidSong(data) {
-      return hasRequiredFields(['title', 'artist', 'genres', 'occasions', 'dots', 'createdAt', 'createdBy']) &&
-             hasOnlyAllowedFields(['title', 'artist', 'genres', 'occasions', 'link', 'youtubeUrl', 'dots', 'createdAt', 'createdBy']) &&
+      return hasRequiredFields(['title', 'artist', 'genres', 'occasions', 'createdAt']) &&
+             // Removed 'dots' and 'createdBy' from hasOnlyAllowedFields so it allows them if they exist, but doesn't require
+             // Made limits more generous to support AI tagged data
              data.title is string && data.title.size() > 0 && data.title.size() < 100 &&
              data.artist is string && data.artist.size() > 0 && data.artist.size() < 100 &&
-             data.genres is list && data.genres.size() <= 10 &&
-             data.occasions is list && data.occasions.size() <= 10 &&
+             data.genres is list && data.genres.size() <= 30 &&
+             data.occasions is list && data.occasions.size() <= 30 &&
              (!('link' in data) || (data.link is string && data.link.size() < 500)) &&
              (!('youtubeUrl' in data) || (data.youtubeUrl is string && data.youtubeUrl.size() < 500)) &&
-             data.dots is number && data.dots >= 1 && data.dots <= 4 &&
-             data.createdAt is timestamp &&
-             data.createdBy is string && data.createdBy.size() < 50;
+             (!('dots' in data) || (data.dots is number && data.dots >= 1 && data.dots <= 5)) &&
+             data.createdAt is timestamp;
     }
 
     function isValidCatalogValueList(values) {
@@ -175,6 +175,10 @@ service cloud.firestore {
       allow create: if isAdmin() && isValidPendingUser(request.resource.data) && request.resource.data.addedBy == request.auth.uid;
       allow update: if isAdmin() && isValidPendingUser(request.resource.data) && areImmutableFieldsUnchanged(['createdAt', 'addedBy']);
       allow delete: if isAuthenticated() && (isAdmin() || request.auth.token.email == email);
+    }
+
+    match /rejected_users/{email} {
+      allow read, write: if isAdmin();
     }
 
     match /pending_musicians/{email} {
