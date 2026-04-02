@@ -30,8 +30,8 @@ export const HomeView = ({ setView }: { setView: (v: ViewState) => void, key?: s
           Elevamos sus celebraciones con interpretaciones magistrales y la elegancia que solo el mejor Mariachi puede ofrecer.
         </motion.p>
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, delay: 0.8 }} className="flex flex-col sm:flex-row items-center justify-center gap-6">
-          <button onClick={() => setView('contact')} className="gold-gradient text-on-primary px-10 py-4 font-bold text-lg hover:shadow-[0_0_30px_rgba(255,203,70,0.3)] transition-all rounded-full flex items-center gap-2">
-            Contratar Ahora <ChevronRight size={20} />
+          <button onClick={() => setView('repertoire')} className="gold-gradient text-on-primary px-10 py-4 font-bold text-lg hover:shadow-[0_0_30px_rgba(255,203,70,0.3)] transition-all rounded-full flex items-center gap-2">
+            Ver Repertorio <ChevronRight size={20} />
           </button>
           <button onClick={() => setView('gallery')} className="border border-outline-variant text-primary px-10 py-4 font-bold text-lg hover:bg-surface-container transition-all flex items-center gap-3 rounded-full">
             <PlayCircle size={24} /> Ver Presentaciones

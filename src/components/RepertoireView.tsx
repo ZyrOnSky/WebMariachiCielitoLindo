@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { motion } from 'motion/react';
 import { Search, Lock, Plus, ListMusic, Trash2, Phone, Music, Copy, Check, PlayCircle, X, Sliders, CheckSquare2, Grid3x3, List } from 'lucide-react';
 import { ViewState } from '../types';
@@ -182,8 +182,8 @@ export default function RepertoireView({
   };
 
   const toggleSong = (song: Song) => {
-    if (selected.some((s) => s.id === song.id)) {
-      setSelected(selected.filter((s) => s.id !== song.id));
+    if (selected.some((s: Song) => s.id === song.id)) {
+      setSelected(selected.filter((s: Song) => s.id !== song.id));
     } else {
       setSelected([...selected, song]);
     }
@@ -272,9 +272,9 @@ export default function RepertoireView({
     return Math.max(0, filtered.length - displayed.length);
   };
 
-  const allGenres: string[] = Array.from(new Set<string>(songs.flatMap((s) => s.genres || []))).sort();
-  const allOccasions: string[] = Array.from(new Set<string>(songs.flatMap((s) => s.occasions || []))).sort();
-  const allArtists: string[] = Array.from(new Set<string>(songs.map((s) => s.artist).filter(Boolean))).sort();
+  const allGenres: string[] = Array.from(new Set<string>(songs.flatMap((s: Song) => s.genres || []))).sort();
+  const allOccasions: string[] = Array.from(new Set<string>(songs.flatMap((s: Song) => s.occasions || []))).sort();
+  const allArtists: string[] = Array.from(new Set<string>(songs.map((s: Song) => s.artist).filter(Boolean))).sort();
 
   const filteredGenres = allGenres.filter((g: string) => g.toLowerCase().includes(genreSearch.toLowerCase()));
   const filteredOccasions = allOccasions.filter((o: string) => o.toLowerCase().includes(occasionSearch.toLowerCase()));
@@ -289,8 +289,8 @@ export default function RepertoireView({
       .map(([value]) => value);
   };
 
-  const quickOccasions = getTopOptions(songs.flatMap((s) => s.occasions || []), 6);
-  const quickGenres = getTopOptions(songs.flatMap((s) => s.genres || []), 6);
+  const quickOccasions = getTopOptions(songs.flatMap((s: Song) => s.occasions || []), 6);
+  const quickGenres = getTopOptions(songs.flatMap((s: Song) => s.genres || []), 6);
 
   const toggleQuickSingle = (value: string, list: string[], setList: (l: string[]) => void) => {
     if (list.length === 1 && list[0] === value) {
@@ -300,12 +300,12 @@ export default function RepertoireView({
     setList([value]);
   };
 
-  const filteredSongs = songs.filter((song) => {
+  const filteredSongs = songs.filter((song: Song) => {
     const matchesSearch =
       song.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
       song.artist.toLowerCase().includes(searchTerm.toLowerCase());
-    const matchesGenre = selectedGenres.length === 0 || (song.genres && song.genres.some((g) => selectedGenres.includes(g)));
-    const matchesOccasion = selectedOccasions.length === 0 || (song.occasions && song.occasions.some((o) => selectedOccasions.includes(o)));
+    const matchesGenre = selectedGenres.length === 0 || (song.genres && song.genres.some((g: string) => selectedGenres.includes(g)));
+    const matchesOccasion = selectedOccasions.length === 0 || (song.occasions && song.occasions.some((o: string) => selectedOccasions.includes(o)));
     const matchesArtist = selectedArtists.length === 0 || selectedArtists.includes(song.artist);
 
     return matchesSearch && matchesGenre && matchesOccasion && matchesArtist;
@@ -340,7 +340,7 @@ export default function RepertoireView({
                   type="text"
                   placeholder="Buscar por titulo..."
                   value={searchTerm}
-                  onChange={(e) => setSearchTerm(e.target.value)}
+                  onChange={(e: React.ChangeEvent<HTMLInputElement>) => setSearchTerm(e.target.value)}
                   className="w-full bg-surface-container-low border border-outline-variant/30 rounded-full py-2 sm:py-3 pl-10 sm:pl-12 pr-3 sm:pr-4 text-xs sm:text-sm md:text-base text-on-surface focus:outline-none focus:border-primary transition-colors"
                 />
               </div>
