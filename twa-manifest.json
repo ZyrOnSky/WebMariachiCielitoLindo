@@ -1,0 +1,21 @@
+{
+  "host": "mcielitolindo.netlify.app",
+  "name": "Mariachi Internacional Cielito Lindo",
+  "launcherName": "Cielito Lindo",
+  "display": "standalone",
+  "themeColor": "#131313",
+  "backgroundColor": "#131313",
+  "startUrl": "/",
+  "iconUrl": "https://mcielitolindo.netlify.app/brand/icon.png",
+  "maskableIconUrl": "https://mcielitolindo.netlify.app/brand/icon.png",
+  "monochromeIconUrl": "https://mcielitolindo.netlify.app/brand/icon.png",
+  "navigationColor": "#131313",
+  "navigationColorDark": "#131313",
+  "navigationDividerColor": "#000000",
+  "navigationDividerColorDark": "#000000",
+  "enableNotifications": false,
+  "orientation": "portrait",
+  "applicationId": "app.mariachi.cielitolindo",
+  "fallbackType": "customtabs",
+  "shortcuts": []
+}

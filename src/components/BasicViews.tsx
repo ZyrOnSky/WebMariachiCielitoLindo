@@ -277,6 +277,26 @@ export const ContactView = () => {
             ))}
           </div>
         </div>
+
+        <div className="contact-overlay-card backdrop-blur-md border border-primary/25 rounded-3xl p-6 md:p-8 ambient-shadow">
+          <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+            <div>
+              <p className="text-primary font-bold uppercase tracking-[0.18em] text-xs mb-2">Instalacion Rapida</p>
+              <h3 className="contact-card-title font-serif text-2xl md:text-3xl mb-2">Instala la APK de nuestra web</h3>
+              <p className="contact-card-copy text-sm md:text-base max-w-2xl">
+                Lleva Mariachi Internacional Cielito Lindo en tu telefono y abre la web como aplicacion con acceso directo.
+              </p>
+            </div>
+            <a
+              href="https://api.whatsapp.com/send/?phone=593987216439&text=Hola%2C+quiero+instalar+la+APK+de+la+web+de+Mariachi+Internacional+Cielito+Lindo&type=phone_number&app_absent=0"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gold-gradient text-on-primary px-8 py-4 font-bold text-base rounded-full hover:shadow-[0_0_24px_rgba(255,203,70,0.35)] transition-all whitespace-nowrap"
+            >
+              Solicitar APK por WhatsApp
+            </a>
+          </div>
+        </div>
       </div>
     </motion.section>
   );

@@ -1,0 +1,21 @@
+{
+  "name": "Mariachi Internacional Cielito Lindo",
+  "short_name": "Cielito Lindo",
+  "description": "Web oficial de Mariachi Internacional Cielito Lindo.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#131313",
+  "theme_color": "#131313",
+  "lang": "es-EC",
+  "categories": ["music", "entertainment", "business"],
+  "icons": [
+    {
+      "src": "/brand/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
