@@ -3,7 +3,12 @@ import { AnimatePresence, motion } from 'motion/react';
 import { Play, ArrowRight, ChevronLeft, ChevronRight, X } from 'lucide-react';
 import { ViewState } from '../types';
 
-const PHOTO_MODULES = import.meta.glob('../../medios/fotos_modernas/*.{jpg,jpeg,png,JPG,JPEG,PNG}', {
+const MODERN_PHOTOS = import.meta.glob('../../medios/fotos_modernas/*.{jpg,jpeg,png,JPG,JPEG,PNG}', {
+  eager: true,
+  import: 'default',
+}) as Record<string, string>;
+
+const PASARELA_PHOTOS = import.meta.glob('../../medios/fotos_pasarela/*.{jpg,jpeg,png,JPG,JPEG,PNG}', {
   eager: true,
   import: 'default',
 }) as Record<string, string>;
@@ -43,16 +48,29 @@ const SIMPLE_PHOTO_LABELS = [
   { title: 'Quinceaneras', subtitle: 'Mariachi en vivo para una celebracion inolvidable.' },
 ];
 
-const PHOTO_SLIDES = Object.entries(PHOTO_MODULES)
+const PASARELA_SLIDES = Object.entries(PASARELA_PHOTOS)
   .sort(([a], [b]) => a.localeCompare(b))
   .map(([_, src], index) => {
     const label = SIMPLE_PHOTO_LABELS[index % SIMPLE_PHOTO_LABELS.length];
     return {
       src,
       title: label.title,
+      subtitle: `Pasarela - ${label.subtitle}`,
+    };
+  });
+
+const MODERN_SLIDES = Object.entries(MODERN_PHOTOS)
+  .sort(([a], [b]) => a.localeCompare(b))
+  .map(([_, src], index) => {
+    const label = SIMPLE_PHOTO_LABELS[(index + PASARELA_SLIDES.length) % SIMPLE_PHOTO_LABELS.length];
+    return {
+      src,
+      title: label.title,
       subtitle: label.subtitle,
     };
   });
+
+const PHOTO_SLIDES = [...PASARELA_SLIDES, ...MODERN_SLIDES];
 
 export default function GalleryView({ setView, onYoutubePlayerStateChange }: { setView: (v: ViewState) => void, onYoutubePlayerStateChange?: (isOpen: boolean) => void, key?: string }) {
   const [activePhoto, setActivePhoto] = useState(0);
