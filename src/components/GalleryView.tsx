@@ -14,7 +14,40 @@ const PASARELA_PHOTOS = import.meta.glob('../../medios/fotos_pasarela/*.{jpg,jpe
 }) as Record<string, string>;
 
 const HERO_MAIN_PHOTO = new URL('../../medios/foto_principal/gradasOK.png', import.meta.url).href;
-const FEATURED_YOUTUBE_ID = '5ZJ32Ax1NL4';
+type FeaturedVideo = {
+  id: string;
+  type: 'youtube' | 'local';
+  src: string;
+  thumbSrc?: string;
+  title: string;
+  desc: string;
+};
+
+const FEATURED_VIDEOS: FeaturedVideo[] = [
+  {
+    id: 'f1',
+    type: 'youtube',
+    src: '5ZJ32Ax1NL4',
+    title: 'Mariachi Internacional Cielito Lindo',
+    desc: 'Comparte con nosotros nuestros recuerdos más simbólicos y llenos de tradición.',
+  },
+  {
+    id: 'f2',
+    type: 'local',
+    src: new URL('../../medios/videos_destacados/IMG_3481.mp4', import.meta.url).href,
+    thumbSrc: new URL('../../medios/fotos_pasarela/Pasarela_Cielito_Lindo_02.png', import.meta.url).href,
+    title: 'La Excelencia en la Música',
+    desc: 'La elegancia y el brillo de nuestra presentación capturados en momentos espontáneos.',
+  },
+  {
+    id: 'f3',
+    type: 'local',
+    src: new URL('../../medios/videos_destacados/GDBE0890.mp4', import.meta.url).href,
+    thumbSrc: new URL('../../medios/fotos_pasarela/Pasarela_Cielito_Lindo_05.jpg', import.meta.url).href,
+    title: 'Sentimiento Ranchero',
+    desc: 'Reviva la pasión y la energía de nuestra música en cada nota interpretada.',
+  }
+];
 
 const YOUTUBE_SHOWCASE_VIDEOS = [
   {
@@ -76,7 +109,10 @@ export default function GalleryView({ setView, onYoutubePlayerStateChange }: { s
   const [activePhoto, setActivePhoto] = useState(0);
   const [isPhotoModalOpen, setIsPhotoModalOpen] = useState(false);
   const [modalPhotoIndex, setModalPhotoIndex] = useState(0);
-  const [activeVideoPlayer, setActiveVideoPlayer] = useState<{ id: string; title: string; desc: string } | null>(null);
+  const [activeVideoPlayer, setActiveVideoPlayer] = useState<FeaturedVideo | { id: string; type: 'youtube'; src: string; title: string; desc: string } | null>(null);
+  const [activeFeaturedIndex, setActiveFeaturedIndex] = useState(0);
+
+  const totalFeatured = FEATURED_VIDEOS.length;
 
   const totalPhotos = PHOTO_SLIDES.length;
 
@@ -87,12 +123,19 @@ export default function GalleryView({ setView, onYoutubePlayerStateChange }: { s
 
   useEffect(() => {
     if (totalPhotos <= 1) return;
-    const timer = window.setInterval(() => {
+    const photoTimer = window.setInterval(() => {
       setActivePhoto((prev) => (prev + 1) % totalPhotos);
     }, 5000);
 
-    return () => window.clearInterval(timer);
-  }, [totalPhotos]);
+    const videoTimer = window.setInterval(() => {
+      setActiveFeaturedIndex((prev) => (prev + 1) % totalFeatured);
+    }, 8000); // 8 seconds per featured video slide
+
+    return () => {
+      window.clearInterval(photoTimer);
+      window.clearInterval(videoTimer);
+    };
+  }, [totalPhotos, totalFeatured]);
 
   useEffect(() => {
     if (!isPhotoModalOpen || totalPhotos === 0) return;
@@ -122,7 +165,7 @@ export default function GalleryView({ setView, onYoutubePlayerStateChange }: { s
       <div className="max-w-7xl mx-auto">
         <h1 className="font-serif text-4xl md:text-7xl mb-6 text-on-surface">Galería de <span className="text-primary italic">Momentos</span> Inolvidables</h1>
         <p className="text-on-surface-variant font-light text-base md:text-lg max-w-2xl mb-12">Explore nuestra colección visual de presentaciones excepcionales, donde la tradición del mariachi se encuentra con la elegancia contemporánea.</p>
-        
+
         {/* Hero Gallery + Featured Video */}
         <div className="grid grid-cols-1 lg:grid-cols-[45%_55%] gap-6 mb-24">
           <div className="relative group overflow-hidden rounded-3xl border border-outline-variant/20 bg-surface-container-low min-h-[360px] lg:min-h-[640px]">
@@ -140,43 +183,90 @@ export default function GalleryView({ setView, onYoutubePlayerStateChange }: { s
           </div>
 
           <div className="relative overflow-hidden rounded-3xl border border-primary/30 bg-surface-container-low min-h-[340px] sm:min-h-[380px] lg:min-h-[640px] group cursor-pointer" onClick={() =>
-            setActiveVideoPlayer({
-              id: FEATURED_YOUTUBE_ID,
-              title: 'Mariachi Internacional Cielito Lindo',
-              desc: 'Comparte con nosotros nuesros recuerdos mas simbolicos junto a ustedes.',
-            })
+            setActiveVideoPlayer(FEATURED_VIDEOS[activeFeaturedIndex])
           }>
-            <img
-              src={`https://img.youtube.com/vi/${FEATURED_YOUTUBE_ID}/maxresdefault.jpg`}
-              alt="Video destacado de Mariachi Cielito Lindo"
-              className="absolute inset-0 w-full h-full object-cover"
-              loading="eager"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/35 to-black/15" />
+            <AnimatePresence mode="wait">
+              <motion.div
+                key={activeFeaturedIndex}
+                initial={{ opacity: 0, scale: 1.1, x: 20 }}
+                animate={{ opacity: 1, scale: 1, x: 0 }}
+                exit={{ opacity: 0, scale: 0.95, x: -20 }}
+                transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
+                className="absolute inset-0"
+              >
+                <img
+                  src={FEATURED_VIDEOS[activeFeaturedIndex].type === 'youtube' ? `https://img.youtube.com/vi/${FEATURED_VIDEOS[activeFeaturedIndex].src}/maxresdefault.jpg` : (FEATURED_VIDEOS[activeFeaturedIndex].thumbSrc || HERO_MAIN_PHOTO)}
+                  alt={FEATURED_VIDEOS[activeFeaturedIndex].title}
+                  className="absolute inset-0 w-full h-full object-cover"
+                  loading="lazy"
+                />
+              </motion.div>
+            </AnimatePresence>
+
+            <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent" />
 
             <div className="absolute inset-0 flex items-center justify-center">
-              <button
+              <motion.button
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
                 onClick={(e) => {
                   e.stopPropagation();
-                  setActiveVideoPlayer({
-                    id: FEATURED_YOUTUBE_ID,
-                    title: 'Mariachi Internacional Cielito Lindo',
-                    desc: 'Comparte con nosotros nuesros recuerdos mas simbolicos junto a ustedes.',
-                  })
-                }
-                }
-                className="hidden sm:flex w-20 h-20 md:w-24 md:h-24 rounded-full bg-primary/20 backdrop-blur-md border border-primary/50 items-center justify-center text-primary hover:bg-primary hover:text-on-primary transition-all group-hover:scale-110"
-                aria-label="Reproducir video destacado"
+                  setActiveVideoPlayer(FEATURED_VIDEOS[activeFeaturedIndex]);
+                }}
+                className="hidden sm:flex w-20 h-20 md:w-24 md:h-24 rounded-full bg-primary/20 backdrop-blur-md border border-primary/50 items-center justify-center text-primary hover:bg-primary hover:text-on-primary transition-all"
+                aria-label="Reproducir video"
               >
                 <Play size={34} className="ml-1" />
-              </button>
+              </motion.button>
             </div>
 
-            <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-6 md:p-8">
-              <span className="border border-primary text-primary text-[10px] sm:text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-3 sm:mb-4 inline-block">Video Destacado</span>
-              <span className="sm:hidden block text-[10px] uppercase tracking-[0.2em] text-primary mb-2 font-bold">Toca para reproducir</span>
-              <h3 className="font-serif text-xl sm:text-2xl md:text-4xl leading-tight text-white mb-2">Mariachi Internacional Cielito Lindo</h3>
-              <p className="text-xs sm:text-sm md:text-base leading-snug sm:leading-normal text-white/85 max-w-xl">Comparte con nosotros nuestros recuerdos mas simbolicos junto a ustedes.</p>
+            <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-6 md:p-10">
+              <motion.div
+                key={`text-${activeFeaturedIndex}`}
+                initial={{ opacity: 0, y: 30 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.3, duration: 0.6 }}
+              >
+                <div className="flex items-center gap-3 mb-4">
+                  <span className="border border-primary/50 bg-primary/10 backdrop-blur-sm text-primary text-[10px] sm:text-xs font-bold uppercase tracking-widest px-4 py-1.5 rounded-full inline-block">Destacado</span>
+                  <span className="bg-white/10 backdrop-blur-sm text-white/80 text-[10px] sm:text-xs font-medium px-3 py-1.5 rounded-full">
+                    {activeFeaturedIndex + 1} de {totalFeatured}
+                  </span>
+                </div>
+                <h3 className="font-serif text-2xl sm:text-3xl md:text-5xl leading-tight text-white mb-3 drop-shadow-lg">
+                  {FEATURED_VIDEOS[activeFeaturedIndex].title}
+                </h3>
+                <p className="text-sm sm:text-base md:text-lg leading-relaxed text-white/80 max-w-2xl font-light">
+                  {FEATURED_VIDEOS[activeFeaturedIndex].desc}
+                </p>
+              </motion.div>
+            </div>
+
+            {/* Barra de Progreso Cinematográfica */}
+            <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-white/10 overflow-hidden">
+              <motion.div
+                key={`progress-${activeFeaturedIndex}`}
+                initial={{ width: "0%" }}
+                animate={{ width: "100%" }}
+                transition={{ duration: 8, ease: "linear" }}
+                className="h-full bg-primary shadow-[0_0_10px_rgba(255,203,70,0.8)]"
+              />
+            </div>
+
+            {/* Navegación lateral sutil */}
+            <div className="absolute top-1/2 -translate-y-1/2 left-4 right-4 flex justify-between pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity">
+              <button
+                onClick={(e) => { e.stopPropagation(); setActiveFeaturedIndex(prev => (prev - 1 + totalFeatured) % totalFeatured); }}
+                className="p-3 rounded-full bg-black/20 backdrop-blur-md border border-white/10 text-white pointer-events-auto hover:bg-primary hover:text-on-primary transition-all"
+              >
+                <ChevronLeft size={24} />
+              </button>
+              <button
+                onClick={(e) => { e.stopPropagation(); setActiveFeaturedIndex(prev => (prev + 1) % totalFeatured); }}
+                className="p-3 rounded-full bg-black/20 backdrop-blur-md border border-white/10 text-white pointer-events-auto hover:bg-primary hover:text-on-primary transition-all"
+              >
+                <ChevronRight size={24} />
+              </button>
             </div>
           </div>
 
@@ -203,7 +293,7 @@ export default function GalleryView({ setView, onYoutubePlayerStateChange }: { s
               <button
                 key={vid.id}
                 type="button"
-                onClick={() => setActiveVideoPlayer({ id: vid.id, title: vid.title, desc: vid.desc })}
+                onClick={() => setActiveVideoPlayer({ id: vid.id, type: 'youtube', src: vid.id, title: vid.title, desc: vid.desc })}
                 className="group cursor-pointer block text-left"
               >
                 <div className="relative overflow-hidden rounded-2xl mb-4 aspect-video bg-surface-container">
@@ -255,9 +345,8 @@ export default function GalleryView({ setView, onYoutubePlayerStateChange }: { s
                     key={photo.src}
                     src={photo.src}
                     alt={photo.subtitle}
-                    className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-[1400ms] ${
-                      index === activePhoto ? 'opacity-100' : 'opacity-0'
-                    }`}
+                    className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-[1400ms] ${index === activePhoto ? 'opacity-100' : 'opacity-0'
+                      }`}
                     loading="lazy"
                   />
                 ))}
@@ -338,14 +427,25 @@ export default function GalleryView({ setView, onYoutubePlayerStateChange }: { s
                   <X size={20} />
                 </button>
               </div>
-              <div className="aspect-video bg-black">
-                <iframe
-                  className="w-full h-full"
-                  src={`https://www.youtube.com/embed/${activeVideoPlayer.id}?autoplay=1&rel=0`}
-                  title={`YouTube player - ${activeVideoPlayer.title}`}
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                />
+              <div className="aspect-video bg-black flex items-center justify-center">
+                {activeVideoPlayer.type === 'youtube' ? (
+                  <iframe
+                    className="w-full h-full"
+                    src={`https://www.youtube.com/embed/${activeVideoPlayer.src}?autoplay=1&rel=0`}
+                    title={`YouTube player - ${activeVideoPlayer.title}`}
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  />
+                ) : (
+                  <video
+                    className="w-full h-full max-h-[80vh] object-contain"
+                    controls
+                    autoPlay
+                    src={activeVideoPlayer.src}
+                  >
+                    Tu navegador no soporta videos HTML5.
+                  </video>
+                )}
               </div>
             </motion.div>
           </motion.div>
