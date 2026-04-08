@@ -15,6 +15,10 @@ interface Song {
   youtubeUrl?: string;
 }
 
+function normalizeString(str: string) {
+  return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+}
+
 function extractYouTubeId(url?: string) {
   if (!url) return null;
   try {
@@ -276,9 +280,13 @@ export default function RepertoireView({
   const allOccasions: string[] = Array.from(new Set<string>(songs.flatMap((s: Song) => s.occasions || []))).sort();
   const allArtists: string[] = Array.from(new Set<string>(songs.map((s: Song) => s.artist).filter(Boolean))).sort();
 
-  const filteredGenres = allGenres.filter((g: string) => g.toLowerCase().includes(genreSearch.toLowerCase()));
-  const filteredOccasions = allOccasions.filter((o: string) => o.toLowerCase().includes(occasionSearch.toLowerCase()));
-  const filteredArtists = allArtists.filter((a: string) => a.toLowerCase().includes(artistSearch.toLowerCase()));
+  const normalizedGenreSearch = normalizeString(genreSearch);
+  const normalizedOccasionSearch = normalizeString(occasionSearch);
+  const normalizedArtistSearch = normalizeString(artistSearch);
+
+  const filteredGenres = allGenres.filter((g: string) => normalizeString(g).includes(normalizedGenreSearch));
+  const filteredOccasions = allOccasions.filter((o: string) => normalizeString(o).includes(normalizedOccasionSearch));
+  const filteredArtists = allArtists.filter((a: string) => normalizeString(a).includes(normalizedArtistSearch));
 
   const getTopOptions = (values: string[], topN = 6) => {
     const counts = new Map<string, number>();
@@ -301,9 +309,13 @@ export default function RepertoireView({
   };
 
   const filteredSongs = songs.filter((song: Song) => {
+    const normalizedSearch = normalizeString(searchTerm);
     const matchesSearch =
-      song.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      song.artist.toLowerCase().includes(searchTerm.toLowerCase());
+      normalizeString(song.title).includes(normalizedSearch) ||
+      normalizeString(song.artist).includes(normalizedSearch) ||
+      (song.genres && song.genres.some((g: string) => normalizeString(g).includes(normalizedSearch))) ||
+      (song.occasions && song.occasions.some((o: string) => normalizeString(o).includes(normalizedSearch)));
+      
     const matchesGenre = selectedGenres.length === 0 || (song.genres && song.genres.some((g: string) => selectedGenres.includes(g)));
     const matchesOccasion = selectedOccasions.length === 0 || (song.occasions && song.occasions.some((o: string) => selectedOccasions.includes(o)));
     const matchesArtist = selectedArtists.length === 0 || selectedArtists.includes(song.artist);

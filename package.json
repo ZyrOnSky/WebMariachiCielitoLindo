@@ -14,7 +14,11 @@
     "wp:extract:scan": "node scripts/wpMigrationPrep.mjs --scan-pages",
     "wp:enrich": "node scripts/wpEnrichSongs.mjs",
     "wp:report": "node scripts/wpMigrationReport.mjs",
-    "pdf:proformas": "node scripts/generateProformaPdfs.mjs"
+    "pdf:proformas": "node scripts/generateProformaPdfs.mjs",
+    "merge:gemini": "node scripts/merge_with_gemini.mjs",
+    "seed:merge": "node scripts/seedMergedSongs.mjs",
+    "enrich:merge": "node scripts/enrich_and_normalize.mjs",
+    "ai:categorize": "node scripts/advanced_ai_categorizer.mjs"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
@@ -22,6 +26,7 @@
     "@vitejs/plugin-react": "^5.0.4",
     "clsx": "^2.1.1",
     "dotenv": "^17.2.3",
+    "exceljs": "^4.4.0",
     "express": "^4.21.2",
     "firebase": "^12.11.0",
     "framer-motion": "^12.38.0",
@@ -31,7 +36,8 @@
     "react-dom": "^19.0.0",
     "react-hot-toast": "^2.6.0",
     "tailwind-merge": "^3.5.0",
-    "vite": "^6.2.0"
+    "vite": "^6.2.0",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "@types/express": "^4.17.21",
@@ -46,6 +52,6 @@
     "tsx": "^4.21.0",
     "typescript": "~5.8.2",
     "vite": "^6.2.0",
-    "yt-search": "^0.0.2"
+    "yt-search": "^2.13.1"
   }
 }

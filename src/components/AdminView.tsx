@@ -10,6 +10,7 @@ import {
   List,
   LogOut,
   Pencil,
+  PlayCircle,
   Plus,
   Search,
   Trash2,
@@ -40,6 +41,8 @@ interface Song {
   occasions: string[];
   link?: string;
   youtubeUrl?: string;
+  createdAt: any;
+  createdBy: string;
 }
 
 interface CatalogData {
@@ -60,6 +63,26 @@ interface PendingUser {
   email: string;
   name: string;
   role: 'admin' | 'musician';
+}
+
+function normalizeString(str: string) {
+  return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+}
+
+function extractYouTubeId(url?: string) {
+  if (!url) return null;
+  try {
+    const parsed = new URL(url);
+    if (parsed.hostname.includes('youtu.be')) return parsed.pathname.replace('/', '').trim() || null;
+    if (parsed.hostname.includes('youtube.com')) {
+      const fromQuery = parsed.searchParams.get('v');
+      if (fromQuery) return fromQuery;
+      const pathParts = parsed.pathname.split('/').filter(Boolean);
+      const embedIndex = pathParts.findIndex(part => part === 'embed' || part === 'shorts');
+      if (embedIndex !== -1 && pathParts[embedIndex + 1]) return pathParts[embedIndex + 1];
+    }
+    return null;
+  } catch { return null; }
 }
 
 interface RejectedUser {
@@ -109,10 +132,23 @@ function isValidCorporatePassword(password: string) {
   return minLength && hasUpper && hasLower && hasNumber;
 }
 
-export default function AdminView({ setView }: { setView: (v: ViewState) => void; key?: string }) {
+export default function AdminView({ 
+  setView, 
+  onYoutubePlayerStateChange 
+}: { 
+  setView: (v: ViewState) => void; 
+  onYoutubePlayerStateChange?: (isOpen: boolean) => void;
+  key?: string 
+}) {
   const [user, setUser] = useState<User | null>(null);
   const [role, setRole] = useState<'admin' | 'musician' | null>(null);
   const [loadingAuth, setLoadingAuth] = useState(true);
+  const [playingSong, setPlayingSong] = useState<Song | null>(null);
+
+  useEffect(() => {
+    onYoutubePlayerStateChange?.(Boolean(playingSong));
+    return () => onYoutubePlayerStateChange?.(false);
+  }, [playingSong, onYoutubePlayerStateChange]);
 
   const [songs, setSongs] = useState<Song[]>([]);
   const [loadingSongs, setLoadingSongs] = useState(true);
@@ -154,6 +190,9 @@ export default function AdminView({ setView }: { setView: (v: ViewState) => void
 
   const [showCatalogManager, setShowCatalogManager] = useState(false);
   const [newCatalogValue, setNewCatalogValue] = useState({ genres: '', occasions: '', artists: '' });
+  const [catalogSearch, setCatalogSearch] = useState({ genres: '', occasions: '', artists: '' });
+  const [showArtistSuggestions, setShowArtistSuggestions] = useState(false);
+  const [showEditArtistSuggestions, setShowEditArtistSuggestions] = useState(false);
 
   const [songSearchTerm, setSongSearchTerm] = useState('');
   const [songFilterGenres, setSongFilterGenres] = useState<string[]>([]);
@@ -193,6 +232,30 @@ export default function AdminView({ setView }: { setView: (v: ViewState) => void
     () => OCCASIONS.filter((o) => o.toLowerCase().includes(editSongOccasionSearch.toLowerCase())),
     [OCCASIONS, editSongOccasionSearch]
   );
+
+  const suggestedArtists = useMemo(() => {
+    const term = newSong.artist.toLowerCase().trim();
+    if (!term) return [];
+    return ARTISTS.filter(a => a.toLowerCase().includes(term) && a.toLowerCase() !== term).slice(0, 5);
+  }, [newSong.artist, ARTISTS]);
+
+  const suggestedEditArtists = useMemo(() => {
+    if (!editingSong) return [];
+    const term = editingSong.artist.toLowerCase().trim();
+    if (!term) return [];
+    return ARTISTS.filter(a => a.toLowerCase().includes(term) && a.toLowerCase() !== term).slice(0, 5);
+  }, [editingSong?.artist, ARTISTS]);
+
+  const isNewArtist = useMemo(() => {
+    const term = newSong.artist.trim();
+    return term !== '' && !ARTISTS.some(a => a.toLowerCase() === term.toLowerCase());
+  }, [newSong.artist, ARTISTS]);
+
+  const isNewEditArtist = useMemo(() => {
+    if (!editingSong) return false;
+    const term = editingSong.artist.trim();
+    return term !== '' && !ARTISTS.some(a => a.toLowerCase() === term.toLowerCase());
+  }, [editingSong?.artist, ARTISTS]);
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, async (currentUser) => {
@@ -409,9 +472,13 @@ export default function AdminView({ setView }: { setView: (v: ViewState) => void
 
   const filteredSongs = useMemo(() => {
     return songs.filter((song) => {
+      const normalizedSearch = normalizeString(songSearchTerm);
       const matchesSearch =
-        song.title.toLowerCase().includes(songSearchTerm.toLowerCase()) ||
-        song.artist.toLowerCase().includes(songSearchTerm.toLowerCase());
+        normalizeString(song.title).includes(normalizedSearch) ||
+        normalizeString(song.artist).includes(normalizedSearch) ||
+        (song.genres && song.genres.some((g) => normalizeString(g).includes(normalizedSearch))) ||
+        (song.occasions && song.occasions.some((o) => normalizeString(o).includes(normalizedSearch)));
+
       const matchesGenre = songFilterGenres.length === 0 || (song.genres && song.genres.some((g) => songFilterGenres.includes(g)));
       const matchesOccasion =
         songFilterOccasions.length === 0 || (song.occasions && song.occasions.some((o) => songFilterOccasions.includes(o)));
@@ -643,6 +710,8 @@ export default function AdminView({ setView }: { setView: (v: ViewState) => void
           youtubeUrl: (editingSong.youtubeUrl || '').trim(),
           genres: cleanedGenres,
           occasions: cleanedOccasions,
+          createdAt: editingSong.createdAt, // Requerido por las reglas
+          createdBy: editingSong.createdBy, // Requerido por las reglas
         },
         { merge: true }
       );
@@ -1182,9 +1251,14 @@ export default function AdminView({ setView }: { setView: (v: ViewState) => void
                                       <span className="text-on-surface-variant italic">Sin enlace Mega</span>
                                     )}
                                     {song.youtubeUrl ? (
-                                      <a href={song.youtubeUrl} target="_blank" rel="noopener noreferrer" className="text-primary hover:underline flex items-center gap-2">
-                                        <LinkIcon size={14} /> YouTube
-                                      </a>
+                                      <div className="flex items-center gap-2">
+                                        <a href={song.youtubeUrl} target="_blank" rel="noopener noreferrer" className="text-primary hover:underline flex items-center gap-2">
+                                          <LinkIcon size={14} /> YouTube
+                                        </a>
+                                        <button onClick={() => setPlayingSong(song)} className="p-1.5 text-primary hover:bg-primary/10 rounded-lg transition-colors" title="Reproducir aquí">
+                                          <PlayCircle size={16} />
+                                        </button>
+                                      </div>
                                     ) : (
                                       <span className="text-on-surface-variant italic">Sin YouTube</span>
                                     )}
@@ -1248,6 +1322,15 @@ export default function AdminView({ setView }: { setView: (v: ViewState) => void
                                 <a href={song.link} target="_blank" rel="noopener noreferrer" className="px-2 py-1 rounded border border-primary/40 text-primary text-[11px] hover:bg-primary/10">
                                   Mega
                                 </a>
+                              )}
+                              {song.youtubeUrl && (
+                                <button
+                                  onClick={() => setPlayingSong(song)}
+                                  className="p-1.5 text-primary hover:bg-primary/10 rounded-lg transition-colors border border-primary/30"
+                                  title="Reproducir"
+                                >
+                                  <PlayCircle size={15} />
+                                </button>
                               )}
                               <button
                                 onClick={() => toggleEventSelectionSong(song.id)}
@@ -1496,8 +1579,20 @@ export default function AdminView({ setView }: { setView: (v: ViewState) => void
                           <Plus size={16} />
                         </button>
                       </div>
+                      <div className="relative mb-2">
+                        <Search size={14} className="absolute left-2.5 top-1/2 -translate-y-1/2 text-on-surface-variant/50" />
+                        <input
+                          value={catalogSearch[type]}
+                          onChange={(e) => setCatalogSearch({ ...catalogSearch, [type]: e.target.value })}
+                          placeholder={`Buscar ${type === 'genres' ? 'género' : type === 'occasions' ? 'ocasión' : 'artista'}...`}
+                          className="w-full bg-surface-container border border-outline-variant/10 rounded-lg pl-8 pr-3 py-1.5 text-[11px] text-on-surface focus:outline-none focus:border-primary/50"
+                        />
+                      </div>
+
                       <div className="max-h-64 overflow-auto custom-scrollbar space-y-2 pr-1">
-                        {catalog[type].map((value) => (
+                        {catalog[type]
+                          .filter((v) => normalizeString(v).includes(normalizeString(catalogSearch[type])))
+                          .map((value) => (
                           <div key={value} className="flex items-center justify-between gap-2 bg-surface-container p-2 rounded-lg">
                             <span className="text-sm text-on-surface truncate">{value}</span>
                             <div className="flex items-center gap-1">
@@ -1528,16 +1623,44 @@ export default function AdminView({ setView }: { setView: (v: ViewState) => void
                   <label className="block text-[10px] font-bold uppercase tracking-wider text-on-surface-variant mb-2">Título de la Canción</label>
                   <input type="text" required value={newSong.title} onChange={(e) => setNewSong({ ...newSong, title: e.target.value })} placeholder="Ej. El Rey" className="w-full bg-surface-container-lowest border border-outline-variant/20 rounded-xl px-4 py-3 text-on-surface" />
                 </div>
-                <div>
+                <div className="relative">
                   <label className="block text-[10px] font-bold uppercase tracking-wider text-on-surface-variant mb-2">Artista / Compositor</label>
-                  <input list="artists-catalog" type="text" required value={newSong.artist} onChange={(e) => setNewSong({ ...newSong, artist: e.target.value })} placeholder="Ej. José Alfredo Jiménez" className="w-full bg-surface-container-lowest border border-outline-variant/20 rounded-xl px-4 py-3 text-on-surface" />
-                  <datalist id="artists-catalog">
-                    {ARTISTS.map((artist) => <option key={artist} value={artist} />)}
-                  </datalist>
-                  {newSong.artist.trim() && !ARTISTS.some((a) => a.toLowerCase() === newSong.artist.trim().toLowerCase()) && (
-                    <button type="button" onClick={() => handleQuickAddFromSongForm('artists', newSong.artist)} className="mt-2 text-xs text-primary hover:underline">
-                      Registrar artista "{newSong.artist.trim()}"
-                    </button>
+                  <input
+                    type="text"
+                    required
+                    value={newSong.artist}
+                    onFocus={() => setShowArtistSuggestions(true)}
+                    onBlur={() => setTimeout(() => setShowArtistSuggestions(false), 200)}
+                    onChange={(e) => setNewSong({ ...newSong, artist: e.target.value })}
+                    placeholder="Ej. José Alfredo Jiménez"
+                    className={`w-full bg-surface-container-lowest border border-outline-variant/20 rounded-xl px-4 py-3 text-on-surface focus:outline-none focus:border-primary transition-all ${isNewArtist ? 'border-primary/50 bg-primary/5' : ''}`}
+                  />
+                  
+                  {showArtistSuggestions && suggestedArtists.length > 0 && (
+                    <div className="absolute top-full left-0 right-0 z-50 mt-1 bg-surface-container-low border border-outline-variant/30 rounded-xl shadow-xl overflow-hidden animate-in fade-in slide-in-from-top-1">
+                      {suggestedArtists.map((artist) => (
+                        <button
+                          key={artist}
+                          type="button"
+                          onClick={() => setNewSong({ ...newSong, artist })}
+                          className="w-full text-left px-4 py-3 text-sm text-on-surface hover:bg-primary/10 hover:text-primary transition-colors border-b border-outline-variant/5 last:border-0"
+                        >
+                          {artist}
+                        </button>
+                      ))}
+                    </div>
+                  )}
+
+                  {isNewArtist && (
+                    <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="mt-3 p-3 bg-primary/10 border border-primary/30 rounded-xl flex items-center gap-3">
+                      <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center text-primary">
+                        <Plus size={16} />
+                      </div>
+                      <div>
+                        <p className="text-xs font-bold text-primary">NUEVO ARTISTA DETECTADO</p>
+                        <p className="text-[10px] text-primary/70 uppercase">Se registrará "{newSong.artist.trim()}" en el catálogo.</p>
+                      </div>
+                    </motion.div>
                   )}
                 </div>
                 <div>
@@ -1607,7 +1730,40 @@ export default function AdminView({ setView }: { setView: (v: ViewState) => void
               <form onSubmit={handleSaveSongEdit} className="space-y-5">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <input type="text" value={editingSong.title} onChange={(e) => setEditingSong({ ...editingSong, title: e.target.value })} placeholder="Título" className="bg-surface-container-lowest border border-outline-variant/20 rounded-xl px-4 py-3 text-on-surface" required />
-                  <input type="text" value={editingSong.artist} onChange={(e) => setEditingSong({ ...editingSong, artist: e.target.value })} placeholder="Artista" className="bg-surface-container-lowest border border-outline-variant/20 rounded-xl px-4 py-3 text-on-surface" required />
+                  <div className="relative">
+                    <input
+                      type="text"
+                      value={editingSong.artist}
+                      onFocus={() => setShowEditArtistSuggestions(true)}
+                      onBlur={() => setTimeout(() => setShowEditArtistSuggestions(false), 200)}
+                      onChange={(e) => setEditingSong({ ...editingSong, artist: e.target.value })}
+                      placeholder="Artista"
+                      className={`w-full bg-surface-container-lowest border border-outline-variant/20 rounded-xl px-4 py-3 text-on-surface focus:outline-none focus:border-primary transition-all ${isNewEditArtist ? 'border-primary/50 bg-primary/5' : ''}`}
+                      required
+                    />
+
+                    {showEditArtistSuggestions && suggestedEditArtists.length > 0 && (
+                      <div className="absolute top-full left-0 right-0 z-50 mt-1 bg-surface-container-low border border-outline-variant/30 rounded-xl shadow-xl overflow-hidden">
+                        {suggestedEditArtists.map((artist) => (
+                          <button
+                            key={artist}
+                            type="button"
+                            onClick={() => setEditingSong({ ...editingSong, artist })}
+                            className="w-full text-left px-4 py-3 text-sm text-on-surface hover:bg-primary/10 hover:text-primary transition-colors border-b border-outline-variant/5 last:border-0"
+                          >
+                            {artist}
+                          </button>
+                        ))}
+                      </div>
+                    )}
+
+                    {isNewEditArtist && (
+                      <div className="mt-2 p-2.5 bg-primary/10 border border-primary/20 rounded-lg flex items-center gap-2">
+                        <Plus size={14} className="text-primary" />
+                        <span className="text-[10px] font-bold text-primary uppercase">Nuevo Artista: El catálogo se actualizará</span>
+                      </div>
+                    )}
+                  </div>
                   <input type="url" value={editingSong.link || ''} onChange={(e) => setEditingSong({ ...editingSong, link: e.target.value })} placeholder="Enlace Mega" className="bg-surface-container-lowest border border-outline-variant/20 rounded-xl px-4 py-3 text-on-surface" />
                   <input type="url" value={editingSong.youtubeUrl || ''} onChange={(e) => setEditingSong({ ...editingSong, youtubeUrl: e.target.value })} placeholder="URL YouTube" className="bg-surface-container-lowest border border-outline-variant/20 rounded-xl px-4 py-3 text-on-surface" />
                 </div>
@@ -1654,6 +1810,32 @@ export default function AdminView({ setView }: { setView: (v: ViewState) => void
           <div className="text-[11px] text-on-surface-variant mt-2 mb-8 flex items-start gap-2">
             <Users size={14} className="mt-[2px]" />
             <span>Esta sección separa usuarios por estado (Pendiente, Aceptado, Descartado), divididos por rol (Músico/Admin), con paginado independiente.</span>
+          </div>
+        )}
+
+        {playingSong && extractYouTubeId(playingSong.youtubeUrl) && (
+          <div className="fixed inset-0 z-[100] bg-black/80 backdrop-blur-sm flex items-center justify-center p-4">
+            <div className="w-full max-w-4xl bg-surface-container-low rounded-2xl border border-outline-variant/20 overflow-hidden shadow-2xl">
+              <div className="flex items-center justify-between px-5 py-4 border-b border-outline-variant/20">
+                <div>
+                  <p className="font-serif text-2xl text-on-surface leading-tight">{playingSong.title}</p>
+                  <p className="text-xs text-on-surface-variant mt-0.5 uppercase tracking-wider">Artista: {playingSong.artist}</p>
+                </div>
+                <button onClick={() => setPlayingSong(null)} className="text-on-surface-variant hover:text-on-surface p-2 transition-colors" aria-label="Cerrar reproductor">
+                  <X size={24} />
+                </button>
+              </div>
+              <div className="aspect-video bg-black">
+                <iframe
+                  className="w-full h-full"
+                  src={`https://www.youtube.com/embed/${extractYouTubeId(playingSong.youtubeUrl)}?autoplay=1&rel=0`}
+                  title={`YouTube player - ${playingSong.title}`}
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                />
+              </div>
+            </div>
           </div>
         )}
       </div>

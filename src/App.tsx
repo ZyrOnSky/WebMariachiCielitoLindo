@@ -278,7 +278,13 @@ export default function App() {
           {currentView === 'gallery' && <GalleryView key="gallery" setView={setCurrentView} onYoutubePlayerStateChange={handleYoutubePlayerStateChange} />}
           {currentView === 'repertoire' && <RepertoireView key="repertoire" setView={setCurrentView} onYoutubePlayerStateChange={handleYoutubePlayerStateChange} />}
           {currentView === 'contact' && <ContactView key="contact" />}
-          {currentView === 'admin' && <AdminView key="admin" setView={setCurrentView} />}
+          {currentView === 'admin' && (
+            <AdminView 
+              key="admin" 
+              setView={setCurrentView} 
+              onYoutubePlayerStateChange={handleYoutubePlayerStateChange} 
+            />
+          )}
         </AnimatePresence>
       </main>
 
