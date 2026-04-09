@@ -2,7 +2,7 @@ import { useState, useEffect, useMemo } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Star, MessageCircle, X, ThumbsUp, Medal, ShieldAlert, Check } from 'lucide-react';
 import { db } from '../firebase';
-import { collection, query, where, orderBy, getDocs, addDoc, serverTimestamp, doc, updateDoc, deleteDoc } from 'firebase/firestore';
+import { collection, query, where, orderBy, getDocs, addDoc, serverTimestamp, doc, updateDoc, deleteDoc, getCountFromServer } from 'firebase/firestore';
 import { getAuth, onAuthStateChanged } from 'firebase/auth';
 import type { Review } from '../types';
 import toast from 'react-hot-toast';
@@ -55,7 +55,7 @@ export default function ReviewsView() {
       const data = snapshot.docs.map(d => ({ id: d.id, ...d.data() } as Review));
       setReviews(data);
     } catch (error) {
-      console.error("Error fetching reviews:", error);
+      if (import.meta.env.DEV) console.error("Error fetching reviews:", error);
       toast.error('Error al cargar reseñas.');
     } finally {
       setLoading(false);
@@ -65,6 +65,16 @@ export default function ReviewsView() {
   useEffect(() => {
     fetchReviews();
   }, []);
+
+  // Lock scroll when review modal is open
+  useEffect(() => {
+    if (isModalOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    return () => { document.body.style.overflow = ''; };
+  }, [isModalOpen]);
 
   const sortedReviews = useMemo(() => {
     return [...reviews].sort((a, b) => {
@@ -144,16 +154,16 @@ export default function ReviewsView() {
 
       // SECURITY GUARD 2: Global Limit (Max 500 reviews total)
       const qTotal = query(collection(db, 'reviews'));
-      const totalSnap = await getDocs(qTotal);
-      if (totalSnap.size >= 500) {
+      const totalSnap = await getCountFromServer(qTotal);
+      if (totalSnap.data().count >= 500) {
         setSubmitSuccess(true); // Silent discard
         return;
       }
 
       // SECURITY GUARD 3: Queue Limit (Max 20 pending)
       const qPending = query(collection(db, 'reviews'), where('status', '==', 'pending'));
-      const pendingSnap = await getDocs(qPending);
-      if (pendingSnap.size >= 20) {
+      const pendingSnap = await getCountFromServer(qPending);
+      if (pendingSnap.data().count >= 20) {
         setSubmitSuccess(true); // Silent discard
         return;
       }
@@ -188,7 +198,7 @@ export default function ReviewsView() {
       }, 3000);
       
     } catch (error) {
-      console.error(error);
+      if (import.meta.env.DEV) console.error('[DEV] Review submit error:', error);
       toast.error('Hubo un error de conexión. Intente más tarde.');
     } finally {
       setIsSubmitting(false);

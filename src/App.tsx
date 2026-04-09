@@ -175,7 +175,11 @@ export default function App() {
   }, [currentTrackIndex]);
 
   return (<>
-    <Toaster position="top-right" toastOptions={{ duration: 4000 }} />    <div className="min-h-screen relative overflow-hidden bg-surface">
+    <Toaster 
+      position="top-right" 
+      toastOptions={{ duration: 4000 }} 
+      containerStyle={{ top: 100 }}
+    />    <div className="min-h-screen relative overflow-hidden bg-surface">
       {/* Audio Element */}
       <audio
         ref={audioRef}
