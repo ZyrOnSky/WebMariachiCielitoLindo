@@ -441,6 +441,10 @@ export default function GalleryView({ setView, onYoutubePlayerStateChange }: { s
                     className="w-full h-full max-h-[80vh] object-contain"
                     controls
                     autoPlay
+                    muted
+                    playsInline
+                    webkit-playsinline="true"
+                    preload="metadata"
                     src={activeVideoPlayer.src}
                   >
                     Tu navegador no soporta videos HTML5.
