@@ -1,0 +1,6072 @@
+[
+  {
+    "title": "Happy birthday",
+    "normalizedTitle": "happy birthday",
+    "artist": "MCL",
+    "normalizedArtist": "mcl",
+    "originalCategories": [
+      "Cumpleaños"
+    ],
+    "normalizedCategories": [
+      "cumpleaños"
+    ],
+    "mappedCategory": "cumpleaños",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Happy birthday cristiano",
+    "normalizedTitle": "happy birthday cristiano",
+    "artist": "MCL",
+    "normalizedArtist": "mcl",
+    "originalCategories": [
+      "Cumpleaños"
+    ],
+    "normalizedCategories": [
+      "cumpleaños"
+    ],
+    "mappedCategory": "cumpleaños",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Happy birthday venezolano",
+    "normalizedTitle": "happy birthday venezolano",
+    "artist": "MCL",
+    "normalizedArtist": "mcl",
+    "originalCategories": [
+      "Cumpleaños"
+    ],
+    "normalizedCategories": [
+      "cumpleaños"
+    ],
+    "mappedCategory": "cumpleaños",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Las mañanitas",
+    "normalizedTitle": "las mananitas",
+    "artist": "Mariachi Vargas",
+    "normalizedArtist": "vargas",
+    "originalCategories": [
+      "Cumpleaños"
+    ],
+    "normalizedCategories": [
+      "cumpleaños"
+    ],
+    "mappedCategory": "cumpleaños",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Felicitaciones",
+    "normalizedTitle": "felicitaciones",
+    "artist": "Julio Jaramillo",
+    "normalizedArtist": "julio jaramillo",
+    "originalCategories": [
+      "Cumpleaños"
+    ],
+    "normalizedCategories": [
+      "cumpleaños"
+    ],
+    "mappedCategory": "cumpleaños",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Felicidades",
+    "normalizedTitle": "felicidades",
+    "artist": "Mariachi Mexico",
+    "normalizedArtist": "mexico",
+    "originalCategories": [
+      "Cumpleaños"
+    ],
+    "normalizedCategories": [
+      "cumpleaños"
+    ],
+    "mappedCategory": "cumpleaños",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Que Dios de bendiga",
+    "normalizedTitle": "que dios de bendiga",
+    "artist": "Mariachi estelar",
+    "normalizedArtist": "estelar",
+    "originalCategories": [
+      "Cumpleaños"
+    ],
+    "normalizedCategories": [
+      "cumpleaños"
+    ],
+    "mappedCategory": "cumpleaños",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "En tu día",
+    "normalizedTitle": "en tu dia",
+    "artist": "Javier Solis",
+    "normalizedArtist": "javier solis",
+    "originalCategories": [
+      "Cumpleaños"
+    ],
+    "normalizedCategories": [
+      "cumpleaños"
+    ],
+    "mappedCategory": "cumpleaños",
+    "firestoreMatch": {
+      "id": "5ybyLZPElpcYeNSP6zOB",
+      "occasions": [
+        "Cumpleaños",
+        "Fiestas"
+      ],
+      "link": "https://youtube.com/watch?v=s7oda7hQC0E"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=s7oda7hQC0E"
+  },
+  {
+    "title": "Ramo de Flores",
+    "normalizedTitle": "ramo de flores",
+    "artist": "Mariachi Oro de mexico",
+    "normalizedArtist": "oro de mexico",
+    "originalCategories": [
+      "Cumpleaños"
+    ],
+    "normalizedCategories": [
+      "cumpleaños"
+    ],
+    "mappedCategory": "cumpleaños",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Cielito Lindo",
+    "normalizedTitle": "cielito lindo",
+    "artist": "Mariachi Vargas",
+    "normalizedArtist": "vargas",
+    "originalCategories": [
+      "Cumpleaños",
+      "Despedidas"
+    ],
+    "normalizedCategories": [
+      "cumpleaños",
+      "despedidas"
+    ],
+    "mappedCategory": "cumpleaños",
+    "firestoreMatch": {
+      "id": "kGRdJatSbXzUVHKm9A0s",
+      "occasions": [
+        "Fiestas",
+        "Ambientación",
+        "Graduaciones"
+      ],
+      "link": "https://youtube.com/watch?v=OHeHOb3E-2g"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=OHeHOb3E-2g"
+  },
+  {
+    "title": "Despierta",
+    "normalizedTitle": "despierta",
+    "artist": "Pedro Infante",
+    "normalizedArtist": "pedro infante",
+    "originalCategories": [
+      "Cumpleaños"
+    ],
+    "normalizedCategories": [
+      "cumpleaños"
+    ],
+    "mappedCategory": "cumpleaños",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "La Fiesta del Mariachi",
+    "normalizedTitle": "la fiesta del mariachi",
+    "artist": "Luis miguel",
+    "normalizedArtist": "luis miguel",
+    "originalCategories": [
+      "Entrada"
+    ],
+    "normalizedCategories": [
+      "entrada"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "El son de la Negra",
+    "normalizedTitle": "el son de la negra",
+    "artist": "Mariachi Vargas",
+    "normalizedArtist": "vargas",
+    "originalCategories": [
+      "Entrada"
+    ],
+    "normalizedCategories": [
+      "entrada"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Algo mas",
+    "normalizedTitle": "algo mas",
+    "artist": "Natalia Jimenez",
+    "normalizedArtist": "natalia jimenez",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "RFCTaX7ruLD5kuXNYgLq",
+      "occasions": [
+        "Serenata",
+        "Despecho",
+        "Fiestas"
+      ],
+      "link": "https://youtube.com/watch?v=cTvbI7yGvdM"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=cTvbI7yGvdM"
+  },
+  {
+    "title": "Amar y querer",
+    "normalizedTitle": "amar y querer",
+    "artist": "Jose Jose",
+    "normalizedArtist": "jose jose",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Amar y vivir",
+    "normalizedTitle": "amar y vivir",
+    "artist": "Vicente Fernandez",
+    "normalizedArtist": "vicente fernandez",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "aP3qrHvx2LzlIhTzhmQZ",
+      "occasions": [
+        "Serenata",
+        "Bodas",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=qKkmUrYAAns"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=qKkmUrYAAns"
+  },
+  {
+    "title": "Amarte a la antigua",
+    "normalizedTitle": "amarte a la antigua",
+    "artist": "Pedro Fernandez",
+    "normalizedArtist": "pedro fernandez",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "zOBJDQgMP5WJnVNOTDaB",
+      "occasions": [
+        "Serenata",
+        "Bodas",
+        "Fiestas"
+      ],
+      "link": "https://youtube.com/watch?v=pifvIJ9372o"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=pifvIJ9372o"
+  },
+  {
+    "title": "amarte es un placer",
+    "normalizedTitle": "amarte es un placer",
+    "artist": "Luis Miguel",
+    "normalizedArtist": "luis miguel",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "se6W1kwgBJgJZBxyzgdE",
+      "occasions": [
+        "Serenata",
+        "Bodas",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=4vVQ-1kxppY"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=4vVQ-1kxppY"
+  },
+  {
+    "title": "Amorcito corazon",
+    "normalizedTitle": "amorcito corazon",
+    "artist": "Javier Solis",
+    "normalizedArtist": "javier solis",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Besame",
+    "normalizedTitle": "besame",
+    "artist": "Ricardo montaner",
+    "normalizedArtist": "ricardo montaner",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Bésame mucho",
+    "normalizedTitle": "besame mucho",
+    "artist": "Vicente Fernandez",
+    "normalizedArtist": "vicente fernandez",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "Mf4u4OhPensSRZnkm5fc",
+      "occasions": [
+        "Serenata",
+        "Bodas",
+        "Fiestas",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=95nFsh_VGEo"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=95nFsh_VGEo"
+  },
+  {
+    "title": "Bonita",
+    "normalizedTitle": "bonita",
+    "artist": "Javier Solis",
+    "normalizedArtist": "javier solis",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "UbnrWoYcuQrVZ0TSFXQB",
+      "occasions": [
+        "Serenata",
+        "Bodas",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=eMJZfV4RWYI"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=eMJZfV4RWYI"
+  },
+  {
+    "title": "Cariño",
+    "normalizedTitle": "carino",
+    "artist": "Lucero",
+    "normalizedArtist": "lucero",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "D4BRUOckafDnA9kjiQHQ",
+      "occasions": [
+        "Serenata",
+        "Fiestas",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=KvWCkXZZfaU"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=KvWCkXZZfaU"
+  },
+  {
+    "title": "Cariño de mis cariños",
+    "normalizedTitle": "carino de mis carinos",
+    "artist": "Lucero",
+    "normalizedArtist": "lucero",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "d5yIrapckvDru3dIDoHL",
+      "occasions": [
+        "Serenata",
+        "Fiestas",
+        "Ambientación",
+        "Día de la Madre"
+      ],
+      "link": "https://youtube.com/watch?v=jWS7CLZn-dQ"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=jWS7CLZn-dQ"
+  },
+  {
+    "title": "Cataclismo",
+    "normalizedTitle": "cataclismo",
+    "artist": "Javier Solis",
+    "normalizedArtist": "javier solis",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "Gpmf1G4o9tNcqvHE8INS",
+      "occasions": [
+        "Despecho",
+        "Serenata"
+      ],
+      "link": "https://youtube.com/watch?v=sNXQ36JqCiU"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=sNXQ36JqCiU"
+  },
+  {
+    "title": "Cenizas",
+    "normalizedTitle": "cenizas",
+    "artist": "Javier Solis",
+    "normalizedArtist": "javier solis",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "jsuW3lslohWfpyZfMro3",
+      "occasions": [
+        "Despecho",
+        "Serenata",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=x3noNiiOsEY"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=x3noNiiOsEY"
+  },
+  {
+    "title": "Cielo rojo",
+    "normalizedTitle": "cielo rojo",
+    "artist": "Mariachi Cobre",
+    "normalizedArtist": "cobre",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)",
+      "Reconciliaciones"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano",
+      "reconciliaciones"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Cien años",
+    "normalizedTitle": "cien anos",
+    "artist": "Pedro Infante",
+    "normalizedArtist": "pedro infante",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Como fue",
+    "normalizedTitle": "como fue",
+    "artist": "Sol de Mexico",
+    "normalizedArtist": "sol de mexico",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Como han pasado los años",
+    "normalizedTitle": "como han pasado los anos",
+    "artist": "Rocio Durcal",
+    "normalizedArtist": "rocio durcal",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "1XfoMv5Tp3ka8fRsE8sT",
+      "occasions": [
+        "Ambientación",
+        "Día de la Madre",
+        "Día del Padre",
+        "Cumpleaños"
+      ],
+      "link": "https://youtube.com/watch?v=1xlj-zAWEfg"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=1xlj-zAWEfg"
+  },
+  {
+    "title": "Con los años que me quedan",
+    "normalizedTitle": "con los anos que me quedan",
+    "artist": "Mariachi Vargas",
+    "normalizedArtist": "vargas",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "T26sg1AynaMitwajy8me",
+      "occasions": [
+        "Serenata",
+        "Bodas",
+        "Día de la Madre",
+        "Día del Padre",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=RyF5xuLXUXg"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=RyF5xuLXUXg"
+  },
+  {
+    "title": "Contigo aprendí",
+    "normalizedTitle": "contigo aprendi",
+    "artist": "Alejandro Fernandez",
+    "normalizedArtist": "alejandro fernandez",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "XbFhXX9HdSyVTWnmUvJR",
+      "occasions": [
+        "Serenata",
+        "Bodas",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=MxoGf2uXkfQ"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=MxoGf2uXkfQ"
+  },
+  {
+    "title": "Contigo en la distancia",
+    "normalizedTitle": "contigo en la distancia",
+    "artist": "LHDM",
+    "normalizedArtist": "lhdm",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "De qué manera te olvido",
+    "normalizedTitle": "de que manera te olvido",
+    "artist": "Vicente Fernandez",
+    "normalizedArtist": "vicente fernandez",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "4flsiif9gey6lwfhNPOU",
+      "occasions": [
+        "Despecho",
+        "Fiestas",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=NT0hlSpma90"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=NT0hlSpma90"
+  },
+  {
+    "title": "Despacito",
+    "normalizedTitle": "despacito",
+    "artist": "J.A. Jimenez",
+    "normalizedArtist": "ja jimenez",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Diseñame",
+    "normalizedTitle": "disename",
+    "artist": "Joan Sebastian",
+    "normalizedArtist": "joan sebastian",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "El amor mas grande del planeta",
+    "normalizedTitle": "el amor mas grande del planeta",
+    "artist": "Felipe Pelaez",
+    "normalizedArtist": "felipe pelaez",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "El aguacate",
+    "normalizedTitle": "el aguacate",
+    "artist": "Julio Jaramillo",
+    "normalizedArtist": "julio jaramillo",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "BLDf2fytcLIID6k8joup",
+      "occasions": [
+        "Ambientación",
+        "Serenata",
+        "Fiestas"
+      ],
+      "link": "https://youtube.com/watch?v=NgqbgirLj48"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=NgqbgirLj48"
+  },
+  {
+    "title": "El destino",
+    "normalizedTitle": "el destino",
+    "artist": "Juan Gabriel",
+    "normalizedArtist": "juan gabriel",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "VuPdDacnoG0WxkcgL74P",
+      "occasions": [
+        "Serenata",
+        "Despecho",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=gYBfhh2sVDY"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=gYBfhh2sVDY"
+  },
+  {
+    "title": "El Loco",
+    "normalizedTitle": "el loco",
+    "artist": "Javier Solis",
+    "normalizedArtist": "javier solis",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "B36ErSGI8bdTlQZdWfLG",
+      "occasions": [
+        "Despecho",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=fkH8_kHFJts"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=fkH8_kHFJts"
+  },
+  {
+    "title": "El prendedor",
+    "normalizedTitle": "el prendedor",
+    "artist": "Los Antares",
+    "normalizedArtist": "antares",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "El privilegio de amar",
+    "normalizedTitle": "el privilegio de amar",
+    "artist": "Lucero",
+    "normalizedArtist": "lucero",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "s18DnucZiFO23I1kwhpw",
+      "occasions": [
+        "Bodas",
+        "Quinceañeras",
+        "Día de la Madre",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=2DhThYPRDDI"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=2DhThYPRDDI"
+  },
+  {
+    "title": "El triste",
+    "normalizedTitle": "el triste",
+    "artist": "Sol de Mexico",
+    "normalizedArtist": "sol de mexico",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "En tu pelo",
+    "normalizedTitle": "en tu pelo",
+    "artist": "Javier Solis",
+    "normalizedArtist": "javier solis",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "yZeZETEOvNLZIvIvf56Z",
+      "occasions": [
+        "Serenata",
+        "Despecho",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=yuQku2CuIhA"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=yuQku2CuIhA"
+  },
+  {
+    "title": "Entrega total",
+    "normalizedTitle": "entrega total",
+    "artist": "Javier Solis",
+    "normalizedArtist": "javier solis",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "oXsMqqRkjeZPV7OCQSIE",
+      "occasions": [
+        "Serenata",
+        "Despecho",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=L3kn9Xs4Tek"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=L3kn9Xs4Tek"
+  },
+  {
+    "title": "Esclavo y amo",
+    "normalizedTitle": "esclavo y amo",
+    "artist": "Javier Solis",
+    "normalizedArtist": "javier solis",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "N5PviNioPKfp3oA5PwaL",
+      "occasions": [
+        "Serenata",
+        "Despecho",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=1BTh5HgdEyE"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=1BTh5HgdEyE"
+  },
+  {
+    "title": "Eso y mas",
+    "normalizedTitle": "eso y mas",
+    "artist": "Joan Sebastian",
+    "normalizedArtist": "joan sebastian",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Esposa",
+    "normalizedTitle": "esposa",
+    "artist": "Julio Jaramillo",
+    "normalizedArtist": "julio jaramillo",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "rJUKHqFjAILrjCNWW0S4",
+      "occasions": [
+        "Serenata",
+        "Despecho",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=3wUeCtnAV7A"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=3wUeCtnAV7A"
+  },
+  {
+    "title": "Estos Celos",
+    "normalizedTitle": "estos celos",
+    "artist": "Vicente Fernandez",
+    "normalizedArtist": "vicente fernandez",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "lRwOydhVkFnT4iV7L5zl",
+      "occasions": [
+        "Despecho",
+        "Fiestas",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=Tsk5aLgnQJs"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=Tsk5aLgnQJs"
+  },
+  {
+    "title": "Flor de azalea",
+    "normalizedTitle": "flor de azalea",
+    "artist": "Javier Solis",
+    "normalizedArtist": "javier solis",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "cJm8j1y69K7f3S5puGUE",
+      "occasions": [
+        "Serenata",
+        "Despecho",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=ke1i1TjsF24"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=ke1i1TjsF24"
+  },
+  {
+    "title": "Flor Sin Retoño",
+    "normalizedTitle": "flor sin retono",
+    "artist": "Pedro Infante",
+    "normalizedArtist": "pedro infante",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Gema",
+    "normalizedTitle": "gema",
+    "artist": "Javier Solis",
+    "normalizedArtist": "javier solis",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "taBWidGzvea2K00c0qUj",
+      "occasions": [
+        "Serenata",
+        "Ambientación",
+        "Fiestas"
+      ],
+      "link": "https://youtube.com/watch?v=cEcWnlIdUOw"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=cEcWnlIdUOw"
+  },
+  {
+    "title": "He sabido que te amaba",
+    "normalizedTitle": "he sabido que te amaba",
+    "artist": "Javier Solis",
+    "normalizedArtist": "javier solis",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "p5rJBsMq9h9Eo2uADIxr",
+      "occasions": [
+        "Serenata",
+        "Despecho",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=WndFUsSXtKU"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=WndFUsSXtKU"
+  },
+  {
+    "title": "Hechizo",
+    "normalizedTitle": "hechizo",
+    "artist": "Ana Gabriel",
+    "normalizedArtist": "ana gabriel",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "Ka1jzY3z8EvjawTsdZvd",
+      "occasions": [
+        "Serenata",
+        "Fiestas",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=BBxnW6Y18VA"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=BBxnW6Y18VA"
+  },
+  {
+    "title": "Historia de un amor",
+    "normalizedTitle": "historia de un amor",
+    "artist": "LHDM",
+    "normalizedArtist": "lhdm",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Júrame",
+    "normalizedTitle": "jurame",
+    "artist": "Mariachi Camperos",
+    "normalizedArtist": "camperos",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "La barca",
+    "normalizedTitle": "la barca",
+    "artist": "Sol de Mexico",
+    "normalizedArtist": "sol de mexico",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "La gloria eres tu",
+    "normalizedTitle": "la gloria eres tu",
+    "artist": "MCL",
+    "normalizedArtist": "mcl",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "La mejor de todas",
+    "normalizedTitle": "la mejor de todas",
+    "artist": "Mariachi Misterio",
+    "normalizedArtist": "misterio",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)",
+      "Reconciliaciones"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano",
+      "reconciliaciones"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "La mitad que me faltaba",
+    "normalizedTitle": "la mitad que me faltaba",
+    "artist": "Alejandro Fernandez",
+    "normalizedArtist": "alejandro fernandez",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "wMMly8pj6xczVUFeDSLD",
+      "occasions": [
+        "Serenata",
+        "Bodas",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=8Eaquhm0fCs"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=8Eaquhm0fCs"
+  },
+  {
+    "title": "la propuesta",
+    "normalizedTitle": "la propuesta",
+    "artist": "Ana Gabriel",
+    "normalizedArtist": "ana gabriel",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "G9z01uAKgyfjfJW7TtLk",
+      "occasions": [
+        "Serenata",
+        "Fiestas",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=jsSwVGjj8KI"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=jsSwVGjj8KI"
+  },
+  {
+    "title": "La venia bendita",
+    "normalizedTitle": "la venia bendita",
+    "artist": "Marco Antonio Solis",
+    "normalizedArtist": "marco antonio solis",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)",
+      "Reconciliaciones"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano",
+      "reconciliaciones"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Lo mucho que te quiero",
+    "normalizedTitle": "lo mucho que te quiero",
+    "artist": "Pedro Fernandez",
+    "normalizedArtist": "pedro fernandez",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "Dvcz0BfjGAeoFioefTOs",
+      "occasions": [
+        "Serenata",
+        "Fiestas",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=EcI3FALvwD0"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=EcI3FALvwD0"
+  },
+  {
+    "title": "Loco",
+    "normalizedTitle": "loco",
+    "artist": "Alejandro Fernandez",
+    "normalizedArtist": "alejandro fernandez",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "IfciC4REJNOaubVClLJr",
+      "occasions": [
+        "Despecho",
+        "Fiestas",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=K2mGOE65nLA"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=K2mGOE65nLA"
+  },
+  {
+    "title": "Luz de luna",
+    "normalizedTitle": "luz de luna",
+    "artist": "Javier Solis",
+    "normalizedArtist": "javier solis",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "Z07MpGpZgpcqALdzKbew",
+      "occasions": [
+        "Serenata",
+        "Despecho",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=rxqhYXAiD88"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=rxqhYXAiD88"
+  },
+  {
+    "title": "Madrigal",
+    "normalizedTitle": "madrigal",
+    "artist": "Danny Rivera",
+    "normalizedArtist": "danny rivera",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Malagueña",
+    "normalizedTitle": "malaguena",
+    "artist": "Miguel A. Mejias",
+    "normalizedArtist": "miguel a mejias",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Mary es mi amor",
+    "normalizedTitle": "mary es mi amor",
+    "artist": "Leo Dan",
+    "normalizedArtist": "leo dan",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Mas Alla (Para bodas)",
+    "normalizedTitle": "mas alla para bodas",
+    "artist": "Javier Solis",
+    "normalizedArtist": "javier solis",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Mas que tu amigo",
+    "normalizedTitle": "mas que tu amigo",
+    "artist": "Marco Antonio Solis",
+    "normalizedArtist": "marco antonio solis",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "muRhO8ZRNI2FvTky7lp3",
+      "occasions": [
+        "Fiestas",
+        "Cumpleaños",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=NE79RDnDQ5U"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=NE79RDnDQ5U"
+  },
+  {
+    "title": "Me Muero",
+    "normalizedTitle": "me muero",
+    "artist": "La Quinta Estacion",
+    "normalizedArtist": "quinta estacion",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Mi compañera",
+    "normalizedTitle": "mi companera",
+    "artist": "Los Antares",
+    "normalizedArtist": "antares",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Mi eterno amor secreto",
+    "normalizedTitle": "mi eterno amor secreto",
+    "artist": "Marco Antonio Solis",
+    "normalizedArtist": "marco antonio solis",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "17zlcoY8kjXaDddCPrlK",
+      "occasions": [
+        "Serenata",
+        "Despecho",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=9vtPruNZFHo"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=9vtPruNZFHo"
+  },
+  {
+    "title": "Mi forma de sentir",
+    "normalizedTitle": "mi forma de sentir",
+    "artist": "Pedro Fernandez",
+    "normalizedArtist": "pedro fernandez",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "KhD17cYvBghMlW0Ay2oS",
+      "occasions": [
+        "Serenata",
+        "Bodas",
+        "Fiestas"
+      ],
+      "link": "https://youtube.com/watch?v=rV99-gKpeAU"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=rV99-gKpeAU"
+  },
+  {
+    "title": "Mi Mayor Anhelo",
+    "normalizedTitle": "mi mayor anhelo",
+    "artist": "Mariachi Nuevo Tecalitlan",
+    "normalizedArtist": "nuevo tecalitlan",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Mi Razon de ser",
+    "normalizedTitle": "mi razon de ser",
+    "artist": "Mariachi Nuevo Tecalitlan",
+    "normalizedArtist": "nuevo tecalitlan",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Mia",
+    "normalizedTitle": "mia",
+    "artist": "Sol de mexico",
+    "normalizedArtist": "sol de mexico",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Mil años",
+    "normalizedTitle": "mil anos",
+    "artist": "Leo Dan",
+    "normalizedArtist": "leo dan",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "xLKAUpiDgSpmJXYJKtZT",
+      "occasions": [
+        "Serenata",
+        "Bodas",
+        "Aniversarios"
+      ],
+      "link": "https://youtube.com/watch?v=_MTgyEPlwgY"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=_MTgyEPlwgY"
+  },
+  {
+    "title": "Motivos",
+    "normalizedTitle": "motivos",
+    "artist": "Vicente Fernandez",
+    "normalizedArtist": "vicente fernandez",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "loywQ23Nf8L5LTITXnfk",
+      "occasions": [
+        "Serenata",
+        "Despecho",
+        "Fiestas"
+      ],
+      "link": "https://youtube.com/watch?v=53rcvrsB60c"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=53rcvrsB60c"
+  },
+  {
+    "title": "Mucho Corazon",
+    "normalizedTitle": "mucho corazon",
+    "artist": "Luis miguel",
+    "normalizedArtist": "luis miguel",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "hEWq4NrjXkuz1QQDLcvN",
+      "occasions": [
+        "Serenata",
+        "Ambientación",
+        "Despecho"
+      ],
+      "link": "https://youtube.com/watch?v=NXAmH-7Tzt8"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=NXAmH-7Tzt8"
+  },
+  {
+    "title": "Mujeres divinas",
+    "normalizedTitle": "mujeres divinas",
+    "artist": "Vicente Fernandez",
+    "normalizedArtist": "vicente fernandez",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "WvavhOq7CXtjC5HIEaA7",
+      "occasions": [
+        "Fiestas",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=xa2GLqL12Zk"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=xa2GLqL12Zk"
+  },
+  {
+    "title": "Muñequita linda",
+    "normalizedTitle": "munequita linda",
+    "artist": "Javier Solis",
+    "normalizedArtist": "javier solis",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "LzGwJx2cVKyRD3XYqvf4",
+      "occasions": [
+        "Serenata",
+        "Día de la Madre",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=vILPMrC0fR0"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=vILPMrC0fR0"
+  },
+  {
+    "title": "Niña amada mía",
+    "normalizedTitle": "nina amada mia",
+    "artist": "Alejandro Fernandez",
+    "normalizedArtist": "alejandro fernandez",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "wyJ0gJjCicm2GyYEmDfx",
+      "occasions": [
+        "Serenata",
+        "Bodas",
+        "Día de la Madre"
+      ],
+      "link": "https://youtube.com/watch?v=1IewjdQMlbQ"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=1IewjdQMlbQ"
+  },
+  {
+    "title": "Nosotros",
+    "normalizedTitle": "nosotros",
+    "artist": "Mariachi Vargas",
+    "normalizedArtist": "vargas",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "YPvVyTBPpMXUGy6iPQ0y",
+      "occasions": [
+        "Serenata",
+        "Despecho",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=YLEDN5VB0x4"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=YLEDN5VB0x4"
+  },
+  {
+    "title": "Nuestro juramento",
+    "normalizedTitle": "nuestro juramento",
+    "artist": "Vicente Fernandez",
+    "normalizedArtist": "vicente fernandez",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Obsesion",
+    "normalizedTitle": "obsesion",
+    "artist": "Javier Solis",
+    "normalizedArtist": "javier solis",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "sw8n6kFoOPG2aRaewpVn",
+      "occasions": [
+        "Serenata",
+        "Despecho",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=GuoLu1t9CmQ"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=GuoLu1t9CmQ"
+  },
+  {
+    "title": "Ojitos Traidores",
+    "normalizedTitle": "ojitos traidores",
+    "artist": "Javier Solis",
+    "normalizedArtist": "javier solis",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "QbxFiweHaGggV8icx4ZF",
+      "occasions": [
+        "Serenata",
+        "Despecho",
+        "Fiestas"
+      ],
+      "link": "https://youtube.com/watch?v=ppYGKtTMx8E"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=ppYGKtTMx8E"
+  },
+  {
+    "title": "Para siempre",
+    "normalizedTitle": "para siempre",
+    "artist": "Vicente Fernandez",
+    "normalizedArtist": "vicente fernandez",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "ohFwE4501xUxMRETxUif",
+      "occasions": [
+        "Bodas",
+        "Aniversarios",
+        "Serenata"
+      ],
+      "link": "https://youtube.com/watch?v=9fqPtmLAU3I"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=9fqPtmLAU3I"
+  },
+  {
+    "title": "Perfidia",
+    "normalizedTitle": "perfidia",
+    "artist": "Javier Solis",
+    "normalizedArtist": "javier solis",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "z4ENGWcVxMlkPMvv5PzY",
+      "occasions": [
+        "Serenata",
+        "Despecho",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=up6Y-VCd1c8"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=up6Y-VCd1c8"
+  },
+  {
+    "title": "Perfume de gardenias",
+    "normalizedTitle": "perfume de gardenias",
+    "artist": "Javier Solis",
+    "normalizedArtist": "javier solis",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "kSaJIu49v8nzqS9mzxyL",
+      "occasions": [
+        "Serenata",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=I_f8p0itXFw"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=I_f8p0itXFw"
+  },
+  {
+    "title": "Pideme la luna",
+    "normalizedTitle": "pideme la luna",
+    "artist": "Leo Dan",
+    "normalizedArtist": "leo dan",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "xpo5wGvaIGS1EbIXrKPh",
+      "occasions": [
+        "Serenata",
+        "Despecho",
+        "Fiestas"
+      ],
+      "link": "https://youtube.com/watch?v=1aSc2xjtn6M"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=1aSc2xjtn6M"
+  },
+  {
+    "title": "Por Amor",
+    "normalizedTitle": "por amor",
+    "artist": "Mariachi Vargas",
+    "normalizedArtist": "vargas",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "d8F8eKKcBPF9a5c6Dwa6",
+      "occasions": [
+        "Serenata",
+        "Bodas",
+        "Aniversarios"
+      ],
+      "link": "https://youtube.com/watch?v=x3lryVwGKJA"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=x3lryVwGKJA"
+  },
+  {
+    "title": "Por debajo de la mesa",
+    "normalizedTitle": "por debajo de la mesa",
+    "artist": "Luis miguel",
+    "normalizedArtist": "luis miguel",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "2hNEpb4B8PrNinY0ohq1",
+      "occasions": [
+        "Serenata",
+        "Ambientación",
+        "Bodas"
+      ],
+      "link": "https://youtube.com/watch?v=giAE7Yz7gHI"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=giAE7Yz7gHI"
+  },
+  {
+    "title": "Por una Mujer Bonita",
+    "normalizedTitle": "por una mujer bonita",
+    "artist": "Pepe Aguilar",
+    "normalizedArtist": "pepe aguilar",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Prometo",
+    "normalizedTitle": "prometo",
+    "artist": "Fonseca",
+    "normalizedArtist": "fonseca",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Qué bonito amor",
+    "normalizedTitle": "que bonito amor",
+    "artist": "LHDM",
+    "normalizedArtist": "lhdm",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Que se mueran de envidia",
+    "normalizedTitle": "que se mueran de envidia",
+    "artist": "Javier Solis",
+    "normalizedArtist": "javier solis",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "cN9tLbymrpO0EsQttTGC",
+      "occasions": [
+        "Serenata",
+        "Despecho",
+        "Fiestas"
+      ],
+      "link": "https://youtube.com/watch?v=E8kPtvFYgq0"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=E8kPtvFYgq0"
+  },
+  {
+    "title": "Reloj",
+    "normalizedTitle": "reloj",
+    "artist": "Mariachi Imperial",
+    "normalizedArtist": "imperial",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)",
+      "Despedidas"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano",
+      "despedidas"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Sabes una cosa",
+    "normalizedTitle": "sabes una cosa",
+    "artist": "Luis Miguel",
+    "normalizedArtist": "luis miguel",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "1tzfoC1XvdYpJAb4W39q",
+      "occasions": [
+        "Serenata",
+        "Fiestas"
+      ],
+      "link": "https://youtube.com/watch?v=UuGrc3vvdMw"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=UuGrc3vvdMw"
+  },
+  {
+    "title": "Sabor a mi",
+    "normalizedTitle": "sabor a mi",
+    "artist": "Mariachi Imperial",
+    "normalizedArtist": "imperial",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "secreto de amor",
+    "normalizedTitle": "secreto de amor",
+    "artist": "Joan Sebastian",
+    "normalizedArtist": "joan sebastian",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Señora bonita",
+    "normalizedTitle": "senora bonita",
+    "artist": "Jose Luis Rodriguez",
+    "normalizedArtist": "jose luis rodriguez",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Serenata Huasteca",
+    "normalizedTitle": "serenata huasteca",
+    "artist": "J. A. Jimenez",
+    "normalizedArtist": "j a jimenez",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Si nos dejan",
+    "normalizedTitle": "si nos dejan",
+    "artist": "Luis Miguel",
+    "normalizedArtist": "luis miguel",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)",
+      "Reconciliaciones"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano",
+      "reconciliaciones"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "Rrvbx06UU5LpjAlGw02A",
+      "occasions": [
+        "Ambientación",
+        "Bodas",
+        "Serenata"
+      ],
+      "link": "https://www.youtube.com/watch?v=KxTYGHcH-Do&pp=ygUYc2kgbm9zIGRlamFuIGx1aXMgbWlndWVs"
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=KxTYGHcH-Do&pp=ygUYc2kgbm9zIGRlamFuIGx1aXMgbWlndWVs"
+  },
+  {
+    "title": "Si quieres",
+    "normalizedTitle": "si quieres",
+    "artist": "Juan Gabriel",
+    "normalizedArtist": "juan gabriel",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "ce5NuWtsiuVdSTkvtSpC",
+      "occasions": [
+        "Serenata",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=vjb39UwDDIo"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=vjb39UwDDIo"
+  },
+  {
+    "title": "Sin ti",
+    "normalizedTitle": "sin ti",
+    "artist": "Vicente Fernandez",
+    "normalizedArtist": "vicente fernandez",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "dRbBSuPK5DKo25YniHnP",
+      "occasions": [
+        "Despecho",
+        "Serenata",
+        "Funerales"
+      ],
+      "link": "https://youtube.com/watch?v=O3qRy6KJGNU"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=O3qRy6KJGNU"
+  },
+  {
+    "title": "Solamente una vez",
+    "normalizedTitle": "solamente una vez",
+    "artist": "Luis Miguel",
+    "normalizedArtist": "luis miguel",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "ctcJlsAt3kUOplsWdBrE",
+      "occasions": [
+        "Serenata",
+        "Bodas",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=uAYqCRIc2IA"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=uAYqCRIc2IA"
+  },
+  {
+    "title": "Sombras",
+    "normalizedTitle": "sombras",
+    "artist": "Javier Solis",
+    "normalizedArtist": "javier solis",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "IgncWHkfU3AbQlSYeTAb",
+      "occasions": [
+        "Despecho",
+        "Serenata",
+        "Funerales"
+      ],
+      "link": "https://youtube.com/watch?v=UasiMOoMz1o"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=UasiMOoMz1o"
+  },
+  {
+    "title": "Somos novios",
+    "normalizedTitle": "somos novios",
+    "artist": "Mariachi Vargas",
+    "normalizedArtist": "vargas",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "fHLZPZLKXZmWdDtTvaYt",
+      "occasions": [
+        "Serenata",
+        "Bodas",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=XKP46zd8tqc"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=XKP46zd8tqc"
+  },
+  {
+    "title": "Te amare toda la vida",
+    "normalizedTitle": "te amare toda la vida",
+    "artist": "Javier Solis",
+    "normalizedArtist": "javier solis",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "pt0NQ65lmoZmmBktiQdM",
+      "occasions": [
+        "Serenata",
+        "Bodas",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=WR8hx7u2xWw"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=WR8hx7u2xWw"
+  },
+  {
+    "title": "Te he prometido",
+    "normalizedTitle": "te he prometido",
+    "artist": "Leo Dan",
+    "normalizedArtist": "leo dan",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "R222rxxXruMzNQOboLup",
+      "occasions": [
+        "Serenata",
+        "Bodas",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=sRXQH4rZrUA"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=sRXQH4rZrUA"
+  },
+  {
+    "title": "Te lo pido por favor",
+    "normalizedTitle": "te lo pido por favor",
+    "artist": "Juan Gabriel",
+    "normalizedArtist": "juan gabriel",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)",
+      "Reconciliaciones"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano",
+      "reconciliaciones"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "iaNxzKdRFmknJx4Md9EA",
+      "occasions": [
+        "Serenata",
+        "Despecho",
+        "Ambientación",
+        "Funerales"
+      ],
+      "link": "https://youtube.com/watch?v=Of3Y_IcbbuU"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=Of3Y_IcbbuU"
+  },
+  {
+    "title": "Toda una vida",
+    "normalizedTitle": "toda una vida",
+    "artist": "LHDM",
+    "normalizedArtist": "lhdm",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Un Hombre normal",
+    "normalizedTitle": "un hombre normal",
+    "artist": "Mariachi Nuevo Tecalitlan",
+    "normalizedArtist": "nuevo tecalitlan",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Usted",
+    "normalizedTitle": "usted",
+    "artist": "MCL",
+    "normalizedArtist": "mcl",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Veinticinco Rosas",
+    "normalizedTitle": "veinticinco rosas",
+    "artist": "Joan Sebastian",
+    "normalizedArtist": "joan sebastian",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Ya lo pasado, pasado",
+    "normalizedTitle": "ya lo pasado pasado",
+    "artist": "Jose jose",
+    "normalizedArtist": "jose jose",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "1Da7mFr3Zio7arR8ycdd",
+      "occasions": [
+        "Ambientación",
+        "Despecho",
+        "Fiestas"
+      ],
+      "link": "https://youtu.be/M1RZBYPIs-8"
+    },
+    "youtubeUrl": "https://youtu.be/M1RZBYPIs-8"
+  },
+  {
+    "title": "yo puedo hacer",
+    "normalizedTitle": "yo puedo hacer",
+    "artist": "Ricardo montaner",
+    "normalizedArtist": "ricardo montaner",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Tu tonta falta de querer",
+    "normalizedTitle": "tu tonta falta de querer",
+    "artist": "Mon Laferte",
+    "normalizedArtist": "mon laferte",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Triunfamos",
+    "normalizedTitle": "triunfamos",
+    "artist": "Mariachi",
+    "normalizedArtist": "",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Me Gusta",
+    "normalizedTitle": "me gusta",
+    "artist": "Joan Sebastian",
+    "normalizedArtist": "joan sebastian",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Abrázame muy fuerte",
+    "normalizedTitle": "abrazame muy fuerte",
+    "artist": "Juan Gabriel",
+    "normalizedArtist": "juan gabriel",
+    "originalCategories": [
+      "Romanticas (Aniversarios, enamorados, pedidas de mano)",
+      "Reconciliaciones",
+      "Despedidas"
+    ],
+    "normalizedCategories": [
+      "romanticas aniversarios enamorados pedidas mano",
+      "reconciliaciones",
+      "despedidas"
+    ],
+    "mappedCategory": "aniversarios",
+    "firestoreMatch": {
+      "id": "eiA0SWBA0k7ol5s7Y1pd",
+      "occasions": [
+        "Serenata",
+        "Bodas",
+        "Fiestas",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=_tNVEhSelH0"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=_tNVEhSelH0"
+  },
+  {
+    "title": "Como tu sangre en mi cuerpo",
+    "normalizedTitle": "como tu sangre en mi cuerpo",
+    "artist": "Angela Aguilar",
+    "normalizedArtist": "angela aguilar",
+    "originalCategories": [
+      "Quinceañera"
+    ],
+    "normalizedCategories": [
+      "quinceaneras"
+    ],
+    "mappedCategory": "quinceaneras",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Caminos de la vida",
+    "normalizedTitle": "caminos de la vida",
+    "artist": "Cielito Lindo",
+    "normalizedArtist": "cielito lindo",
+    "originalCategories": [
+      "Quinceañera",
+      "Canciones Para Mamá"
+    ],
+    "normalizedCategories": [
+      "quinceaneras",
+      "mama"
+    ],
+    "mappedCategory": "quinceaneras",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Luisa María",
+    "normalizedTitle": "luisa maria",
+    "artist": "Juan Gabriel",
+    "normalizedArtist": "juan gabriel",
+    "originalCategories": [
+      "Quinceañera"
+    ],
+    "normalizedCategories": [
+      "quinceaneras"
+    ],
+    "mappedCategory": "quinceaneras",
+    "firestoreMatch": {
+      "id": "Tpx4aroXxE7REL9IeWya",
+      "occasions": [
+        "Serenata",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=R12yfnab-ZQ"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=R12yfnab-ZQ"
+  },
+  {
+    "title": "Mágicas princesas",
+    "normalizedTitle": "magicas princesas",
+    "artist": "Jesus Adrian Romero",
+    "normalizedArtist": "jesus adrian romero",
+    "originalCategories": [
+      "Quinceañera"
+    ],
+    "normalizedCategories": [
+      "quinceaneras"
+    ],
+    "mappedCategory": "quinceaneras",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Mi niña bonita",
+    "normalizedTitle": "mi nina bonita",
+    "artist": "Vicente Fernandez",
+    "normalizedArtist": "vicente fernandez",
+    "originalCategories": [
+      "Quinceañera"
+    ],
+    "normalizedCategories": [
+      "quinceaneras"
+    ],
+    "mappedCategory": "quinceaneras",
+    "firestoreMatch": {
+      "id": "RdTjq0Oe8bMHPqlkus72",
+      "occasions": [
+        "Quinceañeras",
+        "Cumpleaños",
+        "Día del Padre",
+        "Día de la Madre",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=1npHMXZfmbY"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=1npHMXZfmbY"
+  },
+  {
+    "title": "No crezcas mas",
+    "normalizedTitle": "no crezcas mas",
+    "artist": "MCL",
+    "normalizedArtist": "mcl",
+    "originalCategories": [
+      "Quinceañera"
+    ],
+    "normalizedCategories": [
+      "quinceaneras"
+    ],
+    "mappedCategory": "quinceaneras",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Quince primaveras",
+    "normalizedTitle": "quince primaveras",
+    "artist": "Vicente Fernandez",
+    "normalizedArtist": "vicente fernandez",
+    "originalCategories": [
+      "Quinceañera"
+    ],
+    "normalizedCategories": [
+      "quinceaneras"
+    ],
+    "mappedCategory": "quinceaneras",
+    "firestoreMatch": {
+      "id": "uTTho8IuPwLPyUZyY6t1",
+      "occasions": [
+        "Quinceañeras",
+        "Cumpleaños",
+        "Fiestas"
+      ],
+      "link": "https://youtube.com/watch?v=rYclZ_Y0rH4"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=rYclZ_Y0rH4"
+  },
+  {
+    "title": "Quinceañera",
+    "normalizedTitle": "quinceanera",
+    "artist": "Thalia",
+    "normalizedArtist": "thalia",
+    "originalCategories": [
+      "Quinceañera"
+    ],
+    "normalizedCategories": [
+      "quinceaneras"
+    ],
+    "mappedCategory": "quinceaneras",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Ya tiene 15 años",
+    "normalizedTitle": "ya tiene 15 anos",
+    "artist": "Aladino",
+    "normalizedArtist": "aladino",
+    "originalCategories": [
+      "Quinceañera"
+    ],
+    "normalizedCategories": [
+      "quinceaneras"
+    ],
+    "mappedCategory": "quinceaneras",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Yo te esperaba",
+    "normalizedTitle": "yo te esperaba",
+    "artist": "MCL",
+    "normalizedArtist": "mcl",
+    "originalCategories": [
+      "Quinceañera"
+    ],
+    "normalizedCategories": [
+      "quinceaneras"
+    ],
+    "mappedCategory": "quinceaneras",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Hermoso Cariño",
+    "normalizedTitle": "hermoso carino",
+    "artist": "Vicente Fernandez",
+    "normalizedArtist": "vicente fernandez",
+    "originalCategories": [
+      "Quinceañera"
+    ],
+    "normalizedCategories": [
+      "quinceaneras"
+    ],
+    "mappedCategory": "quinceaneras",
+    "firestoreMatch": {
+      "id": "7Qs6Gtf5SSADQnjOnqlu",
+      "occasions": [
+        "Serenata",
+        "Fiestas",
+        "Ambientación",
+        "Día de la Madre"
+      ],
+      "link": "https://youtube.com/watch?v=oq70h9XBj_0"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=oq70h9XBj_0"
+  },
+  {
+    "title": "Perdón",
+    "normalizedTitle": "perdon",
+    "artist": "Vicente Fernandez",
+    "normalizedArtist": "vicente fernandez",
+    "originalCategories": [
+      "Reconciliaciones"
+    ],
+    "normalizedCategories": [
+      "reconciliaciones"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Si no te hubieras ido",
+    "normalizedTitle": "si no te hubieras ido",
+    "artist": "Marco Antonio Solis",
+    "normalizedArtist": "marco antonio solis",
+    "originalCategories": [
+      "Reconciliaciones"
+    ],
+    "normalizedCategories": [
+      "reconciliaciones"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": {
+      "id": "ARnpYCSQFmro6Ys8TnRb",
+      "occasions": [
+        "Despecho",
+        "Serenata",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=gH8oCh1nn88"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=gH8oCh1nn88"
+  },
+  {
+    "title": "Volver, volver",
+    "normalizedTitle": "volver volver",
+    "artist": "Vicente Fernandez",
+    "normalizedArtist": "vicente fernandez",
+    "originalCategories": [
+      "Reconciliaciones",
+      "Despedidas"
+    ],
+    "normalizedCategories": [
+      "reconciliaciones",
+      "despedidas"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": {
+      "id": "qRFKhykzRhOkp1aP3zCP",
+      "occasions": [
+        "Despecho",
+        "Fiestas",
+        "Serenata",
+        "Funerales"
+      ],
+      "link": "https://youtube.com/watch?v=gZVKe_0n7tg"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=gZVKe_0n7tg"
+  },
+  {
+    "title": "Te sigo amando",
+    "normalizedTitle": "te sigo amando",
+    "artist": "Juan Gabriel",
+    "normalizedArtist": "juan gabriel",
+    "originalCategories": [
+      "Reconciliaciones"
+    ],
+    "normalizedCategories": [
+      "reconciliaciones"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Quien",
+    "normalizedTitle": "quien",
+    "artist": "Pedro Fernandez",
+    "normalizedArtist": "pedro fernandez",
+    "originalCategories": [
+      "Reconciliaciones"
+    ],
+    "normalizedCategories": [
+      "reconciliaciones"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Probablemente ya",
+    "normalizedTitle": "probablemente ya",
+    "artist": "Juan Gabriel",
+    "normalizedArtist": "juan gabriel",
+    "originalCategories": [
+      "Reconciliaciones",
+      "Despedidas"
+    ],
+    "normalizedCategories": [
+      "reconciliaciones",
+      "despedidas"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": {
+      "id": "n1DVT745niGsaStHwgiL",
+      "occasions": [
+        "Serenata",
+        "Despecho"
+      ],
+      "link": "https://youtube.com/watch?v=g5rsnxJWNkM"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=g5rsnxJWNkM"
+  },
+  {
+    "title": "Poquita fe",
+    "normalizedTitle": "poquita fe",
+    "artist": "Sol de Mexico",
+    "normalizedArtist": "sol de mexico",
+    "originalCategories": [
+      "Reconciliaciones"
+    ],
+    "normalizedCategories": [
+      "reconciliaciones"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Probablemente",
+    "normalizedTitle": "probablemente",
+    "artist": "Cristian Nodal",
+    "normalizedArtist": "cristian nodal",
+    "originalCategories": [
+      "Reconciliaciones"
+    ],
+    "normalizedCategories": [
+      "reconciliaciones"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Dulce pecado",
+    "normalizedTitle": "dulce pecado",
+    "artist": "Jesse Uribe",
+    "normalizedArtist": "jesse uribe",
+    "originalCategories": [
+      "Reconciliaciones"
+    ],
+    "normalizedCategories": [
+      "reconciliaciones"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Algo se me fue contigo madre",
+    "normalizedTitle": "algo se me fue contigo madre",
+    "artist": "Rocio Jurado",
+    "normalizedArtist": "rocio jurado",
+    "originalCategories": [
+      "Velorios y sepelios"
+    ],
+    "normalizedCategories": [
+      "velorios sepelios"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Alzo mi voz",
+    "normalizedTitle": "alzo mi voz",
+    "artist": "Tercer Cielo",
+    "normalizedArtist": "tercer cielo",
+    "originalCategories": [
+      "Velorios y sepelios"
+    ],
+    "normalizedCategories": [
+      "velorios sepelios"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Amor eterno",
+    "normalizedTitle": "amor eterno",
+    "artist": "Rocio Durcal",
+    "normalizedArtist": "rocio durcal",
+    "originalCategories": [
+      "Velorios y sepelios"
+    ],
+    "normalizedCategories": [
+      "velorios sepelios"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": {
+      "id": "Tt8Yy48nOHYvtOxVeOWV",
+      "occasions": [
+        "Funerales",
+        "Día de la Madre",
+        "Ambientación",
+        "Bodas"
+      ],
+      "link": "https://youtube.com/watch?v=7XAUNqTOQx8"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=7XAUNqTOQx8"
+  },
+  {
+    "title": "Collar de lágrimas",
+    "normalizedTitle": "collar de lagrimas",
+    "artist": "Musica Nacional",
+    "normalizedArtist": "musica nacional",
+    "originalCategories": [
+      "Velorios y sepelios",
+      "Despedidas"
+    ],
+    "normalizedCategories": [
+      "velorios sepelios",
+      "despedidas"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Amigo",
+    "normalizedTitle": "amigo",
+    "artist": "Pedro Fernandez",
+    "normalizedArtist": "pedro fernandez",
+    "originalCategories": [
+      "Velorios y sepelios",
+      "Canciones Para Mamá",
+      "Canciones para Papa",
+      "Despedidas"
+    ],
+    "normalizedCategories": [
+      "velorios sepelios",
+      "mama",
+      "papa",
+      "despedidas"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Con la tierra encima",
+    "normalizedTitle": "con la tierra encima",
+    "artist": "El Charro Negro",
+    "normalizedArtist": "charro negro",
+    "originalCategories": [
+      "Velorios y sepelios"
+    ],
+    "normalizedCategories": [
+      "velorios sepelios"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Cuando quería ser grande",
+    "normalizedTitle": "cuando queria ser grande",
+    "artist": "Vicente Fernandez",
+    "normalizedArtist": "vicente fernandez",
+    "originalCategories": [
+      "Velorios y sepelios"
+    ],
+    "normalizedCategories": [
+      "velorios sepelios"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Cuando un amigo se va (Velorio)",
+    "normalizedTitle": "cuando un amigo se va velorio",
+    "artist": "Alberto Cortez",
+    "normalizedArtist": "alberto cortez",
+    "originalCategories": [
+      "Velorios y sepelios"
+    ],
+    "normalizedCategories": [
+      "velorios sepelios"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Cuatro cirios",
+    "normalizedTitle": "cuatro cirios",
+    "artist": "Javier Solis",
+    "normalizedArtist": "javier solis",
+    "originalCategories": [
+      "Velorios y sepelios"
+    ],
+    "normalizedCategories": [
+      "velorios sepelios"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": {
+      "id": "PbvtciMaIsaDNxawIP3G",
+      "occasions": [
+        "Funerales",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=HHQp--3AB04"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=HHQp--3AB04"
+  },
+  {
+    "title": "Donde estara mi primavera",
+    "normalizedTitle": "donde estara mi primavera",
+    "artist": "Marco Antonio Solis",
+    "normalizedArtist": "marco antonio solis",
+    "originalCategories": [
+      "Velorios y sepelios"
+    ],
+    "normalizedCategories": [
+      "velorios sepelios"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Donde estas corazón",
+    "normalizedTitle": "donde estas corazon",
+    "artist": "Vicente Fernandez",
+    "normalizedArtist": "vicente fernandez",
+    "originalCategories": [
+      "Velorios y sepelios"
+    ],
+    "normalizedCategories": [
+      "velorios sepelios"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Madre cariñito santo",
+    "normalizedTitle": "madre carinito santo",
+    "artist": "Julio Jaramillo",
+    "normalizedArtist": "julio jaramillo",
+    "originalCategories": [
+      "Velorios y sepelios",
+      "Canciones Para Mamá"
+    ],
+    "normalizedCategories": [
+      "velorios sepelios",
+      "mama"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": {
+      "id": "tWIihqu98PaBRuzPHQFl",
+      "occasions": [
+        "Día de la Madre",
+        "Cumpleaños",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=rGJ4TfuFAKg"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=rGJ4TfuFAKg"
+  },
+  {
+    "title": "Ya lo se que tu te vas",
+    "normalizedTitle": "ya lo se que tu te vas",
+    "artist": "Juan Gabriel",
+    "normalizedArtist": "juan gabriel",
+    "originalCategories": [
+      "Velorios y sepelios"
+    ],
+    "normalizedCategories": [
+      "velorios sepelios"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Tristes recuerdos",
+    "normalizedTitle": "tristes recuerdos",
+    "artist": "Antonio Aguilar",
+    "normalizedArtist": "antonio aguilar",
+    "originalCategories": [
+      "Velorios y sepelios"
+    ],
+    "normalizedCategories": [
+      "velorios sepelios"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "El rey",
+    "normalizedTitle": "el rey",
+    "artist": "J.A. Jimenez",
+    "normalizedArtist": "ja jimenez",
+    "originalCategories": [
+      "Velorios y sepelios"
+    ],
+    "normalizedCategories": [
+      "velorios sepelios"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Nadie es eterno en el mundo",
+    "normalizedTitle": "nadie es eterno en el mundo",
+    "artist": "Antonio Aguilar",
+    "normalizedArtist": "antonio aguilar",
+    "originalCategories": [
+      "Velorios y sepelios"
+    ],
+    "normalizedCategories": [
+      "velorios sepelios"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Nube viajera",
+    "normalizedTitle": "nube viajera",
+    "artist": "Alejandro Fernandez",
+    "normalizedArtist": "alejandro fernandez",
+    "originalCategories": [
+      "Velorios y sepelios"
+    ],
+    "normalizedCategories": [
+      "velorios sepelios"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": {
+      "id": "F09nMU0KjmBRaAxIXKmO",
+      "occasions": [
+        "Serenata",
+        "Despecho",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=ZTPVeup5UFk"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=ZTPVeup5UFk"
+  },
+  {
+    "title": "Sin verte",
+    "normalizedTitle": "sin verte",
+    "artist": "Pedro Fernandez",
+    "normalizedArtist": "pedro fernandez",
+    "originalCategories": [
+      "Velorios y sepelios"
+    ],
+    "normalizedCategories": [
+      "velorios sepelios"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": {
+      "id": "UyXuJf0w6zAIBKLkpUeE",
+      "occasions": [
+        "Despecho",
+        "Serenata",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=H9ivAZdrF-8"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=H9ivAZdrF-8"
+  },
+  {
+    "title": "Yo te extrañare",
+    "normalizedTitle": "yo te extranare",
+    "artist": "Tercer Cielo",
+    "normalizedArtist": "tercer cielo",
+    "originalCategories": [
+      "Velorios y sepelios"
+    ],
+    "normalizedCategories": [
+      "velorios sepelios"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Alabaré",
+    "normalizedTitle": "alabare",
+    "artist": "Cristiana",
+    "normalizedArtist": "cristiana",
+    "originalCategories": [
+      "Cristiana"
+    ],
+    "normalizedCategories": [
+      "cristiana"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Como no creer en Dios",
+    "normalizedTitle": "como no creer en dios",
+    "artist": "Cristiana",
+    "normalizedArtist": "cristiana",
+    "originalCategories": [
+      "Cristiana"
+    ],
+    "normalizedCategories": [
+      "cristiana"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Dios está aquí",
+    "normalizedTitle": "dios esta aqui",
+    "artist": "Cristiana",
+    "normalizedArtist": "cristiana",
+    "originalCategories": [
+      "Cristiana"
+    ],
+    "normalizedCategories": [
+      "cristiana"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Escalando peldaños",
+    "normalizedTitle": "escalando peldanos",
+    "artist": "Cristiana",
+    "normalizedArtist": "cristiana",
+    "originalCategories": [
+      "Cristiana"
+    ],
+    "normalizedCategories": [
+      "cristiana"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Josué 1:9",
+    "normalizedTitle": "josue 19",
+    "artist": "Cristiana",
+    "normalizedArtist": "cristiana",
+    "originalCategories": [
+      "Cristiana"
+    ],
+    "normalizedCategories": [
+      "cristiana"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "La niña de tus ojos",
+    "normalizedTitle": "la nina de tus ojos",
+    "artist": "Cristiana",
+    "normalizedArtist": "cristiana",
+    "originalCategories": [
+      "Cristiana"
+    ],
+    "normalizedCategories": [
+      "cristiana"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Mi Vida sin ti",
+    "normalizedTitle": "mi vida sin ti",
+    "artist": "Cristiana",
+    "normalizedArtist": "cristiana",
+    "originalCategories": [
+      "Cristiana"
+    ],
+    "normalizedCategories": [
+      "cristiana"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Mujer virtuosa",
+    "normalizedTitle": "mujer virtuosa",
+    "artist": "Cristiana",
+    "normalizedArtist": "cristiana",
+    "originalCategories": [
+      "Cristiana"
+    ],
+    "normalizedCategories": [
+      "cristiana"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Por el camino del evangelio",
+    "normalizedTitle": "por el camino del evangelio",
+    "artist": "Cristiano",
+    "normalizedArtist": "cristiano",
+    "originalCategories": [
+      "Cristiana"
+    ],
+    "normalizedCategories": [
+      "cristiana"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Si Cristo toca tu puerta",
+    "normalizedTitle": "si cristo toca tu puerta",
+    "artist": "Cristiana",
+    "normalizedArtist": "cristiana",
+    "originalCategories": [
+      "Cristiana"
+    ],
+    "normalizedCategories": [
+      "cristiana"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Jesús es mi pastor",
+    "normalizedTitle": "jesus es mi pastor",
+    "artist": "Leo Dan",
+    "normalizedArtist": "leo dan",
+    "originalCategories": [
+      "Cristiana"
+    ],
+    "normalizedCategories": [
+      "cristiana"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": {
+      "id": "QYfByrc2BbgsuxceEhtK",
+      "occasions": [
+        "Religioso",
+        "Funerales"
+      ],
+      "link": "https://youtube.com/watch?v=NJFesiSX7WE"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=NJFesiSX7WE"
+  },
+  {
+    "title": "Te vengo a decir",
+    "normalizedTitle": "te vengo a decir",
+    "artist": "Alex Campos",
+    "normalizedArtist": "alex campos",
+    "originalCategories": [
+      "Cristiana"
+    ],
+    "normalizedCategories": [
+      "cristiana"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Todo poderoso",
+    "normalizedTitle": "todo poderoso",
+    "artist": "Alex Campos",
+    "normalizedArtist": "alex campos",
+    "originalCategories": [
+      "Cristiana"
+    ],
+    "normalizedCategories": [
+      "cristiana"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Tu Poeta",
+    "normalizedTitle": "tu poeta",
+    "artist": "Alex Campos",
+    "normalizedArtist": "alex campos",
+    "originalCategories": [
+      "Cristiana"
+    ],
+    "normalizedCategories": [
+      "cristiana"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Un pacto con dios",
+    "normalizedTitle": "un pacto con dios",
+    "artist": "Rabito",
+    "normalizedArtist": "rabito",
+    "originalCategories": [
+      "Cristiana"
+    ],
+    "normalizedCategories": [
+      "cristiana"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "La Gloria De Dios",
+    "normalizedTitle": "la gloria de dios",
+    "artist": "Ricardo Montaner",
+    "normalizedArtist": "ricardo montaner",
+    "originalCategories": [
+      "La Boda"
+    ],
+    "normalizedCategories": [
+      "la boda"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Ave Maria",
+    "normalizedTitle": "ave maria",
+    "artist": "Rafael",
+    "normalizedArtist": "rafael",
+    "originalCategories": [
+      "Catolico y Cantos a la Virgen"
+    ],
+    "normalizedCategories": [
+      "catolico cantos a la virgen"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Ave María",
+    "normalizedTitle": "ave maria",
+    "artist": "Sol de Mexico",
+    "normalizedArtist": "sol de mexico",
+    "originalCategories": [
+      "Catolico y Cantos a la Virgen"
+    ],
+    "normalizedCategories": [
+      "catolico cantos a la virgen"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "He oído en la montaña",
+    "normalizedTitle": "he oido en la montana",
+    "artist": "Cristiana",
+    "normalizedArtist": "cristiana",
+    "originalCategories": [
+      "Catolico y Cantos a la Virgen"
+    ],
+    "normalizedCategories": [
+      "catolico cantos a la virgen"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Hoy he vuelto madre a recordar",
+    "normalizedTitle": "hoy he vuelto madre a recordar",
+    "artist": "Cristiana",
+    "normalizedArtist": "cristiana",
+    "originalCategories": [
+      "Catolico y Cantos a la Virgen"
+    ],
+    "normalizedCategories": [
+      "catolico cantos a la virgen"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Hoy te quiero cantar",
+    "normalizedTitle": "hoy te quiero cantar",
+    "artist": "Cristiana",
+    "normalizedArtist": "cristiana",
+    "originalCategories": [
+      "Catolico y Cantos a la Virgen"
+    ],
+    "normalizedCategories": [
+      "catolico cantos a la virgen"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Santa María Ven",
+    "normalizedTitle": "santa maria ven",
+    "artist": "Cristiana",
+    "normalizedArtist": "cristiana",
+    "originalCategories": [
+      "Catolico y Cantos a la Virgen"
+    ],
+    "normalizedCategories": [
+      "catolico cantos a la virgen"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Madre de los jóvenes",
+    "normalizedTitle": "madre de los jovenes",
+    "artist": "Javier Camarena",
+    "normalizedArtist": "javier camarena",
+    "originalCategories": [
+      "Catolico y Cantos a la Virgen"
+    ],
+    "normalizedCategories": [
+      "catolico cantos a la virgen"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "La guadalupana",
+    "normalizedTitle": "la guadalupana",
+    "artist": "laura sobrino",
+    "normalizedArtist": "laura sobrino",
+    "originalCategories": [
+      "Catolico y Cantos a la Virgen"
+    ],
+    "normalizedCategories": [
+      "catolico cantos a la virgen"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Mi Virgen bella",
+    "normalizedTitle": "mi virgen bella",
+    "artist": "Rocio Durcal",
+    "normalizedArtist": "rocio durcal",
+    "originalCategories": [
+      "Catolico y Cantos a la Virgen"
+    ],
+    "normalizedCategories": [
+      "catolico cantos a la virgen"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "A esa mujer",
+    "normalizedTitle": "a esa mujer",
+    "artist": "Mariachi Vargas",
+    "normalizedArtist": "vargas",
+    "originalCategories": [
+      "Canciones Para Mamá"
+    ],
+    "normalizedCategories": [
+      "mama"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": {
+      "id": "V3dvUKQ4Cvr5XdMcRrjA",
+      "occasions": [
+        "Serenata",
+        "Cumpleaños",
+        "Fiestas",
+        "Bodas"
+      ],
+      "link": "https://youtube.com/watch?v=3ql5nFBfyjQ"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=3ql5nFBfyjQ"
+  },
+  {
+    "title": "Amor de madre",
+    "normalizedTitle": "amor de madre",
+    "artist": "Victor manuelle",
+    "normalizedArtist": "victor manuelle",
+    "originalCategories": [
+      "Canciones Para Mamá"
+    ],
+    "normalizedCategories": [
+      "mama"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Bendita madre",
+    "normalizedTitle": "bendita madre",
+    "artist": "Servando Y Florentino",
+    "normalizedArtist": "servando y florentino",
+    "originalCategories": [
+      "Canciones Para Mamá"
+    ],
+    "normalizedCategories": [
+      "mama"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Canto a la madre",
+    "normalizedTitle": "canto a la madre",
+    "artist": "Pedro Fernandez",
+    "normalizedArtist": "pedro fernandez",
+    "originalCategories": [
+      "Canciones Para Mamá"
+    ],
+    "normalizedCategories": [
+      "mama"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": {
+      "id": "S5msQtYh5CLPgoYMjSbP",
+      "occasions": [
+        "Día de la Madre",
+        "Cumpleaños",
+        "Fiestas"
+      ],
+      "link": "https://youtube.com/watch?v=UZTiHZ_TLCY"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=UZTiHZ_TLCY"
+  },
+  {
+    "title": "Como te pago",
+    "normalizedTitle": "como te pago",
+    "artist": "Lenier",
+    "normalizedArtist": "lenier",
+    "originalCategories": [
+      "Canciones Para Mamá"
+    ],
+    "normalizedCategories": [
+      "mama"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Madre amiga fiel",
+    "normalizedTitle": "madre amiga fiel",
+    "artist": "Wilson Palma",
+    "normalizedArtist": "wilson palma",
+    "originalCategories": [
+      "Canciones Para Mamá"
+    ],
+    "normalizedCategories": [
+      "mama"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "A la sombra de mi madre",
+    "normalizedTitle": "a la sombra de mi madre",
+    "artist": "Leo Dan",
+    "normalizedArtist": "leo dan",
+    "originalCategories": [
+      "Canciones Para Mamá"
+    ],
+    "normalizedCategories": [
+      "mama"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": {
+      "id": "6zWh483YuABQU6kKpPdK",
+      "occasions": [
+        "Día de la Madre",
+        "Cumpleaños",
+        "Funerales",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=8iJd52xfLa0"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=8iJd52xfLa0"
+  },
+  {
+    "title": "Por el amor a mi madre",
+    "normalizedTitle": "por el amor a mi madre",
+    "artist": "Antonio Aguilar",
+    "normalizedArtist": "antonio aguilar",
+    "originalCategories": [
+      "Canciones Para Mamá"
+    ],
+    "normalizedCategories": [
+      "mama"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Querida amiga",
+    "normalizedTitle": "querida amiga",
+    "artist": "Pimpinela",
+    "normalizedArtist": "pimpinela",
+    "originalCategories": [
+      "Canciones Para Mamá"
+    ],
+    "normalizedCategories": [
+      "mama"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Regalo de un Hijo",
+    "normalizedTitle": "regalo de un hijo",
+    "artist": "Yolanda Del Rio",
+    "normalizedArtist": "yolanda del rio",
+    "originalCategories": [
+      "Canciones Para Mamá"
+    ],
+    "normalizedCategories": [
+      "mama"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Señora señora",
+    "normalizedTitle": "senora senora",
+    "artist": "Denisse Kalafel",
+    "normalizedArtist": "denisse kalafel",
+    "originalCategories": [
+      "Canciones Para Mamá"
+    ],
+    "normalizedCategories": [
+      "mama"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Versos a mi madre",
+    "normalizedTitle": "versos a mi madre",
+    "artist": "Julio Jaramillo",
+    "normalizedArtist": "julio jaramillo",
+    "originalCategories": [
+      "Canciones Para Mamá"
+    ],
+    "normalizedCategories": [
+      "mama"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Madrecita del alma querida",
+    "normalizedTitle": "madrecita del alma querida",
+    "artist": "José José",
+    "normalizedArtist": "jose jose",
+    "originalCategories": [
+      "Canciones Para Mamá"
+    ],
+    "normalizedCategories": [
+      "mama"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Mamá si llego a viejo",
+    "normalizedTitle": "mama si llego a viejo",
+    "artist": "Cialito Lindo",
+    "normalizedArtist": "cialito lindo",
+    "originalCategories": [
+      "Canciones Para Mamá"
+    ],
+    "normalizedCategories": [
+      "mama"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "A mi manera",
+    "normalizedTitle": "a mi manera",
+    "artist": "Vicente Fernandez",
+    "normalizedArtist": "vicente fernandez",
+    "originalCategories": [
+      "Canciones Para Mamá",
+      "Canciones para Papa"
+    ],
+    "normalizedCategories": [
+      "mama",
+      "papa"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": {
+      "id": "SNp9E8kAPLDwxAdYPbem",
+      "occasions": [
+        "Fiestas",
+        "Graduaciones",
+        "Funerales",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=9F_BRjGi3L8"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=9F_BRjGi3L8"
+  },
+  {
+    "title": "Chavela",
+    "normalizedTitle": "chavela",
+    "artist": "Antonio Aguilar",
+    "normalizedArtist": "antonio aguilar",
+    "originalCategories": [
+      "Canciones Para Mamá"
+    ],
+    "normalizedCategories": [
+      "mama"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Pintor",
+    "normalizedTitle": "pintor",
+    "artist": "Julio Jaramillo",
+    "normalizedArtist": "julio jaramillo",
+    "originalCategories": [
+      "Canciones Para Mamá"
+    ],
+    "normalizedCategories": [
+      "mama"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": {
+      "id": "chVzQrFA3LWRVSlCqbUT",
+      "occasions": [
+        "Serenata",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=RVY0WNq_EEM"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=RVY0WNq_EEM"
+  },
+  {
+    "title": "Caballo viejo",
+    "normalizedTitle": "caballo viejo",
+    "artist": "Jose Luis Rodriguez",
+    "normalizedArtist": "jose luis rodriguez",
+    "originalCategories": [
+      "Canciones para Papa",
+      "Cumbias"
+    ],
+    "normalizedCategories": [
+      "papa",
+      "cumbias"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "El hijo desobediente",
+    "normalizedTitle": "el hijo desobediente",
+    "artist": "Antonio Aguilar",
+    "normalizedArtist": "antonio aguilar",
+    "originalCategories": [
+      "Canciones para Papa"
+    ],
+    "normalizedCategories": [
+      "papa"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "El hombre que mas te amó",
+    "normalizedTitle": "el hombre que mas te amo",
+    "artist": "Vicente Fernandez",
+    "normalizedArtist": "vicente fernandez",
+    "originalCategories": [
+      "Canciones para Papa"
+    ],
+    "normalizedCategories": [
+      "papa"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "El Jinete",
+    "normalizedTitle": "el jinete",
+    "artist": "Miguel A. Mejias",
+    "normalizedArtist": "miguel a mejias",
+    "originalCategories": [
+      "Canciones para Papa"
+    ],
+    "normalizedCategories": [
+      "papa"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "El Mariachi",
+    "normalizedTitle": "el mariachi",
+    "artist": "La Pelicula",
+    "normalizedArtist": "pelicula",
+    "originalCategories": [
+      "Canciones para Papa"
+    ],
+    "normalizedCategories": [
+      "papa"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "El tiempo no perdona",
+    "normalizedTitle": "el tiempo no perdona",
+    "artist": "Alex Fernandez",
+    "normalizedArtist": "alex fernandez",
+    "originalCategories": [
+      "Canciones para Papa"
+    ],
+    "normalizedCategories": [
+      "papa"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "En mi viejo San Juan",
+    "normalizedTitle": "en mi viejo san juan",
+    "artist": "Javier Solis",
+    "normalizedArtist": "javier solis",
+    "originalCategories": [
+      "Canciones para Papa",
+      "Despedidas"
+    ],
+    "normalizedCategories": [
+      "papa",
+      "despedidas"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": {
+      "id": "aIPYVNSgNLrAGVdLrHfE",
+      "occasions": [
+        "Serenata",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=pOi9LLVcFBo"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=pOi9LLVcFBo"
+  },
+  {
+    "title": "Feliz día padre (jesse Uribe)",
+    "normalizedTitle": "feliz dia padre jesse uribe",
+    "artist": "Jesse Uribe",
+    "normalizedArtist": "jesse uribe",
+    "originalCategories": [
+      "Canciones para Papa"
+    ],
+    "normalizedCategories": [
+      "papa"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Juan Charrasqueado",
+    "normalizedTitle": "juan charrasqueado",
+    "artist": "Antonio Aguilar",
+    "normalizedArtist": "antonio aguilar",
+    "originalCategories": [
+      "Canciones para Papa"
+    ],
+    "normalizedCategories": [
+      "papa"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "La ley del monte",
+    "normalizedTitle": "la ley del monte",
+    "artist": "Vicente Fernandez",
+    "normalizedArtist": "vicente fernandez",
+    "originalCategories": [
+      "Canciones para Papa",
+      "Corridos"
+    ],
+    "normalizedCategories": [
+      "papa",
+      "corridos"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": {
+      "id": "vdPPxqnFbwMjmIzCT6vP",
+      "occasions": [
+        "Fiestas",
+        "Despecho",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=Byeu5C9FS6s"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=Byeu5C9FS6s"
+  },
+  {
+    "title": "La Muerte de un Gallero",
+    "normalizedTitle": "la muerte de un gallero",
+    "artist": "Antonio Aguilar",
+    "normalizedArtist": "antonio aguilar",
+    "originalCategories": [
+      "Canciones para Papa"
+    ],
+    "normalizedCategories": [
+      "papa"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Mi querido cascarrabias",
+    "normalizedTitle": "mi querido cascarrabias",
+    "artist": "Alci Acosta",
+    "normalizedArtist": "alci acosta",
+    "originalCategories": [
+      "Canciones para Papa"
+    ],
+    "normalizedCategories": [
+      "papa"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Mi vejez",
+    "normalizedTitle": "mi vejez",
+    "artist": "Vicente Fernandez",
+    "normalizedArtist": "vicente fernandez",
+    "originalCategories": [
+      "Canciones para Papa"
+    ],
+    "normalizedCategories": [
+      "papa"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Mi Viejo",
+    "normalizedTitle": "mi viejo",
+    "artist": "Vicente Fernandez",
+    "normalizedArtist": "vicente fernandez",
+    "originalCategories": [
+      "Canciones para Papa"
+    ],
+    "normalizedCategories": [
+      "papa"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": {
+      "id": "7SAWathHSJ55MQoHhY6X",
+      "occasions": [
+        "Día del Padre",
+        "Funerales",
+        "Cumpleaños",
+        "Ambientación"
+      ],
+      "link": "https://www.youtube.com/watch?v=mD0ZJ25p8xU"
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=mD0ZJ25p8xU"
+  },
+  {
+    "title": "No se me rajar",
+    "normalizedTitle": "no se me rajar",
+    "artist": "Vicente Fernandez",
+    "normalizedArtist": "vicente fernandez",
+    "originalCategories": [
+      "Canciones para Papa"
+    ],
+    "normalizedCategories": [
+      "papa"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Yo el aventurero",
+    "normalizedTitle": "yo el aventurero",
+    "artist": "Antonio Aguilar",
+    "normalizedArtist": "antonio aguilar",
+    "originalCategories": [
+      "Canciones para Papa"
+    ],
+    "normalizedCategories": [
+      "papa"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "El Rey",
+    "normalizedTitle": "el rey",
+    "artist": "Vicente Fernandez",
+    "normalizedArtist": "vicente fernandez",
+    "originalCategories": [
+      "Canciones para Papa"
+    ],
+    "normalizedCategories": [
+      "papa"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": {
+      "id": "JcSkDqCHycccRM7m7PJr",
+      "occasions": [
+        "Fiestas",
+        "Cumpleaños",
+        "Ambientación",
+        "Despecho"
+      ],
+      "link": "https://youtube.com/watch?v=U6qMQnNst9U"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=U6qMQnNst9U"
+  },
+  {
+    "title": "El Aventurero",
+    "normalizedTitle": "el aventurero",
+    "artist": "Yeison Jimenez",
+    "normalizedArtist": "yeison jimenez",
+    "originalCategories": [
+      "Canciones para Papa"
+    ],
+    "normalizedCategories": [
+      "papa"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "El Pastor",
+    "normalizedTitle": "el pastor",
+    "artist": "Mariachi Vargas",
+    "normalizedArtist": "vargas",
+    "originalCategories": [
+      "Canciones para Papa"
+    ],
+    "normalizedCategories": [
+      "papa"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "A mi lindo Ecuador",
+    "normalizedTitle": "a mi lindo ecuador",
+    "artist": "Musica Nacional",
+    "normalizedArtist": "musica nacional",
+    "originalCategories": [
+      "Despedidas",
+      "Musica Nacional"
+    ],
+    "normalizedCategories": [
+      "despedidas",
+      "musica nacional"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Abrázame",
+    "normalizedTitle": "abrazame",
+    "artist": "Alejandro Fernandez",
+    "normalizedArtist": "alejandro fernandez",
+    "originalCategories": [
+      "Despedidas",
+      "Despecho"
+    ],
+    "normalizedCategories": [
+      "despedidas",
+      "despecho"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": {
+      "id": "uSQTDL1aq54rsyAOwUfg",
+      "occasions": [
+        "Serenata",
+        "Bodas",
+        "Fiestas",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=yt8Ki-RSIyA"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=yt8Ki-RSIyA"
+  },
+  {
+    "title": "El ausente",
+    "normalizedTitle": "el ausente",
+    "artist": "Antonio Aguilar",
+    "normalizedArtist": "antonio aguilar",
+    "originalCategories": [
+      "Despedidas"
+    ],
+    "normalizedCategories": [
+      "despedidas"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "luna",
+    "normalizedTitle": "luna",
+    "artist": "Ana Gabriel",
+    "normalizedArtist": "ana gabriel",
+    "originalCategories": [
+      "Despedidas"
+    ],
+    "normalizedCategories": [
+      "despedidas"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Si tú me dices ven",
+    "normalizedTitle": "si tu me dices ven",
+    "artist": "Los Panchos",
+    "normalizedArtist": "panchos",
+    "originalCategories": [
+      "Despedidas"
+    ],
+    "normalizedCategories": [
+      "despedidas"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Y Como es el",
+    "normalizedTitle": "y como es el",
+    "artist": "Vicente Fernandez",
+    "normalizedArtist": "vicente fernandez",
+    "originalCategories": [
+      "Despedidas",
+      "Despecho"
+    ],
+    "normalizedCategories": [
+      "despedidas",
+      "despecho"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Canta canta",
+    "normalizedTitle": "canta canta",
+    "artist": "J.A. Jimenez",
+    "normalizedArtist": "ja jimenez",
+    "originalCategories": [
+      "Despedidas"
+    ],
+    "normalizedCategories": [
+      "despedidas"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "El Siete Mares",
+    "normalizedTitle": "el siete mares",
+    "artist": "Luis Miguel",
+    "normalizedArtist": "luis miguel",
+    "originalCategories": [
+      "Despedidas"
+    ],
+    "normalizedCategories": [
+      "despedidas"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "El Viajero",
+    "normalizedTitle": "el viajero",
+    "artist": "Luis Miguel",
+    "normalizedArtist": "luis miguel",
+    "originalCategories": [
+      "Despedidas"
+    ],
+    "normalizedCategories": [
+      "despedidas"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "fue un placer conocerte",
+    "normalizedTitle": "fue un placer conocerte",
+    "artist": "Juan Gabriel",
+    "normalizedArtist": "juan gabriel",
+    "originalCategories": [
+      "Despedidas",
+      "Despecho"
+    ],
+    "normalizedCategories": [
+      "despedidas",
+      "despecho"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "La media vuelta",
+    "normalizedTitle": "la media vuelta",
+    "artist": "Luis miguel",
+    "normalizedArtist": "luis miguel",
+    "originalCategories": [
+      "Despedidas",
+      "Despecho"
+    ],
+    "normalizedCategories": [
+      "despedidas",
+      "despecho"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Por algo siempre me han de recordar",
+    "normalizedTitle": "por algo siempre me han de recordar",
+    "artist": "Musica Nacional",
+    "normalizedArtist": "musica nacional",
+    "originalCategories": [
+      "Despedidas",
+      "Musica Nacional"
+    ],
+    "normalizedCategories": [
+      "despedidas",
+      "musica nacional"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Quizás, quizás, quizás",
+    "normalizedTitle": "quizas quizas quizas",
+    "artist": "Los Panchos",
+    "normalizedArtist": "panchos",
+    "originalCategories": [
+      "Despedidas"
+    ],
+    "normalizedCategories": [
+      "despedidas"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Mexico en la Piel",
+    "normalizedTitle": "mexico en la piel",
+    "artist": "Luis miguel",
+    "normalizedArtist": "luis miguel",
+    "originalCategories": [
+      "Despedidas"
+    ],
+    "normalizedCategories": [
+      "despedidas"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Lagrimas y Lluvia",
+    "normalizedTitle": "lagrimas y lluvia",
+    "artist": "Juan Gabriel",
+    "normalizedArtist": "juan gabriel",
+    "originalCategories": [
+      "Despecho"
+    ],
+    "normalizedCategories": [
+      "despecho"
+    ],
+    "mappedCategory": "despecho",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Como quien pierde una estrella",
+    "normalizedTitle": "como quien pierde una estrella",
+    "artist": "Alejandro Fernandez",
+    "normalizedArtist": "alejandro fernandez",
+    "originalCategories": [
+      "Despecho"
+    ],
+    "normalizedCategories": [
+      "despecho"
+    ],
+    "mappedCategory": "despecho",
+    "firestoreMatch": {
+      "id": "Ew1WHir2T04EHlj7bRoJ",
+      "occasions": [
+        "Despecho",
+        "Serenata",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=MXlwuZ_nEk0"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=MXlwuZ_nEk0"
+  },
+  {
+    "title": "Como me haces falta",
+    "normalizedTitle": "como me haces falta",
+    "artist": "Marbelle",
+    "normalizedArtist": "marbelle",
+    "originalCategories": [
+      "Despecho"
+    ],
+    "normalizedCategories": [
+      "despecho"
+    ],
+    "mappedCategory": "despecho",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Tu Voz",
+    "normalizedTitle": "tu voz",
+    "artist": "Javier Solis",
+    "normalizedArtist": "javier solis",
+    "originalCategories": [
+      "Despecho"
+    ],
+    "normalizedCategories": [
+      "despecho"
+    ],
+    "mappedCategory": "despecho",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Adiós amor",
+    "normalizedTitle": "adios amor",
+    "artist": "Cristian Nodal",
+    "normalizedArtist": "cristian nodal",
+    "originalCategories": [
+      "Despecho"
+    ],
+    "normalizedCategories": [
+      "despecho"
+    ],
+    "mappedCategory": "despecho",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Adolorido",
+    "normalizedTitle": "adolorido",
+    "artist": "Antonio Aguilar",
+    "normalizedArtist": "antonio aguilar",
+    "originalCategories": [
+      "Despecho",
+      "Corridos"
+    ],
+    "normalizedCategories": [
+      "despecho",
+      "corridos"
+    ],
+    "mappedCategory": "despecho",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Almohada",
+    "normalizedTitle": "almohada",
+    "artist": "Pepe Aguilar",
+    "normalizedArtist": "pepe aguilar",
+    "originalCategories": [
+      "Despecho"
+    ],
+    "normalizedCategories": [
+      "despecho"
+    ],
+    "mappedCategory": "despecho",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Amnesia",
+    "normalizedTitle": "amnesia",
+    "artist": "Sol de mexico",
+    "normalizedArtist": "sol de mexico",
+    "originalCategories": [
+      "Despecho"
+    ],
+    "normalizedCategories": [
+      "despecho"
+    ],
+    "mappedCategory": "despecho",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Asi Fue",
+    "normalizedTitle": "asi fue",
+    "artist": "Juan Gabriel",
+    "normalizedArtist": "juan gabriel",
+    "originalCategories": [
+      "Despecho"
+    ],
+    "normalizedCategories": [
+      "despecho"
+    ],
+    "mappedCategory": "despecho",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "El cigarrillo",
+    "normalizedTitle": "el cigarrillo",
+    "artist": "Ana Gabriel",
+    "normalizedArtist": "ana gabriel",
+    "originalCategories": [
+      "Despecho"
+    ],
+    "normalizedCategories": [
+      "despecho"
+    ],
+    "mappedCategory": "despecho",
+    "firestoreMatch": {
+      "id": "YeApjsKV0RMrrE825ECI",
+      "occasions": [
+        "Despecho",
+        "Serenata"
+      ],
+      "link": "https://youtube.com/watch?v=Lhk7EI88BRE"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=Lhk7EI88BRE"
+  },
+  {
+    "title": "El Karma (Dayanara)",
+    "normalizedTitle": "el karma dayanara",
+    "artist": "Dayanara",
+    "normalizedArtist": "dayanara",
+    "originalCategories": [
+      "Despecho"
+    ],
+    "normalizedCategories": [
+      "despecho"
+    ],
+    "mappedCategory": "despecho",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Ella (Mecanse de Rogarle)",
+    "normalizedTitle": "ella mecanse de rogarle",
+    "artist": "Pedro Infante",
+    "normalizedArtist": "pedro infante",
+    "originalCategories": [
+      "Despecho"
+    ],
+    "normalizedCategories": [
+      "despecho"
+    ],
+    "mappedCategory": "despecho",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Es demasiado tarde",
+    "normalizedTitle": "es demasiado tarde",
+    "artist": "Ana Gabriel",
+    "normalizedArtist": "ana gabriel",
+    "originalCategories": [
+      "Despecho"
+    ],
+    "normalizedCategories": [
+      "despecho"
+    ],
+    "mappedCategory": "despecho",
+    "firestoreMatch": {
+      "id": "Z7nQIctENShNSzu9peYH",
+      "occasions": [
+        "Despecho",
+        "Serenata"
+      ],
+      "link": "https://youtube.com/watch?v=F07ngnis2ig"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=F07ngnis2ig"
+  },
+  {
+    "title": "Hasta que te conocí",
+    "normalizedTitle": "hasta que te conoci",
+    "artist": "Juan Gabriel",
+    "normalizedArtist": "juan gabriel",
+    "originalCategories": [
+      "Despecho"
+    ],
+    "normalizedCategories": [
+      "despecho"
+    ],
+    "mappedCategory": "despecho",
+    "firestoreMatch": {
+      "id": "O3BNhjbOz47qcUu0ESxu",
+      "occasions": [
+        "Serenata",
+        "Fiestas",
+        "Despecho"
+      ],
+      "link": "https://youtube.com/watch?v=ga5Bo4YdgH4"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=ga5Bo4YdgH4"
+  },
+  {
+    "title": "La diferencia",
+    "normalizedTitle": "la diferencia",
+    "artist": "Vicente Fernandez",
+    "normalizedArtist": "vicente fernandez",
+    "originalCategories": [
+      "Despecho"
+    ],
+    "normalizedCategories": [
+      "despecho"
+    ],
+    "mappedCategory": "despecho",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Llamarada",
+    "normalizedTitle": "llamarada",
+    "artist": "Luis miguel",
+    "normalizedArtist": "luis miguel",
+    "originalCategories": [
+      "Despecho"
+    ],
+    "normalizedCategories": [
+      "despecho"
+    ],
+    "mappedCategory": "despecho",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Los hombres no deben llorar",
+    "normalizedTitle": "los hombres no deben llorar",
+    "artist": "Pedro Fernandez",
+    "normalizedArtist": "pedro fernandez",
+    "originalCategories": [
+      "Despecho"
+    ],
+    "normalizedCategories": [
+      "despecho"
+    ],
+    "mappedCategory": "despecho",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Ni Por favor (Si no me quieres ni modo)",
+    "normalizedTitle": "ni por favor si no me quieres ni modo",
+    "artist": "Pedro Infante",
+    "normalizedArtist": "pedro infante",
+    "originalCategories": [
+      "Despecho"
+    ],
+    "normalizedCategories": [
+      "despecho"
+    ],
+    "mappedCategory": "despecho",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "No entiendo",
+    "normalizedTitle": "no entiendo",
+    "artist": "Ana Gabriel",
+    "normalizedArtist": "ana gabriel",
+    "originalCategories": [
+      "Despecho"
+    ],
+    "normalizedCategories": [
+      "despecho"
+    ],
+    "mappedCategory": "despecho",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "No Lastimes mas",
+    "normalizedTitle": "no lastimes mas",
+    "artist": "Rocio Durcal",
+    "normalizedArtist": "rocio durcal",
+    "originalCategories": [
+      "Despecho"
+    ],
+    "normalizedCategories": [
+      "despecho"
+    ],
+    "mappedCategory": "despecho",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "no te contaron mal",
+    "normalizedTitle": "no te contaron mal",
+    "artist": "Cristian Nodal",
+    "normalizedArtist": "cristian nodal",
+    "originalCategories": [
+      "Despecho"
+    ],
+    "normalizedCategories": [
+      "despecho"
+    ],
+    "mappedCategory": "despecho",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "no vale la pena",
+    "normalizedTitle": "no vale la pena",
+    "artist": "Juan Gabriel",
+    "normalizedArtist": "juan gabriel",
+    "originalCategories": [
+      "Despecho"
+    ],
+    "normalizedCategories": [
+      "despecho"
+    ],
+    "mappedCategory": "despecho",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Por Mujeres como tu",
+    "normalizedTitle": "por mujeres como tu",
+    "artist": "Pepe Aguilar",
+    "normalizedArtist": "pepe aguilar",
+    "originalCategories": [
+      "Despecho"
+    ],
+    "normalizedCategories": [
+      "despecho"
+    ],
+    "mappedCategory": "despecho",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Que Agonia",
+    "normalizedTitle": "que agonia",
+    "artist": "Angela Aguilar",
+    "normalizedArtist": "angela aguilar",
+    "originalCategories": [
+      "Despecho"
+    ],
+    "normalizedCategories": [
+      "despecho"
+    ],
+    "mappedCategory": "despecho",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Renunciación",
+    "normalizedTitle": "renunciacion",
+    "artist": "Javier Solis",
+    "normalizedArtist": "javier solis",
+    "originalCategories": [
+      "Despecho"
+    ],
+    "normalizedCategories": [
+      "despecho"
+    ],
+    "mappedCategory": "despecho",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Se te olvida (La Mentira)",
+    "normalizedTitle": "se te olvida la mentira",
+    "artist": "Javier Solis",
+    "normalizedArtist": "javier solis",
+    "originalCategories": [
+      "Despecho"
+    ],
+    "normalizedCategories": [
+      "despecho"
+    ],
+    "mappedCategory": "despecho",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Si te pudiera mentir",
+    "normalizedTitle": "si te pudiera mentir",
+    "artist": "Calibre 50",
+    "normalizedArtist": "calibre 50",
+    "originalCategories": [
+      "Despecho"
+    ],
+    "normalizedCategories": [
+      "despecho"
+    ],
+    "mappedCategory": "despecho",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "tu carcel",
+    "normalizedTitle": "tu carcel",
+    "artist": "Marco Antonio Solis",
+    "normalizedArtist": "marco antonio solis",
+    "originalCategories": [
+      "Despecho"
+    ],
+    "normalizedCategories": [
+      "despecho"
+    ],
+    "mappedCategory": "despecho",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "y...",
+    "normalizedTitle": "y",
+    "artist": "Luis miguel",
+    "normalizedArtist": "luis miguel",
+    "originalCategories": [
+      "Despecho"
+    ],
+    "normalizedCategories": [
+      "despecho"
+    ],
+    "mappedCategory": "despecho",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "A pesar de todo",
+    "normalizedTitle": "a pesar de todo",
+    "artist": "Vicente Fernandez",
+    "normalizedArtist": "vicente fernandez",
+    "originalCategories": [
+      "Despecho"
+    ],
+    "normalizedCategories": [
+      "despecho"
+    ],
+    "mappedCategory": "despecho",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "De los besos que te di",
+    "normalizedTitle": "de los besos que te di",
+    "artist": "Cristian Nodal",
+    "normalizedArtist": "cristian nodal",
+    "originalCategories": [
+      "Despecho"
+    ],
+    "normalizedCategories": [
+      "despecho"
+    ],
+    "mappedCategory": "despecho",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Dejame Vivir",
+    "normalizedTitle": "dejame vivir",
+    "artist": "Rocio Durcal",
+    "normalizedArtist": "rocio durcal",
+    "originalCategories": [
+      "Despecho"
+    ],
+    "normalizedCategories": [
+      "despecho"
+    ],
+    "mappedCategory": "despecho",
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Allá en el rancho grande",
+    "normalizedTitle": "alla en el rancho grande",
+    "artist": "Antonio Aguilar",
+    "normalizedArtist": "antonio aguilar",
+    "originalCategories": [
+      "Corridos"
+    ],
+    "normalizedCategories": [
+      "corridos"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Alta y Delgadita",
+    "normalizedTitle": "alta y delgadita",
+    "artist": "J.A. Jimenez",
+    "normalizedArtist": "ja jimenez",
+    "originalCategories": [
+      "Corridos"
+    ],
+    "normalizedCategories": [
+      "corridos"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Canta canta",
+    "normalizedTitle": "canta canta",
+    "artist": "Juan Gabriel",
+    "normalizedArtist": "juan gabriel",
+    "originalCategories": [
+      "Corridos"
+    ],
+    "normalizedCategories": [
+      "corridos"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Caray",
+    "normalizedTitle": "caray",
+    "artist": "Antonio Aguilar",
+    "normalizedArtist": "antonio aguilar",
+    "originalCategories": [
+      "Corridos"
+    ],
+    "normalizedCategories": [
+      "corridos"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Copitas de mezcal",
+    "normalizedTitle": "copitas de mezcal",
+    "artist": "Rocio Durcal",
+    "normalizedArtist": "rocio durcal",
+    "originalCategories": [
+      "Corridos"
+    ],
+    "normalizedCategories": [
+      "corridos"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Cuando Decidas tu Volver",
+    "normalizedTitle": "cuando decidas tu volver",
+    "artist": "Rocio Durcal",
+    "normalizedArtist": "rocio durcal",
+    "originalCategories": [
+      "Corridos"
+    ],
+    "normalizedCategories": [
+      "corridos"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Estas dentro de mi",
+    "normalizedTitle": "estas dentro de mi",
+    "artist": "Pedro Infante",
+    "normalizedArtist": "pedro infante",
+    "originalCategories": [
+      "Corridos"
+    ],
+    "normalizedCategories": [
+      "corridos"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "La calandria",
+    "normalizedTitle": "la calandria",
+    "artist": "Angela Aguilar",
+    "normalizedArtist": "angela aguilar",
+    "originalCategories": [
+      "Corridos"
+    ],
+    "normalizedCategories": [
+      "corridos"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "La Tequilera",
+    "normalizedTitle": "la tequilera",
+    "artist": "Alejandro Fernandez",
+    "normalizedArtist": "alejandro fernandez",
+    "originalCategories": [
+      "Corridos"
+    ],
+    "normalizedCategories": [
+      "corridos"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Mátalas",
+    "normalizedTitle": "matalas",
+    "artist": "Lucero",
+    "normalizedArtist": "lucero",
+    "originalCategories": [
+      "Corridos"
+    ],
+    "normalizedCategories": [
+      "corridos"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Me estas quemando",
+    "normalizedTitle": "me estas quemando",
+    "artist": "Rocio Durcal",
+    "normalizedArtist": "rocio durcal",
+    "originalCategories": [
+      "Corridos"
+    ],
+    "normalizedCategories": [
+      "corridos"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Me gustas mucho",
+    "normalizedTitle": "me gustas mucho",
+    "artist": "Antonio Aguilar",
+    "normalizedArtist": "antonio aguilar",
+    "originalCategories": [
+      "Corridos"
+    ],
+    "normalizedCategories": [
+      "corridos"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Ojitos verdes",
+    "normalizedTitle": "ojitos verdes",
+    "artist": "Mariachi Cobre",
+    "normalizedArtist": "cobre",
+    "originalCategories": [
+      "Corridos"
+    ],
+    "normalizedCategories": [
+      "corridos"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Jalisco",
+    "normalizedTitle": "jalisco",
+    "artist": "LHDM",
+    "normalizedArtist": "lhdm",
+    "originalCategories": [
+      "Corridos"
+    ],
+    "normalizedCategories": [
+      "corridos"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Bidi bom bom",
+    "normalizedTitle": "bidi bom bom",
+    "artist": "Selena",
+    "normalizedArtist": "selena",
+    "originalCategories": [
+      "Cumbias"
+    ],
+    "normalizedCategories": [
+      "cumbias"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Cariñito (Rodolfo Aicardi)",
+    "normalizedTitle": "carinito rodolfo aicardi",
+    "artist": "Rodolfo Aicardi",
+    "normalizedArtist": "rodolfo aicardi",
+    "originalCategories": [
+      "Cumbias"
+    ],
+    "normalizedCategories": [
+      "cumbias"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Carmen",
+    "normalizedTitle": "carmen",
+    "artist": "Cumbia",
+    "normalizedArtist": "cumbia",
+    "originalCategories": [
+      "Cumbias"
+    ],
+    "normalizedCategories": [
+      "cumbias"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Como la flor",
+    "normalizedTitle": "como la flor",
+    "artist": "Selena",
+    "normalizedArtist": "selena",
+    "originalCategories": [
+      "Cumbias"
+    ],
+    "normalizedCategories": [
+      "cumbias"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": {
+      "id": "eyFolXPrgrRzUa8uhSpe",
+      "occasions": [
+        "Ambientación",
+        "Cumpleaños",
+        "Fiestas"
+      ],
+      "link": "https://youtu.be/dl_YygXM2xw"
+    },
+    "youtubeUrl": "https://youtu.be/dl_YygXM2xw"
+  },
+  {
+    "title": "Como Te Voy A Olvidar",
+    "normalizedTitle": "como te voy a olvidar",
+    "artist": "Angeles Azules",
+    "normalizedArtist": "angeles azules",
+    "originalCategories": [
+      "Cumbias"
+    ],
+    "normalizedCategories": [
+      "cumbias"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "El chico del Apartamento 512",
+    "normalizedTitle": "el chico del apartamento 512",
+    "artist": "Selena",
+    "normalizedArtist": "selena",
+    "originalCategories": [
+      "Cumbias"
+    ],
+    "normalizedCategories": [
+      "cumbias"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Hasta las 6 de la mañana",
+    "normalizedTitle": "hasta las 6 de la manana",
+    "artist": "Los Teribles Diamantes",
+    "normalizedArtist": "teribles diamantes",
+    "originalCategories": [
+      "Cumbias"
+    ],
+    "normalizedCategories": [
+      "cumbias"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "La Conga",
+    "normalizedTitle": "la conga",
+    "artist": "Sonora dinamita",
+    "normalizedArtist": "sonora dinamita",
+    "originalCategories": [
+      "Cumbias"
+    ],
+    "normalizedCategories": [
+      "cumbias"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Las velas encendidas",
+    "normalizedTitle": "las velas encendidas",
+    "artist": "Sonora Dinamita",
+    "normalizedArtist": "sonora dinamita",
+    "originalCategories": [
+      "Cumbias"
+    ],
+    "normalizedCategories": [
+      "cumbias"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Nunca es suficiente",
+    "normalizedTitle": "nunca es suficiente",
+    "artist": "Natalia Lafourcade",
+    "normalizedArtist": "natalia lafourcade",
+    "originalCategories": [
+      "Cumbias"
+    ],
+    "normalizedCategories": [
+      "cumbias"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Pollera colorada",
+    "normalizedTitle": "pollera colorada",
+    "artist": "Pedro Salcedo",
+    "normalizedArtist": "pedro salcedo",
+    "originalCategories": [
+      "Cumbias"
+    ],
+    "normalizedCategories": [
+      "cumbias"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Que nadie Sepa mi sufrir",
+    "normalizedTitle": "que nadie sepa mi sufrir",
+    "artist": "Sonora dinamita",
+    "normalizedArtist": "sonora dinamita",
+    "originalCategories": [
+      "Cumbias"
+    ],
+    "normalizedCategories": [
+      "cumbias"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Si una vez",
+    "normalizedTitle": "si una vez",
+    "artist": "Selena",
+    "normalizedArtist": "selena",
+    "originalCategories": [
+      "Cumbias"
+    ],
+    "normalizedCategories": [
+      "cumbias"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Solo tu",
+    "normalizedTitle": "solo tu",
+    "artist": "Medardo",
+    "normalizedArtist": "medardo",
+    "originalCategories": [
+      "Cumbias"
+    ],
+    "normalizedCategories": [
+      "cumbias"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Tabaco y ron",
+    "normalizedTitle": "tabaco y ron",
+    "artist": "Rodolfo Aicardi",
+    "normalizedArtist": "rodolfo aicardi",
+    "originalCategories": [
+      "Cumbias"
+    ],
+    "normalizedCategories": [
+      "cumbias"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Una Cerveza",
+    "normalizedTitle": "una cerveza",
+    "artist": "Rafaga",
+    "normalizedArtist": "rafaga",
+    "originalCategories": [
+      "Cumbias"
+    ],
+    "normalizedCategories": [
+      "cumbias"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Yo no fui",
+    "normalizedTitle": "yo no fui",
+    "artist": "Pedro Fernandez",
+    "normalizedArtist": "pedro fernandez",
+    "originalCategories": [
+      "Cumbias"
+    ],
+    "normalizedCategories": [
+      "cumbias"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": {
+      "id": "dvKgYHEL9gwmtE4GQahA",
+      "occasions": [
+        "Fiestas",
+        "Cumpleaños",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=_BcJw0ta8mc"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=_BcJw0ta8mc"
+  },
+  {
+    "title": "Mariachi loco",
+    "normalizedTitle": "mariachi loco",
+    "artist": "Mariachi Vargas",
+    "normalizedArtist": "vargas",
+    "originalCategories": [
+      "Cumbias"
+    ],
+    "normalizedCategories": [
+      "cumbias"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": {
+      "id": "kZ61yZFbc5i9nGOqAI0o",
+      "occasions": [
+        "Fiestas",
+        "Ambientación",
+        "Cumpleaños"
+      ],
+      "link": "https://youtube.com/watch?v=CQ_gkzGR1eY"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=CQ_gkzGR1eY"
+  },
+  {
+    "title": "Me encantas",
+    "normalizedTitle": "me encantas",
+    "artist": "Pedro Fernandez",
+    "normalizedArtist": "pedro fernandez",
+    "originalCategories": [
+      "Cumbias"
+    ],
+    "normalizedCategories": [
+      "cumbias"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Mi Ultimo deseo (sharon)",
+    "normalizedTitle": "mi ultimo deseo sharon",
+    "artist": "Sharon",
+    "normalizedArtist": "sharon",
+    "originalCategories": [
+      "Cumbias"
+    ],
+    "normalizedCategories": [
+      "cumbias"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Ajena",
+    "normalizedTitle": "ajena",
+    "artist": "Eddy Herrera",
+    "normalizedArtist": "eddy herrera",
+    "originalCategories": [
+      "Merengues"
+    ],
+    "normalizedCategories": [
+      "merengues"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Es mentiroso",
+    "normalizedTitle": "es mentiroso",
+    "artist": "Olga Tañon",
+    "normalizedArtist": "olga tanon",
+    "originalCategories": [
+      "Merengues"
+    ],
+    "normalizedCategories": [
+      "merengues"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "La reina del swing",
+    "normalizedTitle": "la reina del swing",
+    "artist": "Hermanos Rosario",
+    "normalizedArtist": "hermanos rosario",
+    "originalCategories": [
+      "Merengues"
+    ],
+    "normalizedCategories": [
+      "merengues"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Si Me Dejas no vale",
+    "normalizedTitle": "si me dejas no vale",
+    "artist": "La Maleta",
+    "normalizedArtist": "maleta",
+    "originalCategories": [
+      "Merengues"
+    ],
+    "normalizedCategories": [
+      "merengues"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Muchacho Malo",
+    "normalizedTitle": "muchacho malo",
+    "artist": "Olga Tañon",
+    "normalizedArtist": "olga tanon",
+    "originalCategories": [
+      "Merengues"
+    ],
+    "normalizedCategories": [
+      "merengues"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Mi niña bonita",
+    "normalizedTitle": "mi nina bonita",
+    "artist": "Chino y Nacho",
+    "normalizedArtist": "chino y nacho",
+    "originalCategories": [
+      "Merengues"
+    ],
+    "normalizedCategories": [
+      "merengues"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "La murga",
+    "normalizedTitle": "la murga",
+    "artist": "Ruben Blades",
+    "normalizedArtist": "ruben blades",
+    "originalCategories": [
+      "Salsa"
+    ],
+    "normalizedCategories": [
+      "salsa"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Llorarás",
+    "normalizedTitle": "lloraras",
+    "artist": "Oscar de León",
+    "normalizedArtist": "oscar de leon",
+    "originalCategories": [
+      "Salsa"
+    ],
+    "normalizedCategories": [
+      "salsa"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Vivir la vida",
+    "normalizedTitle": "vivir la vida",
+    "artist": "Marc Anthony",
+    "normalizedArtist": "marc anthony",
+    "originalCategories": [
+      "Salsa"
+    ],
+    "normalizedCategories": [
+      "salsa"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": {
+      "id": "GTdgCtGwvTkdWRfkIJlu",
+      "occasions": [
+        "Ambientación",
+        "Fiestas"
+      ],
+      "link": "https://youtu.be/IcGr_jyo6Rg"
+    },
+    "youtubeUrl": "https://youtu.be/IcGr_jyo6Rg"
+  },
+  {
+    "title": "La vida es un carnaval",
+    "normalizedTitle": "la vida es un carnaval",
+    "artist": "Celia Cruz",
+    "normalizedArtist": "celia cruz",
+    "originalCategories": [
+      "Salsa"
+    ],
+    "normalizedCategories": [
+      "salsa"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": {
+      "id": "lajumoDnAmDxXIzMMDYJ",
+      "occasions": [
+        "Fiestas",
+        "Cumpleaños",
+        "Ambientación"
+      ],
+      "link": "https://youtube.com/watch?v=2F2IG-Xl0aE"
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=2F2IG-Xl0aE"
+  },
+  {
+    "title": "Vasija de Barro",
+    "normalizedTitle": "vasija de barro",
+    "artist": "Musica Nacional",
+    "normalizedArtist": "musica nacional",
+    "originalCategories": [
+      "Musica Nacional"
+    ],
+    "normalizedCategories": [
+      "musica nacional"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "En vida (Segundo Rosero)",
+    "normalizedTitle": "en vida segundo rosero",
+    "artist": "Segundo Rosero",
+    "normalizedArtist": "segundo rosero",
+    "originalCategories": [
+      "Musica Nacional"
+    ],
+    "normalizedCategories": [
+      "musica nacional"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Ambato tierra de flores",
+    "normalizedTitle": "ambato tierra de flores",
+    "artist": "Musica Nacional",
+    "normalizedArtist": "musica nacional",
+    "originalCategories": [
+      "Musica Nacional"
+    ],
+    "normalizedCategories": [
+      "musica nacional"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Así se goza",
+    "normalizedTitle": "asi se goza",
+    "artist": "Musica Nacional",
+    "normalizedArtist": "musica nacional",
+    "originalCategories": [
+      "Musica Nacional"
+    ],
+    "normalizedCategories": [
+      "musica nacional"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Chola cuencana",
+    "normalizedTitle": "chola cuencana",
+    "artist": "Musica Nacional",
+    "normalizedArtist": "musica nacional",
+    "originalCategories": [
+      "Musica Nacional"
+    ],
+    "normalizedCategories": [
+      "musica nacional"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Cuyayay",
+    "normalizedTitle": "cuyayay",
+    "artist": "Musica Nacional",
+    "normalizedArtist": "musica nacional",
+    "originalCategories": [
+      "Musica Nacional"
+    ],
+    "normalizedCategories": [
+      "musica nacional"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "En vida (Gerardo Morán)",
+    "normalizedTitle": "en vida gerardo moran",
+    "artist": "Gerardo Moran",
+    "normalizedArtist": "gerardo moran",
+    "originalCategories": [
+      "Musica Nacional"
+    ],
+    "normalizedCategories": [
+      "musica nacional"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "La Berbenita",
+    "normalizedTitle": "la berbenita",
+    "artist": "Musica Nacional",
+    "normalizedArtist": "musica nacional",
+    "originalCategories": [
+      "Musica Nacional"
+    ],
+    "normalizedCategories": [
+      "musica nacional"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "La Bruja",
+    "normalizedTitle": "la bruja",
+    "artist": "Musica Nacional",
+    "normalizedArtist": "musica nacional",
+    "originalCategories": [
+      "Musica Nacional"
+    ],
+    "normalizedCategories": [
+      "musica nacional"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Manabí",
+    "normalizedTitle": "manabi",
+    "artist": "Medardo",
+    "normalizedArtist": "medardo",
+    "originalCategories": [
+      "Musica Nacional"
+    ],
+    "normalizedCategories": [
+      "musica nacional"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Pobre corazón",
+    "normalizedTitle": "pobre corazon",
+    "artist": "Musica Nacional",
+    "normalizedArtist": "musica nacional",
+    "originalCategories": [
+      "Musica Nacional"
+    ],
+    "normalizedCategories": [
+      "musica nacional"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Whiskycito",
+    "normalizedTitle": "whiskycito",
+    "artist": "Falconi",
+    "normalizedArtist": "falconi",
+    "originalCategories": [
+      "Musica Nacional"
+    ],
+    "normalizedCategories": [
+      "musica nacional"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Apasionadamente",
+    "normalizedTitle": "apasionadamente",
+    "artist": "Musica Nacional",
+    "normalizedArtist": "musica nacional",
+    "originalCategories": [
+      "Musica Nacional"
+    ],
+    "normalizedCategories": [
+      "musica nacional"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Homenaje a Javier Solis",
+    "normalizedTitle": "homenaje a javier solis",
+    "artist": "Instrumental",
+    "normalizedArtist": "instrumental",
+    "originalCategories": [
+      "Instrumentales o de Espectaculos"
+    ],
+    "normalizedCategories": [
+      "instrumentales o espectaculos"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "España Cañi",
+    "normalizedTitle": "espana cani",
+    "artist": "Instrumental",
+    "normalizedArtist": "instrumental",
+    "originalCategories": [
+      "Instrumentales o de Espectaculos"
+    ],
+    "normalizedCategories": [
+      "instrumentales o espectaculos"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "El Zopilote Mojado",
+    "normalizedTitle": "el zopilote mojado",
+    "artist": "Instrumental",
+    "normalizedArtist": "instrumental",
+    "originalCategories": [
+      "Instrumentales o de Espectaculos"
+    ],
+    "normalizedCategories": [
+      "instrumentales o espectaculos"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "El Jarabe Tapatio",
+    "normalizedTitle": "el jarabe tapatio",
+    "artist": "Instrumental",
+    "normalizedArtist": "instrumental",
+    "originalCategories": [
+      "Instrumentales o de Espectaculos"
+    ],
+    "normalizedCategories": [
+      "instrumentales o espectaculos"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "El dos Negro",
+    "normalizedTitle": "el dos negro",
+    "artist": "Instrumental",
+    "normalizedArtist": "instrumental",
+    "originalCategories": [
+      "Instrumentales o de Espectaculos"
+    ],
+    "normalizedCategories": [
+      "instrumentales o espectaculos"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Mi ultimo deseo (Recodito)",
+    "normalizedTitle": "mi ultimo deseo recodito",
+    "artist": "Banda Los Recoditos",
+    "normalizedArtist": "banda los recoditos",
+    "originalCategories": [
+      "Juvenil o Nuevo"
+    ],
+    "normalizedCategories": [
+      "juvenil o nuevo"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "200 copas",
+    "normalizedTitle": "200 copas",
+    "artist": "Juvenil",
+    "normalizedArtist": "juvenil",
+    "originalCategories": [
+      "Juvenil o Nuevo"
+    ],
+    "normalizedCategories": [
+      "juvenil o nuevo"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "El Karma",
+    "normalizedTitle": "el karma",
+    "artist": "Juvenil",
+    "normalizedArtist": "juvenil",
+    "originalCategories": [
+      "Juvenil o Nuevo"
+    ],
+    "normalizedCategories": [
+      "juvenil o nuevo"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Dulce Pecado",
+    "normalizedTitle": "dulce pecado",
+    "artist": "Juvenil",
+    "normalizedArtist": "juvenil",
+    "originalCategories": [
+      "Juvenil o Nuevo"
+    ],
+    "normalizedCategories": [
+      "juvenil o nuevo"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Matemos las ganas",
+    "normalizedTitle": "matemos las ganas",
+    "artist": "Juvenil",
+    "normalizedArtist": "juvenil",
+    "originalCategories": [
+      "Juvenil o Nuevo"
+    ],
+    "normalizedCategories": [
+      "juvenil o nuevo"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "El Aventurero",
+    "normalizedTitle": "el aventurero",
+    "artist": "Juvenil",
+    "normalizedArtist": "juvenil",
+    "originalCategories": [
+      "Juvenil o Nuevo"
+    ],
+    "normalizedCategories": [
+      "juvenil o nuevo"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Dime como Quieres",
+    "normalizedTitle": "dime como quieres",
+    "artist": "Juvenil",
+    "normalizedArtist": "juvenil",
+    "originalCategories": [
+      "Juvenil o Nuevo"
+    ],
+    "normalizedCategories": [
+      "juvenil o nuevo"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Cabron y Vago",
+    "normalizedTitle": "cabron y vago",
+    "artist": "Juvenil",
+    "normalizedArtist": "juvenil",
+    "originalCategories": [
+      "Juvenil o Nuevo"
+    ],
+    "normalizedCategories": [
+      "juvenil o nuevo"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "El Envidioso",
+    "normalizedTitle": "el envidioso",
+    "artist": "Juvenil",
+    "normalizedArtist": "juvenil",
+    "originalCategories": [
+      "Juvenil o Nuevo"
+    ],
+    "normalizedCategories": [
+      "juvenil o nuevo"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Si se fue, se fue",
+    "normalizedTitle": "si se fue se fue",
+    "artist": "Juvenil",
+    "normalizedArtist": "juvenil",
+    "originalCategories": [
+      "Juvenil o Nuevo"
+    ],
+    "normalizedCategories": [
+      "juvenil o nuevo"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "Que sufra, que chupe y que llore",
+    "normalizedTitle": "que sufra que chupe y que llore",
+    "artist": "Juvenil",
+    "normalizedArtist": "juvenil",
+    "originalCategories": [
+      "Juvenil o Nuevo"
+    ],
+    "normalizedCategories": [
+      "juvenil o nuevo"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "no se va",
+    "normalizedTitle": "no se va",
+    "artist": "Juvenil",
+    "normalizedArtist": "juvenil",
+    "originalCategories": [
+      "Juvenil o Nuevo"
+    ],
+    "normalizedCategories": [
+      "juvenil o nuevo"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "1 x100to",
+    "normalizedTitle": "1 x100to",
+    "artist": "Juvenil",
+    "normalizedArtist": "juvenil",
+    "originalCategories": [
+      "Juvenil o Nuevo"
+    ],
+    "normalizedCategories": [
+      "juvenil o nuevo"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "que vuelva",
+    "normalizedTitle": "que vuelva",
+    "artist": "Juvenil",
+    "normalizedArtist": "juvenil",
+    "originalCategories": [
+      "Juvenil o Nuevo"
+    ],
+    "normalizedCategories": [
+      "juvenil o nuevo"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "mi mayor venganza",
+    "normalizedTitle": "mi mayor venganza",
+    "artist": "Juvenil",
+    "normalizedArtist": "juvenil",
+    "originalCategories": [
+      "Juvenil o Nuevo"
+    ],
+    "normalizedCategories": [
+      "juvenil o nuevo"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "no sufrire por nadie",
+    "normalizedTitle": "no sufrire por nadie",
+    "artist": "Juvenil",
+    "normalizedArtist": "juvenil",
+    "originalCategories": [
+      "Juvenil o Nuevo"
+    ],
+    "normalizedCategories": [
+      "juvenil o nuevo"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "contentoso",
+    "normalizedTitle": "contentoso",
+    "artist": "Juvenil",
+    "normalizedArtist": "juvenil",
+    "originalCategories": [
+      "Juvenil o Nuevo"
+    ],
+    "normalizedCategories": [
+      "juvenil o nuevo"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "el precio de tu error",
+    "normalizedTitle": "el precio de tu error",
+    "artist": "Juvenil",
+    "normalizedArtist": "juvenil",
+    "originalCategories": [
+      "Juvenil o Nuevo"
+    ],
+    "normalizedCategories": [
+      "juvenil o nuevo"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  },
+  {
+    "title": "chismofilia",
+    "normalizedTitle": "chismofilia",
+    "artist": "Juvenil",
+    "normalizedArtist": "juvenil",
+    "originalCategories": [
+      "Juvenil o Nuevo"
+    ],
+    "normalizedCategories": [
+      "juvenil o nuevo"
+    ],
+    "mappedCategory": null,
+    "firestoreMatch": null,
+    "youtubeUrl": ""
+  }
+]

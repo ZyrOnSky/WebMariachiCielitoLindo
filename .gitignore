@@ -1,3 +1,18 @@
+# Android TWA / Bubblewrap generated files
+.gradle/
+app/
+build.gradle
+gradle.properties
+gradle/
+gradlew
+gradlew.bat
+settings.gradle
+manifest-checksum.txt
+*.apk
+*.aab
+*.idsig
+*.keystore
+
 node_modules/
 build/
 dist/

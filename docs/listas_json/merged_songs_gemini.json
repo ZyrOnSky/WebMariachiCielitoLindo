@@ -1,0 +1,7512 @@
+[
+  {
+    "title": "Por el Camino",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=hiTaP1aYMyw",
+    "firestoreId": "0ypXVr6c1aUxNktx4kAk",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Son"
+    ],
+    "occasions": [
+      "Ambientación",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "Mi Eterno Amor Secreto",
+    "artist": "Marco Antonio Solís",
+    "youtubeUrl": "https://youtube.com/watch?v=9vtPruNZFHo",
+    "firestoreId": "17zlcoY8kjXaDddCPrlK",
+    "source": "excel+firestore",
+    "genres": [
+      "Balada",
+      "Balada Pop"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Despecho",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Vasija de Barro",
+    "artist": "Julio Jaramillo",
+    "youtubeUrl": "https://youtube.com/watch?v=0vJHbkKTNGM",
+    "firestoreId": "1BAEZgLPPWemfoaP1UJJ",
+    "source": "firestore",
+    "genres": [
+      "Pasillo",
+      "Bolero"
+    ],
+    "occasions": [
+      "Velorios y Sepelios",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Qué Bonito Amor",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=XOGcTmOoulY",
+    "firestoreId": "1DVEPTZuGQIVikDekp5N",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Son"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Bodas y Matrimonios",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "Ya Lo Pasado Pasado",
+    "artist": "José José",
+    "youtubeUrl": "https://youtu.be/M1RZBYPIs-8",
+    "firestoreId": "1Da7mFr3Zio7arR8ycdd",
+    "source": "excel+firestore",
+    "genres": [
+      "Balada",
+      "Balada Pop"
+    ],
+    "occasions": [
+      "Ambientación",
+      "Despecho",
+      "Fiestas y Despedidas",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Hoy He Vuelto Madre a Recordar",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=HGu_gYWrk1I",
+    "firestoreId": "1Jjp4Ht0tTzaiazBPBqI",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Balada",
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Día de la Madre",
+      "Velorios y Sepelios",
+      "Ambientación",
+      "Música Cristiana/Católica"
+    ]
+  },
+  {
+    "title": "Cómo Han Pasado Los Años",
+    "artist": "Rocío Dúrcal",
+    "youtubeUrl": "https://youtube.com/watch?v=1xlj-zAWEfg",
+    "firestoreId": "1XfoMv5Tp3ka8fRsE8sT",
+    "source": "excel+firestore",
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Ambientación",
+      "Día de la Madre",
+      "Día del Padre",
+      "Cumpleaños",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Júrame",
+    "artist": "Luis Miguel",
+    "youtubeUrl": "https://youtube.com/watch?v=ODid4nY7GGY",
+    "firestoreId": "1fViXRgLEGPPb1bKoeRc",
+    "source": "firestore",
+    "genres": [
+      "Bolero",
+      "Balada"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Despecho",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Veinticinco Rosas",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=95tpywDJQJM",
+    "firestoreId": "1tdAJgEBthcUhYnGt0NE",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Ranchera / Vals"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Cumpleaños",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Sabes Una Cosa",
+    "artist": "Luis Miguel",
+    "youtubeUrl": "https://youtube.com/watch?v=UuGrc3vvdMw",
+    "firestoreId": "1tzfoC1XvdYpJAb4W39q",
+    "source": "excel+firestore",
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Fiestas y Despedidas",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Pollera Colorada",
+    "artist": "Alberto Barros",
+    "youtubeUrl": "https://youtube.com/watch?v=JICtLiGqCV8",
+    "firestoreId": "1vHExV3j9Ull4ZZ6IaLU",
+    "source": "firestore",
+    "genres": [
+      "Cumbia",
+      "Salsa"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Todopoderoso",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=vCnFS0NvgaY",
+    "firestoreId": "29MKmXbUmnXFnk8u6MmI",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Música Cristiana/Católica",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "El Prendedor",
+    "artist": "Vicente Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=sx31J7fDB4s",
+    "firestoreId": "2L4W7v3YyY5NmldRcdZA",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Son"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Quinceañera",
+    "artist": "Vicente Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=mjPO__2hS1g",
+    "firestoreId": "2U9kHrJUZ9sCf2zkb4es",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Ranchera / Vals"
+    ],
+    "occasions": [
+      "Quinceañeras",
+      "Cumpleaños",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "Secreto de Amor",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=HLQtHVkCtms",
+    "firestoreId": "2aPPKBNptwGDb4TAMfu4",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Por Debajo de la Mesa",
+    "artist": "Luis Miguel",
+    "youtubeUrl": "https://youtube.com/watch?v=giAE7Yz7gHI",
+    "firestoreId": "2hNEpb4B8PrNinY0ohq1",
+    "source": "excel+firestore",
+    "genres": [
+      "Bolero",
+      "Balada"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Ambientación",
+      "Bodas y Matrimonios",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Algo de Mí Se Fue Contigo Madre",
+    "artist": "Rocío Dúrcal",
+    "youtubeUrl": "https://youtube.com/watch?v=a9QwsJSVYaw",
+    "firestoreId": "3DFFE7t1im5Pn4rHy58e",
+    "source": "firestore",
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Velorios y Sepelios",
+      "Día de la Madre"
+    ]
+  },
+  {
+    "title": "La Niña de Tus Ojos",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=9PpKK50tsaY",
+    "firestoreId": "4YXEl8B1xF6g9vSQCebG",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Canción Tradicional",
+      "Música Cristiana",
+      "Balada"
+    ],
+    "occasions": [
+      "Música Cristiana/Católica",
+      "Día de la Madre",
+      "Día del Padre",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Sabor a Mí",
+    "artist": "Luis Miguel",
+    "youtubeUrl": "https://youtube.com/watch?v=cNo-d6Y6w8Y",
+    "firestoreId": "4Z47hvZT52kpjNWKjTY5",
+    "source": "firestore",
+    "genres": [
+      "Bolero",
+      "Balada"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Bodas y Matrimonios",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Señora, Señora",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=ZbIszWyLuaI",
+    "firestoreId": "4f1JOacV6ghcoHRkx16r",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "occasions": [
+      "Día de la Madre",
+      "Cumpleaños",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "De Qué Manera Te Olvido",
+    "artist": "Vicente Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=NT0hlSpma90",
+    "firestoreId": "4flsiif9gey6lwfhNPOU",
+    "source": "excel+firestore",
+    "genres": [
+      "Ranchera",
+      "Bolero"
+    ],
+    "occasions": [
+      "Despecho",
+      "Fiestas y Despedidas",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Por Una Mujer Bonita",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=3sboBltg_wM",
+    "firestoreId": "5bGSqTJlq7doknwlzvVQ",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Son"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Santa María",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=rdUy6x38yYg",
+    "firestoreId": "5cjo80bT4s4gvSqijBH5",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Música Cristiana/Católica",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Canta, Canta",
+    "artist": "Javier Solís",
+    "youtubeUrl": "https://youtube.com/watch?v=3t-TP4Gq0rc",
+    "firestoreId": "5pGhuZaAQDR6I8iniEib",
+    "source": "firestore",
+    "genres": [
+      "Bolero",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "En Tu Día",
+    "artist": "Javier Solís",
+    "youtubeUrl": "https://youtube.com/watch?v=s7oda7hQC0E",
+    "firestoreId": "5ybyLZPElpcYeNSP6zOB",
+    "source": "excel+firestore",
+    "genres": [
+      "Bolero",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Cumpleaños",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "Despacito",
+    "artist": "Pedro Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=YOyD20c9-GM",
+    "firestoreId": "6X03aNYQxYM6l1ICwuQG",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Balada Pop"
+    ],
+    "occasions": [
+      "Ambientación",
+      "Despecho",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "A La Sombra de Mi Madre",
+    "artist": "Leo Dan",
+    "youtubeUrl": "https://youtube.com/watch?v=8iJd52xfLa0",
+    "firestoreId": "6zWh483YuABQU6kKpPdK",
+    "source": "excel+firestore",
+    "genres": [
+      "Balada",
+      "Balada Pop"
+    ],
+    "occasions": [
+      "Día de la Madre",
+      "Cumpleaños",
+      "Velorios y Sepelios",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Pa' Todo el Año",
+    "artist": "Vicente Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=ndkXxNTEIA4",
+    "firestoreId": "7AIZwy0QbszBAWJGvzi1",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Bolero"
+    ],
+    "occasions": [
+      "Despecho",
+      "Fiestas y Despedidas",
+      "Serenatas"
+    ]
+  },
+  {
+    "title": "Hermoso Cariño",
+    "artist": "Vicente Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=oq70h9XBj_0",
+    "firestoreId": "7Qs6Gtf5SSADQnjOnqlu",
+    "source": "excel+firestore",
+    "genres": [
+      "Ranchera",
+      "Son"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Fiestas y Despedidas",
+      "Ambientación",
+      "Día de la Madre",
+      "Quinceañeras"
+    ]
+  },
+  {
+    "title": "Mi Viejo",
+    "artist": "Vicente Fernández",
+    "youtubeUrl": "https://www.youtube.com/watch?v=mD0ZJ25p8xU",
+    "firestoreId": "7SAWathHSJ55MQoHhY6X",
+    "source": "excel+firestore",
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Día del Padre",
+      "Velorios y Sepelios",
+      "Cumpleaños",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Yo Soy el Aventurero",
+    "artist": "Pedro Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=l3ubxwgAnt0",
+    "firestoreId": "7WpCDPuF1zci6eEr78NL",
+    "source": "firestore",
+    "genres": [
+      "Ranchera"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación",
+      "Cumpleaños"
+    ]
+  },
+  {
+    "title": "Yo Te Esperaba",
+    "artist": "Rocío Dúrcal",
+    "youtubeUrl": "https://youtube.com/watch?v=jcH4hL0LVn8",
+    "firestoreId": "7eHrHiVYhngunQBvfV5u",
+    "source": "firestore",
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Día de la Madre",
+      "Cumpleaños",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Cataclismo",
+    "artist": "Javier Solís",
+    "youtubeUrl": "https://youtube.com/watch?v=sNXQ36JqCiU",
+    "firestoreId": "Gpmf1G4o9tNcqvHE8INS",
+    "source": "excel+firestore",
+    "genres": [
+      "Bolero"
+    ],
+    "occasions": [
+      "Despecho",
+      "Serenatas",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Collar de Lágrimas",
+    "artist": "Julio Jaramillo",
+    "youtubeUrl": "https://youtube.com/watch?v=uar9rLs4x5c",
+    "firestoreId": "8MEI9f4YvI8Nv9rF4GM5",
+    "source": "firestore",
+    "genres": [
+      "Pasillo",
+      "Bolero"
+    ],
+    "occasions": [
+      "Despecho",
+      "Serenatas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Dios Está Aquí",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=Q1DJgt4mc_I",
+    "firestoreId": "8VkQAYvYub8iPPAPWFns",
+    "source": "firestore",
+    "genres": [
+      "Canción Tradicional",
+      "Instrumental",
+      "Música Cristiana"
+    ],
+    "occasions": [
+      "Música Cristiana/Católica",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Si Una Vez",
+    "artist": "Lucero",
+    "youtubeUrl": "https://youtube.com/watch?v=5OkQ3pZPLbQ",
+    "firestoreId": "95vCvHURiPD2gj0kpZQp",
+    "source": "firestore",
+    "genres": [
+      "Cumbia",
+      "Balada Pop"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Despecho",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "El Amor Más Grande del Planeta",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=Fvyq7-wQ7N8",
+    "firestoreId": "99FzRcCU52q7Dh65HahL",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Bolero"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Bodas y Matrimonios",
+      "Día de la Madre",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Hasta Las Seis de la Mañana",
+    "artist": "Alberto Barros",
+    "youtubeUrl": "https://youtube.com/watch?v=rPP0F6Zf6DU",
+    "firestoreId": "9GRDP97KUGjWEOFVJg7I",
+    "source": "firestore",
+    "genres": [
+      "Salsa",
+      "Cumbia"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Josué Uno Nueve",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=pv3M9E7U1U8",
+    "firestoreId": "9ZHOE0RfN3Rtv08ESTqF",
+    "source": "firestore",
+    "genres": [
+      "Canción Tradicional",
+      "Instrumental"
+    ],
+    "occasions": [
+      "Música Cristiana/Católica"
+    ]
+  },
+  {
+    "title": "Te Vengo a Decir",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=ZoruoNdPJuk",
+    "firestoreId": "9aFOoiKuOKIXKFaa0zhX",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Bolero"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Mi Compañera",
+    "artist": "Vicente Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=8ngTPP3kgKQ",
+    "firestoreId": "9oJAbLB3qj4cArK8bLTB",
+    "source": "firestore",
+    "genres": [
+      "Ranchera"
+    ],
+    "occasions": [
+      "Bodas y Matrimonios",
+      "Aniversarios y Románticas",
+      "Día de la Madre"
+    ]
+  },
+  {
+    "title": "Amorcito Corazón",
+    "artist": "Javier Solís",
+    "youtubeUrl": "https://youtube.com/watch?v=2CCIcrGM14o",
+    "firestoreId": "9pXVeR3yjlblUSy2y6Tq",
+    "source": "firestore",
+    "genres": [
+      "Bolero"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Bodas y Matrimonios",
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Si No Te Hubieras Ido",
+    "artist": "Marco Antonio Solís",
+    "youtubeUrl": "https://youtube.com/watch?v=gH8oCh1nn88",
+    "firestoreId": "ARnpYCSQFmro6Ys8TnRb",
+    "source": "excel+firestore",
+    "genres": [
+      "Balada",
+      "Balada Pop"
+    ],
+    "occasions": [
+      "Despecho",
+      "Serenatas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Alzo Mi Voz",
+    "artist": "Javier Solís",
+    "youtubeUrl": "https://youtube.com/watch?v=Cg5Y7MP00Ko",
+    "firestoreId": "AUOE2Q3rwssuaeRMp7d1",
+    "source": "firestore",
+    "genres": [
+      "Bolero"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Mamá Si Llego a Viejo",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=Wxl0B7HGSHg",
+    "firestoreId": "Ar9IYeYbmj5AII2uMj7C",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Día de la Madre",
+      "Cumpleaños",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "Un Hombre Normal",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=areQzt6pRkk",
+    "firestoreId": "AtL0bh1vYh7Dod8eGpVO",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Bolero"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Eso y Más",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=0w-F0oBE6Zs",
+    "firestoreId": "AwmbXbx6X5C7PC4NxgpI",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Bolero"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Bodas y Matrimonios",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "El Loco",
+    "artist": "Javier Solís",
+    "youtubeUrl": "https://youtube.com/watch?v=fkH8_kHFJts",
+    "firestoreId": "B36ErSGI8bdTlQZdWfLG",
+    "source": "excel+firestore",
+    "genres": [
+      "Bolero"
+    ],
+    "occasions": [
+      "Despecho",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Allá en el Rancho Grande",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=EjjDxPBf17o",
+    "firestoreId": "BIAAOBFarfZ7CnKIjrFm",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación",
+      "Cumpleaños"
+    ]
+  },
+  {
+    "title": "El Aguacate",
+    "artist": "Julio Jaramillo",
+    "youtubeUrl": "https://youtube.com/watch?v=NgqbgirLj48",
+    "firestoreId": "BLDf2fytcLIID6k8joup",
+    "source": "excel+firestore",
+    "genres": [
+      "Pasillo"
+    ],
+    "occasions": [
+      "Ambientación",
+      "Serenatas",
+      "Fiestas y Despedidas",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Historia de un Amor",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=i0PKu6Yck8Q",
+    "firestoreId": "BvK4QenvRevkPXtKU9L1",
+    "source": "firestore",
+    "genres": [
+      "Bolero",
+      "Despecho"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Despecho",
+      "Ambientación",
+      "Aniversarios y Románticas",
+      "Bodas y Matrimonios"
+    ]
+  },
+  {
+    "title": "Son de la Negra",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=XTwmQ-R7Joc",
+    "firestoreId": "C80a3xDeceU27J9rM5I1",
+    "source": "excel+firestore",
+    "genres": [
+      "Son",
+      "Instrumental"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación",
+      "Bodas y Matrimonios",
+      "Graduaciones",
+      "Entrada"
+    ]
+  },
+  {
+    "title": "Cómo Fue",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=uqPERwigeoE",
+    "firestoreId": "CHW8u880GDEuUv4DYw5y",
+    "source": "firestore",
+    "genres": [
+      "Bolero"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Bodas y Matrimonios",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "La Calandria",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=52tADzXm6sM",
+    "firestoreId": "CJ9ImWxu6MfK8Xt5fJr9",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Son"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación",
+      "Cumpleaños"
+    ]
+  },
+  {
+    "title": "Con la Tierra Encima",
+    "artist": "Javier Solís",
+    "youtubeUrl": "https://youtube.com/watch?v=MDin4E_Jv2k",
+    "firestoreId": "CcRNie9szTz2z078XtX3",
+    "source": "firestore",
+    "genres": [
+      "Bolero"
+    ],
+    "occasions": [
+      "Velorios y Sepelios"
+    ]
+  },
+  {
+    "title": "Triunfamos",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=JTSPKPpSD_Y",
+    "firestoreId": "CdVj7kJ0W7Xo3jpVTQTF",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Bolero"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Bodas y Matrimonios",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Cariño",
+    "artist": "Lucero",
+    "youtubeUrl": "https://youtube.com/watch?v=KvWCkXZZfaU",
+    "firestoreId": "D4BRUOckafDnA9kjiQHQ",
+    "source": "excel+firestore",
+    "genres": [
+      "Balada",
+      "Balada Pop"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Fiestas y Despedidas",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Si Cristo Toca Tu Puerta",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=t4qKItDVyKI",
+    "firestoreId": "D6HPeSBHId7RKeUuA3f2",
+    "source": "firestore",
+    "genres": [
+      "Canción Tradicional",
+      "Instrumental"
+    ],
+    "occasions": [
+      "Música Cristiana/Católica"
+    ]
+  },
+  {
+    "title": "Mujer Virtuosa",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=EWx2-6FxREA",
+    "firestoreId": "DaX6ZWWohAdpYoeKE1s6",
+    "source": "firestore",
+    "genres": [
+      "Canción Tradicional",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Música Cristiana/Católica",
+      "Día de la Madre",
+      "Bodas y Matrimonios"
+    ]
+  },
+  {
+    "title": "Lo Mucho Que Te Quiero",
+    "artist": "Pedro Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=EcI3FALvwD0",
+    "firestoreId": "Dvcz0BfjGAeoFioefTOs",
+    "source": "excel+firestore",
+    "genres": [
+      "Ranchera"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Fiestas y Despedidas",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Esclavo y Amo",
+    "artist": "Javier Solís",
+    "youtubeUrl": "https://youtube.com/watch?v=1BTh5HgdEyE",
+    "firestoreId": "N5PviNioPKfp3oA5PwaL",
+    "source": "excel+firestore",
+    "genres": [
+      "Bolero",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Despecho",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Cuando un Amigo se Va",
+    "artist": "Marco Antonio Solís",
+    "youtubeUrl": "https://youtube.com/watch?v=EBcaFpHJPZI",
+    "firestoreId": "NVoyPi87QmNTWfofUMH9",
+    "source": "firestore",
+    "genres": [
+      "Balada",
+      "Balada Pop"
+    ],
+    "occasions": [
+      "Velorios y Sepelios",
+      "Graduaciones",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Caballo Viejo",
+    "artist": "Alberto Barros",
+    "youtubeUrl": "https://youtube.com/watch?v=U9XuqYLDIlY",
+    "firestoreId": "NWhaX1AEugkpMJdq3Iay",
+    "source": "firestore",
+    "genres": [
+      "Salsa",
+      "Cumbia"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Hasta que te Conocí",
+    "artist": "Juan Gabriel",
+    "youtubeUrl": "https://youtube.com/watch?v=ga5Bo4YdgH4",
+    "firestoreId": "O3BNhjbOz47qcUu0ESxu",
+    "source": "excel+firestore",
+    "genres": [
+      "Balada",
+      "Balada Pop"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Fiestas y Despedidas",
+      "Despecho"
+    ]
+  },
+  {
+    "title": "Hoy te Quiero Cantar",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=9J9YxWNXS4c",
+    "firestoreId": "PAuHGAhsunGkuAu12EZd",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Música Cristiana/Católica",
+      "Cumpleaños",
+      "Fiestas y Despedidas",
+      "Día de la Madre"
+    ]
+  },
+  {
+    "title": "Cuatro Cirios",
+    "artist": "Javier Solís",
+    "youtubeUrl": "https://youtube.com/watch?v=HHQp--3AB04",
+    "firestoreId": "PbvtciMaIsaDNxawIP3G",
+    "source": "excel+firestore",
+    "genres": [
+      "Bolero",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Velorios y Sepelios",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Tributo a la Salsa Colombiana",
+    "artist": "Alberto Barros",
+    "youtubeUrl": "https://youtube.com/watch?v=2XsWAoNcrFY",
+    "firestoreId": "PhGq8gc8CmQ7WZWZhFZK",
+    "source": "firestore",
+    "genres": [
+      "Salsa",
+      "Popular (Colombiana)"
+    ],
+    "occasions": [
+      "Ambientación",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "Adiós Amor",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=cLzgxtSE-xk",
+    "firestoreId": "Q0sFRC96Gn1xPd8XnUAm",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Bolero"
+    ],
+    "occasions": [
+      "Despecho",
+      "Serenatas",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "Malagueña",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=9Z4yNNDDQok",
+    "firestoreId": "QCFyxlRTviuC2WOLBtwB",
+    "source": "firestore",
+    "genres": [
+      "Son",
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación",
+      "Entrada"
+    ]
+  },
+  {
+    "title": "Jesús es mi Pastor",
+    "artist": "Leo Dan",
+    "youtubeUrl": "https://youtube.com/watch?v=NJFesiSX7WE",
+    "firestoreId": "QYfByrc2BbgsuxceEhtK",
+    "source": "excel+firestore",
+    "genres": [
+      "Balada",
+      "Balada Pop"
+    ],
+    "occasions": [
+      "Música Cristiana/Católica",
+      "Velorios y Sepelios"
+    ]
+  },
+  {
+    "title": "Ojitos Traidores",
+    "artist": "Javier Solís",
+    "youtubeUrl": "https://youtube.com/watch?v=ppYGKtTMx8E",
+    "firestoreId": "QbxFiweHaGggV8icx4ZF",
+    "source": "excel+firestore",
+    "genres": [
+      "Bolero",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Despecho",
+      "Fiestas y Despedidas",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "La Diferencia",
+    "artist": "Juan Gabriel",
+    "youtubeUrl": "https://youtube.com/watch?v=IbWM2jivMiI",
+    "firestoreId": "QrJkMaNF7KylSAsTBg7k",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Despecho",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "Te He Prometido",
+    "artist": "Leo Dan",
+    "youtubeUrl": "https://youtube.com/watch?v=sRXQH4rZrUA",
+    "firestoreId": "R222rxxXruMzNQOboLup",
+    "source": "excel+firestore",
+    "genres": [
+      "Balada",
+      "Balada Pop"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Bodas y Matrimonios",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Algo Más",
+    "artist": "Natalia Jiménez",
+    "youtubeUrl": "https://youtube.com/watch?v=cTvbI7yGvdM",
+    "firestoreId": "RFCTaX7ruLD5kuXNYgLq",
+    "source": "excel+firestore",
+    "genres": [
+      "Balada Pop",
+      "Balada"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Despecho",
+      "Fiestas y Despedidas",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Copitas de Mezcal",
+    "artist": "Javier Solís",
+    "youtubeUrl": "https://youtube.com/watch?v=IiNWdxtBjO4",
+    "firestoreId": "RI9WsEF2sDydq7Jd7WbC",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Bolero"
+    ],
+    "occasions": [
+      "Despecho",
+      "Serenatas",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "Dónde Estás Corazón",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=yBA1qn-fBOM",
+    "firestoreId": "RNdNA9Yerljgl4j95dbk",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Bolero"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Despecho",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "La Mejor de Todas",
+    "artist": "Banda El Recodo",
+    "youtubeUrl": "https://youtu.be/IWjuSuW1cUE",
+    "firestoreId": "RW9F7MosPc91tLKQjJAw",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "occasions": [
+      "Ambientación",
+      "Bodas y Matrimonios",
+      "Día de la Madre",
+      "Serenatas",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Mi Niña Bonita",
+    "artist": "Vicente Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=1npHMXZfmbY",
+    "firestoreId": "RdTjq0Oe8bMHPqlkus72",
+    "source": "excel+firestore",
+    "genres": [
+      "Ranchera",
+      "Ranchera / Vals"
+    ],
+    "occasions": [
+      "Quinceañeras",
+      "Cumpleaños",
+      "Día del Padre",
+      "Día de la Madre",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Si nos Dejan",
+    "artist": "Luis Miguel",
+    "youtubeUrl": "https://www.youtube.com/watch?v=KxTYGHcH-Do&pp=ygUYc2kgbm9zIGRlamFuIGx1aXMgbWlndWVs",
+    "firestoreId": "Rrvbx06UU5LpjAlGw02A",
+    "source": "excel+firestore",
+    "genres": [
+      "Bolero",
+      "Balada"
+    ],
+    "occasions": [
+      "Ambientación",
+      "Bodas y Matrimonios",
+      "Serenatas",
+      "Aniversarios y Románticas",
+      "Despecho"
+    ]
+  },
+  {
+    "title": "Canto a la Madre",
+    "artist": "Pedro Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=UZTiHZ_TLCY",
+    "firestoreId": "S5msQtYh5CLPgoYMjSbP",
+    "source": "excel+firestore",
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "occasions": [
+      "Día de la Madre",
+      "Cumpleaños",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "A mi Manera",
+    "artist": "Vicente Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=9F_BRjGi3L8",
+    "firestoreId": "SNp9E8kAPLDwxAdYPbem",
+    "source": "excel+firestore",
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Graduaciones",
+      "Velorios y Sepelios",
+      "Ambientación",
+      "Día de la Madre",
+      "Día del Padre"
+    ]
+  },
+  {
+    "title": "Cómo te Pago",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=fKd8AxqQiZc",
+    "firestoreId": "SPSVM2h9vxltBUUOH2Mj",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Día de la Madre",
+      "Cumpleaños",
+      "Fiestas y Despedidas",
+      "Ambientación",
+      "Día del Padre"
+    ]
+  },
+  {
+    "title": "Usted",
+    "artist": "Luis Miguel",
+    "youtubeUrl": "https://youtube.com/watch?v=TJYLncp33EY",
+    "firestoreId": "SnXzEWYn0wSKasJLocRn",
+    "source": "firestore",
+    "genres": [
+      "Bolero",
+      "Balada"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Bodas y Matrimonios",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Con los Años que me Quedan",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=RyF5xuLXUXg",
+    "firestoreId": "T26sg1AynaMitwajy8me",
+    "source": "excel+firestore",
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Bodas y Matrimonios",
+      "Día de la Madre",
+      "Día del Padre",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Luisa María",
+    "artist": "Juan Gabriel",
+    "youtubeUrl": "https://youtube.com/watch?v=R12yfnab-ZQ",
+    "firestoreId": "Tpx4aroXxE7REL9IeWya",
+    "source": "excel+firestore",
+    "genres": [
+      "Balada Pop",
+      "Balada"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Ambientación",
+      "Quinceañeras"
+    ]
+  },
+  {
+    "title": "Amor Eterno",
+    "artist": "Rocío Dúrcal",
+    "youtubeUrl": "https://youtube.com/watch?v=7XAUNqTOQx8",
+    "firestoreId": "Tt8Yy48nOHYvtOxVeOWV",
+    "source": "excel+firestore",
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "occasions": [
+      "Velorios y Sepelios",
+      "Día de la Madre",
+      "Ambientación",
+      "Bodas y Matrimonios"
+    ]
+  },
+  {
+    "title": "La Tequilera",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=Y5Zmj21S5UU",
+    "firestoreId": "TxD7uLaHGF3lMQU6gGim",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Son"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Bonita",
+    "artist": "Javier Solís",
+    "youtubeUrl": "https://youtube.com/watch?v=eMJZfV4RWYI",
+    "firestoreId": "UbnrWoYcuQrVZ0TSFXQB",
+    "source": "excel+firestore",
+    "genres": [
+      "Bolero",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Bodas y Matrimonios",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Sin Verte",
+    "artist": "Pedro Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=H9ivAZdrF-8",
+    "firestoreId": "UyXuJf0w6zAIBKLkpUeE",
+    "source": "excel+firestore",
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "occasions": [
+      "Despecho",
+      "Serenatas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "A Esa Mujer",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=3ql5nFBfyjQ",
+    "firestoreId": "V3dvUKQ4Cvr5XdMcRrjA",
+    "source": "excel+firestore",
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Cumpleaños",
+      "Fiestas y Despedidas",
+      "Bodas y Matrimonios",
+      "Día de la Madre",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "El Destino",
+    "artist": "Juan Gabriel",
+    "youtubeUrl": "https://youtube.com/watch?v=gYBfhh2sVDY",
+    "firestoreId": "VuPdDacnoG0WxkcgL74P",
+    "source": "excel+firestore",
+    "genres": [
+      "Balada",
+      "Balada Pop"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Despecho",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "No Crezcas Más",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=9se9qM30NKI",
+    "firestoreId": "WmF4dnX8ai34sjVuUNeX",
+    "source": "firestore",
+    "genres": [
+      "Ranchera / Vals",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Quinceañeras",
+      "Cumpleaños",
+      "Día del Padre",
+      "Día de la Madre",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Mujeres Divinas",
+    "artist": "Vicente Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=xa2GLqL12Zk",
+    "firestoreId": "WvavhOq7CXtjC5HIEaA7",
+    "source": "excel+firestore",
+    "genres": [
+      "Ranchera"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación",
+      "Aniversarios y Románticas",
+      "Despecho"
+    ]
+  },
+  {
+    "title": "Si Se Fue Se Fue",
+    "artist": "Francy",
+    "youtubeUrl": "https://youtube.com/watch?v=Nf4GNFghEn4",
+    "firestoreId": "Wy4UjRTq3hjfAIeTW22i",
+    "source": "firestore",
+    "genres": [
+      "Popular (Colombiana)",
+      "Despecho"
+    ],
+    "occasions": [
+      "Despecho",
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Yo Te Extrañaré",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=O0OcHIUjRnk",
+    "firestoreId": "XBiUJ0Q6KS9cmKPwVZmz",
+    "source": "firestore",
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Velorios y Sepelios",
+      "Despecho",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Contigo Aprendí",
+    "artist": "Alejandro Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=MxoGf2uXkfQ",
+    "firestoreId": "XbFhXX9HdSyVTWnmUvJR",
+    "source": "excel+firestore",
+    "genres": [
+      "Bolero"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Bodas y Matrimonios",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Es Mentiroso",
+    "artist": "Alberto Barros",
+    "youtubeUrl": "https://youtube.com/watch?v=01nejZdkSck",
+    "firestoreId": "Xi0Ti5wIlHiiAU4exU1y",
+    "source": "firestore",
+    "genres": [
+      "Salsa"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Despecho",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Madrigal",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=KVb0fxk7-ig",
+    "firestoreId": "XlO2Qn1yr6AJFAzgtDw7",
+    "source": "firestore",
+    "genres": [
+      "Bolero",
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Ambientación",
+      "Fiestas y Despedidas",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Nosotros",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=YLEDN5VB0x4",
+    "firestoreId": "YPvVyTBPpMXUGy6iPQ0y",
+    "source": "excel+firestore",
+    "genres": [
+      "Bolero"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Despecho",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "He Oído En La Montaña",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=T4JK8WL8DcM",
+    "firestoreId": "YZDpIh7Vn7i85Rox9Vz7",
+    "source": "firestore",
+    "genres": [
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Música Cristiana/Católica",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "El Cigarrillo",
+    "artist": "Ana Gabriel",
+    "youtubeUrl": "https://youtube.com/watch?v=Lhk7EI88BRE",
+    "firestoreId": "YeApjsKV0RMrrE825ECI",
+    "source": "excel+firestore",
+    "genres": [
+      "Balada",
+      "Balada Pop"
+    ],
+    "occasions": [
+      "Despecho",
+      "Serenatas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Luz De Luna",
+    "artist": "Javier Solís",
+    "youtubeUrl": "https://youtube.com/watch?v=rxqhYXAiD88",
+    "firestoreId": "Z07MpGpZgpcqALdzKbew",
+    "source": "excel+firestore",
+    "genres": [
+      "Bolero"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Despecho",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Es Demasiado Tarde",
+    "artist": "Ana Gabriel",
+    "youtubeUrl": "https://youtube.com/watch?v=F07ngnis2ig",
+    "firestoreId": "Z7nQIctENShNSzu9peYH",
+    "source": "excel+firestore",
+    "genres": [
+      "Balada",
+      "Balada Pop"
+    ],
+    "occasions": [
+      "Despecho",
+      "Serenatas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Probablemente",
+    "artist": "Marco Antonio Solís",
+    "youtubeUrl": "https://www.youtube.com/watch?v=F3zH7YcWkUo",
+    "firestoreId": "ZfdRqVS3CCVSCaLJ1pxG",
+    "source": "firestore",
+    "genres": [
+      "Balada",
+      "Balada Pop"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Despecho",
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "En Mi Viejo San Juan",
+    "artist": "Javier Solís",
+    "youtubeUrl": "https://youtube.com/watch?v=pOi9LLVcFBo",
+    "firestoreId": "aIPYVNSgNLrAGVdLrHfE",
+    "source": "excel+firestore",
+    "genres": [
+      "Bolero"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Ambientación",
+      "Día del Padre",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Amar Y Vivir",
+    "artist": "Vicente Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=qKkmUrYAAns",
+    "firestoreId": "aP3qrHvx2LzlIhTzhmQZ",
+    "source": "excel+firestore",
+    "genres": [
+      "Bolero"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Bodas y Matrimonios",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "La Bruja",
+    "artist": "Alberto Barros",
+    "youtubeUrl": "https://youtube.com/watch?v=yulDcMq5xWA",
+    "firestoreId": "acBXkL8Wqq4Lk0Ep81Jg",
+    "source": "firestore",
+    "genres": [
+      "Salsa",
+      "Cumbia"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Nuestro Juramento",
+    "artist": "Julio Jaramillo",
+    "youtubeUrl": "https://youtube.com/watch?v=a6w_j3xUNkg",
+    "firestoreId": "bLsVMlMRC606hc3GyYqA",
+    "source": "firestore",
+    "genres": [
+      "Pasillo",
+      "Bolero"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Despecho",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Toda Una Vida",
+    "artist": "Javier Solís",
+    "youtubeUrl": "https://youtube.com/watch?v=WR8hx7u2xWw",
+    "firestoreId": "bhFtwn7tTrZFCzxp1UwT",
+    "source": "firestore",
+    "genres": [
+      "Bolero"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Bodas y Matrimonios",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Mi Virgen Bella",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=cVjDGRzj1iE",
+    "firestoreId": "c71Tlq80YOr1OTxvZcAH",
+    "source": "firestore",
+    "genres": [
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Música Cristiana/Católica",
+      "Día de la Madre",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Flor De Azalea",
+    "artist": "Javier Solís",
+    "youtubeUrl": "https://youtube.com/watch?v=ke1i1TjsF24",
+    "firestoreId": "cJm8j1y69K7f3S5puGUE",
+    "source": "excel+firestore",
+    "genres": [
+      "Bolero"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Despecho",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Que Se Mueran De Envidia",
+    "artist": "Javier Solís",
+    "youtubeUrl": "https://youtube.com/watch?v=E8kPtvFYgq0",
+    "firestoreId": "cN9tLbymrpO0EsQttTGC",
+    "source": "excel+firestore",
+    "genres": [
+      "Ranchera"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Despecho",
+      "Fiestas y Despedidas",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Ramo De Flores",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=YryFB27wHzs",
+    "firestoreId": "cNEvYO10tgBzTG90XpYM",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Ranchera / Vals"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Cumpleaños",
+      "Día de la Madre",
+      "Bodas y Matrimonios",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Si Quieres",
+    "artist": "Juan Gabriel",
+    "youtubeUrl": "https://youtube.com/watch?v=vjb39UwDDIo",
+    "firestoreId": "ce5NuWtsiuVdSTkvtSpC",
+    "source": "excel+firestore",
+    "genres": [
+      "Balada",
+      "Balada Pop"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Ambientación",
+      "Aniversarios y Románticas",
+      "Despecho"
+    ]
+  },
+  {
+    "title": "Pintor",
+    "artist": "Julio Jaramillo",
+    "youtubeUrl": "https://youtube.com/watch?v=RVY0WNq_EEM",
+    "firestoreId": "chVzQrFA3LWRVSlCqbUT",
+    "source": "excel+firestore",
+    "genres": [
+      "Pasillo",
+      "Bolero"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Ambientación",
+      "Día de la Madre",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "La Reina Del Swing",
+    "artist": "Alberto Barros",
+    "youtubeUrl": "https://youtube.com/watch?v=cRvNRq0TeEo",
+    "firestoreId": "cjfYJ0Ps1VLHjgog3CkW",
+    "source": "firestore",
+    "genres": [
+      "Salsa"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Contigo En La Distancia",
+    "artist": "Alejandro Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=JM-GcTok-7Y",
+    "firestoreId": "cqJwV6gD0XsTJn72FmfO",
+    "source": "firestore",
+    "genres": [
+      "Bolero"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Ambientación",
+      "Fiestas y Despedidas",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Solamente Una Vez",
+    "artist": "Luis Miguel",
+    "youtubeUrl": "https://youtube.com/watch?v=uAYqCRIc2IA",
+    "firestoreId": "ctcJlsAt3kUOplsWdBrE",
+    "source": "excel+firestore",
+    "genres": [
+      "Bolero"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Bodas y Matrimonios",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Cariño De Mis Cariños",
+    "artist": "Lucero",
+    "youtubeUrl": "https://youtube.com/watch?v=jWS7CLZn-dQ",
+    "firestoreId": "d5yIrapckvDru3dIDoHL",
+    "source": "excel+firestore",
+    "genres": [
+      "Ranchera"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Fiestas y Despedidas",
+      "Ambientación",
+      "Día de la Madre",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Por Amor",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=x3lryVwGKJA",
+    "firestoreId": "d8F8eKKcBPF9a5c6Dwa6",
+    "source": "excel+firestore",
+    "genres": [
+      "Bolero"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Bodas y Matrimonios",
+      "Aniversarios y Románticas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Sin Ti",
+    "artist": "Vicente Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=O3qRy6KJGNU",
+    "firestoreId": "dRbBSuPK5DKo25YniHnP",
+    "source": "excel+firestore",
+    "genres": [
+      "Ranchera",
+      "Bolero"
+    ],
+    "occasions": [
+      "Despecho",
+      "Serenatas",
+      "Velorios y Sepelios",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Por Algo Me Han De Recordar",
+    "artist": "Julio Jaramillo",
+    "youtubeUrl": "https://youtube.com/watch?v=XrhoIdH07JI",
+    "firestoreId": "dUJnARIviSrF8g0v34Aw",
+    "source": "firestore",
+    "genres": [
+      "Pasillo",
+      "Bolero"
+    ],
+    "occasions": [
+      "Velorios y Sepelios",
+      "Ambientación",
+      "Despecho",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Peldaños",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=hVl2L_i0duk",
+    "firestoreId": "dUkncDmdFwDnD1RxECzX",
+    "source": "firestore",
+    "genres": [
+      "Instrumental",
+      "Son"
+    ],
+    "occasions": [
+      "Ambientación",
+      "Graduaciones",
+      "Día del Padre",
+      "Día de la Madre"
+    ]
+  },
+  {
+    "title": "Yo No Fui",
+    "artist": "Pedro Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=_BcJw0ta8mc",
+    "firestoreId": "dvKgYHEL9gwmtE4GQahA",
+    "source": "excel+firestore",
+    "genres": [
+      "Cumbia",
+      "Balada Pop"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Cumpleaños",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Mi Tonta Forma De Querer",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=ifnioi8O9ts",
+    "firestoreId": "eQ0Ln7t8idQh1p69UNao",
+    "source": "firestore",
+    "genres": [
+      "Bolero",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Despecho",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Mágicas Princesas",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=OhBVX1WbO84",
+    "firestoreId": "eVyWWdhYsy6Iar9z1tIv",
+    "source": "firestore",
+    "genres": [
+      "Ranchera / Vals",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Quinceañeras",
+      "Cumpleaños",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Abrázame Muy Fuerte",
+    "artist": "Juan Gabriel",
+    "youtubeUrl": "https://youtube.com/watch?v=_tNVEhSelH0",
+    "firestoreId": "eiA0SWBA0k7ol5s7Y1pd",
+    "source": "excel+firestore",
+    "genres": [
+      "Balada",
+      "Balada Pop"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Bodas y Matrimonios",
+      "Fiestas y Despedidas",
+      "Ambientación",
+      "Aniversarios y Románticas",
+      "Despecho"
+    ]
+  },
+  {
+    "title": "Como La Flor",
+    "artist": "Selena",
+    "youtubeUrl": "https://youtu.be/dl_YygXM2xw",
+    "firestoreId": "eyFolXPrgrRzUa8uhSpe",
+    "source": "excel+firestore",
+    "genres": [
+      "Cumbia",
+      "Balada Pop"
+    ],
+    "occasions": [
+      "Ambientación",
+      "Cumpleaños",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "Somos Novios",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=XKP46zd8tqc",
+    "firestoreId": "fHLZPZLKXZmWdDtTvaYt",
+    "source": "excel+firestore",
+    "genres": [
+      "Bolero",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Bodas y Matrimonios",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "El Camino De La Vida",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=Y59yDvPBSBU",
+    "firestoreId": "fLRJ0FkV9LZTzFhbWW8E",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Quinceañeras",
+      "Bodas y Matrimonios",
+      "Graduaciones",
+      "Día del Padre",
+      "Día de la Madre",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Amar y Querer",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=n3cInnnQfr4",
+    "firestoreId": "fOeXTaRM3iDqHyTF7vXa",
+    "source": "firestore",
+    "genres": [
+      "Bolero",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Despecho",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "La Gloria Eres Tú",
+    "artist": "Luis Miguel",
+    "youtubeUrl": "https://youtube.com/watch?v=h-GSyBwKuGE",
+    "firestoreId": "gLsKyBUItStHzVjAtMEn",
+    "source": "firestore",
+    "genres": [
+      "Bolero",
+      "Balada Pop"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Ambientación",
+      "Fiestas y Despedidas",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Mi Mayor Anhelo",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=rwcSw5us8Eo",
+    "firestoreId": "gR7Bj3i5iqBTKoI64CXG",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Bolero"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Bodas y Matrimonios",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "El Dulce Pecado",
+    "artist": "Jessi Uribe",
+    "youtubeUrl": "https://youtu.be/AuiYPIpuJmM",
+    "firestoreId": "gcT12lCZqIwecMBCBp3s",
+    "source": "firestore",
+    "genres": [
+      "Popular (Colombiana)",
+      "Despecho"
+    ],
+    "occasions": [
+      "Despecho",
+      "Fiestas y Despedidas",
+      "Serenatas"
+    ]
+  },
+  {
+    "title": "Mucho Corazón",
+    "artist": "Luis Miguel",
+    "youtubeUrl": "https://youtube.com/watch?v=NXAmH-7Tzt8",
+    "firestoreId": "hEWq4NrjXkuz1QQDLcvN",
+    "source": "excel+firestore",
+    "genres": [
+      "Bolero",
+      "Balada Pop"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Ambientación",
+      "Despecho",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Mía",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=kneRedYAYpQ",
+    "firestoreId": "hQ5WAsckBMSMe3b79iqj",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Bolero"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Despecho",
+      "Fiestas y Despedidas",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Rata De Dos Patas",
+    "artist": "Paquita La Del Barrio",
+    "youtubeUrl": "https://youtube.com/watch?v=JxNzAHuywsc",
+    "firestoreId": "hbks14jvva7K5eoEHxWC",
+    "source": "firestore",
+    "genres": [
+      "Despecho",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Despecho",
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Damasco",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=be7WuEyaPWc",
+    "firestoreId": "hyLeeKnnzXrk4K6JlcQP",
+    "source": "firestore",
+    "genres": [
+      "Canción Tradicional",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Música Cristiana/Católica"
+    ]
+  },
+  {
+    "title": "Aunque No Sea Mayo",
+    "artist": "Vicente Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=CIXWJpV_4kc",
+    "firestoreId": "i5yFnnjpppxPvcijyTAd",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Bolero"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Fiestas y Despedidas",
+      "Aniversarios y Románticas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "La Canción Del Mariachi",
+    "artist": "Alejandro Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=ewzNHwA_cUM",
+    "firestoreId": "iBLXaUdrDR9K6vBLTdOa",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Son"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación",
+      "Serenatas",
+      "Cumpleaños"
+    ]
+  },
+  {
+    "title": "Te Lo Pido Por Favor",
+    "artist": "Juan Gabriel",
+    "youtubeUrl": "https://youtube.com/watch?v=Of3Y_IcbbuU",
+    "firestoreId": "iaNxzKdRFmknJx4Md9EA",
+    "source": "excel+firestore",
+    "genres": [
+      "Balada",
+      "Balada Pop"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Despecho",
+      "Ambientación",
+      "Velorios y Sepelios",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Amor Eterno a la Virgen",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=d5fXFE-6Njc",
+    "firestoreId": "ikCL8Z8V53JBCaK1YkzM",
+    "source": "firestore",
+    "genres": [
+      "Canción Tradicional",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Música Cristiana/Católica"
+    ]
+  },
+  {
+    "title": "La Boda",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=z50c2Kuyorc",
+    "firestoreId": "iuQG6h7DZj3RF3jqJ6Re",
+    "source": "firestore",
+    "genres": [
+      "Ranchera / Vals",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Bodas y Matrimonios",
+      "Fiestas y Despedidas",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Carmen",
+    "artist": "Alberto Barros",
+    "youtubeUrl": "https://youtube.com/watch?v=vJvcdNmaRy4",
+    "firestoreId": "jdISkub10A4slo87uNfm",
+    "source": "firestore",
+    "genres": [
+      "Salsa",
+      "Cumbia"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Mi Niña Bonita (Chino y Nacho)",
+    "artist": "Chino & Nacho",
+    "youtubeUrl": "https://youtube.com/watch?v=6ys9Fj41B28",
+    "firestoreId": "jjKLWvddqcp6CJpy02Aa",
+    "source": "firestore",
+    "genres": [
+      "Balada Pop",
+      "Merengue"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Cumpleaños",
+      "Quinceañeras",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Cielo Rojo",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=CmB7vaU337k",
+    "firestoreId": "jn4nuQJo1fg7lgCCm96Z",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Bolero"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Despecho",
+      "Ambientación",
+      "Serenatas",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Cenizas",
+    "artist": "Javier Solís",
+    "youtubeUrl": "https://youtube.com/watch?v=x3noNiiOsEY",
+    "firestoreId": "jsuW3lslohWfpyZfMro3",
+    "source": "excel+firestore",
+    "genres": [
+      "Bolero",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Despecho",
+      "Serenatas",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Cien Años",
+    "artist": "Javier Solís",
+    "youtubeUrl": "https://youtube.com/watch?v=Wgo8HUyaMMM",
+    "firestoreId": "juacj8wtZbYjKikc0Isl",
+    "source": "firestore",
+    "genres": [
+      "Bolero",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Despecho",
+      "Fiestas y Despedidas",
+      "Serenatas",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Cielito Lindo",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=OHeHOb3E-2g",
+    "firestoreId": "kGRdJatSbXzUVHKm9A0s",
+    "source": "excel+firestore",
+    "genres": [
+      "Canción Tradicional",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación",
+      "Graduaciones",
+      "Cumpleaños",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Perfume De Gardenias",
+    "artist": "Javier Solís",
+    "youtubeUrl": "https://youtube.com/watch?v=I_f8p0itXFw",
+    "firestoreId": "kSaJIu49v8nzqS9mzxyL",
+    "source": "excel+firestore",
+    "genres": [
+      "Bolero",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Mariachi loco",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=CQ_gkzGR1eY",
+    "firestoreId": "kZ61yZFbc5i9nGOqAI0o",
+    "source": "excel+firestore",
+    "genres": [
+      "Cumbia",
+      "Son"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación",
+      "Cumpleaños"
+    ]
+  },
+  {
+    "title": "Ya tiene quince años",
+    "artist": "Julio Jaramillo",
+    "youtubeUrl": "https://youtube.com/watch?v=qZVGDRXzaYo",
+    "firestoreId": "kZNdIsc5mJdcYzu9ZKPN",
+    "source": "firestore",
+    "genres": [
+      "Bolero",
+      "Pasillo"
+    ],
+    "occasions": [
+      "Quinceañeras",
+      "Cumpleaños",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Estos celos",
+    "artist": "Vicente Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=Tsk5aLgnQJs",
+    "firestoreId": "lRwOydhVkFnT4iV7L5zl",
+    "source": "excel+firestore",
+    "genres": [
+      "Ranchera"
+    ],
+    "occasions": [
+      "Despecho",
+      "Fiestas y Despedidas",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "La vida es un carnaval",
+    "artist": "Celia Cruz",
+    "youtubeUrl": "https://youtube.com/watch?v=2F2IG-Xl0aE",
+    "firestoreId": "lajumoDnAmDxXIzMMDYJ",
+    "source": "excel+firestore",
+    "genres": [
+      "Salsa"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Cumpleaños",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Motivos",
+    "artist": "Vicente Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=53rcvrsB60c",
+    "firestoreId": "loywQ23Nf8L5LTITXnfk",
+    "source": "excel+firestore",
+    "genres": [
+      "Ranchera",
+      "Bolero"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Despecho",
+      "Fiestas y Despedidas",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Me muero",
+    "artist": "Natalia Jiménez",
+    "youtubeUrl": "https://youtube.com/watch?v=o6Zgwf5LX-c",
+    "firestoreId": "mVkL6GDzsN8MJvuDa8Pp",
+    "source": "firestore",
+    "genres": [
+      "Balada Pop",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Despecho",
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Si me dejas no vale",
+    "artist": "Alberto Barros",
+    "youtubeUrl": "https://youtube.com/watch?v=bXehP6Fl0Z0",
+    "firestoreId": "maXDhB2VMVOElLkdHs69",
+    "source": "firestore",
+    "genres": [
+      "Salsa"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Despecho",
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Mas que tu amigo",
+    "artist": "Marco Antonio Solís",
+    "youtubeUrl": "https://youtube.com/watch?v=NE79RDnDQ5U",
+    "firestoreId": "muRhO8ZRNI2FvTky7lp3",
+    "source": "excel+firestore",
+    "genres": [
+      "Balada",
+      "Balada Pop"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Cumpleaños",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Probablemente ya",
+    "artist": "Juan Gabriel",
+    "youtubeUrl": "https://youtube.com/watch?v=g5rsnxJWNkM",
+    "firestoreId": "n1DVT745niGsaStHwgiL",
+    "source": "excel+firestore",
+    "genres": [
+      "Balada",
+      "Balada Pop"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Despecho",
+      "Aniversarios y Románticas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "El sopilote mojado",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=JGHBHYeOTCE",
+    "firestoreId": "nO47y5UZAL3pX11rprnc",
+    "source": "firestore",
+    "genres": [
+      "Son",
+      "Instrumental"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "El barrilito",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=XoJPNzRUZzY",
+    "firestoreId": "nOu4hdD9M71uB5rahisp",
+    "source": "firestore",
+    "genres": [
+      "Polka",
+      "Instrumental"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación",
+      "Cumpleaños"
+    ]
+  },
+  {
+    "title": "Reloj",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=gZL7Tqov0w0",
+    "firestoreId": "nQhE4w1m5D1LFjaJzeCv",
+    "source": "firestore",
+    "genres": [
+      "Bolero",
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Despecho",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Tabaco y ron",
+    "artist": "Alberto Barros",
+    "youtubeUrl": "https://youtube.com/watch?v=3pg-LexET2w",
+    "firestoreId": "nUjFyXxfVket0OcGiLq8",
+    "source": "firestore",
+    "genres": [
+      "Salsa"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Ay Chavela",
+    "artist": "Pedro Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=COMY2Kr6Lq4",
+    "firestoreId": "oA0RLcb4sV5JA2x1CY8W",
+    "source": "firestore",
+    "genres": [
+      "Ranchera"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Serenatas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Entrega total",
+    "artist": "Javier Solís",
+    "youtubeUrl": "https://youtube.com/watch?v=L3kn9Xs4Tek",
+    "firestoreId": "oXsMqqRkjeZPV7OCQSIE",
+    "source": "excel+firestore",
+    "genres": [
+      "Bolero"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Despecho",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Para siempre",
+    "artist": "Vicente Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=9fqPtmLAU3I",
+    "firestoreId": "ohFwE4501xUxMRETxUif",
+    "source": "excel+firestore",
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "occasions": [
+      "Bodas y Matrimonios",
+      "Aniversarios y Románticas",
+      "Serenatas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Felicitación",
+    "artist": "Julio Jaramillo",
+    "youtubeUrl": "https://youtube.com/watch?v=ZqjkrjfIkh8",
+    "firestoreId": "ozD5xMKZjjlmJRd6K8A6",
+    "source": "firestore",
+    "genres": [
+      "Bolero",
+      "Pasillo"
+    ],
+    "occasions": [
+      "Cumpleaños",
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "He sabido que te amaba",
+    "artist": "Javier Solís",
+    "youtubeUrl": "https://youtube.com/watch?v=WndFUsSXtKU",
+    "firestoreId": "p5rJBsMq9h9Eo2uADIxr",
+    "source": "excel+firestore",
+    "genres": [
+      "Bolero"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Despecho",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Mátalas",
+    "artist": "Alejandro Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=oFtP7PUyYoI",
+    "firestoreId": "p9Hytreipt0IWcRvOuZy",
+    "source": "firestore",
+    "genres": [
+      "Ranchera"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Despecho",
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Perdón",
+    "artist": "Alejandro Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=QPPICVq6-zU",
+    "firestoreId": "pHCiLwrbYCCwVlcjjYHL",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Despecho",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Despierta",
+    "artist": "Vicente Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=5ar42kauTd8",
+    "firestoreId": "po48wAtKeR8H9hleL4St",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Cumpleaños",
+      "Ambientación",
+      "Día de la Madre",
+      "Día del Padre"
+    ]
+  },
+  {
+    "title": "Bendita Madre",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=euJNFdOhP8M",
+    "firestoreId": "prtLkErYgO5XMJRu73jn",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Día de la Madre",
+      "Cumpleaños",
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Te amare toda la vida",
+    "artist": "Javier Solís",
+    "youtubeUrl": "https://youtube.com/watch?v=YWeioAj4OeY",
+    "firestoreId": "pt0NQ65lmoZmmBktiQdM",
+    "source": "excel+firestore",
+    "genres": [
+      "Bolero"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Bodas y Matrimonios",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Pescador de hombres",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=9GLFNM7KgwA",
+    "firestoreId": "q7v8EPXHPZvnoeLX0AQo",
+    "source": "firestore",
+    "genres": [
+      "Canción Tradicional",
+      "Clásico"
+    ],
+    "occasions": [
+      "Música Cristiana/Católica",
+      "Velorios y Sepelios"
+    ]
+  },
+  {
+    "title": "Volver volver",
+    "artist": "Vicente Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=gZVKe_0n7tg",
+    "firestoreId": "qRFKhykzRhOkp1aP3zCP",
+    "source": "excel+firestore",
+    "genres": [
+      "Ranchera"
+    ],
+    "occasions": [
+      "Despecho",
+      "Fiestas y Despedidas",
+      "Serenatas",
+      "Velorios y Sepelios",
+      "Aniversarios y Románticas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Esposa",
+    "artist": "Julio Jaramillo",
+    "youtubeUrl": "https://youtube.com/watch?v=3wUeCtnAV7A",
+    "firestoreId": "rJUKHqFjAILrjCNWW0S4",
+    "source": "excel+firestore",
+    "genres": [
+      "Bolero",
+      "Pasillo"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Despecho",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "España cali",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=HYscCAbhzaY",
+    "firestoreId": "rxLBpj0o7w79KpWpcEkw",
+    "source": "firestore",
+    "genres": [
+      "Instrumental"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "El privilegio de amar",
+    "artist": "Lucero",
+    "youtubeUrl": "https://youtube.com/watch?v=2DhThYPRDDI",
+    "firestoreId": "s18DnucZiFO23I1kwhpw",
+    "source": "excel+firestore",
+    "genres": [
+      "Balada Pop",
+      "Balada"
+    ],
+    "occasions": [
+      "Bodas y Matrimonios",
+      "Quinceañeras",
+      "Día de la Madre",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Señora bonita",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=eJpMOYIK6SA",
+    "firestoreId": "s9EzWkD6SZngr9374D6n",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Día de la Madre",
+      "Cumpleaños",
+      "Ambientación",
+      "Serenatas"
+    ]
+  },
+  {
+    "title": "Llorarás",
+    "artist": "Alberto Barros",
+    "youtubeUrl": "https://youtube.com/watch?v=tVmDML_vglE",
+    "firestoreId": "sMYeqqCRpn0lzdtPuNFl",
+    "source": "firestore",
+    "genres": [
+      "Salsa"
+    ],
+    "occasions": [
+      "Despecho",
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Amarte es un placer",
+    "artist": "Luis Miguel",
+    "youtubeUrl": "https://youtube.com/watch?v=4vVQ-1kxppY",
+    "firestoreId": "se6W1kwgBJgJZBxyzgdE",
+    "source": "excel+firestore",
+    "genres": [
+      "Balada Pop",
+      "Balada"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Bodas y Matrimonios",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Obsesión",
+    "artist": "Javier Solís",
+    "youtubeUrl": "https://youtube.com/watch?v=GuoLu1t9CmQ",
+    "firestoreId": "sw8n6kFoOPG2aRaewpVn",
+    "source": "excel+firestore",
+    "genres": [
+      "Bolero"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Despecho",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Felicidades",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=_Hc4RUzzQlE",
+    "firestoreId": "t66Rbg8XvOYyjstjZP2t",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Cumpleaños",
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Nadie es eterno en el mundo",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=cZvPJoOMKB4",
+    "firestoreId": "tEwsSW7IZBgYPFZRJpiq",
+    "source": "firestore",
+    "genres": [
+      "Ranchera"
+    ],
+    "occasions": [
+      "Velorios y Sepelios",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Serenata huasteca",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=y-6Rp1GCY1w",
+    "firestoreId": "tSMXO7IJLLEMwyn5GjOt",
+    "source": "firestore",
+    "genres": [
+      "Huapango",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Madre cariñito santo",
+    "artist": "Julio Jaramillo",
+    "youtubeUrl": "https://youtube.com/watch?v=rGJ4TfuFAKg",
+    "firestoreId": "tWIihqu98PaBRuzPHQFl",
+    "source": "excel+firestore",
+    "genres": [
+      "Pasillo",
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Día de la Madre",
+      "Cumpleaños",
+      "Ambientación",
+      "Velorios y Sepelios"
+    ]
+  },
+  {
+    "title": "Gema",
+    "artist": "Javier Solís",
+    "youtubeUrl": "https://youtube.com/watch?v=cEcWnlIdUOw",
+    "firestoreId": "taBWidGzvea2K00c0qUj",
+    "source": "excel+firestore",
+    "genres": [
+      "Bolero"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Ambientación",
+      "Fiestas y Despedidas",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Regalo de un hijo",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=bc88kfQJoq0",
+    "firestoreId": "tk7DsEAalNhd9MUlcFMY",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Día de la Madre",
+      "Cumpleaños",
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "No me se rajar",
+    "artist": "Vicente Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=mHL6rpmxQRg",
+    "firestoreId": "toKo17p7xbWn71Ymq3qM",
+    "source": "firestore",
+    "genres": [
+      "Ranchera"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Despecho",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Querida amiga",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=BVJ9kKkn-os",
+    "firestoreId": "txhMvuzHNTrZ4DcsIeDC",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Cumpleaños",
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Mi razon de ser",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=8Zihvn67CNI",
+    "firestoreId": "uJ9qASk80Q2GnYDgAcA5",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Bolero"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Bodas y Matrimonios",
+      "Aniversarios y Románticas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Abrázame",
+    "artist": "Alejandro Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=yt8Ki-RSIyA",
+    "firestoreId": "uSQTDL1aq54rsyAOwUfg",
+    "source": "excel+firestore",
+    "genres": [
+      "Balada",
+      "Balada Pop"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Bodas y Matrimonios",
+      "Fiestas y Despedidas",
+      "Ambientación",
+      "Aniversarios y Románticas",
+      "Despecho"
+    ]
+  },
+  {
+    "title": "Quince primaveras",
+    "artist": "Vicente Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=rYclZ_Y0rH4",
+    "firestoreId": "uTTho8IuPwLPyUZyY6t1",
+    "source": "excel+firestore",
+    "genres": [
+      "Ranchera",
+      "Ranchera / Vals"
+    ],
+    "occasions": [
+      "Quinceañeras",
+      "Cumpleaños",
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "La ley del monte",
+    "artist": "Vicente Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=Byeu5C9FS6s",
+    "firestoreId": "vdPPxqnFbwMjmIzCT6vP",
+    "source": "excel+firestore",
+    "genres": [
+      "Ranchera"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Despecho",
+      "Ambientación",
+      "Día del Padre"
+    ]
+  },
+  {
+    "title": "La mitad que me faltaba",
+    "artist": "Alejandro Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=8Eaquhm0fCs",
+    "firestoreId": "wMMly8pj6xczVUFeDSLD",
+    "source": "excel+firestore",
+    "genres": [
+      "Balada",
+      "Balada Pop"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Bodas y Matrimonios",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Niña amada mía",
+    "artist": "Alejandro Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=1IewjdQMlbQ",
+    "firestoreId": "wyJ0gJjCicm2GyYEmDfx",
+    "source": "excel+firestore",
+    "genres": [
+      "Balada",
+      "Balada Pop"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Bodas y Matrimonios",
+      "Día de la Madre",
+      "Aniversarios y Románticas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Me gusta",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=dYk_rm4sR1M",
+    "firestoreId": "xAIPNzyaZdE552SLsLL3",
+    "source": "firestore",
+    "genres": [
+      "Ranchera"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Serenatas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Mil años",
+    "artist": "Leo Dan",
+    "youtubeUrl": "https://youtube.com/watch?v=_MTgyEPlwgY",
+    "firestoreId": "xLKAUpiDgSpmJXYJKtZT",
+    "source": "excel+firestore",
+    "genres": [
+      "Balada",
+      "Balada Pop"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Bodas y Matrimonios",
+      "Aniversarios y Románticas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Que Dios te bendiga",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=spfPclyGvw8",
+    "firestoreId": "xiBGSTewTr1yenJefZYg",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Cumpleaños",
+      "Graduaciones",
+      "Música Cristiana/Católica",
+      "Ambientación",
+      "Aniversarios y Románticas",
+      "Día de la Madre",
+      "Día del Padre"
+    ]
+  },
+  {
+    "title": "Pídeme la luna",
+    "artist": "Leo Dan",
+    "youtubeUrl": "https://youtube.com/watch?v=1aSc2xjtn6M",
+    "firestoreId": "xpo5wGvaIGS1EbIXrKPh",
+    "source": "excel+firestore",
+    "genres": [
+      "Balada",
+      "Balada Pop"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Despecho",
+      "Fiestas y Despedidas",
+      "Aniversarios y Románticas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Mas allá",
+    "artist": "Javier Solís",
+    "youtubeUrl": "https://youtube.com/watch?v=387jivPcwvE",
+    "firestoreId": "y7WftJvorxqgSj42PGf1",
+    "source": "firestore",
+    "genres": [
+      "Bolero"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Despecho",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Madre de los jóvenes",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=gz66PdmG_ho",
+    "firestoreId": "yJUqcWtOtWjQA8VT260V",
+    "source": "firestore",
+    "genres": [
+      "Canción Tradicional",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Música Cristiana/Católica",
+      "Día de la Madre",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "La barca",
+    "artist": "Luis Miguel",
+    "youtubeUrl": "https://youtube.com/watch?v=qPv0KJ0Ra4w",
+    "firestoreId": "yJV99d1AHakYP7X5U27L",
+    "source": "firestore",
+    "genres": [
+      "Bolero",
+      "Balada Pop"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Ambientación",
+      "Fiestas y Despedidas",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "En tu pelo",
+    "artist": "Javier Solís",
+    "youtubeUrl": "https://youtube.com/watch?v=yuQku2CuIhA",
+    "firestoreId": "yZeZETEOvNLZIvIvf56Z",
+    "source": "excel+firestore",
+    "genres": [
+      "Bolero"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Despecho",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Perfidia",
+    "artist": "Javier Solís",
+    "youtubeUrl": "https://youtube.com/watch?v=up6Y-VCd1c8",
+    "firestoreId": "z4ENGWcVxMlkPMvv5PzY",
+    "source": "excel+firestore",
+    "genres": [
+      "Bolero"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Despecho",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Yo puedo hacer",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=balFKWqXuT0",
+    "firestoreId": "zHDjv4111Xf1N7DB0m7q",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Bolero"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Amarte a la antigua",
+    "artist": "Pedro Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=pifvIJ9372o",
+    "firestoreId": "zOBJDQgMP5WJnVNOTDaB",
+    "source": "excel+firestore",
+    "genres": [
+      "Ranchera",
+      "Balada Pop"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Bodas y Matrimonios",
+      "Fiestas y Despedidas",
+      "Aniversarios y Románticas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "La Guadalupana",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=jIGKzn3Y4Es",
+    "firestoreId": "zP9SXDG5NDOvurnuMHI0",
+    "source": "firestore",
+    "genres": [
+      "Canción Tradicional",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Música Cristiana/Católica",
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Cuando Quería Ser Grande",
+    "artist": "Alejandro Fernández",
+    "youtubeUrl": "https://www.youtube.com/watch?v=b0S-QoZtWFE",
+    "firestoreId": "zmz4e7c4jWl0pRWILnOb",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "occasions": [
+      "Día del Padre",
+      "Graduaciones",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Flor sin retoño",
+    "artist": "Javier Solís",
+    "youtubeUrl": "https://youtube.com/watch?v=Xmnz6ufyn8I",
+    "firestoreId": "zwufqBbRnsFZzifg3AtJ",
+    "source": "firestore",
+    "genres": [
+      "Bolero"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Despecho",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Happy birthday",
+    "artist": "Desconocido / Varios",
+    "youtubeUrl": "https://youtube.com/watch?v=wnX3EHZlDTA",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Cumpleaños",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Happy birthday cristiano",
+    "artist": "Desconocido / Varios",
+    "youtubeUrl": "https://youtube.com/watch?v=asLoXCwdFX0",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Cumpleaños",
+      "Música Cristiana/Católica"
+    ]
+  },
+  {
+    "title": "Happy birthday venezolano",
+    "artist": "Desconocido / Varios",
+    "youtubeUrl": "https://youtube.com/watch?v=DZg-paVWkH4",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Canción Tradicional",
+      "Folclore"
+    ],
+    "occasions": [
+      "Cumpleaños",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Las mañanitas",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=AY8uD3ONaOI",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Cumpleaños",
+      "Serenatas",
+      "Día de la Madre",
+      "Día del Padre"
+    ]
+  },
+  {
+    "title": "Felicitaciones",
+    "artist": "Julio Jaramillo",
+    "youtubeUrl": "https://youtube.com/watch?v=vLqy6pEiro4",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Bolero",
+      "Pasillo"
+    ],
+    "occasions": [
+      "Cumpleaños",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Felicidades",
+    "artist": "Mariachi Mexico",
+    "youtubeUrl": "https://youtube.com/watch?v=VV51v0yljhE",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Cumpleaños",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Ramo de Flores",
+    "artist": "Mariachi Oro De Mexico",
+    "youtubeUrl": "https://youtube.com/watch?v=tYIoOW6aARg",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Bolero"
+    ],
+    "occasions": [
+      "Cumpleaños",
+      "Aniversarios y Románticas",
+      "Serenatas",
+      "Día de la Madre"
+    ]
+  },
+  {
+    "title": "Despierta",
+    "artist": "Pedro Infante",
+    "youtubeUrl": "https://youtube.com/watch?v=kRzuwtcgL7c",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Bolero"
+    ],
+    "occasions": [
+      "Cumpleaños",
+      "Serenatas",
+      "Día de la Madre",
+      "Día del Padre",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "La Fiesta del Mariachi",
+    "artist": "Luis Miguel",
+    "youtubeUrl": "https://youtube.com/watch?v=9m1dcHiChKc",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Balada Pop"
+    ],
+    "occasions": [
+      "Entrada",
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Amar y querer",
+    "artist": "José José",
+    "youtubeUrl": "https://youtube.com/watch?v=RBicJYn3tGw",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Balada",
+      "Bolero"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Serenatas",
+      "Ambientación",
+      "Despecho"
+    ]
+  },
+  {
+    "title": "Amorcito corazon",
+    "artist": "Javier Solís",
+    "youtubeUrl": "https://youtube.com/watch?v=_8Hd6c6bjZ8",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Bolero",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Serenatas",
+      "Bodas y Matrimonios",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Besame",
+    "artist": "Ricardo Montaner",
+    "youtubeUrl": "https://youtube.com/watch?v=otEUIRzlRjs",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Balada",
+      "Balada Pop"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Serenatas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Cielo rojo",
+    "artist": "Mariachi Cobre",
+    "youtubeUrl": "https://youtube.com/watch?v=fet83vgQ4xU",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Despecho"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Despecho",
+      "Serenatas"
+    ]
+  },
+  {
+    "title": "Cien años",
+    "artist": "Pedro Infante",
+    "youtubeUrl": "https://youtube.com/watch?v=uMY71QLyQgI",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Despecho"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Serenatas",
+      "Despecho"
+    ]
+  },
+  {
+    "title": "Como fue",
+    "artist": "Mariachi Sol de México",
+    "youtubeUrl": "https://youtube.com/watch?v=OtTXcrZMGps",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Bolero"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Serenatas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Contigo en la distancia",
+    "artist": "Desconocido / Varios",
+    "youtubeUrl": "https://youtube.com/watch?v=0MBqhWaZ1Dk",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Bolero",
+      "Balada"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Serenatas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Despacito",
+    "artist": "J.A. Jimenez",
+    "youtubeUrl": "https://youtube.com/watch?v=fcd8l-gIyrQ",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Serenatas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Diseñame",
+    "artist": "Joan Sebastian",
+    "youtubeUrl": "https://youtube.com/watch?v=Xqu1sDjUnfo",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Serenatas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "El amor mas grande del planeta",
+    "artist": "Felipe Pelaez",
+    "youtubeUrl": "https://youtube.com/watch?v=FBScYYaoeRc",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Popular (Colombiana)",
+      "Balada"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Serenatas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "El prendedor",
+    "artist": "Los Antares",
+    "youtubeUrl": "https://youtube.com/watch?v=IwjBFH-FsHA",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Cumbia"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "El triste",
+    "artist": "Mariachi Sol de México",
+    "youtubeUrl": "https://youtube.com/watch?v=egC5TQqpOD0",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Balada",
+      "Despecho"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Despecho",
+      "Serenatas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Eso y mas",
+    "artist": "Joan Sebastian",
+    "youtubeUrl": "https://youtube.com/watch?v=v5Wl9_14GTY",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Serenatas",
+      "Bodas y Matrimonios",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Flor Sin Retoño",
+    "artist": "Pedro Infante",
+    "youtubeUrl": "https://youtube.com/watch?v=5Rzumcbs2wk",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Despecho"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Despecho",
+      "Serenatas"
+    ]
+  },
+  {
+    "title": "Júrame",
+    "artist": "Mariachi Camperos",
+    "youtubeUrl": "https://youtube.com/watch?v=xuh5LbSOfqc",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Bolero",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Serenatas",
+      "Bodas y Matrimonios",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "La barca",
+    "artist": "Mariachi Sol de México",
+    "youtubeUrl": "https://youtube.com/watch?v=2SdFxMUz034",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Bolero"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Serenatas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "La gloria eres tu",
+    "artist": "Desconocido / Varios",
+    "youtubeUrl": "https://youtube.com/watch?v=qwUwmtrWJFc",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Bolero",
+      "Balada"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Serenatas",
+      "Bodas y Matrimonios",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "La mejor de todas",
+    "artist": "Mariachi Misterio",
+    "youtubeUrl": "https://youtube.com/watch?v=yxK4O3L6bNc",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Despecho"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Despecho",
+      "Serenatas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "La venia bendita",
+    "artist": "Marco Antonio Solís",
+    "youtubeUrl": "https://youtube.com/watch?v=lN4p0Pbc-xk",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Balada",
+      "Despecho"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Despecho",
+      "Serenatas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Madrigal",
+    "artist": "Danny Rivera",
+    "youtubeUrl": "https://youtube.com/watch?v=j5k7r8KvWuo",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Bolero",
+      "Balada"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Serenatas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Malagueña",
+    "artist": "Miguel A. Mejía",
+    "youtubeUrl": "https://youtube.com/watch?v=31OWzqItCIw",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Canción Tradicional",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Serenatas",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "Mary Es mi Amor",
+    "artist": "Leo Dan",
+    "youtubeUrl": "https://youtube.com/watch?v=EgQnG1nW1o4",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Balada",
+      "Balada Pop"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Serenatas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Más Allá (Para Bodas)",
+    "artist": "Javier Solís",
+    "youtubeUrl": "https://youtube.com/watch?v=JaW57Sarasc",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Bolero",
+      "Balada"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Bodas y Matrimonios",
+      "Serenatas"
+    ]
+  },
+  {
+    "title": "Me Muero",
+    "artist": "La Quinta Estación",
+    "youtubeUrl": "https://youtube.com/watch?v=AoXuRVzEvNg",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Balada Pop",
+      "Balada"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Serenatas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Mi Compañera",
+    "artist": "Los Antares",
+    "youtubeUrl": "https://youtube.com/watch?v=k__vD4FPq2c",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Cumbia",
+      "Balada"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Mi Mayor Anhelo",
+    "artist": "Mariachi Nuevo Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=wMePcf2DA-4",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Bolero"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Serenatas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Mi Razón de Ser",
+    "artist": "Mariachi Nuevo Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=AMsrIaNO_i0",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Serenatas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Mía",
+    "artist": "Mariachi Sol de México",
+    "youtubeUrl": "https://youtube.com/watch?v=D23phQFommU",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Bolero"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Serenatas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Nuestro Juramento",
+    "artist": "Vicente Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=pgu2K3TkA6k",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Bolero",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Serenatas",
+      "Despecho",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Por una Mujer Bonita",
+    "artist": "Pepe Aguilar",
+    "youtubeUrl": "https://youtube.com/watch?v=EtIjtlmjnKE",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Serenatas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Prometo",
+    "artist": "Fonseca",
+    "youtubeUrl": "https://youtube.com/watch?v=RXZzJi2svyg",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Balada Pop",
+      "Balada"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Serenatas",
+      "Bodas y Matrimonios"
+    ]
+  },
+  {
+    "title": "Qué Bonito Amor",
+    "artist": "Los Hijos de María",
+    "youtubeUrl": "https://youtube.com/watch?v=E2ybXoBJLt8",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Ranchera / Vals"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Serenatas",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "Reloj",
+    "artist": "Mariachi Imperial",
+    "youtubeUrl": "https://youtube.com/watch?v=dBk_K1qerIk",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Bolero"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Serenatas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Sabor a Mí",
+    "artist": "Mariachi Imperial",
+    "youtubeUrl": "https://youtube.com/watch?v=LgqhdagOBjI",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Bolero"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Serenatas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Secreto de Amor",
+    "artist": "Joan Sebastian",
+    "youtubeUrl": "https://youtube.com/watch?v=loduYZcFRtE",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Serenatas",
+      "Ambientación",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "Señora Bonita",
+    "artist": "José Luis Rodríguez",
+    "youtubeUrl": "https://youtube.com/watch?v=QTmDvUEzV_I",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Balada",
+      "Balada Pop"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Día de la Madre",
+      "Serenatas"
+    ]
+  },
+  {
+    "title": "Serenata Huasteca",
+    "artist": "José Alfredo Jiménez",
+    "youtubeUrl": "https://youtube.com/watch?v=yIpsdxqwS-g",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Huapango",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Serenatas",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "Toda una Vida",
+    "artist": "Los Hijos de María",
+    "youtubeUrl": "https://youtube.com/watch?v=6NDlbfDNhR4",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Bolero",
+      "Balada"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Serenatas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Un Hombre Normal",
+    "artist": "Mariachi Nuevo Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=AOL5KmbR1NE",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Serenatas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Usted",
+    "artist": "Mariachi Cielito Lindo",
+    "youtubeUrl": "https://youtube.com/watch?v=UHUhV5JMmIg",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Bolero"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Serenatas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Veinticinco Rosas",
+    "artist": "Joan Sebastian",
+    "youtubeUrl": "https://youtube.com/watch?v=s3oTrsJult0",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Serenatas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Yo Puedo Hacer",
+    "artist": "Ricardo Montaner",
+    "youtubeUrl": "https://youtube.com/watch?v=yopo9U8aak4",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Balada",
+      "Balada Pop"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Serenatas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Tu Tonta Falta de Querer",
+    "artist": "Mon Laferte",
+    "youtubeUrl": "https://youtube.com/watch?v=WT-VE9OyAJk",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Balada",
+      "Balada Pop"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Despecho",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Me Gusta",
+    "artist": "Joan Sebastian",
+    "youtubeUrl": "https://youtube.com/watch?v=Fraqb7wyofE",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Serenatas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Como tu Sangre en mi Cuerpo",
+    "artist": "ÁNgela Aguilar",
+    "youtubeUrl": "https://youtube.com/watch?v=JuUt0Ej3B2Y",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "occasions": [
+      "Quinceañeras",
+      "Día de la Madre",
+      "Día del Padre",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Caminos de la Vida",
+    "artist": "Mariachi Cielito Lindo",
+    "youtubeUrl": "https://youtube.com/watch?v=btePElYwSTE",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Cumbia",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Quinceañeras",
+      "Día de la Madre",
+      "Fiestas y Despedidas",
+      "Ambientación",
+      "Graduaciones"
+    ]
+  },
+  {
+    "title": "Mágicas Princesas",
+    "artist": "Jesús Adrián Romero",
+    "youtubeUrl": "https://youtube.com/watch?v=rDNv9LjnfFw",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Balada",
+      "Balada Pop"
+    ],
+    "occasions": [
+      "Quinceañeras",
+      "Música Cristiana/Católica",
+      "Día del Padre",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "No Crezcas Más",
+    "artist": "Mariachi Cielito Lindo",
+    "youtubeUrl": "https://youtube.com/watch?v=o1G24cmnsqM",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Quinceañeras",
+      "Día de la Madre",
+      "Día del Padre",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Ojitos Verdes",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=i_jY0T-G0js",
+    "firestoreId": "EKY5q3tRVczCSovUiZSv",
+    "source": "firestore",
+    "genres": [
+      "Son",
+      "Popular (Colombiana)"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Nunca Es Suficiente",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=E2ju80kPIFg",
+    "firestoreId": "EZCMQg1ykhJdc52kZcYo",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "occasions": [
+      "Despecho",
+      "Serenatas",
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "La Murga",
+    "artist": "Alberto Barros",
+    "youtubeUrl": "https://youtube.com/watch?v=G1Dc3gRBbQo",
+    "firestoreId": "EtlVRqCGcK3U3Xuau4v0",
+    "source": "firestore",
+    "genres": [
+      "Cumbia",
+      "Popular (Colombiana)"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Mary Es Mi Amor",
+    "artist": "Javier Solís",
+    "youtubeUrl": "https://youtube.com/watch?v=9NhaC0-ecWw",
+    "firestoreId": "Evo0veLVZXR0HVE3nxDW",
+    "source": "firestore",
+    "genres": [
+      "Bolero",
+      "Balada"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Como Quien Pierde Una Estrella",
+    "artist": "Alejandro Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=MXlwuZ_nEk0",
+    "firestoreId": "Ew1WHir2T04EHlj7bRoJ",
+    "source": "excel+firestore",
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "occasions": [
+      "Despecho",
+      "Serenatas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Nube Viajera",
+    "artist": "Alejandro Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=ZTPVeup5UFk",
+    "firestoreId": "F09nMU0KjmBRaAxIXKmO",
+    "source": "excel+firestore",
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Despecho",
+      "Ambientación",
+      "Velorios y Sepelios"
+    ]
+  },
+  {
+    "title": "La Propuesta",
+    "artist": "Ana Gabriel",
+    "youtubeUrl": "https://youtube.com/watch?v=jsSwVGjj8KI",
+    "firestoreId": "G9z01uAKgyfjfJW7TtLk",
+    "source": "excel+firestore",
+    "genres": [
+      "Balada",
+      "Bolero"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Fiestas y Despedidas",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Vivir La Vida",
+    "artist": "Marc Anthony",
+    "youtubeUrl": "https://youtu.be/IcGr_jyo6Rg",
+    "firestoreId": "GTdgCtGwvTkdWRfkIJlu",
+    "source": "excel+firestore",
+    "genres": [
+      "Salsa",
+      "Cumbia"
+    ],
+    "occasions": [
+      "Ambientación",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "Bésame",
+    "artist": "Luis Miguel",
+    "youtubeUrl": "https://youtube.com/watch?v=wCQ3qeBfKEM",
+    "firestoreId": "Gbl1btf5wvpwZg7RS7hx",
+    "source": "firestore",
+    "genres": [
+      "Bolero",
+      "Balada"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Bodas y Matrimonios",
+      "Fiestas y Despedidas",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Prometo",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=KSVItZyo_l0",
+    "firestoreId": "H6cwOEY2FmbNhskcbM2S",
+    "source": "firestore",
+    "genres": [
+      "Bolero",
+      "Balada"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Bodas y Matrimonios",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "La Guadalupana",
+    "artist": "Miriam Solís",
+    "youtubeUrl": "https://youtube.com/watch?v=4W53NfQrNQg",
+    "firestoreId": "HKF0gfDdZf6xbgsRHb6K",
+    "source": "firestore",
+    "genres": [
+      "Canción Tradicional",
+      "Música Cristiana"
+    ],
+    "occasions": [
+      "Música Cristiana/Católica"
+    ]
+  },
+  {
+    "title": "Loco",
+    "artist": "Alejandro Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=K2mGOE65nLA",
+    "firestoreId": "IfciC4REJNOaubVClLJr",
+    "source": "excel+firestore",
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "occasions": [
+      "Despecho",
+      "Fiestas y Despedidas",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Sombras",
+    "artist": "Javier Solís",
+    "youtubeUrl": "https://youtube.com/watch?v=UasiMOoMz1o",
+    "firestoreId": "IgncWHkfU3AbQlSYeTAb",
+    "source": "excel+firestore",
+    "genres": [
+      "Bolero",
+      "Balada"
+    ],
+    "occasions": [
+      "Despecho",
+      "Serenatas",
+      "Velorios y Sepelios",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "La Venia Bendita",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=MjisQoerYD0",
+    "firestoreId": "JC63lhPqCfDUgXbrlKLE",
+    "source": "firestore",
+    "genres": [
+      "Son",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Bodas y Matrimonios",
+      "Quinceañeras",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "El Ausente",
+    "artist": "Vicente Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=oZCHFXxkoQc",
+    "firestoreId": "JCfG78BlmQooVafIWOu4",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Despecho"
+    ],
+    "occasions": [
+      "Despecho",
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Jalisco No Te Rajes",
+    "artist": "Javier Solís",
+    "youtubeUrl": "https://youtube.com/watch?v=D34D_zUUdKs",
+    "firestoreId": "JYBcmGIy3un5i8vg7Crs",
+    "source": "firestore",
+    "genres": [
+      "Son",
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación",
+      "Cumpleaños"
+    ]
+  },
+  {
+    "title": "El Rey",
+    "artist": "Vicente Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=U6qMQnNst9U",
+    "firestoreId": "JcSkDqCHycccRM7m7PJr",
+    "source": "excel+firestore",
+    "genres": [
+      "Ranchera",
+      "Huapango"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Cumpleaños",
+      "Ambientación",
+      "Despecho",
+      "Día del Padre"
+    ]
+  },
+  {
+    "title": "Hechizo",
+    "artist": "Ana Gabriel",
+    "youtubeUrl": "https://youtube.com/watch?v=BBxnW6Y18VA",
+    "firestoreId": "Ka1jzY3z8EvjawTsdZvd",
+    "source": "excel+firestore",
+    "genres": [
+      "Balada",
+      "Bolero"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Fiestas y Despedidas",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Mi Forma De Sentir",
+    "artist": "Pedro Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=rV99-gKpeAU",
+    "firestoreId": "KhD17cYvBghMl0Ay2oS",
+    "source": "excel+firestore",
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Bodas y Matrimonios",
+      "Fiestas y Despedidas",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Es La Mujer",
+    "artist": "Alejandro Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=e89CusQvtq4",
+    "firestoreId": "Ku8oCcT9yQlNj5qUznmo",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Día de la Madre",
+      "Bodas y Matrimonios",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Ave María",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=EsL6T5pSfTk",
+    "firestoreId": "L87aj297RI12SJoZJQw1",
+    "source": "firestore",
+    "genres": [
+      "Música Cristiana",
+      "Clásico"
+    ],
+    "occasions": [
+      "Música Cristiana/Católica",
+      "Bodas y Matrimonios",
+      "Velorios y Sepelios"
+    ]
+  },
+  {
+    "title": "Las Velas",
+    "artist": "Alberto Barros",
+    "youtubeUrl": "https://youtube.com/watch?v=kZFtBWhQpcE",
+    "firestoreId": "LX8C54nDS8COgq6WKqfW",
+    "source": "firestore",
+    "genres": [
+      "Cumbia",
+      "Popular (Colombiana)"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Alabaré",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=uQc2-baHAUM",
+    "firestoreId": "LyMvoM2i38npkftw5FMe",
+    "source": "firestore",
+    "genres": [
+      "Música Cristiana",
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Música Cristiana/Católica",
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Muñequita Linda",
+    "artist": "Javier Solís",
+    "youtubeUrl": "https://youtube.com/watch?v=vILPMrC0fR0",
+    "firestoreId": "LzGwJx2cVKyRD3XYqvf4",
+    "source": "excel+firestore",
+    "genres": [
+      "Bolero",
+      "Balada"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Día de la Madre",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Como No Creer En Dios",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=R6af2FxljeQ",
+    "firestoreId": "MJ7lRgeTaZL7SpxMRdVB",
+    "source": "firestore",
+    "genres": [
+      "Música Cristiana",
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Música Cristiana/Católica",
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "El Triste",
+    "artist": "José José",
+    "youtubeUrl": "https://youtube.com/watch?v=S1CBXrPLY-0",
+    "firestoreId": "ML91hEkC6dbwmGsx1XgX",
+    "source": "firestore",
+    "genres": [
+      "Balada",
+      "Bolero"
+    ],
+    "occasions": [
+      "Despecho",
+      "Velorios y Sepelios",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Amigo",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=VZcW5TTa5Rw",
+    "firestoreId": "MLniPju1rFORP73EDcWf",
+    "source": "firestore",
+    "genres": [
+      "Canción Tradicional",
+      "Popular (Colombiana)"
+    ],
+    "occasions": [
+      "Cumpleaños",
+      "Fiestas y Despedidas",
+      "Graduaciones",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Bésame Mucho",
+    "artist": "Vicente Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=95nFsh_VGEo",
+    "firestoreId": "Mf4u4OhPensSRZnkm5fc",
+    "source": "excel+firestore",
+    "genres": [
+      "Bolero",
+      "Balada"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Bodas y Matrimonios",
+      "Fiestas y Despedidas",
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Me Gustas Mucho",
+    "artist": "Rocío Dúrcal",
+    "youtubeUrl": "https://youtube.com/watch?v=Mu0_5AM2ETY",
+    "firestoreId": "MiKyu75Oc3xJzxs1KUAm",
+    "source": "firestore",
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Fiestas y Despedidas",
+      "Cumpleaños",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Diséñame",
+    "artist": "Javier Solís",
+    "youtubeUrl": "https://youtube.com/watch?v=e7_h4WNnlTU",
+    "firestoreId": "MvcXbqy6yHJLTdb4vk7U",
+    "source": "firestore",
+    "genres": [
+      "Bolero",
+      "Balada"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Ambientación",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "Quinceañera",
+    "artist": "Thalia",
+    "youtubeUrl": "https://youtube.com/watch?v=eEZNYecVW7I",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Balada Pop",
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Quinceañeras",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "Ya Tiene 15 Años",
+    "artist": "Aladino",
+    "youtubeUrl": "https://youtube.com/watch?v=SGmYk2ybf-E",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Balada Pop",
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Quinceañeras",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "Yo Te Esperaba",
+    "artist": "Mariachi Cielito Lindo",
+    "youtubeUrl": "https://youtube.com/watch?v=gwQbbKqWbbQ",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Canción Tradicional",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Quinceañeras",
+      "Bodas y Matrimonios",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Perdón",
+    "artist": "Vicente Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=dJk5DE0vqZM",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Despecho"
+    ],
+    "occasions": [
+      "Despecho",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Te Sigo Amando",
+    "artist": "Juan Gabriel",
+    "youtubeUrl": "https://youtube.com/watch?v=qvRC-_iM9a0",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Despecho",
+      "Aniversarios y Románticas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Quién",
+    "artist": "Pedro Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=e8pbjiVB56k",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "occasions": [
+      "Despecho",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Poquita Fe",
+    "artist": "Mariachi Sol de México",
+    "youtubeUrl": "https://youtube.com/watch?v=KpmDdEwc2Rc",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Bolero"
+    ],
+    "occasions": [
+      "Despecho",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Probablemente",
+    "artist": "Christian Nodal",
+    "youtubeUrl": "https://youtube.com/watch?v=iXCpix_e9HQ",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Despecho"
+    ],
+    "occasions": [
+      "Despecho",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Dulce Pecado",
+    "artist": "Jessi Uribe",
+    "youtubeUrl": "https://youtube.com/watch?v=-b21-NCfNzM",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Despecho",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Despecho",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Algo Se Me Fue Contigo Madre",
+    "artist": "Rocío Jurado",
+    "youtubeUrl": "https://youtube.com/watch?v=BSSIDtLFRDM",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Balada",
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Velorios y Sepelios",
+      "Día de la Madre"
+    ]
+  },
+  {
+    "title": "Alzo Mi Voz",
+    "artist": "Tercer Cielo",
+    "youtubeUrl": "https://youtube.com/watch?v=O2EI6TKMZUo",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Música Cristiana",
+      "Balada"
+    ],
+    "occasions": [
+      "Velorios y Sepelios",
+      "Música Cristiana/Católica"
+    ]
+  },
+  {
+    "title": "Collar de Lágrimas",
+    "artist": "Desconocido / Varios",
+    "youtubeUrl": "https://youtube.com/watch?v=iWsyMzSoZEM",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Balada",
+      "Bolero"
+    ],
+    "occasions": [
+      "Velorios y Sepelios",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Amigo",
+    "artist": "Pedro Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=i0sQHHo245g",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Canción Tradicional",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Velorios y Sepelios",
+      "Día de la Madre",
+      "Día del Padre",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Con la Tierra Encima",
+    "artist": "El Charro Negro",
+    "youtubeUrl": "https://youtube.com/watch?v=mVh-SV-BzZ4",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Velorios y Sepelios",
+      "Despecho"
+    ]
+  },
+  {
+    "title": "Cuando Quería Ser Grande",
+    "artist": "Vicente Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=JfV_SGZbtuE",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Velorios y Sepelios",
+      "Día del Padre"
+    ]
+  },
+  {
+    "title": "Cuando un Amigo Se Va (Velorio)",
+    "artist": "Alberto Cortez",
+    "youtubeUrl": "https://youtube.com/watch?v=KAkOC6lfptE",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Canción Tradicional",
+      "Balada"
+    ],
+    "occasions": [
+      "Velorios y Sepelios"
+    ]
+  },
+  {
+    "title": "Dónde Estará Mi Primavera",
+    "artist": "Marco Antonio Solís",
+    "youtubeUrl": "https://youtube.com/watch?v=J1ue6MjfTJ0",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Balada",
+      "Balada Pop"
+    ],
+    "occasions": [
+      "Velorios y Sepelios",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Dónde Estás Corazón",
+    "artist": "Vicente Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=2h7aOu4nZkA",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Bolero"
+    ],
+    "occasions": [
+      "Velorios y Sepelios",
+      "Despecho"
+    ]
+  },
+  {
+    "title": "Ya Lo Sé Que Tú Te Vas",
+    "artist": "Juan Gabriel",
+    "youtubeUrl": "https://youtube.com/watch?v=A-CD3shjxA0",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Velorios y Sepelios",
+      "Despecho"
+    ]
+  },
+  {
+    "title": "Tristes Recuerdos",
+    "artist": "Antonio Aguilar",
+    "youtubeUrl": "https://youtube.com/watch?v=MOx47MEs-8Q",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Velorios y Sepelios",
+      "Despecho"
+    ]
+  },
+  {
+    "title": "El Rey",
+    "artist": "José Alfredo Jiménez",
+    "youtubeUrl": "https://youtube.com/watch?v=ZipzeNiBe_E",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Velorios y Sepelios",
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Nadie Es Eterno en el Mundo",
+    "artist": "Antonio Aguilar",
+    "youtubeUrl": "https://youtube.com/watch?v=wzoXWLmwIuM",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Velorios y Sepelios"
+    ]
+  },
+  {
+    "title": "Yo Te Extrañaré",
+    "artist": "Tercer Cielo",
+    "youtubeUrl": "https://youtube.com/watch?v=FIxKd99g5Qc",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Música Cristiana",
+      "Balada"
+    ],
+    "occasions": [
+      "Velorios y Sepelios",
+      "Música Cristiana/Católica"
+    ]
+  },
+  {
+    "title": "Cómo No Creer en Dios",
+    "artist": "Varios Artistas Cristianos",
+    "youtubeUrl": "https://youtube.com/watch?v=hmcT7XMnJXw",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Música Cristiana"
+    ],
+    "occasions": [
+      "Música Cristiana/Católica",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Escalando Peldaños",
+    "artist": "Varios Artistas Cristianos",
+    "youtubeUrl": "https://youtube.com/watch?v=26sttHklI4s",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Música Cristiana"
+    ],
+    "occasions": [
+      "Música Cristiana/Católica",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Josué 1:9",
+    "artist": "Varios Artistas Cristianos",
+    "youtubeUrl": "https://youtube.com/watch?v=z-kTuKuTCB4",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Música Cristiana"
+    ],
+    "occasions": [
+      "Música Cristiana/Católica",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Mi Vida sin Ti",
+    "artist": "Varios Artistas Cristianos",
+    "youtubeUrl": "https://youtube.com/watch?v=4Wf-mZ6plv0",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Música Cristiana",
+      "Balada"
+    ],
+    "occasions": [
+      "Música Cristiana/Católica",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Por El Camino Del Evangelio",
+    "artist": "Desconocido / Varios",
+    "youtubeUrl": "https://youtube.com/watch?v=O8Omj7qhU7s",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Música Cristiana/Católica"
+    ]
+  },
+  {
+    "title": "Te Vengo A Decir",
+    "artist": "Alex Campos",
+    "youtubeUrl": "https://youtube.com/watch?v=S6IiPq7zBko",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Música Cristiana/Católica"
+    ]
+  },
+  {
+    "title": "Todopoderoso",
+    "artist": "Alex Campos",
+    "youtubeUrl": "https://youtube.com/watch?v=nyIgLCGsgGQ",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Música Cristiana/Católica"
+    ]
+  },
+  {
+    "title": "Tu Poeta",
+    "artist": "Alex Campos",
+    "youtubeUrl": "https://youtube.com/watch?v=z3bF6Op-2Ok",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Música Cristiana/Católica"
+    ]
+  },
+  {
+    "title": "Un Pacto Con Dios",
+    "artist": "Rabito",
+    "youtubeUrl": "https://youtube.com/watch?v=boA7r9_aTyk",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Música Cristiana/Católica"
+    ]
+  },
+  {
+    "title": "La Gloria de Dios",
+    "artist": "Ricardo Montaner",
+    "youtubeUrl": "https://youtube.com/watch?v=LRsgqFu5c1o",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Balada"
+    ],
+    "occasions": [
+      "Bodas y Matrimonios",
+      "Música Cristiana/Católica"
+    ]
+  },
+  {
+    "title": "Ave María",
+    "artist": "Rafael",
+    "youtubeUrl": "https://youtube.com/watch?v=znZXJvm8ZnY",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Canción Tradicional",
+      "Clásico"
+    ],
+    "occasions": [
+      "Música Cristiana/Católica"
+    ]
+  },
+  {
+    "title": "Ave María",
+    "artist": "Mariachi Sol de México",
+    "youtubeUrl": "https://youtube.com/watch?v=mF0K_54bJsU",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Canción Tradicional",
+      "Clásico"
+    ],
+    "occasions": [
+      "Música Cristiana/Católica"
+    ]
+  },
+  {
+    "title": "Santa María Ven",
+    "artist": "Desconocido / Varios",
+    "youtubeUrl": "https://youtube.com/watch?v=q8koLc0mpOM",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Música Cristiana/Católica"
+    ]
+  },
+  {
+    "title": "Madre De Los Jóvenes",
+    "artist": "Javier Camarena",
+    "youtubeUrl": "https://youtube.com/watch?v=Yu-IOYtY530",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Música Cristiana/Católica",
+      "Día de la Madre"
+    ]
+  },
+  {
+    "title": "La Guadalupana",
+    "artist": "Laura Sobrino",
+    "youtubeUrl": "https://youtube.com/watch?v=eF_pjD_PKz4",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Música Cristiana/Católica"
+    ]
+  },
+  {
+    "title": "Mi Virgen Bella",
+    "artist": "Rocío Dúrcal",
+    "youtubeUrl": "https://youtube.com/watch?v=8JVc5denOCQ",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Música Cristiana/Católica",
+      "Día de la Madre"
+    ]
+  },
+  {
+    "title": "Amor De Madre",
+    "artist": "VíCtor Manuelle",
+    "youtubeUrl": "https://youtube.com/watch?v=XVyQSQh3RR8",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Balada"
+    ],
+    "occasions": [
+      "Día de la Madre"
+    ]
+  },
+  {
+    "title": "Bendita Madre",
+    "artist": "Servando Y Florentino",
+    "youtubeUrl": "https://youtube.com/watch?v=MuWUN44Nm7E",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Balada"
+    ],
+    "occasions": [
+      "Día de la Madre"
+    ]
+  },
+  {
+    "title": "Cómo Te Pago",
+    "artist": "Lenier",
+    "youtubeUrl": "https://youtube.com/watch?v=8owDRkgu3HI",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Balada"
+    ],
+    "occasions": [
+      "Día de la Madre"
+    ]
+  },
+  {
+    "title": "Madre Amiga Fiel",
+    "artist": "Wilson Palma",
+    "youtubeUrl": "https://youtube.com/watch?v=SsPshogYFbc",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Balada"
+    ],
+    "occasions": [
+      "Día de la Madre"
+    ]
+  },
+  {
+    "title": "Por El Amor A Mi Madre",
+    "artist": "Antonio Aguilar",
+    "youtubeUrl": "https://youtube.com/watch?v=-cWId9iqT8s",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera"
+    ],
+    "occasions": [
+      "Día de la Madre"
+    ]
+  },
+  {
+    "title": "Querida Amiga",
+    "artist": "Pimpinela",
+    "youtubeUrl": "https://youtube.com/watch?v=-ZzC_k4I8qo",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Balada"
+    ],
+    "occasions": [
+      "Día de la Madre",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Regalo De Un Hijo",
+    "artist": "Yolanda Del RíO",
+    "youtubeUrl": "https://youtube.com/watch?v=bbI4XYxlUVY",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera"
+    ],
+    "occasions": [
+      "Día de la Madre"
+    ]
+  },
+  {
+    "title": "Señora, Señora",
+    "artist": "Denise De Kalafe",
+    "youtubeUrl": "https://youtube.com/watch?v=4yHK7URUDDU",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Balada"
+    ],
+    "occasions": [
+      "Día de la Madre"
+    ]
+  },
+  {
+    "title": "Versos A Mi Madre",
+    "artist": "Julio Jaramillo",
+    "youtubeUrl": "https://youtube.com/watch?v=w1iEy5d5Dqs",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Pasillo"
+    ],
+    "occasions": [
+      "Día de la Madre"
+    ]
+  },
+  {
+    "title": "Madrecita Del Alma Querida",
+    "artist": "José José",
+    "youtubeUrl": "https://youtube.com/watch?v=ZOT3-iCZUqo",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Balada"
+    ],
+    "occasions": [
+      "Día de la Madre"
+    ]
+  },
+  {
+    "title": "Mamá, Si Llego a Viejo",
+    "artist": "Mariachi Cielito Lindo",
+    "youtubeUrl": "https://youtube.com/watch?v=FvFpGEOPtIE",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera"
+    ],
+    "occasions": [
+      "Día de la Madre"
+    ]
+  },
+  {
+    "title": "Chavela",
+    "artist": "Antonio Aguilar",
+    "youtubeUrl": "https://youtube.com/watch?v=EQK39VTHxc4",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera"
+    ],
+    "occasions": [
+      "Ambientación",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "Caballo Viejo",
+    "artist": "José Luis Rodríguez",
+    "youtubeUrl": "https://youtube.com/watch?v=rB5p83iMLyQ",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Son",
+      "Cumbia"
+    ],
+    "occasions": [
+      "Día del Padre",
+      "Ambientación",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "El hijo desobediente",
+    "artist": "Antonio Aguilar",
+    "youtubeUrl": "https://youtube.com/watch?v=q4vLDz4pmxc",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Día del Padre",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "El hombre que mas te amó",
+    "artist": "Vicente Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=3Y5C5IFWcN8",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Bolero"
+    ],
+    "occasions": [
+      "Día del Padre",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "El Jinete",
+    "artist": "Miguel A. Mejía",
+    "youtubeUrl": "https://youtube.com/watch?v=ftQUOML41Gc",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Día del Padre",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "El Mariachi",
+    "artist": "La Pelicula",
+    "youtubeUrl": "https://youtube.com/watch?v=w5fLGWrHouk",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Instrumental",
+      "Son"
+    ],
+    "occasions": [
+      "Día del Padre",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "El tiempo no perdona",
+    "artist": "Alex Fernandez",
+    "youtubeUrl": "https://youtube.com/watch?v=VX1dtGJBwko",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "occasions": [
+      "Día del Padre",
+      "Despecho"
+    ]
+  },
+  {
+    "title": "Feliz día padre (jesse Uribe)",
+    "artist": "Jessi Uribe",
+    "youtubeUrl": "https://youtube.com/watch?v=mkNsFcqlEao",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Día del Padre",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Juan Charrasqueado",
+    "artist": "Antonio Aguilar",
+    "youtubeUrl": "https://youtube.com/watch?v=Zna5V_TkfLc",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Día del Padre",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "La Muerte de un Gallero",
+    "artist": "Antonio Aguilar",
+    "youtubeUrl": "https://youtube.com/watch?v=cFcio1C4lWM",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Día del Padre",
+      "Velorios y Sepelios"
+    ]
+  },
+  {
+    "title": "Mi querido cascarrabias",
+    "artist": "Alci Acosta",
+    "youtubeUrl": "https://youtube.com/watch?v=0sop4zfVl9Q",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Balada",
+      "Despecho"
+    ],
+    "occasions": [
+      "Día del Padre",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Mi vejez",
+    "artist": "Vicente Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=LRp9Vu0cIA4",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Día del Padre",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "No se me rajar",
+    "artist": "Vicente Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=OYP36WSCVgk",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Son"
+    ],
+    "occasions": [
+      "Día del Padre",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "Yo el aventurero",
+    "artist": "Antonio Aguilar",
+    "youtubeUrl": "https://youtube.com/watch?v=Xk9rCO4vcEs",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Día del Padre",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "El Aventurero",
+    "artist": "Yeison Jimenez",
+    "youtubeUrl": "https://youtube.com/watch?v=n6zvD8kA3z4",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Despecho",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Día del Padre",
+      "Despecho"
+    ]
+  },
+  {
+    "title": "El Pastor",
+    "artist": "Mariachi Vargas de Tecalitlán",
+    "youtubeUrl": "https://youtube.com/watch?v=6wKfP7ck1vs",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Son",
+      "Instrumental"
+    ],
+    "occasions": [
+      "Día del Padre",
+      "Música Cristiana/Católica"
+    ]
+  },
+  {
+    "title": "A mi lindo Ecuador",
+    "artist": "Desconocido / Varios",
+    "youtubeUrl": "https://youtube.com/watch?v=pCI1IlThSJI",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Canción Tradicional",
+      "Folclore"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Música Nacional"
+    ]
+  },
+  {
+    "title": "El ausente",
+    "artist": "Antonio Aguilar",
+    "youtubeUrl": "https://youtube.com/watch?v=QEIMpXwSS94",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Bolero"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Despecho"
+    ]
+  },
+  {
+    "title": "luna",
+    "artist": "Ana Gabriel",
+    "youtubeUrl": "https://youtube.com/watch?v=luwiUnUn-wg",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Balada",
+      "Balada Pop"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Si tú me dices ven",
+    "artist": "Los Panchos",
+    "youtubeUrl": "https://youtube.com/watch?v=4r7pdOtdC7s",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Bolero",
+      "Balada"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Serenatas"
+    ]
+  },
+  {
+    "title": "Y Como es el",
+    "artist": "Vicente Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=CmQXuRYPCWw",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Bolero"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Despecho"
+    ]
+  },
+  {
+    "title": "Canta canta",
+    "artist": "J.A. Jimenez",
+    "youtubeUrl": "https://youtube.com/watch?v=AY2L8O7PY6E",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "El Siete Mares",
+    "artist": "Luis Miguel",
+    "youtubeUrl": "https://youtube.com/watch?v=f0WjEW9amak",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Bolero",
+      "Balada"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "El Viajero",
+    "artist": "Luis Miguel",
+    "youtubeUrl": "https://youtube.com/watch?v=C816JkS-hLw",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Balada",
+      "Balada Pop"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "fue un placer conocerte",
+    "artist": "Juan Gabriel",
+    "youtubeUrl": "https://youtube.com/watch?v=jD6Sb_ENf3g",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Balada",
+      "Despecho"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Despecho"
+    ]
+  },
+  {
+    "title": "La media vuelta",
+    "artist": "Luis Miguel",
+    "youtubeUrl": "https://youtube.com/watch?v=XzRiAerFjQE",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Bolero"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Despecho"
+    ]
+  },
+  {
+    "title": "Por algo siempre me han de recordar",
+    "artist": "Desconocido / Varios",
+    "youtubeUrl": "https://youtube.com/watch?v=ReLpo3mTPcY",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Canción Tradicional",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Música Nacional"
+    ]
+  },
+  {
+    "title": "Quizás, quizás, quizás",
+    "artist": "Los Panchos",
+    "youtubeUrl": "https://youtube.com/watch?v=zdJ0KLJ3PmQ",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Bolero",
+      "Balada"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Serenatas"
+    ]
+  },
+  {
+    "title": "Mexico en la Piel",
+    "artist": "Luis Miguel",
+    "youtubeUrl": "https://youtube.com/watch?v=jqY7fXl3HBI",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Lagrimas y Lluvia",
+    "artist": "Juan Gabriel",
+    "youtubeUrl": "https://youtube.com/watch?v=gAaynDlkEfo",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Balada",
+      "Despecho"
+    ],
+    "occasions": [
+      "Despecho",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Como me haces falta",
+    "artist": "Marbelle",
+    "youtubeUrl": "https://youtube.com/watch?v=QnKnXY4ORbk",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Despecho",
+      "Balada"
+    ],
+    "occasions": [
+      "Despecho",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Tu Voz",
+    "artist": "Javier Solís",
+    "youtubeUrl": "https://youtube.com/watch?v=dAfZrn49yXY",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Bolero",
+      "Balada"
+    ],
+    "occasions": [
+      "Despecho",
+      "Serenatas"
+    ]
+  },
+  {
+    "title": "Adiós amor",
+    "artist": "Christian Nodal",
+    "youtubeUrl": "https://youtube.com/watch?v=AKb0bc6jcZE",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Despecho"
+    ],
+    "occasions": [
+      "Despecho",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "Adolorido",
+    "artist": "Antonio Aguilar",
+    "youtubeUrl": "https://youtube.com/watch?v=JeV7VdX4s7A",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Corridos"
+    ],
+    "occasions": [
+      "Despecho",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "Almohada",
+    "artist": "Pepe Aguilar",
+    "youtubeUrl": "https://youtube.com/watch?v=1SC6hzQYNHM",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Despecho"
+    ],
+    "occasions": [
+      "Despecho",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "Amnesia",
+    "artist": "Mariachi Sol de México",
+    "youtubeUrl": "https://youtube.com/watch?v=XgdLIyuYa8o",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Balada",
+      "Despecho"
+    ],
+    "occasions": [
+      "Despecho",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "Asi Fue",
+    "artist": "Juan Gabriel",
+    "youtubeUrl": "https://youtube.com/watch?v=Yfblqf60qSk",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Balada",
+      "Despecho"
+    ],
+    "occasions": [
+      "Despecho",
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "El Karma (Dayanara)",
+    "artist": "Dayanara",
+    "youtubeUrl": "https://youtube.com/watch?v=vjnb6QXP4ww",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Cumbia",
+      "Despecho"
+    ],
+    "occasions": [
+      "Despecho",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "Ella (Mecanse de Rogarle)",
+    "artist": "Pedro Infante",
+    "youtubeUrl": "https://youtube.com/watch?v=t1goHqTygfI",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Ambientación",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "La diferencia",
+    "artist": "Vicente Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=544X2PIxCIc",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Despecho"
+    ],
+    "occasions": [
+      "Despecho",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "Llamarada",
+    "artist": "Luis Miguel",
+    "youtubeUrl": "https://youtube.com/watch?v=HnEkf5t0ghU",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Balada",
+      "Despecho"
+    ],
+    "occasions": [
+      "Despecho",
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Los hombres no deben llorar",
+    "artist": "Pedro Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=zsmRROLnVwA",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "occasions": [
+      "Despecho",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "Ni Por favor (Si no me quieres ni modo)",
+    "artist": "Pedro Infante",
+    "youtubeUrl": "https://youtube.com/watch?v=eGhks0_nQqQ",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Despecho"
+    ],
+    "occasions": [
+      "Despecho",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "No entiendo",
+    "artist": "Ana Gabriel",
+    "youtubeUrl": "https://youtube.com/watch?v=9erOeqDzQt8",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Balada",
+      "Despecho"
+    ],
+    "occasions": [
+      "Despecho",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "No Lastimes mas",
+    "artist": "Rocío Dúrcal",
+    "youtubeUrl": "https://youtube.com/watch?v=uecRurKxCJk",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Despecho"
+    ],
+    "occasions": [
+      "Despecho",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "no te contaron mal",
+    "artist": "Christian Nodal",
+    "youtubeUrl": "https://youtube.com/watch?v=CKKVbfEzVPE",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Despecho"
+    ],
+    "occasions": [
+      "Despecho",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "no vale la pena",
+    "artist": "Juan Gabriel",
+    "youtubeUrl": "https://youtube.com/watch?v=t81NHHBe_pI",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Balada",
+      "Despecho"
+    ],
+    "occasions": [
+      "Despecho",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "Por Mujeres como tu",
+    "artist": "Pepe Aguilar",
+    "youtubeUrl": "https://youtube.com/watch?v=apFHxRBXkzg",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Despecho"
+    ],
+    "occasions": [
+      "Despecho",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "Que Agonia",
+    "artist": "Angela Aguilar",
+    "youtubeUrl": "https://youtube.com/watch?v=Q8xIa7KcI1A",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Despecho"
+    ],
+    "occasions": [
+      "Despecho",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "Renunciación",
+    "artist": "Javier Solís",
+    "youtubeUrl": "https://youtube.com/watch?v=bPM31yVQmbg",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Bolero",
+      "Despecho"
+    ],
+    "occasions": [
+      "Despecho",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "Se te olvida (La Mentira)",
+    "artist": "Javier Solís",
+    "youtubeUrl": "https://youtube.com/watch?v=0nWOmoswU9A",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Bolero",
+      "Despecho"
+    ],
+    "occasions": [
+      "Despecho",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "Si te pudiera mentir",
+    "artist": "Calibre 50",
+    "youtubeUrl": "https://youtube.com/watch?v=zcq7khV_jDQ",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Despecho"
+    ],
+    "occasions": [
+      "Despecho",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "tu carcel",
+    "artist": "Marco Antonio Solís",
+    "youtubeUrl": "https://youtube.com/watch?v=uq5utpNtbNM",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Balada",
+      "Despecho"
+    ],
+    "occasions": [
+      "Despecho",
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "y...",
+    "artist": "Luis Miguel",
+    "youtubeUrl": "https://youtube.com/watch?v=LK6UmfC8N6E",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Balada",
+      "Despecho"
+    ],
+    "occasions": [
+      "Despecho",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "A pesar de todo",
+    "artist": "Vicente Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=x4OyNMBkMIw",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Despecho"
+    ],
+    "occasions": [
+      "Despecho",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "De los besos que te di",
+    "artist": "Christian Nodal",
+    "youtubeUrl": "https://youtube.com/watch?v=k38X931JKi8",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Despecho"
+    ],
+    "occasions": [
+      "Despecho",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "Dejame Vivir",
+    "artist": "Rocío Dúrcal",
+    "youtubeUrl": "https://youtube.com/watch?v=wSwPQgM6eW8",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Despecho"
+    ],
+    "occasions": [
+      "Despecho",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "Allá en el rancho grande",
+    "artist": "Antonio Aguilar",
+    "youtubeUrl": "https://youtube.com/watch?v=SiHgY7LWa6s",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Ambientación",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "Alta y Delgadita",
+    "artist": "J.A. Jimenez",
+    "youtubeUrl": "https://youtube.com/watch?v=nhB3szu9Nfk",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Corridos"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Canta canta",
+    "artist": "Juan Gabriel",
+    "youtubeUrl": "https://youtube.com/watch?v=XD9WFnm3Fss",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Ambientación",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "Caray",
+    "artist": "Antonio Aguilar",
+    "youtubeUrl": "https://youtube.com/watch?v=z34n69gBLbA",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Corridos"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Copitas de mezcal",
+    "artist": "Rocío Dúrcal",
+    "youtubeUrl": "https://youtube.com/watch?v=Fe-CNoLo7ys",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Canción Tradicional"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Cuando Decidas Tu Volver",
+    "artist": "Rocío Dúrcal",
+    "youtubeUrl": "https://youtube.com/watch?v=Y3PaQPaDdwQ",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera"
+    ],
+    "occasions": [
+      "Ambientación",
+      "Despecho"
+    ]
+  },
+  {
+    "title": "Estás Dentro De Mí",
+    "artist": "Pedro Infante",
+    "youtubeUrl": "https://youtube.com/watch?v=1Y9Sy1e2CFY",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera"
+    ],
+    "occasions": [
+      "Ambientación",
+      "Serenatas"
+    ]
+  },
+  {
+    "title": "La Calandria",
+    "artist": "ÁNgela Aguilar",
+    "youtubeUrl": "https://youtube.com/watch?v=kXxwDWF1fBM",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Folclore"
+    ],
+    "occasions": [
+      "Ambientación",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "La Tequilera",
+    "artist": "Alejandro Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=bpLkFmoYXbA",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera"
+    ],
+    "occasions": [
+      "Ambientación",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "Mátalas",
+    "artist": "Lucero",
+    "youtubeUrl": "https://youtube.com/watch?v=YbVCcRZ6ivo",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera"
+    ],
+    "occasions": [
+      "Despecho",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Me Estás Quemando",
+    "artist": "Rocío Dúrcal",
+    "youtubeUrl": "https://youtube.com/watch?v=yHv3XJmtGK0",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera"
+    ],
+    "occasions": [
+      "Despecho",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Me Gustas Mucho",
+    "artist": "Antonio Aguilar",
+    "youtubeUrl": "https://youtube.com/watch?v=Q5Z7dwA9S8M",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Ojitos Verdes",
+    "artist": "Mariachi Cobre",
+    "youtubeUrl": "https://youtube.com/watch?v=hvGnm8s_vqw",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Son",
+      "Instrumental"
+    ],
+    "occasions": [
+      "Ambientación",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "Jalisco",
+    "artist": "Desconocido / Varios",
+    "youtubeUrl": "https://youtube.com/watch?v=ZaCQYPS4ydY",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Son"
+    ],
+    "occasions": [
+      "Ambientación",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "Bidi Bidi Bom Bom",
+    "artist": "Selena",
+    "youtubeUrl": "https://youtube.com/watch?v=aP9mKAZUnhI",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Cumbia"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Cariñito",
+    "artist": "Rodolfo Aicardi",
+    "youtubeUrl": "https://youtube.com/watch?v=IiHZ3XHvDx8",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Cumbia"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Carmen",
+    "artist": "Desconocido / Varios",
+    "youtubeUrl": "https://youtube.com/watch?v=ZUJmEZxGPfY",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Cumbia"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Cómo Te Voy A Olvidar",
+    "artist": "Los Ángeles Azules",
+    "youtubeUrl": "https://youtube.com/watch?v=nxXvOEPsE0s",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Cumbia"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "El Chico Del Apartamento 512",
+    "artist": "Selena",
+    "youtubeUrl": "https://youtube.com/watch?v=5ZQ3lMpwsu8",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Cumbia"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Hasta Las 6 De La Mañana",
+    "artist": "Los Terribles Diamantes",
+    "youtubeUrl": "https://youtube.com/watch?v=hj2mfGfZhSA",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Cumbia"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "La Conga",
+    "artist": "Sonora Dinamita",
+    "youtubeUrl": "https://youtube.com/watch?v=zWyT0zSHWeA",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Cumbia"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Las Velas Encendidas",
+    "artist": "Sonora Dinamita",
+    "youtubeUrl": "https://youtube.com/watch?v=nvkMI383xyU",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Cumbia"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Nunca Es Suficiente",
+    "artist": "Natalia Lafourcade",
+    "youtubeUrl": "https://youtube.com/watch?v=BBym435839M",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Cumbia",
+      "Balada Pop"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Pollera Colorada",
+    "artist": "Pedro Salcedo",
+    "youtubeUrl": "https://youtube.com/watch?v=gBgcDYGSSaU",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Cumbia"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Que Nadie Sepa Mi Sufrir",
+    "artist": "Sonora Dinamita",
+    "youtubeUrl": "https://youtube.com/watch?v=sI8o44qhSdM",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Cumbia"
+    ],
+    "occasions": [
+      "Despecho",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Si Una Vez",
+    "artist": "Selena",
+    "youtubeUrl": "https://youtube.com/watch?v=Fh3offYXVr4",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Cumbia"
+    ],
+    "occasions": [
+      "Despecho",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "Solo Tú",
+    "artist": "Medardo",
+    "youtubeUrl": "https://youtube.com/watch?v=UWkV01dbP3Q",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Cumbia"
+    ],
+    "occasions": [
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Tabaco Y Ron",
+    "artist": "Rodolfo Aicardi",
+    "youtubeUrl": "https://youtube.com/watch?v=WScy9U2UtSg",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Cumbia"
+    ],
+    "occasions": [
+      "Ambientación",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "Una Cerveza",
+    "artist": "Ráfaga",
+    "youtubeUrl": "https://youtube.com/watch?v=by4EHmvME1c",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Cumbia"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Me Encantas",
+    "artist": "Pedro Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=L1-KQkNtUk4",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "occasions": [
+      "Serenatas",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Mi Último Deseo",
+    "artist": "Sharon",
+    "youtubeUrl": "https://youtube.com/watch?v=BoqkLnW0Cw4",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Cumbia"
+    ],
+    "occasions": [
+      "Despecho",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Ajena",
+    "artist": "Eddy Herrera",
+    "youtubeUrl": "https://youtube.com/watch?v=uzU3x_egiEk",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Merengue"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Es Mentiroso",
+    "artist": "Olga Tañón",
+    "youtubeUrl": "https://youtube.com/watch?v=8PF6SNDbQYk",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Merengue"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "La Reina Del Swing",
+    "artist": "Los Hermanos Rosario",
+    "youtubeUrl": "https://youtube.com/watch?v=zeEcwllNlbI",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Merengue"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Si Me Dejas No Vale",
+    "artist": "La Maleta",
+    "youtubeUrl": "https://youtube.com/watch?v=PN9fErygxgg",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Merengue"
+    ],
+    "occasions": [
+      "Despecho",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "Muchacho Malo",
+    "artist": "Olga Tañón",
+    "youtubeUrl": "https://youtube.com/watch?v=OVuhFIhuLek",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Merengue"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Mi niña bonita",
+    "artist": "Chino & Nacho",
+    "youtubeUrl": "https://youtube.com/watch?v=V7zK2qaP4iE",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Merengue"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "La murga",
+    "artist": "Ruben Blades",
+    "youtubeUrl": "https://youtube.com/watch?v=gr1GrZrNPqE",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Salsa"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Llorarás",
+    "artist": "Oscar de León",
+    "youtubeUrl": "https://youtube.com/watch?v=gxlB1B9emDc",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Salsa"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Vasija de Barro",
+    "artist": "Desconocido / Varios",
+    "youtubeUrl": "https://youtube.com/watch?v=gBvIrfouHC4",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Canción Tradicional",
+      "Folclore"
+    ],
+    "occasions": [
+      "Ambientación",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "En vida (Segundo Rosero)",
+    "artist": "Segundo Rosero",
+    "youtubeUrl": "https://youtube.com/watch?v=EnYWG3r3QBY",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Canción Tradicional",
+      "Balada"
+    ],
+    "occasions": [
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Ambato tierra de flores",
+    "artist": "Desconocido / Varios",
+    "youtubeUrl": "https://youtube.com/watch?v=E8SJlKFC7NI",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Canción Tradicional",
+      "Folclore"
+    ],
+    "occasions": [
+      "Ambientación",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "Así se goza",
+    "artist": "Desconocido / Varios",
+    "youtubeUrl": "https://youtube.com/watch?v=BQN9iemFSSo",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Canción Tradicional",
+      "Folclore"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Chola cuencana",
+    "artist": "Desconocido / Varios",
+    "youtubeUrl": "https://youtube.com/watch?v=L4vkHI73hj0",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Canción Tradicional",
+      "Folclore"
+    ],
+    "occasions": [
+      "Ambientación",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "Cuyayay",
+    "artist": "Desconocido / Varios",
+    "youtubeUrl": "https://youtube.com/watch?v=kgVFBFwiuVQ",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Canción Tradicional",
+      "Folclore"
+    ],
+    "occasions": [
+      "Ambientación",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "En vida (Gerardo Morán)",
+    "artist": "Gerardo Moran",
+    "youtubeUrl": "https://youtube.com/watch?v=E2mkOSNNKg4",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Canción Tradicional",
+      "Balada"
+    ],
+    "occasions": [
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "La Berbenita",
+    "artist": "Desconocido / Varios",
+    "youtubeUrl": "https://youtube.com/watch?v=teLfSUM8DR8",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Canción Tradicional",
+      "Folclore"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "La Bruja",
+    "artist": "Desconocido / Varios",
+    "youtubeUrl": "https://youtube.com/watch?v=e1D7Eo1lBXg",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Canción Tradicional",
+      "Folclore"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Manabí",
+    "artist": "Medardo",
+    "youtubeUrl": "https://youtube.com/watch?v=3NtLeIEClRo",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Canción Tradicional",
+      "Folclore"
+    ],
+    "occasions": [
+      "Ambientación",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "Pobre corazón",
+    "artist": "Desconocido / Varios",
+    "youtubeUrl": "https://youtube.com/watch?v=h891etoNy4E",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Canción Tradicional",
+      "Balada"
+    ],
+    "occasions": [
+      "Ambientación",
+      "Aniversarios y Románticas",
+      "Despecho"
+    ]
+  },
+  {
+    "title": "Whiskycito",
+    "artist": "Falconi",
+    "youtubeUrl": "https://youtube.com/watch?v=eIp8X9LdhkM",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Canción Tradicional",
+      "Balada"
+    ],
+    "occasions": [
+      "Ambientación",
+      "Despecho"
+    ]
+  },
+  {
+    "title": "Apasionadamente",
+    "artist": "Desconocido / Varios",
+    "youtubeUrl": "https://youtube.com/watch?v=1wY5w3aWnXQ",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Canción Tradicional",
+      "Balada"
+    ],
+    "occasions": [
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "Homenaje a Javier Solis",
+    "artist": "Desconocido / Varios",
+    "youtubeUrl": "https://youtube.com/watch?v=t7cpL955J-A",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Instrumental",
+      "Balada"
+    ],
+    "occasions": [
+      "Ambientación",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "España Cañi",
+    "artist": "Desconocido / Varios",
+    "youtubeUrl": "https://youtube.com/watch?v=tirdKp0vKuE",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Instrumental"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "El Zopilote Mojado",
+    "artist": "Desconocido / Varios",
+    "youtubeUrl": "https://youtube.com/watch?v=nuYRUAq6aqE",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Instrumental",
+      "Son"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "El Jarabe Tapatio",
+    "artist": "Desconocido / Varios",
+    "youtubeUrl": "https://youtube.com/watch?v=6qdX9jeVC6s",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Instrumental",
+      "Son"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "El dos Negro",
+    "artist": "Desconocido / Varios",
+    "youtubeUrl": "https://youtube.com/watch?v=OhdfZyO4jrM",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Instrumental",
+      "Son"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Mi ultimo deseo (Recodito)",
+    "artist": "Banda Los Recoditos",
+    "youtubeUrl": "https://youtube.com/watch?v=cVlAmP-KDT4",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Ranchera / Banda",
+      "Regional Mexicano"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Despecho"
+    ]
+  },
+  {
+    "title": "200 copas",
+    "artist": "Juvenil",
+    "youtubeUrl": "https://youtube.com/watch?v=Zdc3shRvumk",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Regional Mexicano",
+      "Balada Pop"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Despecho"
+    ]
+  },
+  {
+    "title": "El Karma",
+    "artist": "Juvenil",
+    "youtubeUrl": "https://youtube.com/watch?v=6wRuln7eHwk",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Regional Mexicano",
+      "Balada Pop"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Despecho"
+    ]
+  },
+  {
+    "title": "Dulce Pecado",
+    "artist": "Juvenil",
+    "youtubeUrl": "https://youtube.com/watch?v=wHxhTic3aYI",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Regional Mexicano",
+      "Balada"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Matemos las ganas",
+    "artist": "Juvenil",
+    "youtubeUrl": "https://youtube.com/watch?v=0PXfJ9-tgTk",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Regional Mexicano",
+      "Balada"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Despecho"
+    ]
+  },
+  {
+    "title": "El Aventurero",
+    "artist": "Juvenil",
+    "youtubeUrl": "https://youtube.com/watch?v=TfYcP39GELY",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Regional Mexicano",
+      "Balada Pop"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Dime como Quieres",
+    "artist": "Juvenil",
+    "youtubeUrl": "https://youtube.com/watch?v=IBXi-XX0zY0",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Regional Mexicano",
+      "Balada Pop"
+    ],
+    "occasions": [
+      "Aniversarios y Románticas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "Cabron y Vago",
+    "artist": "Juvenil",
+    "youtubeUrl": "https://youtube.com/watch?v=l-bJTm2LEIU",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Regional Mexicano",
+      "Corridos"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Despecho"
+    ]
+  },
+  {
+    "title": "El Envidioso",
+    "artist": "Juvenil",
+    "youtubeUrl": "https://youtube.com/watch?v=HpBywB5a38o",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Popular (Colombiana)"
+    ],
+    "occasions": [
+      "Despecho",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "Si se fue, se fue",
+    "artist": "Juvenil",
+    "youtubeUrl": "https://youtube.com/watch?v=z8z0o7YwLck",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Despecho"
+    ],
+    "occasions": [
+      "Despecho",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "Que sufra, que chupe y que llore",
+    "artist": "Juvenil",
+    "youtubeUrl": "https://youtube.com/watch?v=96k-nJkrayM",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Despecho"
+    ],
+    "occasions": [
+      "Despecho",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "no se va",
+    "artist": "Juvenil",
+    "youtubeUrl": "https://youtube.com/watch?v=gFaNNVUXb5M",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Popular (Colombiana)"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "1 x100to",
+    "artist": "Juvenil",
+    "youtubeUrl": "https://youtube.com/watch?v=x34rO6sSfdk",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Cumbia"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "que vuelva",
+    "artist": "Juvenil",
+    "youtubeUrl": "https://youtube.com/watch?v=QJvVkq_JPj4",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Despecho"
+    ],
+    "occasions": [
+      "Despecho",
+      "Aniversarios y Románticas"
+    ]
+  },
+  {
+    "title": "mi mayor venganza",
+    "artist": "Juvenil",
+    "youtubeUrl": "https://youtube.com/watch?v=I7LbASMwhl0",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Despecho"
+    ],
+    "occasions": [
+      "Despecho",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "no sufrire por nadie",
+    "artist": "Juvenil",
+    "youtubeUrl": "https://youtube.com/watch?v=e2jXTjUoJLo",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Despecho"
+    ],
+    "occasions": [
+      "Despecho",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "contentoso",
+    "artist": "Juvenil",
+    "youtubeUrl": "https://youtube.com/watch?v=ja75uBnzHS0",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Cumbia"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  },
+  {
+    "title": "el precio de tu error",
+    "artist": "Juvenil",
+    "youtubeUrl": "https://youtube.com/watch?v=29RynFdnJ8w",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Despecho"
+    ],
+    "occasions": [
+      "Despecho",
+      "Fiestas y Despedidas"
+    ]
+  },
+  {
+    "title": "chismofilia",
+    "artist": "Juvenil",
+    "youtubeUrl": "https://youtube.com/watch?v=PKEl-re_7tQ",
+    "firestoreId": null,
+    "source": "excel",
+    "genres": [
+      "Cumbia"
+    ],
+    "occasions": [
+      "Fiestas y Despedidas",
+      "Ambientación"
+    ]
+  }
+]

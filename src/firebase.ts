@@ -1,6 +1,7 @@
 import { initializeApp } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
+import toast from 'react-hot-toast';
 import firebaseConfig from '../firebase-applet-config.json';
 
 const app = initializeApp(firebaseConfig);
@@ -36,8 +37,9 @@ export interface FirestoreErrorInfo {
 }
 
 export function handleFirestoreError(error: unknown, operationType: OperationType, path: string | null) {
+  const errMessage = error instanceof Error ? error.message : String(error);
   const errInfo: FirestoreErrorInfo = {
-    error: error instanceof Error ? error.message : String(error),
+    error: errMessage,
     authInfo: {
       userId: auth.currentUser?.uid,
       email: auth.currentUser?.email,
@@ -55,5 +57,12 @@ export function handleFirestoreError(error: unknown, operationType: OperationTyp
     path
   };
   console.error('Firestore Error: ', JSON.stringify(errInfo));
+  
+  if (errMessage.includes('permission-denied') || errMessage.includes('Missing or insufficient permissions')) {
+    toast.error('Acceso denegado: no tienes permisos para esta acción.');
+  } else {
+    toast.error(`Error en Firestore (${operationType}): ${errMessage}`);
+  }
+
   throw new Error(JSON.stringify(errInfo));
 }

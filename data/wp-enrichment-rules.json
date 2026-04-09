@@ -1,0 +1,2735 @@
+{
+  "inferMissingGenresFromTitle": true,
+  "inferMissingOccasionsFromTitle": true,
+  "genreKeywords": {
+    "Boleros": [
+      "bolero",
+      "amor eterno",
+      "querida"
+    ],
+    "Cumbias": [
+      "cumbia",
+      "carnaval",
+      "swing"
+    ],
+    "Corrido": [
+      "corrido",
+      "rancho"
+    ],
+    "Ranchera": [
+      "mariachi",
+      "mexico",
+      "tequilera",
+      "rey"
+    ]
+  },
+  "occasionKeywords": {
+    "Dia de la Madre": [
+      "madre",
+      "mama"
+    ],
+    "Dia del Padre": [
+      "padre",
+      "mi viejo"
+    ],
+    "Velorios": [
+      "en vida",
+      "ausente"
+    ],
+    "Fiesta Mexicana": [
+      "mexico",
+      "mariachi loco",
+      "rancho"
+    ],
+    "Show Bailable": [
+      "carnaval",
+      "swing",
+      "murga"
+    ]
+  },
+  "bySourceId": {
+    "4649": {
+      "youtubeUrl": "https://youtube.com/watch?v=AMaTurchASI",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "4650": {
+      "youtubeUrl": "https://youtube.com/watch?v=xa2GLqL12Zk",
+      "occasions": [
+        "Cumpleaños",
+        "Despecho",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Vals Ranchero"
+      ]
+    },
+    "4651": {
+      "youtubeUrl": "https://youtube.com/watch?v=_BcJw0ta8mc",
+      "occasions": [
+        "Cumpleaños",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Cumbias"
+      ]
+    },
+    "4741": {
+      "youtubeUrl": "https://youtube.com/watch?v=NCvJwzDQTBM",
+      "occasions": [
+        "Despecho",
+        "Fiesta Mexicana"
+      ],
+      "genres": [
+        "Son"
+      ]
+    },
+    "4742": {
+      "youtubeUrl": "https://youtube.com/watch?v=Tsk5aLgnQJs",
+      "occasions": [
+        "Despecho"
+      ],
+      "genres": [
+        "Ranchera"
+      ]
+    },
+    "4743": {
+      "youtubeUrl": "https://youtube.com/watch?v=8Eaquhm0fCs",
+      "occasions": [
+        "Dia del amor y amistad",
+        "Bodas / Aniversarios"
+      ],
+      "genres": [
+        "Huapango",
+        "Bolero"
+      ]
+    },
+    "4744": {
+      "youtubeUrl": "https://youtube.com/watch?v=yuQku2CuIhA",
+      "occasions": [
+        "Cumpleaños"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "4745": {
+      "youtubeUrl": "https://youtube.com/watch?v=1xlj-zAWEfg",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "4746": {
+      "youtubeUrl": "https://youtube.com/watch?v=jWS7CLZn-dQ",
+      "occasions": [
+        "Dia del amor y amistad"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "4747": {
+      "youtubeUrl": "https://youtube.com/watch?v=Of3Y_IcbbuU",
+      "occasions": [
+        "Dia de la Madre"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "4748": {
+      "youtubeUrl": "https://youtube.com/watch?v=a6w_j3xUNkg",
+      "occasions": [
+        "Aniversarios",
+        "Serenata Romántica",
+        "Velorios"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "4749": {
+      "youtubeUrl": "https://youtube.com/watch?v=XTwmQ-R7Joc",
+      "occasions": [
+        "Fiesta Mexicana"
+      ],
+      "genres": [
+        "Son"
+      ]
+    },
+    "4750": {
+      "youtubeUrl": "https://youtube.com/watch?v=Nf4GNFghEn4",
+      "occasions": [
+        "Despecho"
+      ],
+      "genres": [
+        "Ranchera"
+      ]
+    },
+    "4751": {
+      "youtubeUrl": "https://youtube.com/watch?v=oq70h9XBj_0",
+      "occasions": [
+        "Aniversarios",
+        "Cumpleaños",
+        "Serenatas (Románticas)",
+        "Bodas / Aniversarios"
+      ],
+      "genres": [
+        "Vals Ranchero",
+        "Ranchera"
+      ]
+    },
+    "4752": {
+      "youtubeUrl": "https://youtube.com/watch?v=JICtLiGqCV8",
+      "occasions": [
+        "Fiesta Mexicana"
+      ],
+      "genres": [
+        "Cumbias"
+      ]
+    },
+    "4753": {
+      "youtubeUrl": "https://youtube.com/watch?v=NgqbgirLj48",
+      "occasions": [
+        "Aniversarios"
+      ],
+      "genres": [
+        "Pasillo"
+      ]
+    },
+    "4754": {
+      "youtubeUrl": "https://youtube.com/watch?v=4W53NfQrNQg",
+      "occasions": [
+        "Serenata a la Virgen"
+      ],
+      "genres": [
+        "Alabanza"
+      ]
+    },
+    "4755": {
+      "youtubeUrl": "https://youtube.com/watch?v=o6Zgwf5LX-c",
+      "occasions": [
+        "Reconciliaciones"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "4935": {
+      "youtubeUrl": "https://youtube.com/watch?v=Zh6ofSFA06M",
+      "occasions": [
+        "Cumpleaños"
+      ],
+      "genres": [
+        "Ranchera"
+      ]
+    },
+    "4936": {
+      "youtubeUrl": "https://youtube.com/watch?v=wW5nce6bms0",
+      "occasions": [
+        "Celebración Cristiana",
+        "Cumpleaños"
+      ],
+      "genres": [
+        "Ranchera"
+      ]
+    },
+    "4937": {
+      "youtubeUrl": "https://youtube.com/watch?v=Jguqnlymeuk",
+      "occasions": [
+        "Cumpleaños"
+      ],
+      "genres": [
+        "Ranchera"
+      ]
+    },
+    "4938": {
+      "youtubeUrl": "https://youtube.com/watch?v=ixZO0j_LCj4",
+      "occasions": [
+        "Cumpleaños",
+        "Día de la Madre",
+        "Quinceañeras"
+      ],
+      "genres": [
+        "Ranchera"
+      ]
+    },
+    "4939": {
+      "youtubeUrl": "https://youtube.com/watch?v=ZqjkrjfIkh8",
+      "occasions": [
+        "Cumpleaños"
+      ],
+      "genres": [
+        "Vals Ranchero"
+      ]
+    },
+    "4940": {
+      "youtubeUrl": "https://youtube.com/watch?v=_Hc4RUzzQlE",
+      "occasions": [
+        "Cumpleaños"
+      ],
+      "genres": [
+        "Ranchera"
+      ]
+    },
+    "4942": {
+      "youtubeUrl": "https://youtube.com/watch?v=s7oda7hQC0E",
+      "occasions": [
+        "Cumpleaños"
+      ],
+      "genres": [
+        "Corrido"
+      ]
+    },
+    "4943": {
+      "youtubeUrl": "https://youtube.com/watch?v=YryFB27wHzs",
+      "occasions": [
+        "Aniversarios",
+        "Cumpleaños"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "4944": {
+      "youtubeUrl": "https://youtube.com/watch?v=OHeHOb3E-2g",
+      "occasions": [
+        "Fiesta Mexicana"
+      ],
+      "genres": [
+        "Vals Ranchero"
+      ]
+    },
+    "4945": {
+      "youtubeUrl": "https://youtube.com/watch?v=5ar42kauTd8",
+      "occasions": [
+        "Aniversarios",
+        "Cumpleaños",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Ranchera"
+      ]
+    },
+    "4946": {
+      "youtubeUrl": "https://youtube.com/watch?v=cTvbI7yGvdM",
+      "occasions": [
+        "Aniversarios",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "4947": {
+      "youtubeUrl": "https://youtube.com/watch?v=n3cInnnQfr4",
+      "occasions": [
+        "Aniversarios",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "4948": {
+      "youtubeUrl": "https://youtube.com/watch?v=qKkmUrYAAns",
+      "occasions": [
+        "Aniversarios",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "4949": {
+      "youtubeUrl": "https://youtube.com/watch?v=pifvIJ9372o",
+      "occasions": [
+        "Aniversarios",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "4950": {
+      "youtubeUrl": "https://youtube.com/watch?v=4vVQ-1kxppY",
+      "occasions": [
+        "Aniversarios",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "4951": {
+      "youtubeUrl": "https://youtube.com/watch?v=2CCIcrGM14o",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Serenata Romántica",
+        "Serenatas (Románticas)"
+      ],
+      "genres": [
+        "Ranchera"
+      ]
+    },
+    "4952": {
+      "youtubeUrl": "https://youtube.com/watch?v=wCQ3qeBfKEM",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "4953": {
+      "youtubeUrl": "https://youtube.com/watch?v=95nFsh_VGEo",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "4954": {
+      "youtubeUrl": "https://youtube.com/watch?v=eMJZfV4RWYI",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "4955": {
+      "youtubeUrl": "https://youtube.com/watch?v=KvWCkXZZfaU",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "4957": {
+      "youtubeUrl": "https://youtube.com/watch?v=sNXQ36JqCiU",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "4958": {
+      "youtubeUrl": "https://youtube.com/watch?v=x3noNiiOsEY",
+      "occasions": [
+        "Despecho"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "4959": {
+      "youtubeUrl": "https://youtube.com/watch?v=CmB7vaU337k",
+      "occasions": [
+        "Serenata Romántica",
+        "Velorios / Despedidas"
+      ],
+      "genres": [
+        "Huapango"
+      ]
+    },
+    "4960": {
+      "youtubeUrl": "https://youtube.com/watch?v=Wgo8HUyaMMM",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "4961": {
+      "youtubeUrl": "https://youtube.com/watch?v=uqPERwigeoE",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "4962": {
+      "youtubeUrl": "https://youtube.com/watch?v=RyF5xuLXUXg",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "4963": {
+      "youtubeUrl": "https://youtube.com/watch?v=MxoGf2uXkfQ",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "4964": {
+      "youtubeUrl": "https://youtube.com/watch?v=JM-GcTok-7Y",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "4965": {
+      "youtubeUrl": "https://youtube.com/watch?v=NT0hlSpma90",
+      "occasions": [
+        "Despecho",
+        "Reconciliación"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "4966": {
+      "youtubeUrl": "https://youtube.com/watch?v=YOyD20c9-GM",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "4967": {
+      "youtubeUrl": "https://youtube.com/watch?v=e7_h4WNnlTU",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "4968": {
+      "youtubeUrl": "https://youtube.com/watch?v=Fvyq7-wQ7N8",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica",
+        "Serenatas (Románticas)"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "4969": {
+      "youtubeUrl": "https://youtube.com/watch?v=gYBfhh2sVDY",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "4970": {
+      "youtubeUrl": "https://youtube.com/watch?v=fkH8_kHFJts",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica",
+        "Show Bailable / Fiestas"
+      ],
+      "genres": [
+        "Boleros",
+        "Cumbia"
+      ]
+    },
+    "4971": {
+      "youtubeUrl": "https://youtube.com/watch?v=sx31J7fDB4s",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "4972": {
+      "youtubeUrl": "https://youtube.com/watch?v=2DhThYPRDDI",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "4973": {
+      "youtubeUrl": "https://youtube.com/watch?v=S1CBXrPLY-0",
+      "occasions": [
+        "Despecho"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "4974": {
+      "youtubeUrl": "https://youtube.com/watch?v=L3kn9Xs4Tek",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "4975": {
+      "youtubeUrl": "https://youtube.com/watch?v=1BTh5HgdEyE",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "4976": {
+      "youtubeUrl": "https://youtube.com/watch?v=0w-F0oBE6Zs",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "4977": {
+      "youtubeUrl": "https://youtube.com/watch?v=3wUeCtnAV7A",
+      "occasions": [
+        "Aniversarios",
+        "Dia de la Madre",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Pasillo"
+      ]
+    },
+    "4979": {
+      "youtubeUrl": "https://youtube.com/watch?v=ke1i1TjsF24",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "4980": {
+      "youtubeUrl": "https://youtube.com/watch?v=Xmnz6ufyn8I",
+      "occasions": [
+        "Despecho"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "4981": {
+      "youtubeUrl": "https://youtube.com/watch?v=cEcWnlIdUOw",
+      "occasions": [
+        "Aniversarios",
+        "Cumpleaños",
+        "Dia del amor y amistad",
+        "Quinceañeras",
+        "Reconciliaciones",
+        "Serenata a la Virgen",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "4982": {
+      "youtubeUrl": "https://youtube.com/watch?v=WndFUsSXtKU",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "4983": {
+      "youtubeUrl": "https://youtube.com/watch?v=BBxnW6Y18VA",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "4984": {
+      "youtubeUrl": "https://youtube.com/watch?v=i0PKu6Yck8Q",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica",
+        "Serenatas (Románticas)"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "4985": {
+      "youtubeUrl": "https://youtube.com/watch?v=ODid4nY7GGY",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "4986": {
+      "youtubeUrl": "https://youtube.com/watch?v=qPv0KJ0Ra4w",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "4987": {
+      "youtubeUrl": "https://youtube.com/watch?v=h-GSyBwKuGE",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "4988": {
+      "youtubeUrl": "https://youtube.com/watch?v=F5QQsWMKtaM",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "4989": {
+      "youtubeUrl": "https://youtube.com/watch?v=jsSwVGjj8KI",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "4990": {
+      "youtubeUrl": "https://youtube.com/watch?v=MjisQoerYD0",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Vals Ranchero"
+      ]
+    },
+    "4991": {
+      "youtubeUrl": "https://youtube.com/watch?v=EcI3FALvwD0",
+      "occasions": [
+        "Aniversarios",
+        "Cumpleaños",
+        "Reconciliaciones",
+        "Serenata Romántica",
+        "Serenatas (Románticas)"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "4992": {
+      "youtubeUrl": "https://youtube.com/watch?v=K2mGOE65nLA",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica",
+        "Show Bailable / Fiestas"
+      ],
+      "genres": [
+        "Boleros",
+        "Cumbia"
+      ]
+    },
+    "4993": {
+      "youtubeUrl": "https://youtube.com/watch?v=rxqhYXAiD88",
+      "occasions": [
+        "Despecho"
+      ],
+      "genres": [
+        "Huapango"
+      ]
+    },
+    "4994": {
+      "youtubeUrl": "https://youtube.com/watch?v=EjjDxPBf17o",
+      "occasions": [
+        "Aniversarios",
+        "Cumpleaños",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "4995": {
+      "youtubeUrl": "https://youtube.com/watch?v=9Z4yNNDDQok",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Huapango"
+      ]
+    },
+    "4996": {
+      "youtubeUrl": "https://youtube.com/watch?v=9NhaC0-ecWw",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica",
+        "Serenatas (Románticas)"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "4997": {
+      "youtubeUrl": "https://youtube.com/watch?v=387jivPcwvE",
+      "occasions": [
+        "Aniversarios",
+        "Cumpleaños",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "4998": {
+      "youtubeUrl": "https://youtube.com/watch?v=NE79RDnDQ5U",
+      "occasions": [
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Cumbias"
+      ]
+    },
+    "4999": {
+      "youtubeUrl": "https://youtube.com/watch?v=8ngTPP3kgKQ",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "5000": {
+      "youtubeUrl": "https://youtube.com/watch?v=9vtPruNZFHo",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica",
+        "Serenatas (Románticas)"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "5001": {
+      "youtubeUrl": "https://youtube.com/watch?v=rV99-gKpeAU",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "5002": {
+      "youtubeUrl": "https://youtube.com/watch?v=rwcSw5us8Eo",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "5003": {
+      "youtubeUrl": "https://youtube.com/watch?v=8Zihvn67CNI",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "5004": {
+      "youtubeUrl": "https://youtube.com/watch?v=kneRedYAYpQ",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "5005": {
+      "youtubeUrl": "https://youtube.com/watch?v=_MTgyEPlwgY",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "5006": {
+      "youtubeUrl": "https://youtube.com/watch?v=53rcvrsB60c",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica",
+        "Serenatas (Románticas)"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "5007": {
+      "youtubeUrl": "https://youtube.com/watch?v=NXAmH-7Tzt8",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica",
+        "Serenatas (Románticas)"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "5008": {
+      "youtubeUrl": "https://youtube.com/watch?v=vILPMrC0fR0",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica",
+        "Serenatas (Románticas)"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "5009": {
+      "youtubeUrl": "https://youtube.com/watch?v=1IewjdQMlbQ",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "5010": {
+      "youtubeUrl": "https://youtube.com/watch?v=YLEDN5VB0x4",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "5011": {
+      "youtubeUrl": "https://youtube.com/watch?v=GuoLu1t9CmQ",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "5012": {
+      "youtubeUrl": "https://youtube.com/watch?v=ppYGKtTMx8E",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "5013": {
+      "youtubeUrl": "https://youtube.com/watch?v=9fqPtmLAU3I",
+      "occasions": [
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "5014": {
+      "youtubeUrl": "https://youtube.com/watch?v=up6Y-VCd1c8",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica",
+        "Cumpleaños"
+      ],
+      "genres": [
+        "Ranchera"
+      ]
+    },
+    "5015": {
+      "youtubeUrl": "https://youtube.com/watch?v=I_f8p0itXFw",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "5016": {
+      "youtubeUrl": "https://youtube.com/watch?v=1aSc2xjtn6M",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "5017": {
+      "youtubeUrl": "https://youtube.com/watch?v=x3lryVwGKJA",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica",
+        "Serenatas (Románticas)"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "5018": {
+      "youtubeUrl": "https://youtube.com/watch?v=giAE7Yz7gHI",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "5019": {
+      "youtubeUrl": "https://youtube.com/watch?v=3sboBltg_wM",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "5020": {
+      "youtubeUrl": "https://youtube.com/watch?v=KSVItZyo_l0",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "5021": {
+      "youtubeUrl": "https://youtube.com/watch?v=XOGcTmOoulY",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica",
+        "Serenatas (Románticas)"
+      ],
+      "genres": [
+        "Vals Ranchero"
+      ]
+    },
+    "5022": {
+      "youtubeUrl": "https://youtube.com/watch?v=E8kPtvFYgq0",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica",
+        "Cumpleaños"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "5023": {
+      "youtubeUrl": "https://youtube.com/watch?v=gZL7Tqov0w0",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Boleros",
+        "Bolero"
+      ]
+    },
+    "5024": {
+      "youtubeUrl": "https://youtube.com/watch?v=UuGrc3vvdMw",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Son"
+      ]
+    },
+    "5025": {
+      "youtubeUrl": "https://youtube.com/watch?v=cNo-d6Y6w8Y",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Boleros",
+        "Bolero"
+      ]
+    },
+    "5026": {
+      "youtubeUrl": "https://youtube.com/watch?v=HLQtHVkCtms",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica",
+        "Serenatas (Románticas)"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "5027": {
+      "youtubeUrl": "https://youtube.com/watch?v=eJpMOYIK6SA",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "5028": {
+      "youtubeUrl": "https://youtube.com/watch?v=y-6Rp1GCY1w",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica",
+        "Serenatas (Románticas)"
+      ],
+      "genres": [
+        "Huapango"
+      ]
+    },
+    "5029": {
+      "youtubeUrl": "https://youtube.com/watch?v=vjb39UwDDIo",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "5030": {
+      "youtubeUrl": "https://youtube.com/watch?v=O3qRy6KJGNU",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "5031": {
+      "youtubeUrl": "https://youtube.com/watch?v=uAYqCRIc2IA",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "5032": {
+      "youtubeUrl": "https://youtube.com/watch?v=UasiMOoMz1o",
+      "occasions": [
+        "Despecho"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "5033": {
+      "youtubeUrl": "https://youtube.com/watch?v=XKP46zd8tqc",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "5034": {
+      "youtubeUrl": "https://youtube.com/watch?v=WR8hx7u2xWw",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "5035": {
+      "youtubeUrl": "https://youtube.com/watch?v=sRXQH4rZrUA",
+      "occasions": [
+        "Despecho"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "5036": {
+      "youtubeUrl": "https://youtube.com/watch?v=WR8hx7u2xWw",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "5037": {
+      "youtubeUrl": "https://youtube.com/watch?v=areQzt6pRkk",
+      "occasions": [
+        "Despecho",
+        "Día del Padre"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "5038": {
+      "youtubeUrl": "https://youtube.com/watch?v=TJYLncp33EY",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "5039": {
+      "youtubeUrl": "https://youtube.com/watch?v=95tpywDJQJM",
+      "occasions": [
+        "Despecho",
+        "Reconciliaciones"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "5040": {
+      "youtubeUrl": "https://youtube.com/watch?v=JAsh24K3GU4",
+      "occasions": [
+        "Despecho",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "5041": {
+      "youtubeUrl": "https://youtube.com/watch?v=balFKWqXuT0",
+      "occasions": [
+        "Reconciliaciones"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "5042": {
+      "youtubeUrl": "https://youtube.com/watch?v=ifnioi8O9ts",
+      "occasions": [
+        "Dia del amor y amistad",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "5043": {
+      "youtubeUrl": "https://youtube.com/watch?v=JTSPKPpSD_Y",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "5044": {
+      "youtubeUrl": "https://youtube.com/watch?v=9J9YxWNXS4c",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "5045": {
+      "youtubeUrl": "https://youtube.com/watch?v=_tNVEhSelH0",
+      "occasions": [
+        "Aniversarios",
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "5046": {
+      "youtubeUrl": "https://youtube.com/watch?v=rYclZ_Y0rH4",
+      "occasions": [
+        "Cumpleaños",
+        "Quinceañeras"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "5047": {
+      "youtubeUrl": "https://youtube.com/watch?v=Y59yDvPBSBU",
+      "occasions": [
+        "Aniversarios",
+        "Cumpleaños",
+        "Quinceañeras",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Vals Ranchero"
+      ]
+    },
+    "5048": {
+      "youtubeUrl": "https://youtube.com/watch?v=R12yfnab-ZQ",
+      "occasions": [
+        "Cumpleaños",
+        "Quinceañeras"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "5049": {
+      "youtubeUrl": "https://youtube.com/watch?v=1npHMXZfmbY",
+      "occasions": [
+        "Cumpleaños",
+        "Quinceañeras"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "5051": {
+      "youtubeUrl": "https://youtube.com/watch?v=rYclZ_Y0rH4",
+      "occasions": [
+        "Cumpleaños",
+        "Quinceañeras"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "5052": {
+      "youtubeUrl": "https://youtube.com/watch?v=qZVGDRXzaYo",
+      "occasions": [
+        "Cumpleaños",
+        "Quinceañeras"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "5053": {
+      "youtubeUrl": "https://youtube.com/watch?v=jcH4hL0LVn8",
+      "occasions": [
+        "Cumpleaños",
+        "Quinceañeras"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "5054": {
+      "youtubeUrl": "https://youtube.com/watch?v=9se9qM30NKI",
+      "occasions": [
+        "Cumpleaños",
+        "Quinceañeras"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "5055": {
+      "youtubeUrl": "https://youtube.com/watch?v=OhBVX1WbO84",
+      "occasions": [
+        "Cumpleaños",
+        "Quinceañeras"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "5056": {
+      "youtubeUrl": "https://youtube.com/watch?v=spfPclyGvw8",
+      "occasions": [
+        "Aniversarios",
+        "Cumpleaños",
+        "Dia del amor y amistad",
+        "Quinceañeras",
+        "Serenata Romántica",
+        "Velorios / Despedidas"
+      ],
+      "genres": [
+        "Cumbias"
+      ]
+    },
+    "5057": {
+      "youtubeUrl": "https://youtube.com/watch?v=QPPICVq6-zU",
+      "occasions": [
+        "Reconciliaciones",
+        "Serenata Romántica",
+        "Velorios",
+        "Reconciliación"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "5058": {
+      "youtubeUrl": "https://youtube.com/watch?v=gH8oCh1nn88",
+      "occasions": [
+        "Velorios"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "5059": {
+      "youtubeUrl": "https://youtube.com/watch?v=a9QwsJSVYaw",
+      "occasions": [
+        "Velorios",
+        "Día de la Madre"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "5060": {
+      "youtubeUrl": "https://youtube.com/watch?v=VZcW5TTa5Rw",
+      "occasions": [
+        "Aniversarios",
+        "Celebración Cristiana",
+        "Cumpleaños",
+        "Dia del amor y amistad",
+        "Quinceañeras",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "5061": {
+      "youtubeUrl": "https://youtube.com/watch?v=7XAUNqTOQx8",
+      "occasions": [
+        "Dia de la Madre",
+        "Día de la Madre",
+        "Serenatas (Románticas)",
+        "Velorios / Despedidas"
+      ],
+      "genres": [
+        "Balada",
+        "Bolero"
+      ]
+    },
+    "5062": {
+      "youtubeUrl": "https://youtube.com/watch?v=Cg5Y7MP00Ko",
+      "occasions": [
+        "Velorios"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "5063": {
+      "youtubeUrl": "https://youtube.com/watch?v=MXlwuZ_nEk0",
+      "occasions": [
+        "Despecho",
+        "Reconciliaciones",
+        "Serenata Romántica",
+        "Velorios"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "5064": {
+      "youtubeUrl": "https://youtube.com/watch?v=MDin4E_Jv2k",
+      "occasions": [
+        "Velorios"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "5065": {
+      "youtubeUrl": "https://youtube.com/watch?v=HHQp--3AB04",
+      "occasions": [
+        "Velorios"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "5066": {
+      "youtubeUrl": "https://youtube.com/watch?v=EBcaFpHJPZI",
+      "occasions": [
+        "Velorios"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "5067": {
+      "youtubeUrl": "https://youtube.com/watch?v=yBA1qn-fBOM",
+      "occasions": [
+        "Despecho",
+        "Velorios",
+        "Serenatas (Románticas)"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "5068": {
+      "youtubeUrl": "https://youtube.com/watch?v=rGJ4TfuFAKg",
+      "occasions": [
+        "Dia de la Madre",
+        "Velorios",
+        "Día de la Madre"
+      ],
+      "genres": [
+        "Pasillo"
+      ]
+    },
+    "5069": {
+      "youtubeUrl": "https://youtube.com/watch?v=U6qMQnNst9U",
+      "occasions": [
+        "Cumpleaños",
+        "Despedidas / Velorios",
+        "Serenatas (Románticas)"
+      ],
+      "genres": [
+        "Vals Ranchero",
+        "Ranchera"
+      ]
+    },
+    "5070": {
+      "youtubeUrl": "https://youtube.com/watch?v=cZvPJoOMKB4",
+      "occasions": [
+        "Velorios"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "5071": {
+      "youtubeUrl": "https://youtube.com/watch?v=ZTPVeup5UFk",
+      "occasions": [
+        "Despecho",
+        "Velorios"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "5072": {
+      "youtubeUrl": "https://youtube.com/watch?v=XrhoIdH07JI",
+      "occasions": [
+        "Velorios"
+      ],
+      "genres": [
+        "Corrido"
+      ]
+    },
+    "5073": {
+      "youtubeUrl": "https://youtube.com/watch?v=H9ivAZdrF-8",
+      "occasions": [
+        "Despecho",
+        "Velorios"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "5074": {
+      "youtubeUrl": "https://youtube.com/watch?v=O0OcHIUjRnk",
+      "occasions": [
+        "Velorios"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "5075": {
+      "youtubeUrl": "https://youtube.com/watch?v=0vJHbkKTNGM",
+      "occasions": [
+        "Velorios"
+      ],
+      "genres": [
+        "Pasillo"
+      ]
+    },
+    "5076": {
+      "youtubeUrl": "https://youtube.com/watch?v=rdUy6x38yYg",
+      "occasions": [
+        "Celebración Cristiana"
+      ],
+      "genres": [
+        "Alabanza"
+      ]
+    },
+    "5077": {
+      "youtubeUrl": "https://youtube.com/watch?v=NJFesiSX7WE",
+      "occasions": [
+        "Celebración Cristiana"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "5078": {
+      "youtubeUrl": "https://youtube.com/watch?v=pv3M9E7U1U8",
+      "occasions": [
+        "Celebración Cristiana"
+      ],
+      "genres": [
+        "Alabanza"
+      ]
+    },
+    "5079": {
+      "youtubeUrl": "https://youtube.com/watch?v=z50c2Kuyorc",
+      "occasions": [
+        "Celebración Cristiana",
+        "Bodas / Aniversarios"
+      ],
+      "genres": [
+        "Alabanza"
+      ]
+    },
+    "5080": {
+      "youtubeUrl": "https://youtube.com/watch?v=9PpKK50tsaY",
+      "occasions": [
+        "Celebración Cristiana",
+        "Quinceañeras"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "5081": {
+      "youtubeUrl": "https://youtube.com/watch?v=EWx2-6FxREA",
+      "occasions": [
+        "Celebración Cristiana"
+      ],
+      "genres": [
+        "Alabanza"
+      ]
+    },
+    "5082": {
+      "youtubeUrl": "https://youtube.com/watch?v=hVl2L_i0duk",
+      "occasions": [
+        "Celebración Cristiana"
+      ],
+      "genres": [
+        "Alabanza"
+      ]
+    },
+    "5083": {
+      "youtubeUrl": "https://youtube.com/watch?v=hiTaP1aYMyw",
+      "occasions": [
+        "Celebración Cristiana"
+      ],
+      "genres": [
+        "Alabanza"
+      ]
+    },
+    "5084": {
+      "youtubeUrl": "https://youtube.com/watch?v=t4qKItDVyKI",
+      "occasions": [
+        "Celebración Cristiana"
+      ],
+      "genres": [
+        "Alabanza"
+      ]
+    },
+    "5085": {
+      "youtubeUrl": "https://youtube.com/watch?v=ZoruoNdPJuk",
+      "occasions": [
+        "Celebración Cristiana"
+      ],
+      "genres": [
+        "Alabanza"
+      ]
+    },
+    "5086": {
+      "youtubeUrl": "https://youtube.com/watch?v=vCnFS0NvgaY",
+      "occasions": [
+        "Celebración Cristiana"
+      ],
+      "genres": [
+        "Alabanza"
+      ]
+    },
+    "5087": {
+      "youtubeUrl": "https://youtube.com/watch?v=cVjDGRzj1iE",
+      "occasions": [
+        "Serenata a la Virgen",
+        "Día de la Madre",
+        "Serenatas (Románticas)",
+        "Velorios / Despedidas"
+      ],
+      "genres": [
+        "Balada",
+        "Bolero"
+      ]
+    },
+    "5088": {
+      "youtubeUrl": "https://youtube.com/watch?v=Q1DJgt4mc_I",
+      "occasions": [
+        "Serenata a la Virgen",
+        "Velorios / Despedidas"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "5089": {
+      "youtubeUrl": "https://youtube.com/watch?v=rdUy6x38yYg",
+      "occasions": [
+        "Serenata a la Virgen"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "5090": {
+      "youtubeUrl": "https://youtube.com/watch?v=EsL6T5pSfTk",
+      "occasions": [
+        "Serenata a la Virgen"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "5091": {
+      "youtubeUrl": "https://youtube.com/watch?v=uQc2-baHAUM",
+      "occasions": [
+        "Serenata a la Virgen"
+      ],
+      "genres": [
+        "Alabanza"
+      ]
+    },
+    "5092": {
+      "youtubeUrl": "https://youtube.com/watch?v=R6af2FxljeQ",
+      "occasions": [
+        "Serenata a la Virgen",
+        "Velorios / Despedidas"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "5093": {
+      "youtubeUrl": "https://youtube.com/watch?v=T4JK8WL8DcM",
+      "occasions": [
+        "Serenata a la Virgen"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "5094": {
+      "youtubeUrl": "https://youtube.com/watch?v=HGu_gYWrk1I",
+      "occasions": [
+        "Serenata a la Virgen",
+        "Día de la Madre"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "5095": {
+      "youtubeUrl": "https://youtube.com/watch?v=9J9YxWNXS4c",
+      "occasions": [
+        "Serenata a la Virgen",
+        "Serenatas (Románticas)"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "5096": {
+      "youtubeUrl": "https://youtube.com/watch?v=jIGKzn3Y4Es",
+      "occasions": [
+        "Serenata a la Virgen"
+      ],
+      "genres": [
+        "Alabanza"
+      ]
+    },
+    "5097": {
+      "youtubeUrl": "https://youtube.com/watch?v=9GLFNM7KgwA",
+      "occasions": [
+        "Serenata a la Virgen",
+        "Día del Padre"
+      ],
+      "genres": [
+        "Alabanza"
+      ]
+    },
+    "5098": {
+      "youtubeUrl": "https://youtube.com/watch?v=gz66PdmG_ho",
+      "occasions": [
+        "Serenata a la Virgen",
+        "Día de la Madre"
+      ],
+      "genres": [
+        "Alabanza"
+      ]
+    },
+    "5099": {
+      "youtubeUrl": "https://youtube.com/watch?v=cVjDGRzj1iE",
+      "occasions": [
+        "Serenata a la Virgen"
+      ],
+      "genres": [
+        "Alabanza"
+      ]
+    },
+    "5100": {
+      "youtubeUrl": "https://youtube.com/watch?v=8iJd52xfLa0",
+      "occasions": [
+        "Cumpleaños",
+        "Dia de la Madre",
+        "Día de la Madre"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "5101": {
+      "youtubeUrl": "https://youtube.com/watch?v=3ql5nFBfyjQ",
+      "occasions": [
+        "Dia de la Madre"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "5102": {
+      "youtubeUrl": "https://youtube.com/watch?v=9F_BRjGi3L8",
+      "occasions": [
+        "Cumpleaños",
+        "Dia del Padre",
+        "Velorios"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "5103": {
+      "youtubeUrl": "https://youtube.com/watch?v=euJNFdOhP8M",
+      "occasions": [
+        "Dia de la Madre",
+        "Día de la Madre"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "5104": {
+      "youtubeUrl": "https://youtube.com/watch?v=UZTiHZ_TLCY",
+      "occasions": [
+        "Dia de la Madre",
+        "Día de la Madre"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "5105": {
+      "youtubeUrl": "https://youtube.com/watch?v=fKd8AxqQiZc",
+      "occasions": [
+        "Dia de la Madre"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "5106": {
+      "youtubeUrl": "https://youtube.com/watch?v=COMY2Kr6Lq4",
+      "occasions": [
+        "Cumpleaños",
+        "Fiesta Mexicana",
+        "Quinceañeras"
+      ],
+      "genres": [
+        "Corrido"
+      ]
+    },
+    "5107": {
+      "youtubeUrl": "https://youtube.com/watch?v=Wxl0B7HGSHg",
+      "occasions": [
+        "Dia de la Madre",
+        "Día de la Madre",
+        "Día del Padre"
+      ],
+      "genres": [
+        "Cumbias"
+      ]
+    },
+    "5108": {
+      "youtubeUrl": "https://youtube.com/watch?v=RVY0WNq_EEM",
+      "occasions": [
+        "Dia de la Madre"
+      ],
+      "genres": [
+        "Vals Ranchero"
+      ]
+    },
+    "5109": {
+      "youtubeUrl": "https://youtube.com/watch?v=BVJ9kKkn-os",
+      "occasions": [
+        "Dia de la Madre"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "5110": {
+      "youtubeUrl": "https://youtube.com/watch?v=bc88kfQJoq0",
+      "occasions": [
+        "Dia de la Madre"
+      ],
+      "genres": [
+        "Huapango"
+      ]
+    },
+    "5111": {
+      "youtubeUrl": "https://youtube.com/watch?v=ZbIszWyLuaI",
+      "occasions": [
+        "Dia de la Madre"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "5112": {
+      "youtubeUrl": "https://youtube.com/watch?v=yt8Ki-RSIyA",
+      "occasions": [
+        "Dia del amor y amistad",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "5113": {
+      "youtubeUrl": "https://youtube.com/watch?v=9j4mB5nu_dk",
+      "occasions": [
+        "Fiesta Mexicana"
+      ],
+      "genres": [
+        "Cumbias"
+      ]
+    },
+    "5114": {
+      "youtubeUrl": "https://youtube.com/watch?v=uar9rLs4x5c",
+      "occasions": [
+        "Fiesta Mexicana"
+      ],
+      "genres": [
+        "Cumbias"
+      ]
+    },
+    "5115": {
+      "youtubeUrl": "https://youtube.com/watch?v=oZCHFXxkoQc",
+      "occasions": [
+        "Despecho"
+      ],
+      "genres": [
+        "Corrido"
+      ]
+    },
+    "5116": {
+      "youtubeUrl": "https://youtube.com/watch?v=pOi9LLVcFBo",
+      "occasions": [
+        "Recibimiento",
+        "Día del Padre",
+        "Cumpleaños"
+      ],
+      "genres": [
+        "Boleros",
+        "Corrido"
+      ]
+    },
+    "5117": {
+      "youtubeUrl": "https://youtube.com/watch?v=CIXWJpV_4kc",
+      "occasions": [
+        "Dia de la Madre"
+      ],
+      "genres": [
+        "Corrido"
+      ]
+    },
+    "5118": {
+      "youtubeUrl": "https://youtube.com/watch?v=g5rsnxJWNkM",
+      "occasions": [
+        "Despecho"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "5119": {
+      "youtubeUrl": "https://youtube.com/watch?v=gZVKe_0n7tg",
+      "occasions": [
+        "Fiesta Mexicana"
+      ],
+      "genres": [
+        "Ranchera"
+      ]
+    },
+    "5120": {
+      "youtubeUrl": "https://youtube.com/watch?v=ndkXxNTEIA4",
+      "occasions": [
+        "Despecho",
+        "Fiesta Mexicana"
+      ],
+      "genres": [
+        "Ranchera"
+      ]
+    },
+    "5121": {
+      "youtubeUrl": "https://youtube.com/watch?v=sNXQ36JqCiU",
+      "occasions": [
+        "Dia del amor y amistad",
+        "Reconciliaciones",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "5122": {
+      "youtubeUrl": "https://youtube.com/watch?v=ga5Bo4YdgH4",
+      "occasions": [
+        "Despecho"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "5123": {
+      "youtubeUrl": "https://youtube.com/watch?v=IbWM2jivMiI",
+      "occasions": [
+        "Despecho"
+      ],
+      "genres": [
+        "Ranchera"
+      ]
+    },
+    "5124": {
+      "youtubeUrl": "https://youtube.com/watch?v=F07ngnis2ig",
+      "occasions": [
+        "Despecho"
+      ],
+      "genres": [
+        "Ranchera"
+      ]
+    },
+    "5125": {
+      "youtubeUrl": "https://youtube.com/watch?v=Lhk7EI88BRE",
+      "occasions": [
+        "Despecho"
+      ],
+      "genres": [
+        "Balada"
+      ]
+    },
+    "5126": {
+      "youtubeUrl": "https://youtube.com/watch?v=JxNzAHuywsc",
+      "occasions": [
+        "Despecho"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "5127": {
+      "youtubeUrl": "https://youtube.com/watch?v=3t-TP4Gq0rc",
+      "occasions": [
+        "Fiesta Mexicana"
+      ],
+      "genres": [
+        "Corrido"
+      ]
+    },
+    "5128": {
+      "youtubeUrl": "https://youtube.com/watch?v=D34D_zUUdKs",
+      "occasions": [
+        "Fiesta Mexicana"
+      ],
+      "genres": [
+        "Corrido"
+      ]
+    },
+    "5129": {
+      "youtubeUrl": "https://youtube.com/watch?v=IiNWdxtBjO4",
+      "occasions": [
+        "Fiesta Mexicana"
+      ],
+      "genres": [
+        "Corrido"
+      ]
+    },
+    "5130": {
+      "youtubeUrl": "https://youtube.com/watch?v=52tADzXm6sM",
+      "occasions": [
+        "Fiesta Mexicana"
+      ],
+      "genres": [
+        "Corrido"
+      ]
+    },
+    "5131": {
+      "youtubeUrl": "https://youtube.com/watch?v=Byeu5C9FS6s",
+      "occasions": [
+        "Fiesta Mexicana"
+      ],
+      "genres": [
+        "Corrido"
+      ]
+    },
+    "5132": {
+      "youtubeUrl": "https://youtube.com/watch?v=Y5Zmj21S5UU",
+      "occasions": [
+        "Fiesta Mexicana"
+      ],
+      "genres": [
+        "Corrido"
+      ]
+    },
+    "5133": {
+      "youtubeUrl": "https://youtube.com/watch?v=oFtP7PUyYoI",
+      "occasions": [
+        "Fiesta Mexicana"
+      ],
+      "genres": [
+        "Corrido"
+      ]
+    },
+    "5135": {
+      "youtubeUrl": "https://youtube.com/watch?v=i_jY0T-G0js",
+      "occasions": [
+        "Fiesta Mexicana"
+      ],
+      "genres": [
+        "Corrido"
+      ]
+    },
+    "5136": {
+      "youtubeUrl": "https://youtube.com/watch?v=Mu0_5AM2ETY",
+      "occasions": [
+        "Fiesta Mexicana",
+        "Serenata Romántica"
+      ],
+      "genres": [
+        "Corrido"
+      ]
+    },
+    "5137": {
+      "youtubeUrl": "https://youtube.com/watch?v=e89CusQvtq4",
+      "occasions": [
+        "Dia de la Madre",
+        "Fiesta Mexicana"
+      ],
+      "genres": [
+        "Corrido"
+      ]
+    },
+    "5138": {
+      "youtubeUrl": "https://youtube.com/watch?v=EjjDxPBf17o",
+      "occasions": [
+        "Fiesta Mexicana"
+      ],
+      "genres": [
+        "Corrido",
+        "Ranchera"
+      ]
+    },
+    "5139": {
+      "youtubeUrl": "https://youtube.com/watch?v=mHL6rpmxQRg",
+      "occasions": [
+        "Dia del Padre",
+        "Fiesta Mexicana"
+      ],
+      "genres": [
+        "Corrido"
+      ]
+    },
+    "5140": {
+      "youtubeUrl": "https://youtube.com/watch?v=U9XuqYLDIlY",
+      "occasions": [
+        "Show Bailable",
+        "Día del Padre"
+      ],
+      "genres": [
+        "Cumbias",
+        "Ranchera",
+        "Corrido"
+      ]
+    },
+    "5141": {
+      "youtubeUrl": "https://youtube.com/watch?v=2XsWAoNcrFY",
+      "occasions": [
+        "Show Bailable"
+      ],
+      "genres": [
+        "Cumbias"
+      ]
+    },
+    "5142": {
+      "youtubeUrl": "https://youtube.com/watch?v=yulDcMq5xWA",
+      "occasions": [
+        "Show Bailable"
+      ],
+      "genres": [
+        "Cumbias",
+        "Cumbia"
+      ]
+    },
+    "5143": {
+      "youtubeUrl": "https://youtube.com/watch?v=LZKXu-6ln3k",
+      "occasions": [
+        "Show Bailable"
+      ],
+      "genres": [
+        "Cumbias"
+      ]
+    },
+    "5144": {
+      "youtubeUrl": "https://youtube.com/watch?v=2XsWAoNcrFY",
+      "occasions": [
+        "Show Bailable"
+      ],
+      "genres": [
+        "Cumbias"
+      ]
+    },
+    "5145": {
+      "youtubeUrl": "https://youtube.com/watch?v=yulDcMq5xWA",
+      "occasions": [
+        "Show Bailable"
+      ],
+      "genres": [
+        "Cumbias"
+      ]
+    },
+    "5146": {
+      "youtubeUrl": "https://youtube.com/watch?v=kZFtBWhQpcE",
+      "occasions": [
+        "Show Bailable"
+      ],
+      "genres": [
+        "Cumbias"
+      ]
+    },
+    "5147": {
+      "youtubeUrl": "https://youtube.com/watch?v=CQ_gkzGR1eY",
+      "occasions": [
+        "Fiesta Mexicana",
+        "Show Bailable",
+        "Show Bailable / Fiestas"
+      ],
+      "genres": [
+        "Cumbias",
+        "Ranchera",
+        "Cumbia"
+      ]
+    },
+    "5148": {
+      "youtubeUrl": "https://youtube.com/watch?v=E2ju80kPIFg",
+      "occasions": [
+        "Show Bailable"
+      ],
+      "genres": [
+        "Cumbias"
+      ]
+    },
+    "5149": {
+      "youtubeUrl": "https://youtube.com/watch?v=5OkQ3pZPLbQ",
+      "occasions": [
+        "Show Bailable"
+      ],
+      "genres": [
+        "Cumbias"
+      ]
+    },
+    "5150": {
+      "youtubeUrl": "https://youtube.com/watch?v=3pg-LexET2w",
+      "occasions": [
+        "Show Bailable"
+      ],
+      "genres": [
+        "Cumbias"
+      ]
+    },
+    "5151": {
+      "youtubeUrl": "https://youtube.com/watch?v=01nejZdkSck",
+      "occasions": [
+        "Show Bailable"
+      ],
+      "genres": [
+        "Cumbias"
+      ]
+    },
+    "5152": {
+      "youtubeUrl": "https://youtube.com/watch?v=bXehP6Fl0Z0",
+      "occasions": [
+        "Show Bailable"
+      ],
+      "genres": [
+        "Cumbias"
+      ]
+    },
+    "5153": {
+      "youtubeUrl": "https://youtube.com/watch?v=cRvNRq0TeEo",
+      "occasions": [
+        "Show Bailable"
+      ],
+      "genres": [
+        "Cumbias"
+      ]
+    },
+    "5154": {
+      "youtubeUrl": "https://youtube.com/watch?v=tVmDML_vglE",
+      "occasions": [
+        "Show Bailable",
+        "Reconciliación"
+      ],
+      "genres": [
+        "Cumbias"
+      ]
+    },
+    "5155": {
+      "youtubeUrl": "https://youtube.com/watch?v=G1Dc3gRBbQo",
+      "occasions": [
+        "Show Bailable"
+      ],
+      "genres": [
+        "Cumbias"
+      ]
+    },
+    "5156": {
+      "youtubeUrl": "https://youtube.com/watch?v=2F2IG-Xl0aE",
+      "occasions": [
+        "Show Bailable",
+        "Show Bailable / Fiestas"
+      ],
+      "genres": [
+        "Cumbias"
+      ]
+    },
+    "5157": {
+      "youtubeUrl": "https://youtube.com/watch?v=6ys9Fj41B28",
+      "occasions": [
+        "Show Bailable"
+      ],
+      "genres": [
+        "Cumbias"
+      ]
+    },
+    "5158": {
+      "youtubeUrl": "https://youtube.com/watch?v=yulDcMq5xWA",
+      "occasions": [
+        "Show Bailable"
+      ],
+      "genres": [
+        "Cumbias"
+      ]
+    },
+    "5159": {
+      "youtubeUrl": "https://youtube.com/watch?v=EnYWG3r3QBY",
+      "occasions": [
+        "Velorios"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "5160": {
+      "youtubeUrl": "https://youtube.com/watch?v=Mdmo66psfqQ",
+      "occasions": [
+        "Show Bailable"
+      ],
+      "genres": [
+        "Cumbias"
+      ]
+    },
+    "5161": {
+      "youtubeUrl": "https://youtube.com/watch?v=m5PgVv8PkfA",
+      "occasions": [
+        "Show Bailable",
+        "Serenatas (Románticas)"
+      ],
+      "genres": [
+        "Cumbias"
+      ]
+    },
+    "5162": {
+      "youtubeUrl": "https://youtube.com/watch?v=GwtvGAy-JQM",
+      "occasions": [
+        "Show Bailable"
+      ],
+      "genres": [
+        "Cumbias"
+      ]
+    },
+    "5163": {
+      "youtubeUrl": "https://youtube.com/watch?v=BkobG2dNe_s",
+      "occasions": [
+        "Show Bailable"
+      ],
+      "genres": [
+        "Cumbias"
+      ]
+    },
+    "5164": {
+      "youtubeUrl": "https://youtube.com/watch?v=gBtM4_NcKTc",
+      "occasions": [
+        "Show Bailable"
+      ],
+      "genres": [
+        "Cumbias"
+      ]
+    },
+    "5165": {
+      "youtubeUrl": "https://youtube.com/watch?v=n_guCfn2pDU",
+      "occasions": [
+        "Show Bailable"
+      ],
+      "genres": [
+        "Cumbias"
+      ]
+    },
+    "5166": {
+      "youtubeUrl": "https://youtube.com/watch?v=XoJPNzRUZzY",
+      "occasions": [
+        "Fiesta Mexicana"
+      ],
+      "genres": [
+        "Corrido"
+      ]
+    },
+    "5167": {
+      "youtubeUrl": "https://youtube.com/watch?v=JGHBHYeOTCE",
+      "occasions": [
+        "Fiesta Mexicana"
+      ],
+      "genres": [
+        "Corrido"
+      ]
+    },
+    "5168": {
+      "youtubeUrl": "https://youtube.com/watch?v=HYscCAbhzaY",
+      "occasions": [
+        "Show Bailable"
+      ],
+      "genres": [
+        "Corrido"
+      ]
+    },
+    "5170": {
+      "youtubeUrl": "https://youtube.com/watch?v=-b2a8As6Skc",
+      "occasions": [
+        "Despecho"
+      ],
+      "genres": [
+        "Vals Ranchero"
+      ]
+    },
+    "5171": {
+      "youtubeUrl": "https://youtube.com/watch?v=cLzgxtSE-xk",
+      "occasions": [
+        "Despecho",
+        "Velorios / Despedidas",
+        "Serenatas (Románticas)"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "5172": {
+      "youtubeUrl": "https://youtube.com/watch?v=ewzNHwA_cUM",
+      "occasions": [
+        "Fiesta Mexicana"
+      ],
+      "genres": [
+        "Son",
+        "Ranchera"
+      ]
+    },
+    "5173": {
+      "youtubeUrl": "https://youtube.com/watch?v=edWBHRWF85M",
+      "occasions": [
+        "Fiesta Mexicana",
+        "Show Bailable"
+      ],
+      "genres": [
+        "Cumbias"
+      ]
+    },
+    "5174": {
+      "youtubeUrl": "https://youtube.com/watch?v=l3ubxwgAnt0",
+      "occasions": [
+        "Fiesta Mexicana",
+        "Show Bailable"
+      ],
+      "genres": [
+        "Son"
+      ]
+    },
+    "5175": {
+      "youtubeUrl": "https://www.youtube.com/watch?v=F3zH7YcWkUo",
+      "occasions": [
+        "Despecho"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "5179": {
+      "youtubeUrl": "https://www.youtube.com/watch?v=b0S-QoZtWFE",
+      "occasions": [
+        "Dia del Padre"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    },
+    "5182": {
+      "youtubeUrl": "https://www.youtube.com/watch?v=mD0ZJ25p8xU",
+      "occasions": [
+        "Dia del Padre",
+        "Día del Padre",
+        "Cumpleaños"
+      ],
+      "genres": [
+        "Boleros"
+      ]
+    }
+  },
+  "byTitle": {
+    "mi viejo": {
+      "occasions": [
+        "Dia del Padre"
+      ]
+    }
+  }
+}

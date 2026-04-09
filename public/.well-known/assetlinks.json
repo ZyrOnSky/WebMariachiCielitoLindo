@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "app.netlify.mcielitolindo.twa",
+      "sha256_cert_fingerprints": [
+        "38:FE:AE:85:A0:9E:C8:E1:BB:05:86:64:0C:9D:5B:AE:EA:94:63:74:CE:FA:B5:D7:0F:F9:A5:A8:41:B3:57:B6"
+      ]
+    }
+  }
+]

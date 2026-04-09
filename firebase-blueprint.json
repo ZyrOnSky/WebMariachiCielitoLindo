@@ -10,11 +10,10 @@
         "genres": { "type": "array", "items": { "type": "string" }, "description": "List of genres" },
         "occasions": { "type": "array", "items": { "type": "string" }, "description": "List of occasions" },
         "link": { "type": "string", "description": "Link to the sheet music or guide" },
-        "dots": { "type": "number", "description": "Difficulty or popularity dots (1-4)" },
         "createdAt": { "type": "string", "format": "date-time", "description": "Creation timestamp" },
         "createdBy": { "type": "string", "description": "UID of the creator" }
       },
-      "required": ["title", "artist", "genres", "occasions", "dots", "createdAt", "createdBy"]
+      "required": ["title", "artist", "genres", "occasions", "createdAt", "createdBy"]
     },
     "User": {
       "title": "User",

@@ -1,0 +1,5256 @@
+[
+  {
+    "id": "0ypXVr6c1aUxNktx4kAk",
+    "artist": "Mariachi Vargas",
+    "createdBy": "admin-migration-script",
+    "youtubeUrl": "https://youtube.com/watch?v=hiTaP1aYMyw",
+    "title": "Por el camino",
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "occasions": [
+      "Ambientación",
+      "Fiestas"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111805,
+      "nanoseconds": 736000000
+    }
+  },
+  {
+    "id": "17zlcoY8kjXaDddCPrlK",
+    "createdBy": "admin-migration-script",
+    "artist": "Marco Antonio Solís",
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Serenata",
+      "Despecho",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111819,
+      "nanoseconds": 695000000
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=9vtPruNZFHo",
+    "title": "Mi eterno amor secreto"
+  },
+  {
+    "id": "1BAEZgLPPWemfoaP1UJJ",
+    "youtubeUrl": "https://youtube.com/watch?v=0vJHbkKTNGM",
+    "title": "Vasija de barro",
+    "genres": [
+      "Pasillo",
+      "Balada",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Funerales",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111807,
+      "nanoseconds": 27000000
+    },
+    "createdBy": "admin-migration-script",
+    "artist": "Julio Jaramillo"
+  },
+  {
+    "id": "1DVEPTZuGQIVikDekp5N",
+    "artist": "Mariachi Vargas",
+    "createdBy": "admin-migration-script",
+    "occasions": [
+      "Serenata",
+      "Bodas",
+      "Fiestas"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111816,
+      "nanoseconds": 169000000
+    },
+    "genres": [
+      "Ranchera"
+    ],
+    "title": "Que bonito amor",
+    "youtubeUrl": "https://youtube.com/watch?v=XOGcTmOoulY"
+  },
+  {
+    "id": "1Da7mFr3Zio7arR8ycdd",
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111812,
+      "nanoseconds": 972000000
+    },
+    "occasions": [
+      "Ambientación",
+      "Despecho",
+      "Fiestas"
+    ],
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "title": "Ya lo pasado pasado",
+    "youtubeUrl": "https://youtu.be/M1RZBYPIs-8",
+    "link": "",
+    "createdBy": "admin-migration-script",
+    "artist": "José José"
+  },
+  {
+    "id": "1Jjp4Ht0tTzaiazBPBqI",
+    "title": "Hoy he vuelto madre a recordar",
+    "youtubeUrl": "https://youtube.com/watch?v=HGu_gYWrk1I",
+    "occasions": [
+      "Día de la Madre",
+      "Funerales",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111803,
+      "nanoseconds": 850000000
+    },
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "createdBy": "admin-migration-script",
+    "artist": "Mariachi Vargas"
+  },
+  {
+    "id": "1XfoMv5Tp3ka8fRsE8sT",
+    "occasions": [
+      "Ambientación",
+      "Día de la Madre",
+      "Día del Padre",
+      "Cumpleaños"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111831,
+      "nanoseconds": 788000000
+    },
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "title": "Como han pasado los años",
+    "youtubeUrl": "https://youtube.com/watch?v=1xlj-zAWEfg",
+    "createdBy": "admin-migration-script",
+    "artist": "Rocío Dúrcal"
+  },
+  {
+    "id": "1fViXRgLEGPPb1bKoeRc",
+    "genres": [
+      "Bolero"
+    ],
+    "occasions": [
+      "Serenata",
+      "Despecho",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111822,
+      "nanoseconds": 186000000
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=ODid4nY7GGY",
+    "title": "Júrame",
+    "artist": "Luis Miguel",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "1tdAJgEBthcUhYnGt0NE",
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111813,
+      "nanoseconds": 132000000
+    },
+    "occasions": [
+      "Serenata",
+      "Cumpleaños",
+      "Ambientación"
+    ],
+    "title": "Veinte y cinco rosas",
+    "youtubeUrl": "https://youtube.com/watch?v=95tpywDJQJM",
+    "artist": "Mariachi Vargas",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "1tzfoC1XvdYpJAb4W39q",
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111815,
+      "nanoseconds": 693000000
+    },
+    "occasions": [
+      "Serenata",
+      "Fiestas"
+    ],
+    "title": "Sabes una cosa",
+    "youtubeUrl": "https://youtube.com/watch?v=UuGrc3vvdMw",
+    "artist": "Luis Miguel",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "1vHExV3j9Ull4ZZ6IaLU",
+    "genres": [
+      "Cumbia"
+    ],
+    "occasions": [
+      "Fiestas",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111830,
+      "nanoseconds": 641000000
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=JICtLiGqCV8",
+    "title": "Pollera Colorada",
+    "createdBy": "admin-migration-script",
+    "artist": "Alberto Barros"
+  },
+  {
+    "id": "29MKmXbUmnXFnk8u6MmI",
+    "genres": [
+      "Balada"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111805,
+      "nanoseconds": 247000000
+    },
+    "occasions": [
+      "Religioso"
+    ],
+    "title": "Todopoderoso",
+    "youtubeUrl": "https://youtube.com/watch?v=vCnFS0NvgaY",
+    "createdBy": "admin-migration-script",
+    "artist": "Mariachi Vargas"
+  },
+  {
+    "id": "2L4W7v3YyY5NmldRcdZA",
+    "createdBy": "admin-migration-script",
+    "artist": "Vicente Fernández",
+    "occasions": [
+      "Fiestas",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111824,
+      "nanoseconds": 354000000
+    },
+    "genres": [
+      "Ranchera"
+    ],
+    "title": "El prendedor",
+    "youtubeUrl": "https://youtube.com/watch?v=sx31J7fDB4s"
+  },
+  {
+    "id": "2U9kHrJUZ9sCf2zkb4es",
+    "title": "Quinceañera",
+    "youtubeUrl": "https://youtube.com/watch?v=rYclZ_Y0rH4",
+    "genres": [
+      "Ranchera",
+      "Vals Ranchero"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111811,
+      "nanoseconds": 286000000
+    },
+    "occasions": [
+      "Quinceañeras",
+      "Cumpleaños",
+      "Fiestas"
+    ],
+    "artist": "Vicente Fernández",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "2aPPKBNptwGDb4TAMfu4",
+    "createdBy": "admin-migration-script",
+    "artist": "Mariachi Vargas",
+    "occasions": [
+      "Serenata",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111815,
+      "nanoseconds": 369000000
+    },
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "title": "Secreto de amor",
+    "youtubeUrl": "https://youtube.com/watch?v=HLQtHVkCtms"
+  },
+  {
+    "id": "2hNEpb4B8PrNinY0ohq1",
+    "createdBy": "admin-migration-script",
+    "artist": "Luis Miguel",
+    "genres": [
+      "Bolero"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111816,
+      "nanoseconds": 666000000
+    },
+    "occasions": [
+      "Serenata",
+      "Ambientación",
+      "Bodas"
+    ],
+    "title": "Por debajo de la mesa",
+    "youtubeUrl": "https://youtube.com/watch?v=giAE7Yz7gHI"
+  },
+  {
+    "id": "3DFFE7t1im5Pn4rHy58e",
+    "title": "Algo de me fue contigo madre",
+    "youtubeUrl": "https://youtube.com/watch?v=a9QwsJSVYaw",
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111809,
+      "nanoseconds": 801000000
+    },
+    "occasions": [
+      "Funerales",
+      "Día de la Madre"
+    ],
+    "createdBy": "admin-migration-script",
+    "artist": "Rocío Dúrcal"
+  },
+  {
+    "id": "3bapEwLrZtTCvFyMuyi2",
+    "title": "Ambato tierra de flores",
+    "youtubeUrl": "https://youtube.com/watch?v=gBtM4_NcKTc",
+    "genres": [
+      "Pasillo",
+      "Balada"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111791,
+      "nanoseconds": 619000000
+    },
+    "occasions": [
+      "Ambientación",
+      "Fiestas"
+    ],
+    "artist": "",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "3bhVqxhQ6EoPxaKVUkew",
+    "genres": [
+      "Bolero",
+      "Ranchera",
+      "Balada"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111792,
+      "nanoseconds": 145000000
+    },
+    "occasions": [
+      "Despecho",
+      "Serenata"
+    ],
+    "title": "Pobre corazón",
+    "youtubeUrl": "https://youtube.com/watch?v=m5PgVv8PkfA",
+    "createdBy": "admin-migration-script",
+    "artist": ""
+  },
+  {
+    "id": "4YXEl8B1xF6g9vSQCebG",
+    "youtubeUrl": "https://youtube.com/watch?v=9PpKK50tsaY",
+    "title": "La niña de tus ojos",
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Religioso",
+      "Día de la Madre",
+      "Día del Padre"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111806,
+      "nanoseconds": 205000000
+    },
+    "createdBy": "admin-migration-script",
+    "artist": "Mariachi Vargas"
+  },
+  {
+    "id": "4Z47hvZT52kpjNWKjTY5",
+    "createdBy": "admin-migration-script",
+    "artist": "Luis Miguel",
+    "genres": [
+      "Bolero"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111815,
+      "nanoseconds": 527000000
+    },
+    "occasions": [
+      "Serenata",
+      "Bodas",
+      "Ambientación"
+    ],
+    "title": "Sabor a mi",
+    "youtubeUrl": "https://youtube.com/watch?v=cNo-d6Y6w8Y"
+  },
+  {
+    "id": "4f1JOacV6ghcoHRkx16r",
+    "createdBy": "admin-migration-script",
+    "artist": "Mariachi Vargas",
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111800,
+      "nanoseconds": 915000000
+    },
+    "occasions": [
+      "Día de la Madre",
+      "Cumpleaños",
+      "Fiestas"
+    ],
+    "title": "Señora señora",
+    "youtubeUrl": "https://youtube.com/watch?v=ZbIszWyLuaI"
+  },
+  {
+    "id": "4flsiif9gey6lwfhNPOU",
+    "youtubeUrl": "https://youtube.com/watch?v=NT0hlSpma90",
+    "title": "De que manera te olvido",
+    "genres": [
+      "Ranchera"
+    ],
+    "occasions": [
+      "Despecho",
+      "Fiestas",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111825,
+      "nanoseconds": 313000000
+    },
+    "artist": "Vicente Fernández",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "5bGSqTJlq7doknwlzvVQ",
+    "title": "Por una mujer bonita",
+    "youtubeUrl": "https://youtube.com/watch?v=3sboBltg_wM",
+    "genres": [
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111816,
+      "nanoseconds": 509000000
+    },
+    "occasions": [
+      "Serenata",
+      "Fiestas",
+      "Ambientación"
+    ],
+    "createdBy": "admin-migration-script",
+    "artist": "Mariachi Vargas"
+  },
+  {
+    "id": "5cjo80bT4s4gvSqijBH5",
+    "genres": [
+      "Balada"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111804,
+      "nanoseconds": 722000000
+    },
+    "occasions": [
+      "Religioso"
+    ],
+    "title": "Santa María",
+    "youtubeUrl": "https://youtube.com/watch?v=rdUy6x38yYg",
+    "artist": "Mariachi Vargas",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "5pGhuZaAQDR6I8iniEib",
+    "artist": "Javier Solís",
+    "createdBy": "admin-migration-script",
+    "genres": [
+      "Bolero",
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111798,
+      "nanoseconds": 119000000
+    },
+    "occasions": [
+      "Serenata",
+      "Fiestas",
+      "Ambientación"
+    ],
+    "title": "Canta canta",
+    "youtubeUrl": "https://youtube.com/watch?v=3t-TP4Gq0rc"
+  },
+  {
+    "id": "5ybyLZPElpcYeNSP6zOB",
+    "createdBy": "admin-migration-script",
+    "artist": "Javier Solís",
+    "title": "En tu dia",
+    "youtubeUrl": "https://youtube.com/watch?v=s7oda7hQC0E",
+    "genres": [
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111828,
+      "nanoseconds": 949000000
+    },
+    "occasions": [
+      "Cumpleaños",
+      "Fiestas"
+    ]
+  },
+  {
+    "id": "6X03aNYQxYM6l1ICwuQG",
+    "title": "Despacito",
+    "youtubeUrl": "https://youtube.com/watch?v=YOyD20c9-GM",
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111825,
+      "nanoseconds": 142000000
+    },
+    "occasions": [
+      "Ambientación",
+      "Despecho",
+      "Fiestas"
+    ],
+    "genres": [
+      "Balada",
+      "Ranchera",
+      "Vals Ranchero"
+    ],
+    "createdBy": "admin-migration-script",
+    "artist": "Pedro Fernández",
+    "link": ""
+  },
+  {
+    "id": "6zWh483YuABQU6kKpPdK",
+    "genres": [
+      "Balada",
+      "Pasillo"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111802,
+      "nanoseconds": 795000000
+    },
+    "occasions": [
+      "Día de la Madre",
+      "Cumpleaños",
+      "Funerales",
+      "Ambientación"
+    ],
+    "title": "A la sombra de mi madre",
+    "youtubeUrl": "https://youtube.com/watch?v=8iJd52xfLa0",
+    "createdBy": "admin-migration-script",
+    "artist": "Leo Dan"
+  },
+  {
+    "id": "7AIZwy0QbszBAWJGvzi1",
+    "artist": "Vicente Fernández",
+    "createdBy": "admin-migration-script",
+    "genres": [
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111799,
+      "nanoseconds": 415000000
+    },
+    "occasions": [
+      "Despecho",
+      "Fiestas",
+      "Serenata"
+    ],
+    "title": "Pa todo el año",
+    "youtubeUrl": "https://youtube.com/watch?v=ndkXxNTEIA4"
+  },
+  {
+    "id": "7Qs6Gtf5SSADQnjOnqlu",
+    "youtubeUrl": "https://youtube.com/watch?v=oq70h9XBj_0",
+    "title": "Hermoso cariño",
+    "genres": [
+      "Ranchera"
+    ],
+    "occasions": [
+      "Serenata",
+      "Fiestas",
+      "Ambientación",
+      "Día de la Madre"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111830,
+      "nanoseconds": 799000000
+    },
+    "artist": "Vicente Fernández",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "7SAWathHSJ55MQoHhY6X",
+    "createdBy": "admin-migration-script",
+    "artist": "Vicente Fernández",
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Día del Padre",
+      "Funerales",
+      "Cumpleaños",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111789,
+      "nanoseconds": 72000000
+    },
+    "youtubeUrl": "https://www.youtube.com/watch?v=mD0ZJ25p8xU",
+    "title": "Mi Viejo"
+  },
+  {
+    "id": "7WpCDPuF1zci6eEr78NL",
+    "createdBy": "admin-migration-script",
+    "artist": "Pedro Fernández",
+    "title": "Yo soy el aventurero",
+    "youtubeUrl": "https://youtube.com/watch?v=l3ubxwgAnt0",
+    "occasions": [
+      "Fiestas",
+      "Ambientación",
+      "Cumpleaños"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111789,
+      "nanoseconds": 683000000
+    },
+    "genres": [
+      "Ranchera",
+      "Son Jalisciense"
+    ]
+  },
+  {
+    "id": "7eHrHiVYhngunQBvfV5u",
+    "artist": "Rocío Dúrcal",
+    "createdBy": "admin-migration-script",
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111810,
+      "nanoseconds": 923000000
+    },
+    "occasions": [
+      "Día de la Madre",
+      "Cumpleaños",
+      "Ambientación"
+    ],
+    "title": "Yo te esperaba",
+    "youtubeUrl": "https://youtube.com/watch?v=jcH4hL0LVn8"
+  },
+  {
+    "id": "7vvHN6NjVbBjF0hh2LF0",
+    "genres": [
+      "Bolero",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Despecho",
+      "Serenata"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111799,
+      "nanoseconds": 253000000
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=sNXQ36JqCiU",
+    "title": "Cataclismo",
+    "artist": "Javier Solís",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "8MEI9f4YvI8Nv9rF4GM5",
+    "title": "Collar de lágrimas",
+    "youtubeUrl": "https://youtube.com/watch?v=uar9rLs4x5c",
+    "genres": [
+      "Bolero"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111800,
+      "nanoseconds": 441000000
+    },
+    "occasions": [
+      "Despecho",
+      "Serenata",
+      "Ambientación"
+    ],
+    "createdBy": "admin-migration-script",
+    "artist": "Julio Jaramillo"
+  },
+  {
+    "id": "8VkQAYvYub8iPPAPWFns",
+    "title": "Dios esta aquí",
+    "youtubeUrl": "https://youtube.com/watch?v=Q1DJgt4mc_I",
+    "genres": [
+      "Balada"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111804,
+      "nanoseconds": 919000000
+    },
+    "occasions": [
+      "Religioso"
+    ],
+    "createdBy": "admin-migration-script",
+    "artist": "Mariachi Vargas"
+  },
+  {
+    "id": "95vCvHURiPD2gj0kpZQp",
+    "genres": [
+      "Cumbia",
+      "Ranchera",
+      "Pop"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111794,
+      "nanoseconds": 493000000
+    },
+    "occasions": [
+      "Fiestas",
+      "Despecho",
+      "Ambientación"
+    ],
+    "title": "Si una vez",
+    "youtubeUrl": "https://youtube.com/watch?v=5OkQ3pZPLbQ",
+    "createdBy": "admin-migration-script",
+    "artist": "Lucero"
+  },
+  {
+    "id": "99FzRcCU52q7Dh65HahL",
+    "createdBy": "admin-migration-script",
+    "artist": "Mariachi Vargas",
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111824,
+      "nanoseconds": 835000000
+    },
+    "occasions": [
+      "Serenata",
+      "Bodas",
+      "Día de la Madre",
+      "Ambientación"
+    ],
+    "title": "El amor mas grande del planeta",
+    "youtubeUrl": "https://youtube.com/watch?v=Fvyq7-wQ7N8"
+  },
+  {
+    "id": "9GRDP97KUGjWEOFVJg7I",
+    "createdBy": "admin-migration-script",
+    "artist": "Alberto Barros",
+    "title": "Hasta las seis de la mañana",
+    "youtubeUrl": "https://youtube.com/watch?v=2XsWAoNcrFY",
+    "genres": [
+      "Cumbia"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111795,
+      "nanoseconds": 862000000
+    },
+    "occasions": [
+      "Fiestas",
+      "Ambientación"
+    ]
+  },
+  {
+    "id": "9ZHOE0RfN3Rtv08ESTqF",
+    "artist": "Mariachi Vargas",
+    "createdBy": "admin-migration-script",
+    "title": "Josué uno nueve",
+    "youtubeUrl": "https://youtube.com/watch?v=pv3M9E7U1U8",
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111806,
+      "nanoseconds": 520000000
+    },
+    "occasions": [
+      "Religioso"
+    ]
+  },
+  {
+    "id": "9aFOoiKuOKIXKFaa0zhX",
+    "title": "Te vengo a decir",
+    "youtubeUrl": "https://youtube.com/watch?v=ZoruoNdPJuk",
+    "occasions": [
+      "Serenata",
+      "Fiestas",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111805,
+      "nanoseconds": 400000000
+    },
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "artist": "Mariachi Vargas",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "9oJAbLB3qj4cArK8bLTB",
+    "artist": "Vicente Fernández",
+    "createdBy": "admin-migration-script",
+    "genres": [
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111819,
+      "nanoseconds": 875000000
+    },
+    "occasions": [
+      "Bodas",
+      "Aniversarios",
+      "Día de la Madre"
+    ],
+    "title": "Mi compañera",
+    "youtubeUrl": "https://youtube.com/watch?v=8ngTPP3kgKQ"
+  },
+  {
+    "id": "9pXVeR3yjlblUSy2y6Tq",
+    "youtubeUrl": "https://youtube.com/watch?v=2CCIcrGM14o",
+    "title": "Amorsito corazón",
+    "genres": [
+      "Bolero"
+    ],
+    "occasions": [
+      "Serenata",
+      "Bodas",
+      "Fiestas",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111827,
+      "nanoseconds": 471000000
+    },
+    "artist": "Javier Solís",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "ARnpYCSQFmro6Ys8TnRb",
+    "title": "Si no te hubieras ido",
+    "youtubeUrl": "https://youtube.com/watch?v=gH8oCh1nn88",
+    "occasions": [
+      "Despecho",
+      "Serenata",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111809,
+      "nanoseconds": 996000000
+    },
+    "genres": [
+      "Balada",
+      "Pop",
+      "Ranchera"
+    ],
+    "artist": "Marco Antonio Solís",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "AUOE2Q3rwssuaeRMp7d1",
+    "occasions": [
+      "Serenata",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111809,
+      "nanoseconds": 254000000
+    },
+    "genres": [
+      "Bolero",
+      "Ranchera",
+      "Balada"
+    ],
+    "title": "Alzo mi voz",
+    "youtubeUrl": "https://youtube.com/watch?v=Cg5Y7MP00Ko",
+    "artist": "Javier Solís",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "Ar9IYeYbmj5AII2uMj7C",
+    "title": "Mamá si llego a viejo",
+    "youtubeUrl": "https://youtube.com/watch?v=Wxl0B7HGSHg",
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111801,
+      "nanoseconds": 602000000
+    },
+    "occasions": [
+      "Día de la Madre",
+      "Cumpleaños",
+      "Fiestas"
+    ],
+    "createdBy": "admin-migration-script",
+    "artist": "Mariachi Vargas"
+  },
+  {
+    "id": "AtL0bh1vYh7Dod8eGpVO",
+    "artist": "Mariachi Vargas",
+    "createdBy": "admin-migration-script",
+    "title": "Un hombre normal",
+    "youtubeUrl": "https://youtube.com/watch?v=areQzt6pRkk",
+    "occasions": [
+      "Serenata",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111813,
+      "nanoseconds": 483000000
+    },
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ]
+  },
+  {
+    "id": "AwmbXbx6X5C7PC4NxgpI",
+    "artist": "Mariachi Vargas",
+    "createdBy": "admin-migration-script",
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111823,
+      "nanoseconds": 533000000
+    },
+    "occasions": [
+      "Serenata",
+      "Bodas",
+      "Ambientación"
+    ],
+    "title": "Eso y mas",
+    "youtubeUrl": "https://youtube.com/watch?v=0w-F0oBE6Zs"
+  },
+  {
+    "id": "B36ErSGI8bdTlQZdWfLG",
+    "youtubeUrl": "https://youtube.com/watch?v=fkH8_kHFJts",
+    "title": "El loco",
+    "genres": [
+      "Bolero Ranchero",
+      "Balada"
+    ],
+    "occasions": [
+      "Despecho",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111824,
+      "nanoseconds": 512000000
+    },
+    "artist": "Javier Solís",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "BIAAOBFarfZ7CnKIjrFm",
+    "artist": "Mariachi Vargas",
+    "createdBy": "admin-migration-script",
+    "title": "Allá en el rancho grande",
+    "youtubeUrl": "https://youtube.com/watch?v=EjjDxPBf17o",
+    "occasions": [
+      "Fiestas",
+      "Ambientación",
+      "Cumpleaños"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111796,
+      "nanoseconds": 413000000
+    },
+    "genres": [
+      "Ranchera",
+      "Son Jalisciense"
+    ]
+  },
+  {
+    "id": "BLDf2fytcLIID6k8joup",
+    "genres": [
+      "Pasillo",
+      "Bolero"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111830,
+      "nanoseconds": 482000000
+    },
+    "occasions": [
+      "Ambientación",
+      "Serenata",
+      "Fiestas"
+    ],
+    "title": "El aguacate",
+    "youtubeUrl": "https://youtube.com/watch?v=NgqbgirLj48",
+    "artist": "Julio Jaramillo",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "BvK4QenvRevkPXtKU9L1",
+    "createdBy": "admin-migration-script",
+    "artist": "Mariachi Vargas",
+    "title": "Historia de un amor",
+    "youtubeUrl": "https://youtube.com/watch?v=i0PKu6Yck8Q",
+    "genres": [
+      "Bolero"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111822,
+      "nanoseconds": 368000000
+    },
+    "occasions": [
+      "Serenata",
+      "Despecho",
+      "Ambientación"
+    ]
+  },
+  {
+    "id": "C80a3xDeceU27J9rM5I1",
+    "title": "Son de la negra",
+    "youtubeUrl": "https://youtube.com/watch?v=XTwmQ-R7Joc",
+    "genres": [
+      "Son Jalisciense",
+      "Instrumental"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111831,
+      "nanoseconds": 124000000
+    },
+    "occasions": [
+      "Fiestas",
+      "Ambientación",
+      "Bodas",
+      "Graduaciones"
+    ],
+    "createdBy": "admin-migration-script",
+    "artist": "Mariachi Vargas"
+  },
+  {
+    "id": "CHW8u880GDEuUv4DYw5y",
+    "genres": [
+      "Bolero"
+    ],
+    "occasions": [
+      "Serenata",
+      "Bodas",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111826,
+      "nanoseconds": 23000000
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=uqPERwigeoE",
+    "title": "Como fue",
+    "artist": "Mariachi Vargas",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "CJ9ImWxu6MfK8Xt5fJr9",
+    "genres": [
+      "Son Jalisciense",
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111797,
+      "nanoseconds": 619000000
+    },
+    "occasions": [
+      "Fiestas",
+      "Ambientación"
+    ],
+    "title": "La calandria",
+    "youtubeUrl": "https://youtube.com/watch?v=52tADzXm6sM",
+    "createdBy": "admin-migration-script",
+    "artist": "Mariachi Vargas"
+  },
+  {
+    "id": "CcRNie9szTz2z078XtX3",
+    "title": "Con la tierra encima",
+    "youtubeUrl": "https://youtube.com/watch?v=MDin4E_Jv2k",
+    "genres": [
+      "Bolero",
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111808,
+      "nanoseconds": 925000000
+    },
+    "occasions": [
+      "Funerales"
+    ],
+    "artist": "Javier Solís",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "CdVj7kJ0W7Xo3jpVTQTF",
+    "createdBy": "admin-migration-script",
+    "artist": "Mariachi Vargas",
+    "title": "Triunfamos",
+    "youtubeUrl": "https://youtube.com/watch?v=JTSPKPpSD_Y",
+    "occasions": [
+      "Serenata",
+      "Bodas",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111812,
+      "nanoseconds": 463000000
+    },
+    "genres": [
+      "Bolero",
+      "Ranchera"
+    ]
+  },
+  {
+    "id": "D4BRUOckafDnA9kjiQHQ",
+    "createdBy": "admin-migration-script",
+    "artist": "Lucero",
+    "title": "Cariño",
+    "youtubeUrl": "https://youtube.com/watch?v=KvWCkXZZfaU",
+    "occasions": [
+      "Serenata",
+      "Fiestas",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111826,
+      "nanoseconds": 837000000
+    },
+    "genres": [
+      "Ranchera"
+    ]
+  },
+  {
+    "id": "D6HPeSBHId7RKeUuA3f2",
+    "title": "Si Cristo toca tu puerta",
+    "youtubeUrl": "https://youtube.com/watch?v=t4qKItDVyKI",
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111805,
+      "nanoseconds": 579000000
+    },
+    "occasions": [
+      "Religioso"
+    ],
+    "createdBy": "admin-migration-script",
+    "artist": "Mariachi Vargas"
+  },
+  {
+    "id": "DaX6ZWWohAdpYoeKE1s6",
+    "youtubeUrl": "https://youtube.com/watch?v=EWx2-6FxREA",
+    "title": "Mujer virtuosa",
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Religioso",
+      "Día de la Madre",
+      "Bodas"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111806,
+      "nanoseconds": 49000000
+    },
+    "artist": "Mariachi Vargas",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "Dvcz0BfjGAeoFioefTOs",
+    "title": "Lo mucho que te quiero",
+    "youtubeUrl": "https://youtube.com/watch?v=EcI3FALvwD0",
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111821,
+      "nanoseconds": 185000000
+    },
+    "occasions": [
+      "Serenata",
+      "Fiestas",
+      "Ambientación"
+    ],
+    "createdBy": "admin-migration-script",
+    "artist": "Pedro Fernández"
+  },
+  {
+    "id": "EKY5q3tRVczCSovUiZSv",
+    "createdBy": "admin-migration-script",
+    "artist": "Mariachi Vargas",
+    "genres": [
+      "Son Jalisciense"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111796,
+      "nanoseconds": 945000000
+    },
+    "occasions": [
+      "Fiestas",
+      "Ambientación"
+    ],
+    "title": "Ojitos verdes",
+    "youtubeUrl": "https://youtube.com/watch?v=i_jY0T-G0js"
+  },
+  {
+    "id": "EZCMQg1ykhJdc52kZcYo",
+    "artist": "Mariachi Vargas",
+    "createdBy": "admin-migration-script",
+    "title": "Nunca es suficiente",
+    "youtubeUrl": "https://youtube.com/watch?v=E2ju80kPIFg",
+    "genres": [
+      "Pop",
+      "Balada",
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111794,
+      "nanoseconds": 650000000
+    },
+    "occasions": [
+      "Despecho",
+      "Serenata",
+      "Fiestas",
+      "Ambientación"
+    ]
+  },
+  {
+    "id": "EtlVRqCGcK3U3Xuau4v0",
+    "title": "La murga",
+    "youtubeUrl": "https://youtube.com/watch?v=G1Dc3gRBbQo",
+    "occasions": [
+      "Fiestas",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111793,
+      "nanoseconds": 273000000
+    },
+    "genres": [
+      "Salsa",
+      "Cumbia"
+    ],
+    "createdBy": "admin-migration-script",
+    "artist": "Alberto Barros"
+  },
+  {
+    "id": "Evo0veLVZXR0HVE3nxDW",
+    "artist": "Javier Solís",
+    "createdBy": "admin-migration-script",
+    "occasions": [
+      "Serenata",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111820,
+      "nanoseconds": 376000000
+    },
+    "genres": [
+      "Bolero"
+    ],
+    "title": "Mary es mi amor",
+    "youtubeUrl": "https://youtube.com/watch?v=9NhaC0-ecWw"
+  },
+  {
+    "id": "Ew1WHir2T04EHlj7bRoJ",
+    "createdBy": "admin-migration-script",
+    "artist": "Alejandro Fernández",
+    "title": "Como quien pierde una estrella",
+    "youtubeUrl": "https://youtube.com/watch?v=MXlwuZ_nEk0",
+    "occasions": [
+      "Despecho",
+      "Serenata",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111809,
+      "nanoseconds": 97000000
+    },
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ]
+  },
+  {
+    "id": "F09nMU0KjmBRaAxIXKmO",
+    "artist": "Alejandro Fernández",
+    "createdBy": "admin-migration-script",
+    "title": "Nube viajera",
+    "youtubeUrl": "https://youtube.com/watch?v=ZTPVeup5UFk",
+    "occasions": [
+      "Serenata",
+      "Despecho",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111807,
+      "nanoseconds": 747000000
+    },
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ]
+  },
+  {
+    "id": "G9z01uAKgyfjfJW7TtLk",
+    "artist": "Ana Gabriel",
+    "createdBy": "admin-migration-script",
+    "title": "La propuesta",
+    "youtubeUrl": "https://youtube.com/watch?v=jsSwVGjj8KI",
+    "occasions": [
+      "Serenata",
+      "Fiestas",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111821,
+      "nanoseconds": 509000000
+    },
+    "genres": [
+      "Balada",
+      "Pop"
+    ]
+  },
+  {
+    "id": "GTdgCtGwvTkdWRfkIJlu",
+    "createdBy": "admin-migration-script",
+    "artist": "Marc Anthony",
+    "link": "",
+    "title": "Vivir la vida",
+    "youtubeUrl": "https://youtu.be/IcGr_jyo6Rg",
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111792,
+      "nanoseconds": 701000000
+    },
+    "genres": [
+      "Cumbia",
+      "Salsa"
+    ],
+    "occasions": [
+      "Ambientación",
+      "Fiestas"
+    ]
+  },
+  {
+    "id": "Gbl1btf5wvpwZg7RS7hx",
+    "title": "Bésame",
+    "youtubeUrl": "https://youtube.com/watch?v=wCQ3qeBfKEM",
+    "occasions": [
+      "Serenata",
+      "Bodas",
+      "Fiestas",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111827,
+      "nanoseconds": 316000000
+    },
+    "genres": [
+      "Balada",
+      "Pop"
+    ],
+    "artist": "Luis Miguel",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "Gpmf1G4o9tNcqvHE8INS",
+    "artist": "Javier Solís",
+    "createdBy": "admin-migration-script",
+    "genres": [
+      "Bolero"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111826,
+      "nanoseconds": 681000000
+    },
+    "occasions": [
+      "Despecho",
+      "Serenata"
+    ],
+    "title": "Cataclismo",
+    "youtubeUrl": "https://youtube.com/watch?v=sNXQ36JqCiU"
+  },
+  {
+    "id": "H6cwOEY2FmbNhskcbM2S",
+    "occasions": [
+      "Serenata",
+      "Bodas",
+      "Aniversarios"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111816,
+      "nanoseconds": 324000000
+    },
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "title": "Prometo",
+    "youtubeUrl": "https://youtube.com/watch?v=KSVItZyo_l0",
+    "artist": "Mariachi Vargas",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "HKF0gfDdZf6xbgsRHb6K",
+    "createdBy": "admin-migration-script",
+    "artist": "Miriam Solís",
+    "title": "La Guadalupana",
+    "youtubeUrl": "https://youtube.com/watch?v=4W53NfQrNQg",
+    "genres": [
+      "Canción Tradicional"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111830,
+      "nanoseconds": 308000000
+    },
+    "occasions": [
+      "Religioso"
+    ]
+  },
+  {
+    "id": "IfciC4REJNOaubVClLJr",
+    "createdBy": "admin-migration-script",
+    "artist": "Alejandro Fernández",
+    "occasions": [
+      "Despecho",
+      "Fiestas",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111821,
+      "nanoseconds": 15000000
+    },
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "title": "Loco",
+    "youtubeUrl": "https://youtube.com/watch?v=K2mGOE65nLA"
+  },
+  {
+    "id": "IgncWHkfU3AbQlSYeTAb",
+    "createdBy": "admin-migration-script",
+    "artist": "Javier Solís",
+    "title": "Sombras",
+    "youtubeUrl": "https://youtube.com/watch?v=UasiMOoMz1o",
+    "genres": [
+      "Bolero"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111814,
+      "nanoseconds": 354000000
+    },
+    "occasions": [
+      "Despecho",
+      "Serenata",
+      "Funerales"
+    ]
+  },
+  {
+    "id": "JC63lhPqCfDUgXbrlKLE",
+    "youtubeUrl": "https://youtube.com/watch?v=MjisQoerYD0",
+    "title": "La venia bendita",
+    "genres": [
+      "Ranchera"
+    ],
+    "occasions": [
+      "Fiestas",
+      "Bodas",
+      "Quinceañeras",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111821,
+      "nanoseconds": 340000000
+    },
+    "artist": "Mariachi Vargas",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "JCfG78BlmQooVafIWOu4",
+    "createdBy": "admin-migration-script",
+    "artist": "Vicente Fernández",
+    "genres": [
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111800,
+      "nanoseconds": 285000000
+    },
+    "occasions": [
+      "Despecho",
+      "Fiestas",
+      "Ambientación"
+    ],
+    "title": "El ausente",
+    "youtubeUrl": "https://youtube.com/watch?v=oZCHFXxkoQc"
+  },
+  {
+    "id": "JYBcmGIy3un5i8vg7Crs",
+    "createdBy": "admin-migration-script",
+    "artist": "Javier Solís",
+    "genres": [
+      "Son Jalisciense",
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111797,
+      "nanoseconds": 963000000
+    },
+    "occasions": [
+      "Fiestas",
+      "Ambientación",
+      "Cumpleaños"
+    ],
+    "title": "Jalisco no te rajes",
+    "youtubeUrl": "https://youtube.com/watch?v=D34D_zUUdKs"
+  },
+  {
+    "id": "JcSkDqCHycccRM7m7PJr",
+    "artist": "Vicente Fernández",
+    "createdBy": "admin-migration-script",
+    "youtubeUrl": "https://youtube.com/watch?v=U6qMQnNst9U",
+    "title": "El rey",
+    "genres": [
+      "Ranchera"
+    ],
+    "occasions": [
+      "Fiestas",
+      "Cumpleaños",
+      "Ambientación",
+      "Despecho"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111808,
+      "nanoseconds": 77000000
+    }
+  },
+  {
+    "id": "Ka1jzY3z8EvjawTsdZvd",
+    "occasions": [
+      "Serenata",
+      "Fiestas",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111822,
+      "nanoseconds": 539000000
+    },
+    "genres": [
+      "Balada",
+      "Pop"
+    ],
+    "title": "Hechizo",
+    "youtubeUrl": "https://youtube.com/watch?v=BBxnW6Y18VA",
+    "createdBy": "admin-migration-script",
+    "artist": "Ana Gabriel"
+  },
+  {
+    "id": "KhD17cYvBghMlW0Ay2oS",
+    "createdBy": "admin-migration-script",
+    "artist": "Pedro Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=rV99-gKpeAU",
+    "title": "Mi forma de sentir",
+    "genres": [
+      "Ranchera"
+    ],
+    "occasions": [
+      "Serenata",
+      "Bodas",
+      "Fiestas"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111819,
+      "nanoseconds": 523000000
+    }
+  },
+  {
+    "id": "Ku8oCcT9yQlNj5qUznmo",
+    "artist": "Alejandro Fernández",
+    "createdBy": "admin-migration-script",
+    "occasions": [
+      "Serenata",
+      "Día de la Madre",
+      "Bodas",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111796,
+      "nanoseconds": 601000000
+    },
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "title": "Es la mujer",
+    "youtubeUrl": "https://youtube.com/watch?v=e89CusQvtq4"
+  },
+  {
+    "id": "L87aj297RI12SJoZJQw1",
+    "title": "Ave María",
+    "youtubeUrl": "https://youtube.com/watch?v=EsL6T5pSfTk",
+    "genres": [
+      "Balada",
+      "Clásico"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111804,
+      "nanoseconds": 547000000
+    },
+    "occasions": [
+      "Religioso",
+      "Bodas",
+      "Funerales"
+    ],
+    "artist": "Mariachi Vargas",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "LX8C54nDS8COgq6WKqfW",
+    "createdBy": "admin-migration-script",
+    "artist": "Alberto Barros",
+    "youtubeUrl": "https://youtube.com/watch?v=kZFtBWhQpcE",
+    "title": "Las velas",
+    "genres": [
+      "Cumbia"
+    ],
+    "occasions": [
+      "Fiestas",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111794,
+      "nanoseconds": 995000000
+    }
+  },
+  {
+    "id": "LjLawDDJmjJaprpOBayt",
+    "artist": "",
+    "createdBy": "admin-migration-script",
+    "youtubeUrl": "https://youtube.com/watch?v=9j4mB5nu_dk",
+    "title": "A mi lindo Ecuador",
+    "genres": [
+      "Pasillo",
+      "Balada",
+      "Instrumental"
+    ],
+    "occasions": [
+      "Fiestas",
+      "Ambientación",
+      "Graduaciones"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111800,
+      "nanoseconds": 596000000
+    }
+  },
+  {
+    "id": "LyMvoM2i38npkftw5FMe",
+    "createdBy": "admin-migration-script",
+    "artist": "Mariachi Vargas",
+    "title": "Alabaré",
+    "youtubeUrl": "https://youtube.com/watch?v=uQc2-baHAUM",
+    "genres": [
+      "Balada"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111804,
+      "nanoseconds": 367000000
+    },
+    "occasions": [
+      "Religioso",
+      "Fiestas"
+    ]
+  },
+  {
+    "id": "LzGwJx2cVKyRD3XYqvf4",
+    "youtubeUrl": "https://youtube.com/watch?v=vILPMrC0fR0",
+    "title": "Muñequita Linda",
+    "genres": [
+      "Bolero"
+    ],
+    "occasions": [
+      "Serenata",
+      "Día de la Madre",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111818,
+      "nanoseconds": 363000000
+    },
+    "artist": "Javier Solís",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "MEixwl2vfYLbyyDelvGq",
+    "createdBy": "admin-migration-script",
+    "artist": "",
+    "title": "Las Mañanitas",
+    "youtubeUrl": "https://youtube.com/watch?v=ixZO0j_LCj4",
+    "occasions": [
+      "Cumpleaños",
+      "Serenata"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111829,
+      "nanoseconds": 452000000
+    },
+    "genres": [
+      "Ranchera"
+    ]
+  },
+  {
+    "id": "MJ7lRgeTaZL7SpxMRdVB",
+    "artist": "Mariachi Vargas",
+    "createdBy": "admin-migration-script",
+    "title": "Como no creer en Dios",
+    "youtubeUrl": "https://youtube.com/watch?v=R6af2FxljeQ",
+    "genres": [
+      "Balada"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111804,
+      "nanoseconds": 197000000
+    },
+    "occasions": [
+      "Religioso",
+      "Fiestas",
+      "Ambientación"
+    ]
+  },
+  {
+    "id": "ML91hEkC6dbwmGsx1XgX",
+    "title": "El triste",
+    "youtubeUrl": "https://youtube.com/watch?v=S1CBXrPLY-0",
+    "occasions": [
+      "Despecho",
+      "Funerales",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111824,
+      "nanoseconds": 26000000
+    },
+    "genres": [
+      "Balada"
+    ],
+    "artist": "José José",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "MLniPju1rFORP73EDcWf",
+    "artist": "Mariachi Vargas",
+    "createdBy": "admin-migration-script",
+    "title": "Amigo",
+    "youtubeUrl": "https://youtube.com/watch?v=VZcW5TTa5Rw",
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111809,
+      "nanoseconds": 643000000
+    },
+    "occasions": [
+      "Cumpleaños",
+      "Fiestas",
+      "Graduaciones",
+      "Ambientación"
+    ]
+  },
+  {
+    "id": "Mf4u4OhPensSRZnkm5fc",
+    "artist": "Vicente Fernández",
+    "createdBy": "admin-migration-script",
+    "youtubeUrl": "https://youtube.com/watch?v=95nFsh_VGEo",
+    "title": "Bésame mucho",
+    "genres": [
+      "Bolero"
+    ],
+    "occasions": [
+      "Serenata",
+      "Bodas",
+      "Fiestas",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111827,
+      "nanoseconds": 159000000
+    }
+  },
+  {
+    "id": "MiKyu75Oc3xJzxs1KUAm",
+    "createdBy": "admin-migration-script",
+    "artist": "Rocío Dúrcal",
+    "occasions": [
+      "Serenata",
+      "Fiestas",
+      "Cumpleaños",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111796,
+      "nanoseconds": 759000000
+    },
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "title": "Me gustas mucho",
+    "youtubeUrl": "https://youtube.com/watch?v=Mu0_5AM2ETY"
+  },
+  {
+    "id": "MvcXbqy6yHJLTdb4vk7U",
+    "title": "Diséñame",
+    "youtubeUrl": "https://youtube.com/watch?v=e7_h4WNnlTU",
+    "genres": [
+      "Bolero Ranchero",
+      "Balada"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111824,
+      "nanoseconds": 988000000
+    },
+    "occasions": [
+      "Serenata",
+      "Ambientación",
+      "Fiestas"
+    ],
+    "createdBy": "admin-migration-script",
+    "artist": "Javier Solís"
+  },
+  {
+    "id": "N5PviNioPKfp3oA5PwaL",
+    "artist": "Javier Solís",
+    "createdBy": "admin-migration-script",
+    "occasions": [
+      "Serenata",
+      "Despecho",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111823,
+      "nanoseconds": 690000000
+    },
+    "genres": [
+      "Bolero Ranchero",
+      "Balada"
+    ],
+    "title": "Esclavo y amo",
+    "youtubeUrl": "https://youtube.com/watch?v=1BTh5HgdEyE"
+  },
+  {
+    "id": "NVoyPi87QmNTWfofUMH9",
+    "youtubeUrl": "https://youtube.com/watch?v=EBcaFpHJPZI",
+    "title": "Cuando un amigo se va",
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Funerales",
+      "Graduaciones",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111808,
+      "nanoseconds": 602000000
+    },
+    "artist": "Marco Antonio Solís",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "NWhaX1AEugkpMJdq3Iay",
+    "artist": "Alberto Barros",
+    "createdBy": "admin-migration-script",
+    "title": "Caballo viejo",
+    "youtubeUrl": "https://youtube.com/watch?v=U9XuqYLDIlY",
+    "genres": [
+      "Cumbia",
+      "Son"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111796,
+      "nanoseconds": 63000000
+    },
+    "occasions": [
+      "Fiestas",
+      "Ambientación"
+    ]
+  },
+  {
+    "id": "O3BNhjbOz47qcUu0ESxu",
+    "title": "Hasta que te conocí",
+    "youtubeUrl": "https://youtube.com/watch?v=ga5Bo4YdgH4",
+    "occasions": [
+      "Serenata",
+      "Fiestas",
+      "Despecho"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111799,
+      "nanoseconds": 90000000
+    },
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "artist": "Juan Gabriel",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "PAuHGAhsunGkuAu12EZd",
+    "title": "Hoy te quiero cantar",
+    "youtubeUrl": "https://youtube.com/watch?v=9J9YxWNXS4c",
+    "genres": [
+      "Balada"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111803,
+      "nanoseconds": 665000000
+    },
+    "occasions": [
+      "Religioso",
+      "Cumpleaños",
+      "Fiestas"
+    ],
+    "createdBy": "admin-migration-script",
+    "artist": "Mariachi Vargas"
+  },
+  {
+    "id": "PbvtciMaIsaDNxawIP3G",
+    "createdBy": "admin-migration-script",
+    "artist": "Javier Solís",
+    "title": "Cuatro cirios",
+    "youtubeUrl": "https://youtube.com/watch?v=HHQp--3AB04",
+    "genres": [
+      "Bolero",
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111808,
+      "nanoseconds": 771000000
+    },
+    "occasions": [
+      "Funerales",
+      "Ambientación"
+    ]
+  },
+  {
+    "id": "PhGq8gc8CmQ7WZWZhFZK",
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111795,
+      "nanoseconds": 341000000
+    },
+    "genres": [
+      "Cumbia",
+      "Popular (Colombiana)",
+      "Salsa"
+    ],
+    "occasions": [
+      "Ambientación",
+      "Fiestas"
+    ],
+    "youtubeUrl": "https://youtube.com/watch?v=2XsWAoNcrFY",
+    "title": "Tributo a la Salsa Colombiana",
+    "link": "",
+    "createdBy": "admin-migration-script",
+    "artist": "Alberto Barros"
+  },
+  {
+    "id": "Q0sFRC96Gn1xPd8XnUAm",
+    "title": "Adios amor",
+    "youtubeUrl": "https://youtube.com/watch?v=cLzgxtSE-xk",
+    "occasions": [
+      "Despecho",
+      "Serenata",
+      "Fiestas"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111790,
+      "nanoseconds": 351000000
+    },
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "createdBy": "admin-migration-script",
+    "artist": "Mariachi Vargas"
+  },
+  {
+    "id": "QCFyxlRTviuC2WOLBtwB",
+    "title": "Malagueña",
+    "youtubeUrl": "https://youtube.com/watch?v=9Z4yNNDDQok",
+    "genres": [
+      "Huapango",
+      "Instrumental"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111820,
+      "nanoseconds": 533000000
+    },
+    "occasions": [
+      "Fiestas",
+      "Ambientación"
+    ],
+    "artist": "Mariachi Vargas",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "QYfByrc2BbgsuxceEhtK",
+    "youtubeUrl": "https://youtube.com/watch?v=NJFesiSX7WE",
+    "title": "Jesús es mi pastor",
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Religioso",
+      "Funerales"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111806,
+      "nanoseconds": 698000000
+    },
+    "createdBy": "admin-migration-script",
+    "artist": "Leo Dan"
+  },
+  {
+    "id": "QbxFiweHaGggV8icx4ZF",
+    "createdBy": "admin-migration-script",
+    "artist": "Javier Solís",
+    "occasions": [
+      "Serenata",
+      "Despecho",
+      "Fiestas"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111817,
+      "nanoseconds": 697000000
+    },
+    "genres": [
+      "Bolero Ranchero"
+    ],
+    "title": "Ojitos Traidores",
+    "youtubeUrl": "https://youtube.com/watch?v=ppYGKtTMx8E"
+  },
+  {
+    "id": "QrJkMaNF7KylSAsTBg7k",
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111798,
+      "nanoseconds": 912000000
+    },
+    "occasions": [
+      "Serenata",
+      "Despecho",
+      "Fiestas"
+    ],
+    "title": "La diferencia",
+    "youtubeUrl": "https://youtube.com/watch?v=IbWM2jivMiI",
+    "createdBy": "admin-migration-script",
+    "artist": "Juan Gabriel"
+  },
+  {
+    "id": "R222rxxXruMzNQOboLup",
+    "artist": "Leo Dan",
+    "createdBy": "admin-migration-script",
+    "youtubeUrl": "https://youtube.com/watch?v=sRXQH4rZrUA",
+    "title": "Te he prometido",
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Serenata",
+      "Bodas",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111813,
+      "nanoseconds": 808000000
+    }
+  },
+  {
+    "id": "RFCTaX7ruLD5kuXNYgLq",
+    "createdBy": "admin-migration-script",
+    "artist": "Natalia Jiménez",
+    "occasions": [
+      "Serenata",
+      "Despecho",
+      "Fiestas"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111828,
+      "nanoseconds": 306000000
+    },
+    "genres": [
+      "Balada",
+      "Pop",
+      "Ranchera"
+    ],
+    "title": "Algo mas",
+    "youtubeUrl": "https://youtube.com/watch?v=cTvbI7yGvdM"
+  },
+  {
+    "id": "RI9WsEF2sDydq7Jd7WbC",
+    "artist": "Javier Solís",
+    "createdBy": "admin-migration-script",
+    "youtubeUrl": "https://youtube.com/watch?v=IiNWdxtBjO4",
+    "title": "Copitas de mexcal",
+    "genres": [
+      "Bolero",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Despecho",
+      "Serenata",
+      "Fiestas"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111797,
+      "nanoseconds": 805000000
+    }
+  },
+  {
+    "id": "RNdNA9Yerljgl4j95dbk",
+    "occasions": [
+      "Serenata",
+      "Despecho",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111808,
+      "nanoseconds": 436000000
+    },
+    "genres": [
+      "Bolero",
+      "Ranchera"
+    ],
+    "title": "Donde estas corazón",
+    "youtubeUrl": "https://youtube.com/watch?v=yBA1qn-fBOM",
+    "createdBy": "admin-migration-script",
+    "artist": "Mariachi Vargas"
+  },
+  {
+    "id": "RW9F7MosPc91tLKQjJAw",
+    "title": "La mejor de todas",
+    "youtubeUrl": "https://youtu.be/IWjuSuW1cUE",
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Ambientación",
+      "Bodas",
+      "Día de la Madre",
+      "Serenata"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111821,
+      "nanoseconds": 672000000
+    },
+    "createdBy": "admin-migration-script",
+    "artist": "Banda El Recodo",
+    "link": ""
+  },
+  {
+    "id": "RdTjq0Oe8bMHPqlkus72",
+    "artist": "Vicente Fernández",
+    "createdBy": "admin-migration-script",
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "occasions": [
+      "Quinceañeras",
+      "Cumpleaños",
+      "Día del Padre",
+      "Día de la Madre",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111811,
+      "nanoseconds": 450000000
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=1npHMXZfmbY",
+    "title": "Mi niña bonita"
+  },
+  {
+    "id": "Rrvbx06UU5LpjAlGw02A",
+    "link": "",
+    "artist": "Luis Miguel",
+    "createdBy": "admin-migration-script",
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111832,
+      "nanoseconds": 967000000
+    },
+    "genres": [
+      "Bolero",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Ambientación",
+      "Bodas",
+      "Serenata"
+    ],
+    "title": "Si nos dejan",
+    "youtubeUrl": "https://www.youtube.com/watch?v=KxTYGHcH-Do&pp=ygUYc2kgbm9zIGRlamFuIGx1aXMgbWlndWVs"
+  },
+  {
+    "id": "S5msQtYh5CLPgoYMjSbP",
+    "createdBy": "admin-migration-script",
+    "artist": "Pedro Fernández",
+    "youtubeUrl": "https://youtube.com/watch?v=UZTiHZ_TLCY",
+    "title": "Canto a la madre",
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Día de la Madre",
+      "Cumpleaños",
+      "Fiestas"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111802,
+      "nanoseconds": 148000000
+    }
+  },
+  {
+    "id": "SNp9E8kAPLDwxAdYPbem",
+    "genres": [
+      "Balada",
+      "Pop"
+    ],
+    "occasions": [
+      "Fiestas",
+      "Graduaciones",
+      "Funerales",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111802,
+      "nanoseconds": 485000000
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=9F_BRjGi3L8",
+    "title": "A mi manera",
+    "artist": "Vicente Fernández",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "SPSVM2h9vxltBUUOH2Mj",
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Día de la Madre",
+      "Cumpleaños",
+      "Fiestas",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111801,
+      "nanoseconds": 967000000
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=fKd8AxqQiZc",
+    "title": "Como te pago",
+    "createdBy": "admin-migration-script",
+    "artist": "Mariachi Vargas"
+  },
+  {
+    "id": "SnXzEWYn0wSKasJLocRn",
+    "createdBy": "admin-migration-script",
+    "artist": "Luis Miguel",
+    "title": "Usted",
+    "youtubeUrl": "https://youtube.com/watch?v=TJYLncp33EY",
+    "genres": [
+      "Bolero",
+      "Balada"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111813,
+      "nanoseconds": 289000000
+    },
+    "occasions": [
+      "Serenata",
+      "Bodas",
+      "Ambientación"
+    ]
+  },
+  {
+    "id": "T26sg1AynaMitwajy8me",
+    "artist": "Mariachi Vargas",
+    "createdBy": "admin-migration-script",
+    "genres": [
+      "Balada",
+      "Bolero"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111825,
+      "nanoseconds": 849000000
+    },
+    "occasions": [
+      "Serenata",
+      "Bodas",
+      "Día de la Madre",
+      "Día del Padre",
+      "Ambientación"
+    ],
+    "title": "Con los años que me quedan",
+    "youtubeUrl": "https://youtube.com/watch?v=RyF5xuLXUXg"
+  },
+  {
+    "id": "Tpx4aroXxE7REL9IeWya",
+    "createdBy": "admin-migration-script",
+    "artist": "Juan Gabriel",
+    "occasions": [
+      "Serenata",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111811,
+      "nanoseconds": 617000000
+    },
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "title": "Luisa Maria",
+    "youtubeUrl": "https://youtube.com/watch?v=R12yfnab-ZQ"
+  },
+  {
+    "id": "Tt8Yy48nOHYvtOxVeOWV",
+    "createdBy": "admin-migration-script",
+    "artist": "Rocío Dúrcal",
+    "title": "Amor Eterno",
+    "youtubeUrl": "https://youtube.com/watch?v=7XAUNqTOQx8",
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111809,
+      "nanoseconds": 431000000
+    },
+    "occasions": [
+      "Funerales",
+      "Día de la Madre",
+      "Ambientación",
+      "Bodas"
+    ]
+  },
+  {
+    "id": "TxD7uLaHGF3lMQU6gGim",
+    "artist": "Mariachi Vargas",
+    "createdBy": "admin-migration-script",
+    "genres": [
+      "Ranchera",
+      "Son Jalisciense"
+    ],
+    "occasions": [
+      "Fiestas",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111797,
+      "nanoseconds": 291000000
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=Y5Zmj21S5UU",
+    "title": "La tequilera"
+  },
+  {
+    "id": "UbnrWoYcuQrVZ0TSFXQB",
+    "title": "Bonita",
+    "youtubeUrl": "https://youtube.com/watch?v=eMJZfV4RWYI",
+    "occasions": [
+      "Serenata",
+      "Bodas",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111827,
+      "nanoseconds": 3000000
+    },
+    "genres": [
+      "Bolero"
+    ],
+    "createdBy": "admin-migration-script",
+    "artist": "Javier Solís"
+  },
+  {
+    "id": "UyXuJf0w6zAIBKLkpUeE",
+    "title": "Sin verte",
+    "youtubeUrl": "https://youtube.com/watch?v=H9ivAZdrF-8",
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111807,
+      "nanoseconds": 383000000
+    },
+    "occasions": [
+      "Despecho",
+      "Serenata",
+      "Ambientación"
+    ],
+    "createdBy": "admin-migration-script",
+    "artist": "Pedro Fernández"
+  },
+  {
+    "id": "V3dvUKQ4Cvr5XdMcRrjA",
+    "title": "A esa mujer",
+    "youtubeUrl": "https://youtube.com/watch?v=3ql5nFBfyjQ",
+    "occasions": [
+      "Serenata",
+      "Cumpleaños",
+      "Fiestas",
+      "Bodas"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111802,
+      "nanoseconds": 640000000
+    },
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "createdBy": "admin-migration-script",
+    "artist": "Mariachi Vargas"
+  },
+  {
+    "id": "V6PV0UwM7D2R2rcVOZN8",
+    "artist": "",
+    "createdBy": "admin-migration-script",
+    "title": "En vida",
+    "youtubeUrl": "https://youtube.com/watch?v=Mdmo66psfqQ",
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111792,
+      "nanoseconds": 327000000
+    },
+    "occasions": [
+      "Día del Padre",
+      "Día de la Madre",
+      "Funerales",
+      "Cumpleaños",
+      "Ambientación"
+    ]
+  },
+  {
+    "id": "VhuVDiNnTpBfQpbpH285",
+    "title": "Happy Birthday Cristiano",
+    "youtubeUrl": "https://youtube.com/watch?v=wW5nce6bms0",
+    "genres": [],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111829,
+      "nanoseconds": 783000000
+    },
+    "occasions": [
+      "Cumpleaños",
+      "Religioso"
+    ],
+    "createdBy": "admin-migration-script",
+    "artist": ""
+  },
+  {
+    "id": "VuPdDacnoG0WxkcgL74P",
+    "artist": "Juan Gabriel",
+    "createdBy": "admin-migration-script",
+    "title": "El destino",
+    "youtubeUrl": "https://youtube.com/watch?v=gYBfhh2sVDY",
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111824,
+      "nanoseconds": 668000000
+    },
+    "occasions": [
+      "Serenata",
+      "Despecho",
+      "Ambientación"
+    ]
+  },
+  {
+    "id": "WmF4dnX8ai34sjVuUNeX",
+    "createdBy": "admin-migration-script",
+    "artist": "Mariachi Vargas",
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "occasions": [
+      "Quinceañeras",
+      "Cumpleaños",
+      "Día del Padre",
+      "Día de la Madre",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111810,
+      "nanoseconds": 762000000
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=9se9qM30NKI",
+    "title": "No crezcas mas"
+  },
+  {
+    "id": "WvavhOq7CXtjC5HIEaA7",
+    "createdBy": "admin-migration-script",
+    "artist": "Vicente Fernández",
+    "occasions": [
+      "Fiestas",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111832,
+      "nanoseconds": 799000000
+    },
+    "genres": [
+      "Ranchera"
+    ],
+    "title": "Mujeres Divinas",
+    "youtubeUrl": "https://youtube.com/watch?v=xa2GLqL12Zk"
+  },
+  {
+    "id": "Wy4UjRTq3hjfAIeTW22i",
+    "youtubeUrl": "https://youtube.com/watch?v=Nf4GNFghEn4",
+    "title": "Si se fue se fue",
+    "genres": [
+      "Popular (Colombiana)"
+    ],
+    "occasions": [
+      "Despecho",
+      "Fiestas"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111830,
+      "nanoseconds": 966000000
+    },
+    "artist": "Francy",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "XBiUJ0Q6KS9cmKPwVZmz",
+    "createdBy": "admin-migration-script",
+    "artist": "Mariachi Vargas",
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111807,
+      "nanoseconds": 215000000
+    },
+    "occasions": [
+      "Funerales",
+      "Despecho",
+      "Ambientación"
+    ],
+    "title": "Yo te extrañaré",
+    "youtubeUrl": "https://youtube.com/watch?v=O0OcHIUjRnk"
+  },
+  {
+    "id": "XbFhXX9HdSyVTWnmUvJR",
+    "title": "Contigo aprendí",
+    "youtubeUrl": "https://youtube.com/watch?v=MxoGf2uXkfQ",
+    "genres": [
+      "Bolero",
+      "Balada"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111825,
+      "nanoseconds": 667000000
+    },
+    "occasions": [
+      "Serenata",
+      "Bodas",
+      "Ambientación"
+    ],
+    "artist": "Alejandro Fernández",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "Xi0Ti5wIlHiiAU4exU1y",
+    "title": "Es mentiroso",
+    "youtubeUrl": "https://youtube.com/watch?v=01nejZdkSck",
+    "occasions": [
+      "Fiestas",
+      "Despecho",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111794,
+      "nanoseconds": 115000000
+    },
+    "genres": [
+      "Merengue",
+      "Cumbia"
+    ],
+    "createdBy": "admin-migration-script",
+    "artist": "Alberto Barros"
+  },
+  {
+    "id": "XlO2Qn1yr6AJFAzgtDw7",
+    "artist": "Mariachi Vargas",
+    "createdBy": "admin-migration-script",
+    "genres": [
+      "Bolero",
+      "Instrumental"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111820,
+      "nanoseconds": 690000000
+    },
+    "occasions": [
+      "Serenata",
+      "Ambientación",
+      "Fiestas"
+    ],
+    "title": "Madrigal",
+    "youtubeUrl": "https://youtube.com/watch?v=EjjDxPBf17o"
+  },
+  {
+    "id": "YPvVyTBPpMXUGy6iPQ0y",
+    "createdBy": "admin-migration-script",
+    "artist": "Mariachi Vargas",
+    "youtubeUrl": "https://youtube.com/watch?v=YLEDN5VB0x4",
+    "title": "Nosotros",
+    "genres": [
+      "Bolero"
+    ],
+    "occasions": [
+      "Serenata",
+      "Despecho",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111818,
+      "nanoseconds": 23000000
+    }
+  },
+  {
+    "id": "YZDpIh7Vn7i85Rox9Vz7",
+    "artist": "Mariachi Vargas",
+    "createdBy": "admin-migration-script",
+    "genres": [
+      "Balada"
+    ],
+    "occasions": [
+      "Religioso",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111804,
+      "nanoseconds": 19000000
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=T4JK8WL8DcM",
+    "title": "He oído en la montaña"
+  },
+  {
+    "id": "YeApjsKV0RMrrE825ECI",
+    "title": "El cigarrillo",
+    "youtubeUrl": "https://youtube.com/watch?v=Lhk7EI88BRE",
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111798,
+      "nanoseconds": 548000000
+    },
+    "occasions": [
+      "Despecho",
+      "Serenata"
+    ],
+    "createdBy": "admin-migration-script",
+    "artist": "Ana Gabriel"
+  },
+  {
+    "id": "Z07MpGpZgpcqALdzKbew",
+    "createdBy": "admin-migration-script",
+    "artist": "Javier Solís",
+    "title": "Luz de luna",
+    "youtubeUrl": "https://youtube.com/watch?v=rxqhYXAiD88",
+    "occasions": [
+      "Serenata",
+      "Despecho",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111820,
+      "nanoseconds": 859000000
+    },
+    "genres": [
+      "Bolero Ranchero",
+      "Balada"
+    ]
+  },
+  {
+    "id": "Z7nQIctENShNSzu9peYH",
+    "title": "Es demasiado tarde",
+    "youtubeUrl": "https://youtube.com/watch?v=F07ngnis2ig",
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111798,
+      "nanoseconds": 732000000
+    },
+    "occasions": [
+      "Despecho",
+      "Serenata"
+    ],
+    "createdBy": "admin-migration-script",
+    "artist": "Ana Gabriel"
+  },
+  {
+    "id": "ZfdRqVS3CCVSCaLJ1pxG",
+    "genres": [
+      "Balada",
+      "Pop",
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111789,
+      "nanoseconds": 462000000
+    },
+    "occasions": [
+      "Serenata",
+      "Despecho",
+      "Fiestas",
+      "Ambientación"
+    ],
+    "title": "Probablemente",
+    "youtubeUrl": "https://www.youtube.com/watch?v=F3zH7YcWkUo",
+    "artist": "Marco Antonio Solís",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "aIPYVNSgNLrAGVdLrHfE",
+    "genres": [
+      "Bolero",
+      "Danzón"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111800,
+      "nanoseconds": 130000000
+    },
+    "occasions": [
+      "Serenata",
+      "Ambientación"
+    ],
+    "title": "En mi viejo San Juan",
+    "youtubeUrl": "https://youtube.com/watch?v=pOi9LLVcFBo",
+    "artist": "Javier Solís",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "aP3qrHvx2LzlIhTzhmQZ",
+    "youtubeUrl": "https://youtube.com/watch?v=qKkmUrYAAns",
+    "title": "Amar y vivir",
+    "genres": [
+      "Bolero"
+    ],
+    "occasions": [
+      "Serenata",
+      "Bodas",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111827,
+      "nanoseconds": 989000000
+    },
+    "artist": "Vicente Fernández",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "acBXkL8Wqq4Lk0Ep81Jg",
+    "title": "La bruja",
+    "youtubeUrl": "https://youtube.com/watch?v=yulDcMq5xWA",
+    "genres": [
+      "Son Jarocho",
+      "Son Jalisciense"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111795,
+      "nanoseconds": 154000000
+    },
+    "occasions": [
+      "Fiestas",
+      "Ambientación"
+    ],
+    "artist": "Alberto Barros",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "bLsVMlMRC606hc3GyYqA",
+    "title": "Nuestro Juramento",
+    "youtubeUrl": "https://youtube.com/watch?v=a6w_j3xUNkg",
+    "genres": [
+      "Bolero"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111831,
+      "nanoseconds": 300000000
+    },
+    "occasions": [
+      "Serenata",
+      "Despecho",
+      "Ambientación"
+    ],
+    "artist": "Julio Jaramillo",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "bhFtwn7tTrZFCzxp1UwT",
+    "createdBy": "admin-migration-script",
+    "artist": "Javier Solís",
+    "title": "Toda una vida",
+    "youtubeUrl": "https://youtube.com/watch?v=WR8hx7u2xWw",
+    "genres": [
+      "Bolero"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111813,
+      "nanoseconds": 639000000
+    },
+    "occasions": [
+      "Serenata",
+      "Bodas",
+      "Ambientación"
+    ]
+  },
+  {
+    "id": "c71Tlq80YOr1OTxvZcAH",
+    "createdBy": "admin-migration-script",
+    "artist": "Mariachi Vargas",
+    "title": "Mi Vírgen bella",
+    "youtubeUrl": "https://youtube.com/watch?v=cVjDGRzj1iE",
+    "occasions": [
+      "Religioso",
+      "Día de la Madre",
+      "Fiestas"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111802,
+      "nanoseconds": 953000000
+    },
+    "genres": [
+      "Balada"
+    ]
+  },
+  {
+    "id": "cJm8j1y69K7f3S5puGUE",
+    "genres": [
+      "Bolero Ranchero",
+      "Balada"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111823,
+      "nanoseconds": 193000000
+    },
+    "occasions": [
+      "Serenata",
+      "Despecho",
+      "Ambientación"
+    ],
+    "title": "Flor de azalea",
+    "youtubeUrl": "https://youtube.com/watch?v=ke1i1TjsF24",
+    "artist": "Javier Solís",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "cN9tLbymrpO0EsQttTGC",
+    "genres": [
+      "Bolero Ranchero"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111816,
+      "nanoseconds": 9000000
+    },
+    "occasions": [
+      "Serenata",
+      "Despecho",
+      "Fiestas"
+    ],
+    "title": "Que se mueran de envidia",
+    "youtubeUrl": "https://youtube.com/watch?v=E8kPtvFYgq0",
+    "createdBy": "admin-migration-script",
+    "artist": "Javier Solís"
+  },
+  {
+    "id": "cNEvYO10tgBzTG90XpYM",
+    "title": "Ramo de Flores",
+    "youtubeUrl": "https://youtube.com/watch?v=YryFB27wHzs",
+    "genres": [
+      "Ranchera",
+      "Bolero",
+      "Balada"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111828,
+      "nanoseconds": 792000000
+    },
+    "occasions": [
+      "Serenata",
+      "Cumpleaños",
+      "Día de la Madre",
+      "Bodas",
+      "Ambientación"
+    ],
+    "createdBy": "admin-migration-script",
+    "artist": "Mariachi Vargas"
+  },
+  {
+    "id": "ce5NuWtsiuVdSTkvtSpC",
+    "youtubeUrl": "https://youtube.com/watch?v=vjb39UwDDIo",
+    "title": "Si quieres",
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Serenata",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111814,
+      "nanoseconds": 849000000
+    },
+    "artist": "Juan Gabriel",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "chVzQrFA3LWRVSlCqbUT",
+    "createdBy": "admin-migration-script",
+    "artist": "Julio Jaramillo",
+    "genres": [
+      "Bolero"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111801,
+      "nanoseconds": 408000000
+    },
+    "occasions": [
+      "Serenata",
+      "Ambientación"
+    ],
+    "title": "Pintor",
+    "youtubeUrl": "https://youtube.com/watch?v=RVY0WNq_EEM"
+  },
+  {
+    "id": "cjfYJ0Ps1VLHjgog3CkW",
+    "title": "La reina del swing",
+    "youtubeUrl": "https://youtube.com/watch?v=cRvNRq0TeEo",
+    "genres": [
+      "Salsa",
+      "Cumbia"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111793,
+      "nanoseconds": 621000000
+    },
+    "occasions": [
+      "Fiestas",
+      "Ambientación"
+    ],
+    "artist": "Alberto Barros",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "cqJwV6gD0XsTJn72FmfO",
+    "genres": [
+      "Bolero"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111825,
+      "nanoseconds": 500000000
+    },
+    "occasions": [
+      "Serenata",
+      "Ambientación",
+      "Fiestas"
+    ],
+    "title": "Contigo en la distancia",
+    "youtubeUrl": "https://youtube.com/watch?v=JM-GcTok-7Y",
+    "createdBy": "admin-migration-script",
+    "artist": "Alejandro Fernández"
+  },
+  {
+    "id": "ctcJlsAt3kUOplsWdBrE",
+    "artist": "Luis Miguel",
+    "createdBy": "admin-migration-script",
+    "title": "Solamente una vez",
+    "youtubeUrl": "https://youtube.com/watch?v=uAYqCRIc2IA",
+    "genres": [
+      "Bolero"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111814,
+      "nanoseconds": 518000000
+    },
+    "occasions": [
+      "Serenata",
+      "Bodas",
+      "Ambientación"
+    ]
+  },
+  {
+    "id": "d5yIrapckvDru3dIDoHL",
+    "title": "Cariño de mis cariños",
+    "youtubeUrl": "https://youtube.com/watch?v=jWS7CLZn-dQ",
+    "genres": [
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111831,
+      "nanoseconds": 631000000
+    },
+    "occasions": [
+      "Serenata",
+      "Fiestas",
+      "Ambientación",
+      "Día de la Madre"
+    ],
+    "createdBy": "admin-migration-script",
+    "artist": "Lucero"
+  },
+  {
+    "id": "d8F8eKKcBPF9a5c6Dwa6",
+    "artist": "Mariachi Vargas",
+    "createdBy": "admin-migration-script",
+    "genres": [
+      "Bolero Ranchero"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111816,
+      "nanoseconds": 847000000
+    },
+    "occasions": [
+      "Serenata",
+      "Bodas",
+      "Aniversarios"
+    ],
+    "title": "Por amor",
+    "youtubeUrl": "https://youtube.com/watch?v=x3lryVwGKJA"
+  },
+  {
+    "id": "dRbBSuPK5DKo25YniHnP",
+    "createdBy": "admin-migration-script",
+    "artist": "Vicente Fernández",
+    "title": "Sin ti",
+    "youtubeUrl": "https://youtube.com/watch?v=O3qRy6KJGNU",
+    "genres": [
+      "Bolero",
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111814,
+      "nanoseconds": 683000000
+    },
+    "occasions": [
+      "Despecho",
+      "Serenata",
+      "Funerales"
+    ]
+  },
+  {
+    "id": "dUJnARIviSrF8g0v34Aw",
+    "youtubeUrl": "https://youtube.com/watch?v=XrhoIdH07JI",
+    "title": "Por algo me han de recordar",
+    "genres": [
+      "Bolero",
+      "Balada",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Funerales",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111807,
+      "nanoseconds": 565000000
+    },
+    "createdBy": "admin-migration-script",
+    "artist": "Julio Jaramillo"
+  },
+  {
+    "id": "dUkncDmdFwDnD1RxECzX",
+    "createdBy": "admin-migration-script",
+    "artist": "Mariachi Vargas",
+    "youtubeUrl": "https://youtube.com/watch?v=hVl2L_i0duk",
+    "title": "Peldaños",
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "occasions": [
+      "Ambientación",
+      "Graduaciones"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111805,
+      "nanoseconds": 893000000
+    }
+  },
+  {
+    "id": "dvKgYHEL9gwmtE4GQahA",
+    "artist": "Pedro Fernández",
+    "createdBy": "admin-migration-script",
+    "title": "Yo no fui",
+    "youtubeUrl": "https://youtube.com/watch?v=_BcJw0ta8mc",
+    "occasions": [
+      "Fiestas",
+      "Cumpleaños",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111832,
+      "nanoseconds": 643000000
+    },
+    "genres": [
+      "Cumbia",
+      "Ranchera"
+    ]
+  },
+  {
+    "id": "eQ0Ln7t8idQh1p69UNao",
+    "createdBy": "admin-migration-script",
+    "artist": "Mariachi Vargas",
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111812,
+      "nanoseconds": 640000000
+    },
+    "occasions": [
+      "Serenata",
+      "Despecho",
+      "Ambientación"
+    ],
+    "title": "Mi tonta forma de querer",
+    "youtubeUrl": "https://youtube.com/watch?v=ifnioi8O9ts"
+  },
+  {
+    "id": "eVyWWdhYsy6Iar9z1tIv",
+    "occasions": [
+      "Quinceañeras",
+      "Cumpleaños",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111810,
+      "nanoseconds": 575000000
+    },
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "title": "Mágicas princesas",
+    "youtubeUrl": "https://youtube.com/watch?v=OhBVX1WbO84",
+    "createdBy": "admin-migration-script",
+    "artist": "Mariachi Vargas"
+  },
+  {
+    "id": "eiA0SWBA0k7ol5s7Y1pd",
+    "createdBy": "admin-migration-script",
+    "artist": "Juan Gabriel",
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111812,
+      "nanoseconds": 139000000
+    },
+    "occasions": [
+      "Serenata",
+      "Bodas",
+      "Fiestas",
+      "Ambientación"
+    ],
+    "title": "Abrázame muy fuerte",
+    "youtubeUrl": "https://youtube.com/watch?v=_tNVEhSelH0"
+  },
+  {
+    "id": "eyFolXPrgrRzUa8uhSpe",
+    "createdBy": "admin-migration-script",
+    "artist": "Selena",
+    "link": "",
+    "title": "Como la flor",
+    "youtubeUrl": "https://youtu.be/dl_YygXM2xw",
+    "genres": [
+      "Cumbia",
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111795,
+      "nanoseconds": 518000000
+    },
+    "occasions": [
+      "Ambientación",
+      "Cumpleaños",
+      "Fiestas"
+    ]
+  },
+  {
+    "id": "fHLZPZLKXZmWdDtTvaYt",
+    "createdBy": "admin-migration-script",
+    "artist": "Mariachi Vargas",
+    "title": "Somos novios",
+    "youtubeUrl": "https://youtube.com/watch?v=XKP46zd8tqc",
+    "occasions": [
+      "Serenata",
+      "Bodas",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111814,
+      "nanoseconds": 182000000
+    },
+    "genres": [
+      "Bolero"
+    ]
+  },
+  {
+    "id": "fLRJ0FkV9LZTzFhbWW8E",
+    "artist": "Mariachi Vargas",
+    "createdBy": "admin-migration-script",
+    "youtubeUrl": "https://youtube.com/watch?v=Y59yDvPBSBU",
+    "title": "El camino de la vida",
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Quinceañeras",
+      "Bodas",
+      "Graduaciones",
+      "Día del Padre",
+      "Día de la Madre",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111811,
+      "nanoseconds": 799000000
+    }
+  },
+  {
+    "id": "fOeXTaRM3iDqHyTF7vXa",
+    "title": "Amar y querer",
+    "youtubeUrl": "https://youtube.com/watch?v=n3cInnnQfr4",
+    "occasions": [
+      "Serenata",
+      "Despecho",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111828,
+      "nanoseconds": 146000000
+    },
+    "genres": [
+      "Balada",
+      "Bolero"
+    ],
+    "artist": "Mariachi Vargas",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "g5IdfFz4N9QP6cHDiEAw",
+    "createdBy": "admin-migration-script",
+    "artist": "",
+    "youtubeUrl": "https://youtube.com/watch?v=Jguqnlymeuk",
+    "title": "Happy Birthday Venezolano",
+    "genres": [
+      "Folklorico (Venezolano)"
+    ],
+    "occasions": [
+      "Cumpleaños",
+      "Fiestas"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111829,
+      "nanoseconds": 606000000
+    }
+  },
+  {
+    "id": "gLsKyBUItStHzVjAtMEn",
+    "createdBy": "admin-migration-script",
+    "artist": "Luis Miguel",
+    "title": "La gloria eres tu",
+    "youtubeUrl": "https://youtube.com/watch?v=h-GSyBwKuGE",
+    "genres": [
+      "Bolero"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111821,
+      "nanoseconds": 836000000
+    },
+    "occasions": [
+      "Serenata",
+      "Ambientación",
+      "Fiestas"
+    ]
+  },
+  {
+    "id": "gR7Bj3i5iqBTKoI64CXG",
+    "createdBy": "admin-migration-script",
+    "artist": "Mariachi Vargas",
+    "occasions": [
+      "Serenata",
+      "Bodas",
+      "Aniversarios"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111819,
+      "nanoseconds": 368000000
+    },
+    "genres": [
+      "Ranchera"
+    ],
+    "title": "Mi mayor anhelo",
+    "youtubeUrl": "https://youtube.com/watch?v=rwcSw5us8Eo"
+  },
+  {
+    "id": "gcT12lCZqIwecMBCBp3s",
+    "youtubeUrl": "https://youtu.be/AuiYPIpuJmM",
+    "title": "El dulce pecado",
+    "genres": [
+      "Balada",
+      "Despecho",
+      "Popular (Colombiana)",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Despecho",
+      "Fiestas",
+      "Serenata"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111790,
+      "nanoseconds": 536000000
+    },
+    "artist": "Jessi Uribe",
+    "createdBy": "admin-migration-script",
+    "link": ""
+  },
+  {
+    "id": "h9XpkEbgtlZXCiXiQasg",
+    "title": "Así se goza",
+    "youtubeUrl": "https://youtube.com/watch?v=BkobG2dNe_s",
+    "genres": [
+      "Cumbia",
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111791,
+      "nanoseconds": 801000000
+    },
+    "occasions": [
+      "Fiestas",
+      "Ambientación"
+    ],
+    "createdBy": "admin-migration-script",
+    "artist": ""
+  },
+  {
+    "id": "hEWq4NrjXkuz1QQDLcvN",
+    "artist": "Luis Miguel",
+    "createdBy": "admin-migration-script",
+    "genres": [
+      "Bolero"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111818,
+      "nanoseconds": 540000000
+    },
+    "occasions": [
+      "Serenata",
+      "Ambientación",
+      "Despecho"
+    ],
+    "title": "Mucho Corazón",
+    "youtubeUrl": "https://youtube.com/watch?v=NXAmH-7Tzt8"
+  },
+  {
+    "id": "hQ5WAsckBMSMe3b79iqj",
+    "createdBy": "admin-migration-script",
+    "artist": "Mariachi Vargas",
+    "youtubeUrl": "https://youtube.com/watch?v=kneRedYAYpQ",
+    "title": "Mia",
+    "genres": [
+      "Bolero Ranchero"
+    ],
+    "occasions": [
+      "Serenata",
+      "Despecho",
+      "Fiestas"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111819,
+      "nanoseconds": 43000000
+    }
+  },
+  {
+    "id": "hbks14jvva7K5eoEHxWC",
+    "title": "Rata de dos patas",
+    "youtubeUrl": "https://youtube.com/watch?v=JxNzAHuywsc",
+    "genres": [
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111798,
+      "nanoseconds": 364000000
+    },
+    "occasions": [
+      "Despecho",
+      "Fiestas"
+    ],
+    "createdBy": "admin-migration-script",
+    "artist": "Paquita la del Barrio"
+  },
+  {
+    "id": "hyLeeKnnzXrk4K6JlcQP",
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111806,
+      "nanoseconds": 854000000
+    },
+    "occasions": [
+      "Religioso"
+    ],
+    "title": "Damasco",
+    "youtubeUrl": "https://youtube.com/watch?v=rdUy6x38yYg",
+    "createdBy": "admin-migration-script",
+    "artist": "Mariachi Vargas"
+  },
+  {
+    "id": "i5yFnnjpppxPvcijyTAd",
+    "genres": [
+      "Ranchera"
+    ],
+    "occasions": [
+      "Serenata",
+      "Fiestas"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111799,
+      "nanoseconds": 891000000
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=CIXWJpV_4kc",
+    "title": "Aunque no sea mayo",
+    "createdBy": "admin-migration-script",
+    "artist": "Vicente Fernández"
+  },
+  {
+    "id": "iBLXaUdrDR9K6vBLTdOa",
+    "artist": "Alejandro Fernández",
+    "createdBy": "admin-migration-script",
+    "genres": [
+      "Son Jalisciense",
+      "Ranchera",
+      "Instrumental"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111790,
+      "nanoseconds": 99000000
+    },
+    "occasions": [
+      "Fiestas",
+      "Ambientación"
+    ],
+    "title": "La canción del mariachi",
+    "youtubeUrl": "https://youtube.com/watch?v=ewzNHwA_cUM"
+  },
+  {
+    "id": "iaNxzKdRFmknJx4Md9EA",
+    "createdBy": "admin-migration-script",
+    "artist": "Juan Gabriel",
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111831,
+      "nanoseconds": 465000000
+    },
+    "occasions": [
+      "Serenata",
+      "Despecho",
+      "Ambientación",
+      "Funerales"
+    ],
+    "title": "Te lo pido por favor",
+    "youtubeUrl": "https://youtube.com/watch?v=Of3Y_IcbbuU"
+  },
+  {
+    "id": "ikCL8Z8V53JBCaK1YkzM",
+    "artist": "Mariachi Vargas",
+    "createdBy": "admin-migration-script",
+    "genres": [
+      "Balada"
+    ],
+    "occasions": [
+      "Religioso"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111805,
+      "nanoseconds": 94000000
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=cVjDGRzj1iE",
+    "title": "Amor eterno a la Vírgen"
+  },
+  {
+    "id": "iuQG6h7DZj3RF3jqJ6Re",
+    "title": "La boda",
+    "youtubeUrl": "https://youtube.com/watch?v=z50c2Kuyorc",
+    "genres": [
+      "Ranchera",
+      "Vals Ranchero",
+      "Son Jalisciense"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111806,
+      "nanoseconds": 363000000
+    },
+    "occasions": [
+      "Bodas",
+      "Fiestas"
+    ],
+    "createdBy": "admin-migration-script",
+    "artist": "Mariachi Vargas"
+  },
+  {
+    "id": "jF9OjAjogDUdms5MrdJE",
+    "createdBy": "admin-migration-script",
+    "artist": "",
+    "occasions": [
+      "Fiestas",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111791,
+      "nanoseconds": 960000000
+    },
+    "genres": [
+      "Pasillo",
+      "Vals Ranchero"
+    ],
+    "title": "Chola cuencana",
+    "youtubeUrl": "https://youtube.com/watch?v=GwtvGAy-JQM"
+  },
+  {
+    "id": "jaEhE6SRGEb5X7969BPC",
+    "createdBy": "admin-migration-script",
+    "artist": "",
+    "title": "El aventurero",
+    "youtubeUrl": "https://youtube.com/watch?v=edWBHRWF85M",
+    "occasions": [
+      "Fiestas",
+      "Ambientación",
+      "Cumpleaños"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111789,
+      "nanoseconds": 887000000
+    },
+    "genres": [
+      "Ranchera",
+      "Son Jalisciense"
+    ]
+  },
+  {
+    "id": "jdISkub10A4slo87uNfm",
+    "artist": "Alberto Barros",
+    "createdBy": "admin-migration-script",
+    "title": "Carmen",
+    "youtubeUrl": "https://youtube.com/watch?v=yulDcMq5xWA",
+    "genres": [
+      "Instrumental",
+      "Paso Doble"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111795,
+      "nanoseconds": 676000000
+    },
+    "occasions": [
+      "Fiestas",
+      "Ambientación"
+    ]
+  },
+  {
+    "id": "jjKLWvddqcp6CJpy02Aa",
+    "artist": "Chino & Nacho",
+    "createdBy": "admin-migration-script",
+    "genres": [
+      "Pop",
+      "Cumbia"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111792,
+      "nanoseconds": 888000000
+    },
+    "occasions": [
+      "Fiestas",
+      "Cumpleaños",
+      "Quinceañeras",
+      "Ambientación"
+    ],
+    "title": "Mi niña bonita(Chino y Nacho)",
+    "youtubeUrl": "https://youtube.com/watch?v=6ys9Fj41B28"
+  },
+  {
+    "id": "jn4nuQJo1fg7lgCCm96Z",
+    "artist": "Mariachi Vargas",
+    "createdBy": "admin-migration-script",
+    "title": "Cielo rojo",
+    "youtubeUrl": "https://youtube.com/watch?v=CmB7vaU337k",
+    "genres": [
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111826,
+      "nanoseconds": 371000000
+    },
+    "occasions": [
+      "Fiestas",
+      "Despecho",
+      "Ambientación"
+    ]
+  },
+  {
+    "id": "jsuW3lslohWfpyZfMro3",
+    "artist": "Javier Solís",
+    "createdBy": "admin-migration-script",
+    "genres": [
+      "Bolero"
+    ],
+    "occasions": [
+      "Despecho",
+      "Serenata",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111826,
+      "nanoseconds": 525000000
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=x3noNiiOsEY",
+    "title": "Cenizas"
+  },
+  {
+    "id": "juacj8wtZbYjKikc0Isl",
+    "occasions": [
+      "Despecho",
+      "Fiestas",
+      "Serenata"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111826,
+      "nanoseconds": 192000000
+    },
+    "genres": [
+      "Ranchera",
+      "Bolero"
+    ],
+    "title": "Cien años",
+    "youtubeUrl": "https://youtube.com/watch?v=Wgo8HUyaMMM",
+    "createdBy": "admin-migration-script",
+    "artist": "Javier Solís"
+  },
+  {
+    "id": "kGRdJatSbXzUVHKm9A0s",
+    "createdBy": "admin-migration-script",
+    "artist": "Mariachi Vargas",
+    "genres": [
+      "Son Jalisciense",
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111828,
+      "nanoseconds": 628000000
+    },
+    "occasions": [
+      "Fiestas",
+      "Ambientación",
+      "Graduaciones"
+    ],
+    "title": "Cielito Lindo",
+    "youtubeUrl": "https://youtube.com/watch?v=OHeHOb3E-2g"
+  },
+  {
+    "id": "kSaJIu49v8nzqS9mzxyL",
+    "genres": [
+      "Bolero"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111817,
+      "nanoseconds": 173000000
+    },
+    "occasions": [
+      "Serenata",
+      "Ambientación"
+    ],
+    "title": "Perfume de gardenias",
+    "youtubeUrl": "https://youtube.com/watch?v=I_f8p0itXFw",
+    "createdBy": "admin-migration-script",
+    "artist": "Javier Solís"
+  },
+  {
+    "id": "kZ61yZFbc5i9nGOqAI0o",
+    "createdBy": "admin-migration-script",
+    "artist": "Mariachi Vargas",
+    "genres": [
+      "Son Jalisciense",
+      "Ranchera",
+      "Instrumental"
+    ],
+    "occasions": [
+      "Fiestas",
+      "Ambientación",
+      "Cumpleaños"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111794,
+      "nanoseconds": 810000000
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=CQ_gkzGR1eY",
+    "title": "Mariachi loco"
+  },
+  {
+    "id": "kZNdIsc5mJdcYzu9ZKPN",
+    "title": "Ya tiene quince años",
+    "youtubeUrl": "https://youtube.com/watch?v=qZVGDRXzaYo",
+    "occasions": [
+      "Quinceañeras",
+      "Cumpleaños",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111811,
+      "nanoseconds": 106000000
+    },
+    "genres": [
+      "Bolero",
+      "Balada"
+    ],
+    "createdBy": "admin-migration-script",
+    "artist": "Julio Jaramillo"
+  },
+  {
+    "id": "lRwOydhVkFnT4iV7L5zl",
+    "youtubeUrl": "https://youtube.com/watch?v=Tsk5aLgnQJs",
+    "title": "Estos celos",
+    "genres": [
+      "Ranchera"
+    ],
+    "occasions": [
+      "Despecho",
+      "Fiestas",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111832,
+      "nanoseconds": 304000000
+    },
+    "artist": "Vicente Fernández",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "lajumoDnAmDxXIzMMDYJ",
+    "genres": [
+      "Salsa",
+      "Cumbia"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111793,
+      "nanoseconds": 86000000
+    },
+    "occasions": [
+      "Fiestas",
+      "Cumpleaños",
+      "Ambientación"
+    ],
+    "title": "La vida es un carnaval",
+    "youtubeUrl": "https://youtube.com/watch?v=2F2IG-Xl0aE",
+    "createdBy": "admin-migration-script",
+    "artist": "Celia Cruz"
+  },
+  {
+    "id": "loywQ23Nf8L5LTITXnfk",
+    "title": "Motivos",
+    "youtubeUrl": "https://youtube.com/watch?v=53rcvrsB60c",
+    "occasions": [
+      "Serenata",
+      "Despecho",
+      "Fiestas"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111818,
+      "nanoseconds": 713000000
+    },
+    "genres": [
+      "Ranchera"
+    ],
+    "artist": "Vicente Fernández",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "lp77ZCKKVIx2yN7AeZc6",
+    "title": "Happy Birthday",
+    "youtubeUrl": "https://youtube.com/watch?v=Zh6ofSFA06M",
+    "genres": [
+      "Instrumental"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111829,
+      "nanoseconds": 966000000
+    },
+    "occasions": [
+      "Cumpleaños",
+      "Fiestas"
+    ],
+    "createdBy": "admin-migration-script",
+    "artist": ""
+  },
+  {
+    "id": "mVkL6GDzsN8MJvuDa8Pp",
+    "createdBy": "admin-migration-script",
+    "artist": "Natalia Jiménez",
+    "youtubeUrl": "https://youtube.com/watch?v=o6Zgwf5LX-c",
+    "title": "Me muero",
+    "genres": [
+      "Balada",
+      "Pop",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Despecho",
+      "Fiestas",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111830,
+      "nanoseconds": 127000000
+    }
+  },
+  {
+    "id": "maXDhB2VMVOElLkdHs69",
+    "title": "Si me dejas no vale",
+    "youtubeUrl": "https://youtube.com/watch?v=bXehP6Fl0Z0",
+    "genres": [
+      "Balada",
+      "Cumbia"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111793,
+      "nanoseconds": 822000000
+    },
+    "occasions": [
+      "Serenata",
+      "Despecho",
+      "Fiestas"
+    ],
+    "createdBy": "admin-migration-script",
+    "artist": "Alberto Barros"
+  },
+  {
+    "id": "muRhO8ZRNI2FvTky7lp3",
+    "genres": [
+      "Cumbia",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Fiestas",
+      "Cumpleaños",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111820,
+      "nanoseconds": 38000000
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=NE79RDnDQ5U",
+    "title": "Mas que tu amigo",
+    "createdBy": "admin-migration-script",
+    "artist": "Marco Antonio Solís"
+  },
+  {
+    "id": "n1DVT745niGsaStHwgiL",
+    "artist": "Juan Gabriel",
+    "createdBy": "admin-migration-script",
+    "title": "Probablemente ya",
+    "youtubeUrl": "https://youtube.com/watch?v=g5rsnxJWNkM",
+    "occasions": [
+      "Serenata",
+      "Despecho"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111799,
+      "nanoseconds": 731000000
+    },
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ]
+  },
+  {
+    "id": "nO47y5UZAL3pX11rprnc",
+    "title": "El sopilote mojado",
+    "youtubeUrl": "https://youtube.com/watch?v=JGHBHYeOTCE",
+    "genres": [
+      "Son Jalisciense",
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111791,
+      "nanoseconds": 38000000
+    },
+    "occasions": [
+      "Fiestas",
+      "Ambientación"
+    ],
+    "artist": "Mariachi Vargas",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "nOu4hdD9M71uB5rahisp",
+    "createdBy": "admin-migration-script",
+    "artist": "Mariachi Vargas",
+    "youtubeUrl": "https://youtube.com/watch?v=XoJPNzRUZzY",
+    "title": "El barrilito",
+    "genres": [
+      "Polka",
+      "Instrumental"
+    ],
+    "occasions": [
+      "Fiestas",
+      "Ambientación",
+      "Cumpleaños"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111791,
+      "nanoseconds": 220000000
+    }
+  },
+  {
+    "id": "nQhE4w1m5D1LFjaJzeCv",
+    "genres": [
+      "Bolero"
+    ],
+    "occasions": [
+      "Serenata",
+      "Despecho",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111815,
+      "nanoseconds": 849000000
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=gZL7Tqov0w0",
+    "title": "Reloj",
+    "artist": "Mariachi Vargas",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "nUjFyXxfVket0OcGiLq8",
+    "artist": "Alberto Barros",
+    "createdBy": "admin-migration-script",
+    "title": "Tabaco y ron",
+    "youtubeUrl": "https://youtube.com/watch?v=3pg-LexET2w",
+    "genres": [
+      "Cumbia",
+      "Salsa"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111794,
+      "nanoseconds": 298000000
+    },
+    "occasions": [
+      "Fiestas",
+      "Ambientación"
+    ]
+  },
+  {
+    "id": "oA0RLcb4sV5JA2x1CY8W",
+    "youtubeUrl": "https://youtube.com/watch?v=COMY2Kr6Lq4",
+    "title": "Ay Chavela",
+    "genres": [
+      "Ranchera"
+    ],
+    "occasions": [
+      "Fiestas",
+      "Serenata",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111801,
+      "nanoseconds": 788000000
+    },
+    "artist": "Pedro Fernández",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "oXsMqqRkjeZPV7OCQSIE",
+    "title": "Entrega total",
+    "youtubeUrl": "https://youtube.com/watch?v=L3kn9Xs4Tek",
+    "occasions": [
+      "Serenata",
+      "Despecho",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111823,
+      "nanoseconds": 854000000
+    },
+    "genres": [
+      "Bolero Ranchero",
+      "Balada"
+    ],
+    "createdBy": "admin-migration-script",
+    "artist": "Javier Solís"
+  },
+  {
+    "id": "ohFwE4501xUxMRETxUif",
+    "occasions": [
+      "Bodas",
+      "Aniversarios",
+      "Serenata"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111817,
+      "nanoseconds": 532000000
+    },
+    "genres": [
+      "Ranchera"
+    ],
+    "title": "Para siempre",
+    "youtubeUrl": "https://youtube.com/watch?v=9fqPtmLAU3I",
+    "createdBy": "admin-migration-script",
+    "artist": "Vicente Fernández"
+  },
+  {
+    "id": "ozD5xMKZjjlmJRd6K8A6",
+    "genres": [
+      "Bolero"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111829,
+      "nanoseconds": 271000000
+    },
+    "occasions": [
+      "Cumpleaños",
+      "Fiestas",
+      "Ambientación"
+    ],
+    "title": "Felicitación",
+    "youtubeUrl": "https://youtube.com/watch?v=ZqjkrjfIkh8",
+    "createdBy": "admin-migration-script",
+    "artist": "Julio Jaramillo"
+  },
+  {
+    "id": "p5rJBsMq9h9Eo2uADIxr",
+    "youtubeUrl": "https://youtube.com/watch?v=WndFUsSXtKU",
+    "title": "He sabido que te amaba",
+    "genres": [
+      "Bolero Ranchero",
+      "Balada"
+    ],
+    "occasions": [
+      "Serenata",
+      "Despecho",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111822,
+      "nanoseconds": 708000000
+    },
+    "artist": "Javier Solís",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "p9Hytreipt0IWcRvOuZy",
+    "artist": "Alejandro Fernández",
+    "createdBy": "admin-migration-script",
+    "title": "Mátalas",
+    "youtubeUrl": "https://youtube.com/watch?v=oFtP7PUyYoI",
+    "genres": [
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111797,
+      "nanoseconds": 131000000
+    },
+    "occasions": [
+      "Serenata",
+      "Despecho",
+      "Fiestas"
+    ]
+  },
+  {
+    "id": "pHCiLwrbYCCwVlcjjYHL",
+    "youtubeUrl": "https://youtube.com/watch?v=QPPICVq6-zU",
+    "title": "Perdón",
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "occasions": [
+      "Serenata",
+      "Despecho",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111810,
+      "nanoseconds": 188000000
+    },
+    "artist": "Alejandro Fernández",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "pW4qczGs25aws3YjCdwj",
+    "artist": "",
+    "createdBy": "admin-migration-script",
+    "genres": [
+      "Huapango",
+      "Instrumental"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111832,
+      "nanoseconds": 476000000
+    },
+    "occasions": [
+      "Fiestas",
+      "Ambientación",
+      "Serenata"
+    ],
+    "title": "La Bikina",
+    "youtubeUrl": "https://youtube.com/watch?v=NCvJwzDQTBM"
+  },
+  {
+    "id": "po48wAtKeR8H9hleL4St",
+    "title": "Despierta",
+    "youtubeUrl": "https://youtube.com/watch?v=5ar42kauTd8",
+    "occasions": [
+      "Serenata",
+      "Cumpleaños",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111828,
+      "nanoseconds": 472000000
+    },
+    "genres": [
+      "Bolero",
+      "Ranchera"
+    ],
+    "artist": "Vicente Fernández",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "prtLkErYgO5XMJRu73jn",
+    "createdBy": "admin-migration-script",
+    "artist": "Mariachi Vargas",
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Día de la Madre",
+      "Cumpleaños",
+      "Fiestas"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111802,
+      "nanoseconds": 304000000
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=euJNFdOhP8M",
+    "title": "Bendita Madre"
+  },
+  {
+    "id": "pt0NQ65lmoZmmBktiQdM",
+    "occasions": [
+      "Serenata",
+      "Bodas",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111813,
+      "nanoseconds": 995000000
+    },
+    "genres": [
+      "Bolero"
+    ],
+    "title": "Te amare toda la vida",
+    "youtubeUrl": "https://youtube.com/watch?v=WR8hx7u2xWw",
+    "artist": "Javier Solís",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "q7v8EPXHPZvnoeLX0AQo",
+    "youtubeUrl": "https://youtube.com/watch?v=9GLFNM7KgwA",
+    "title": "Pescador de hombres",
+    "genres": [
+      "Balada"
+    ],
+    "occasions": [
+      "Religioso",
+      "Funerales"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111803,
+      "nanoseconds": 322000000
+    },
+    "createdBy": "admin-migration-script",
+    "artist": "Mariachi Vargas"
+  },
+  {
+    "id": "qCC4HyaD4Pt8FE7Sror2",
+    "title": "En vida (Segundo Rosero)",
+    "youtubeUrl": "https://youtube.com/watch?v=EnYWG3r3QBY",
+    "occasions": [
+      "Día del Padre",
+      "Día de la Madre",
+      "Funerales",
+      "Cumpleaños",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111792,
+      "nanoseconds": 514000000
+    },
+    "genres": [
+      "Balada",
+      "Pasillo"
+    ],
+    "artist": "",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "qRFKhykzRhOkp1aP3zCP",
+    "title": "Volver volver",
+    "youtubeUrl": "https://youtube.com/watch?v=gZVKe_0n7tg",
+    "genres": [
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111799,
+      "nanoseconds": 572000000
+    },
+    "occasions": [
+      "Despecho",
+      "Fiestas",
+      "Serenata",
+      "Funerales"
+    ],
+    "artist": "Vicente Fernández",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "rJUKHqFjAILrjCNWW0S4",
+    "createdBy": "admin-migration-script",
+    "artist": "Julio Jaramillo",
+    "genres": [
+      "Bolero"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111823,
+      "nanoseconds": 364000000
+    },
+    "occasions": [
+      "Serenata",
+      "Despecho",
+      "Ambientación"
+    ],
+    "title": "Esposa",
+    "youtubeUrl": "https://youtube.com/watch?v=3wUeCtnAV7A"
+  },
+  {
+    "id": "rxLBpj0o7w79KpWpcEkw",
+    "artist": "Mariachi Vargas",
+    "createdBy": "admin-migration-script",
+    "genres": [
+      "Paso Doble",
+      "Instrumental"
+    ],
+    "occasions": [
+      "Fiestas",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111790,
+      "nanoseconds": 726000000
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=HYscCAbhzaY",
+    "title": "España cali"
+  },
+  {
+    "id": "s18DnucZiFO23I1kwhpw",
+    "artist": "Lucero",
+    "createdBy": "admin-migration-script",
+    "youtubeUrl": "https://youtube.com/watch?v=2DhThYPRDDI",
+    "title": "El privilegio de amar",
+    "genres": [
+      "Balada",
+      "Pop"
+    ],
+    "occasions": [
+      "Bodas",
+      "Quinceañeras",
+      "Día de la Madre",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111824,
+      "nanoseconds": 187000000
+    }
+  },
+  {
+    "id": "s9EzWkD6SZngr9374D6n",
+    "createdBy": "admin-migration-script",
+    "artist": "Mariachi Vargas",
+    "title": "Señora bonita",
+    "youtubeUrl": "https://youtube.com/watch?v=eJpMOYIK6SA",
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111815,
+      "nanoseconds": 198000000
+    },
+    "occasions": [
+      "Día de la Madre",
+      "Cumpleaños",
+      "Ambientación"
+    ]
+  },
+  {
+    "id": "sMYeqqCRpn0lzdtPuNFl",
+    "title": "Llorarás",
+    "youtubeUrl": "https://youtube.com/watch?v=tVmDML_vglE",
+    "genres": [
+      "Salsa",
+      "Cumbia"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111793,
+      "nanoseconds": 436000000
+    },
+    "occasions": [
+      "Despecho",
+      "Fiestas",
+      "Ambientación"
+    ],
+    "artist": "Alberto Barros",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "se6W1kwgBJgJZBxyzgdE",
+    "createdBy": "admin-migration-script",
+    "artist": "Luis Miguel",
+    "title": "Amarte es un placer",
+    "youtubeUrl": "https://youtube.com/watch?v=4vVQ-1kxppY",
+    "genres": [
+      "Balada",
+      "Pop"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111827,
+      "nanoseconds": 641000000
+    },
+    "occasions": [
+      "Serenata",
+      "Bodas",
+      "Ambientación"
+    ]
+  },
+  {
+    "id": "sw8n6kFoOPG2aRaewpVn",
+    "createdBy": "admin-migration-script",
+    "artist": "Javier Solís",
+    "genres": [
+      "Bolero"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111817,
+      "nanoseconds": 855000000
+    },
+    "occasions": [
+      "Serenata",
+      "Despecho",
+      "Ambientación"
+    ],
+    "title": "Obsesión",
+    "youtubeUrl": "https://youtube.com/watch?v=GuoLu1t9CmQ"
+  },
+  {
+    "id": "t66Rbg8XvOYyjstjZP2t",
+    "occasions": [
+      "Cumpleaños",
+      "Fiestas"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111829,
+      "nanoseconds": 105000000
+    },
+    "genres": [
+      "Ranchera"
+    ],
+    "title": "Felicidades",
+    "youtubeUrl": "https://youtube.com/watch?v=_Hc4RUzzQlE",
+    "artist": "Mariachi Vargas",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "tEwsSW7IZBgYPFZRJpiq",
+    "title": "Nadie es eterno en el mundo",
+    "youtubeUrl": "https://youtube.com/watch?v=cZvPJoOMKB4",
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111807,
+      "nanoseconds": 909000000
+    },
+    "occasions": [
+      "Funerales",
+      "Ambientación"
+    ],
+    "artist": "Mariachi Vargas",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "tSMXO7IJLLEMwyn5GjOt",
+    "title": "Serenata huasteca",
+    "youtubeUrl": "https://youtube.com/watch?v=y-6Rp1GCY1w",
+    "genres": [
+      "Huapango",
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111815,
+      "nanoseconds": 16000000
+    },
+    "occasions": [
+      "Serenata",
+      "Fiestas",
+      "Ambientación"
+    ],
+    "createdBy": "admin-migration-script",
+    "artist": "Mariachi Vargas"
+  },
+  {
+    "id": "tWIihqu98PaBRuzPHQFl",
+    "artist": "Julio Jaramillo",
+    "createdBy": "admin-migration-script",
+    "genres": [
+      "Bolero",
+      "Balada",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Día de la Madre",
+      "Cumpleaños",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111808,
+      "nanoseconds": 238000000
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=rGJ4TfuFAKg",
+    "title": "Madre cariñito santo"
+  },
+  {
+    "id": "taBWidGzvea2K00c0qUj",
+    "genres": [
+      "Bolero Ranchero",
+      "Balada"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111822,
+      "nanoseconds": 865000000
+    },
+    "occasions": [
+      "Serenata",
+      "Ambientación",
+      "Fiestas"
+    ],
+    "title": "Gema",
+    "youtubeUrl": "https://youtube.com/watch?v=cEcWnlIdUOw",
+    "artist": "Javier Solís",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "tk7DsEAalNhd9MUlcFMY",
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111801,
+      "nanoseconds": 70000000
+    },
+    "occasions": [
+      "Día de la Madre",
+      "Cumpleaños",
+      "Fiestas"
+    ],
+    "title": "Regalo de un hijo",
+    "youtubeUrl": "https://youtube.com/watch?v=bc88kfQJoq0",
+    "artist": "Mariachi Vargas",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "toKo17p7xbWn71Ymq3qM",
+    "createdBy": "admin-migration-script",
+    "artist": "Vicente Fernández",
+    "genres": [
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111796,
+      "nanoseconds": 249000000
+    },
+    "occasions": [
+      "Fiestas",
+      "Despecho",
+      "Ambientación"
+    ],
+    "title": "No me se rajar",
+    "youtubeUrl": "https://youtube.com/watch?v=mHL6rpmxQRg"
+  },
+  {
+    "id": "txhMvuzHNTrZ4DcsIeDC",
+    "title": "Querida amiga",
+    "youtubeUrl": "https://youtube.com/watch?v=BVJ9kKkn-os",
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111801,
+      "nanoseconds": 223000000
+    },
+    "occasions": [
+      "Cumpleaños",
+      "Fiestas",
+      "Ambientación"
+    ],
+    "artist": "Mariachi Vargas",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "uJ9qASk80Q2GnYDgAcA5",
+    "artist": "Mariachi Vargas",
+    "createdBy": "admin-migration-script",
+    "occasions": [
+      "Serenata",
+      "Bodas",
+      "Aniversarios"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111819,
+      "nanoseconds": 212000000
+    },
+    "genres": [
+      "Ranchera"
+    ],
+    "title": "Mi razon de ser",
+    "youtubeUrl": "https://youtube.com/watch?v=8Zihvn67CNI"
+  },
+  {
+    "id": "uSQTDL1aq54rsyAOwUfg",
+    "artist": "Alejandro Fernández",
+    "createdBy": "admin-migration-script",
+    "genres": [
+      "Balada",
+      "Pop"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111800,
+      "nanoseconds": 756000000
+    },
+    "occasions": [
+      "Serenata",
+      "Bodas",
+      "Fiestas",
+      "Ambientación"
+    ],
+    "title": "Abrázame",
+    "youtubeUrl": "https://youtube.com/watch?v=yt8Ki-RSIyA"
+  },
+  {
+    "id": "uTTho8IuPwLPyUZyY6t1",
+    "title": "Quince primaveras",
+    "youtubeUrl": "https://youtube.com/watch?v=rYclZ_Y0rH4",
+    "occasions": [
+      "Quinceañeras",
+      "Cumpleaños",
+      "Fiestas"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111811,
+      "nanoseconds": 981000000
+    },
+    "genres": [
+      "Ranchera",
+      "Vals Ranchero"
+    ],
+    "createdBy": "admin-migration-script",
+    "artist": "Vicente Fernández"
+  },
+  {
+    "id": "vdPPxqnFbwMjmIzCT6vP",
+    "genres": [
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111797,
+      "nanoseconds": 453000000
+    },
+    "occasions": [
+      "Fiestas",
+      "Despecho",
+      "Ambientación"
+    ],
+    "title": "La ley del monte",
+    "youtubeUrl": "https://youtube.com/watch?v=Byeu5C9FS6s",
+    "artist": "Vicente Fernández",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "wMMly8pj6xczVUFeDSLD",
+    "artist": "Alejandro Fernández",
+    "createdBy": "admin-migration-script",
+    "title": "La mitad que me faltaba",
+    "youtubeUrl": "https://youtube.com/watch?v=8Eaquhm0fCs",
+    "genres": [
+      "Balada",
+      "Pop",
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111832,
+      "nanoseconds": 132000000
+    },
+    "occasions": [
+      "Serenata",
+      "Bodas",
+      "Ambientación"
+    ]
+  },
+  {
+    "id": "wyJ0gJjCicm2GyYEmDfx",
+    "createdBy": "admin-migration-script",
+    "artist": "Alejandro Fernández",
+    "genres": [
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111818,
+      "nanoseconds": 181000000
+    },
+    "occasions": [
+      "Serenata",
+      "Bodas",
+      "Día de la Madre"
+    ],
+    "title": "Niña amada mía",
+    "youtubeUrl": "https://youtube.com/watch?v=1IewjdQMlbQ"
+  },
+  {
+    "id": "xAIPNzyaZdE552SLsLL3",
+    "createdBy": "admin-migration-script",
+    "artist": "Mariachi Vargas",
+    "genres": [
+      "Ranchera",
+      "Son Jalisciense"
+    ],
+    "occasions": [
+      "Fiestas",
+      "Serenata",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111812,
+      "nanoseconds": 293000000
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=9J9YxWNXS4c",
+    "title": "Me gusta"
+  },
+  {
+    "id": "xLKAUpiDgSpmJXYJKtZT",
+    "createdBy": "admin-migration-script",
+    "artist": "Leo Dan",
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111818,
+      "nanoseconds": 884000000
+    },
+    "occasions": [
+      "Serenata",
+      "Bodas",
+      "Aniversarios"
+    ],
+    "title": "Mil años",
+    "youtubeUrl": "https://youtube.com/watch?v=_MTgyEPlwgY"
+  },
+  {
+    "id": "xXmuFGy9cz8BT8AUBbd3",
+    "title": "Vengo a decirte que te estoy queriendo",
+    "youtubeUrl": "https://youtube.com/watch?v=n_guCfn2pDU",
+    "genres": [
+      "Bolero",
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111791,
+      "nanoseconds": 413000000
+    },
+    "occasions": [
+      "Serenata",
+      "Bodas",
+      "Quinceañeras",
+      "Ambientación"
+    ],
+    "createdBy": "admin-migration-script",
+    "artist": ""
+  },
+  {
+    "id": "xiBGSTewTr1yenJefZYg",
+    "title": "Que Dios te bendiga",
+    "youtubeUrl": "https://youtube.com/watch?v=spfPclyGvw8",
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111810,
+      "nanoseconds": 374000000
+    },
+    "occasions": [
+      "Cumpleaños",
+      "Graduaciones",
+      "Religioso",
+      "Ambientación"
+    ],
+    "createdBy": "admin-migration-script",
+    "artist": "Mariachi Vargas"
+  },
+  {
+    "id": "xpo5wGvaIGS1EbIXrKPh",
+    "createdBy": "admin-migration-script",
+    "artist": "Leo Dan",
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "occasions": [
+      "Serenata",
+      "Despecho",
+      "Fiestas"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111817,
+      "nanoseconds": 2000000
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=1aSc2xjtn6M",
+    "title": "Pídeme la luna"
+  },
+  {
+    "id": "y7WftJvorxqgSj42PGf1",
+    "occasions": [
+      "Serenata",
+      "Despecho",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111820,
+      "nanoseconds": 203000000
+    },
+    "genres": [
+      "Bolero Ranchero"
+    ],
+    "title": "Mas allá",
+    "youtubeUrl": "https://youtube.com/watch?v=387jivPcwvE",
+    "artist": "Javier Solís",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "yJUqcWtOtWjQA8VT260V",
+    "createdBy": "admin-migration-script",
+    "artist": "Mariachi Vargas",
+    "occasions": [
+      "Religioso"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111803,
+      "nanoseconds": 140000000
+    },
+    "genres": [
+      "Balada"
+    ],
+    "title": "Madre de los jóvenes",
+    "youtubeUrl": "https://youtube.com/watch?v=gz66PdmG_ho"
+  },
+  {
+    "id": "yJV99d1AHakYP7X5U27L",
+    "genres": [
+      "Bolero"
+    ],
+    "occasions": [
+      "Serenata",
+      "Ambientación",
+      "Fiestas"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111822,
+      "nanoseconds": 18000000
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=qPv0KJ0Ra4w",
+    "title": "La barca",
+    "artist": "Luis Miguel",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "yZeZETEOvNLZIvIvf56Z",
+    "genres": [
+      "Bolero",
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111831,
+      "nanoseconds": 964000000
+    },
+    "occasions": [
+      "Serenata",
+      "Despecho",
+      "Ambientación"
+    ],
+    "title": "En tu pelo",
+    "youtubeUrl": "https://youtube.com/watch?v=yuQku2CuIhA",
+    "artist": "Javier Solís",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "z4ENGWcVxMlkPMvv5PzY",
+    "createdBy": "admin-migration-script",
+    "artist": "Javier Solís",
+    "title": "Perfidia",
+    "youtubeUrl": "https://youtube.com/watch?v=up6Y-VCd1c8",
+    "genres": [
+      "Bolero"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111817,
+      "nanoseconds": 366000000
+    },
+    "occasions": [
+      "Serenata",
+      "Despecho",
+      "Ambientación"
+    ]
+  },
+  {
+    "id": "zHDjv4111Xf1N7DB0m7q",
+    "artist": "Mariachi Vargas",
+    "createdBy": "admin-migration-script",
+    "genres": [
+      "Ranchera",
+      "Balada"
+    ],
+    "occasions": [
+      "Serenata",
+      "Ambientación"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111812,
+      "nanoseconds": 801000000
+    },
+    "youtubeUrl": "https://youtube.com/watch?v=balFKWqXuT0",
+    "title": "Yo puedo hacer"
+  },
+  {
+    "id": "zOBJDQgMP5WJnVNOTDaB",
+    "youtubeUrl": "https://youtube.com/watch?v=pifvIJ9372o",
+    "title": "Amarte a la antigua",
+    "genres": [
+      "Ranchera",
+      "Pop"
+    ],
+    "occasions": [
+      "Serenata",
+      "Bodas",
+      "Fiestas"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111827,
+      "nanoseconds": 809000000
+    },
+    "artist": "Pedro Fernández",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "zP9SXDG5NDOvurnuMHI0",
+    "artist": "Mariachi Vargas",
+    "createdBy": "admin-migration-script",
+    "genres": [
+      "Son Jalisciense"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111803,
+      "nanoseconds": 499000000
+    },
+    "occasions": [
+      "Religioso",
+      "Fiestas"
+    ],
+    "title": "La Guadalupana",
+    "youtubeUrl": "https://youtube.com/watch?v=jIGKzn3Y4Es"
+  },
+  {
+    "id": "zmz4e7c4jWl0pRWILnOb",
+    "title": "Cuando Quería Ser Grande",
+    "youtubeUrl": "https://www.youtube.com/watch?v=b0S-QoZtWFE",
+    "genres": [
+      "Balada",
+      "Ranchera"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111789,
+      "nanoseconds": 274000000
+    },
+    "occasions": [
+      "Día del Padre",
+      "Graduaciones",
+      "Ambientación"
+    ],
+    "artist": "Alejandro Fernández",
+    "createdBy": "admin-migration-script"
+  },
+  {
+    "id": "zwufqBbRnsFZzifg3AtJ",
+    "genres": [
+      "Bolero Ranchero",
+      "Balada"
+    ],
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1775111823,
+      "nanoseconds": 34000000
+    },
+    "occasions": [
+      "Serenata",
+      "Despecho",
+      "Ambientación"
+    ],
+    "title": "Flor sin retoño",
+    "youtubeUrl": "https://youtube.com/watch?v=Xmnz6ufyn8I",
+    "artist": "Javier Solís",
+    "createdBy": "admin-migration-script"
+  }
+]

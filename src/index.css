@@ -6,22 +6,26 @@
   --color-primary-container: #e1af27;
   --color-on-primary: #3f2e00;
   
-  --color-surface: #131313;
-  --color-surface-dim: #131313;
-  --color-surface-container-lowest: #0e0e0e;
-  --color-surface-container-low: #1c1b1b;
-  --color-surface-container: #20201f;
-  --color-surface-container-high: #2a2a2a;
-  --color-surface-container-highest: #353535;
+  --color-surface: #fffaf3;
+  --color-surface-dim: #f6efe4;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #faf1e6;
+  --color-surface-container: #f3e7d8;
+  --color-surface-container-high: #ebddca;
+  --color-surface-container-highest: #e2d2bc;
   
-  --color-on-surface: #e5e2e1;
-  --color-on-surface-variant: #d2c5ae;
+  --color-on-surface: #2f2618;
+  --color-on-surface-variant: #6e5c47;
+
+  --color-error: #ff6b6b;
+  --color-on-error: #2b0000;
+  --color-error-container: #5c1f1f;
   
-  --color-outline: #9b8f7a;
-  --color-outline-variant: #4e4634;
+  --color-outline: #bca788;
+  --color-outline-variant: #d8c6ae;
   
-  --color-background: #131313;
-  --color-on-background: #e5e2e1;
+  --color-background: #fffaf3;
+  --color-on-background: #2f2618;
 
   --font-serif: "Noto Serif", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
@@ -37,10 +41,10 @@
     background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-container) 100%);
   }
   .text-shadow-editorial {
-    text-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    text-shadow: 0 4px 12px rgba(31, 24, 16, 0.2);
   }
   .ambient-shadow {
-    box-shadow: 0 20px 40px -10px rgba(229, 226, 225, 0.06);
+    box-shadow: 0 20px 40px -10px rgba(34, 25, 14, 0.14);
   }
   .custom-scrollbar::-webkit-scrollbar {
     height: 4px;
@@ -60,4 +64,97 @@
 
 body {
   @apply bg-background text-on-background font-sans selection:bg-primary selection:text-on-primary;
+}
+
+:root {
+  color-scheme: light;
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --color-surface: #131313;
+  --color-surface-dim: #131313;
+  --color-surface-container-lowest: #0e0e0e;
+  --color-surface-container-low: #1c1b1b;
+  --color-surface-container: #20201f;
+  --color-surface-container-high: #2a2a2a;
+  --color-surface-container-highest: #353535;
+
+  --color-on-surface: #e5e2e1;
+  --color-on-surface-variant: #d2c5ae;
+
+  --color-outline: #9b8f7a;
+  --color-outline-variant: #4e4634;
+
+  --color-background: #131313;
+  --color-on-background: #e5e2e1;
+}
+
+:root[data-theme='light'] .site-nav {
+  background-color: rgba(56, 50, 45, 0.84);
+  border-bottom-color: rgba(255, 248, 237, 0.08);
+}
+
+:root[data-theme='light'] .site-footer {
+  background-color: rgba(50, 45, 41, 0.9);
+  border-top-color: rgba(255, 248, 237, 0.08);
+}
+
+.contact-overlay-card {
+  background-color: rgba(19, 19, 19, 0.7);
+}
+
+.contact-card-title {
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.contact-card-copy {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.contact-payment-strip {
+  background-color: rgba(14, 14, 14, 0.86);
+}
+
+.contact-payment-card {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+:root[data-theme='light'] .contact-overlay-card {
+  background-color: rgba(255, 250, 243, 0.32);
+}
+
+:root[data-theme='light'] .contact-payment-strip {
+  background-color: rgba(255, 255, 255, 0.52);
+}
+
+:root[data-theme='light'] .contact-payment-card {
+  background-color: rgba(255, 255, 255, 0.52);
+}
+
+:root[data-theme='light'] .contact-card-title {
+  color: rgba(47, 38, 24, 0.96);
+}
+
+:root[data-theme='light'] .contact-card-copy {
+  color: rgba(47, 38, 24, 0.82);
+}
+
+:root[data-theme='light'] .site-nav .text-on-surface-variant,
+:root[data-theme='light'] .site-nav .text-on-surface,
+:root[data-theme='light'] .site-footer .text-on-surface-variant {
+  color: rgba(255, 248, 237, 0.82);
+}
+
+:root[data-theme='light'] .site-nav .mobile-dropdown-menu .text-on-surface-variant,
+:root[data-theme='light'] .site-nav .mobile-dropdown-menu .text-on-surface {
+  color: var(--color-on-surface-variant);
+}
+
+:root[data-theme='dark'] .text-shadow-editorial {
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+:root[data-theme='dark'] .ambient-shadow {
+  box-shadow: 0 20px 40px -10px rgba(229, 226, 225, 0.06);
 }
