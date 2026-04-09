@@ -304,7 +304,7 @@ export const ContactView = () => {
               </p>
             </div>
             <a
-              href="/Mariachi-Cielito-Lindo-App.apk"
+              href="/Mariachi-Cielito-Lindo.apk"
               download="Mariachi-Cielito-Lindo.apk"
               className="inline-flex items-center justify-center gold-gradient text-on-primary px-8 py-4 font-bold text-base rounded-full hover:shadow-[0_0_24px_rgba(255,203,70,0.35)] transition-all whitespace-nowrap"
             >
