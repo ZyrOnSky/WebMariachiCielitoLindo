@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState, MouseEvent } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { Play, Pause, Volume2, VolumeX, Menu, X, Facebook, Instagram, Youtube, MessageCircle, Sun, Moon } from 'lucide-react';
 import { AnimatePresence, motion } from 'motion/react';
 import { ViewState } from './types';
@@ -7,7 +7,9 @@ import ReviewsView from './components/ReviewsView';
 import GalleryView from './components/GalleryView';
 import RepertoireView from './components/RepertoireView';
 import AdminView from './components/AdminView';
+import ScrollToTop from './components/ScrollToTop';
 import { Toaster, toast } from 'react-hot-toast';
+import { Routes, Route, useLocation, useNavigate, Navigate } from 'react-router-dom';
 import logoMain from '../medios/logos/logo.svg';
 import logoMobile from '../medios/logos/logmovil.svg';
 import logoHeader from '../medios/logos/logo_head_foot.png';
@@ -29,9 +31,41 @@ const BACKGROUND_PLAYLIST = [
   { title: "Hermoso Cariño", artist: "Vicente Fernández", url: "/canciones/Vicente%20Fern%C3%A1ndez%20Hermoso%20Cari%C3%B1o%20Oficial%20En%20Vivo.mp3" }
 ];
 
+const SEO_CONFIG: Record<string, { title: string, description: string }> = {
+  '/': { 
+    title: 'Mariachi Internacional Cielito Lindo 🎺 ¡La mejor música para tu evento!', 
+    description: 'Somos la música que acompaña tus historias más bellas. Contrata el mejor mariachi en Guayaquil para bodas, quinceañeras y todo tipo de eventos.' 
+  },
+  '/nosotros': { 
+    title: 'Nuestra Historia | Mariachi Cielito Lindo 🎺', 
+    description: 'Conoce la trayectoria y el profesionalismo de los músicos que dan vida al Mariachi Internacional Cielito Lindo. Tradición y pasión mexicana.' 
+  },
+  '/galeria': { 
+    title: 'Galería de Momentos | Mariachi Cielito Lindo 📸', 
+    description: 'Mira nuestras presentaciones en vivo, fotos y videos de las serenatas más alegres y emotivas de Guayaquil.' 
+  },
+  '/resenas': { 
+    title: 'Opiniones de Clientes ★★★★★ | Mariachi Cielito Lindo', 
+    description: 'Lee testimonios reales sobre nuestra puntualidad, talento y carisma. El mariachi mejor calificado para tu celebración.' 
+  },
+  '/repertorio': { 
+    title: 'Canciones y Repertorio | Mariachi Cielito Lindo 🎵', 
+    description: 'Explora nuestra amplia lista de canciones: desde clásicos rancheros hasta éxitos modernos para tu fiesta.' 
+  },
+  '/contacto': { 
+    title: 'Reserva tu Serenata | Mariachi Cielito Lindo 📞', 
+    description: 'Contáctanos ahora y asegura la mejor música para tu evento. Atención inmediata en Guayaquil vía WhatsApp.' 
+  },
+  '/portal-mcl': { 
+    title: 'Portal Privado | Mariachi Cielito Lindo', 
+    description: 'Acceso administrativo para miembros del Mariachi Cielito Lindo.' 
+  }
+};
+
 export default function App() {
   type ThemeMode = 'light' | 'dark';
-  const [currentView, setCurrentView] = useState<ViewState>('home');
+  const location = useLocation();
+  const navigate = useNavigate();
   const [isPlaying, setIsPlaying] = useState(false);
   const [isMuted, setIsMuted] = useState(false);
   const [hasInteracted, setHasInteracted] = useState(false);
@@ -44,7 +78,7 @@ export default function App() {
     }
     return 'dark';
   });
-  
+
   // Auth & Stealth State
   const [user, setUser] = useState<User | null>(null);
   const [userRole, setUserRole] = useState<'admin' | 'musician' | null>(null);
@@ -58,6 +92,30 @@ export default function App() {
     document.documentElement.setAttribute('data-theme', themeMode);
     window.localStorage.setItem('wmcl-theme', themeMode);
   }, [themeMode]);
+
+  // Dynamic SEO Update
+  useEffect(() => {
+    const config = SEO_CONFIG[location.pathname] || SEO_CONFIG['/'];
+    
+    // Update Document Title
+    document.title = config.title;
+
+    // Update Meta Description
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute('content', config.description);
+    }
+
+    // Update OpenGraph tags
+    const ogTitle = document.querySelector('meta[property="og:title"]');
+    if (ogTitle) ogTitle.setAttribute('content', config.title);
+
+    const ogDescription = document.querySelector('meta[property="og:description"]');
+    if (ogDescription) ogDescription.setAttribute('content', config.description);
+
+    const ogUrl = document.querySelector('meta[property="og:url"]');
+    if (ogUrl) ogUrl.setAttribute('content', window.location.href);
+  }, [location.pathname]);
 
   // Firebase Auth Listener
   useEffect(() => {
@@ -98,7 +156,7 @@ export default function App() {
     return () => document.removeEventListener('click', handleInteraction);
   }, [hasInteracted]);
 
-  const togglePlay = (e: MouseEvent) => {
+  const togglePlay = (e: React.MouseEvent) => {
     e.stopPropagation();
     if (audioRef.current) {
       if (isPlaying) {
@@ -113,7 +171,7 @@ export default function App() {
     }
   };
 
-  const toggleMute = (e: MouseEvent) => {
+  const toggleMute = (e: React.MouseEvent) => {
     e.stopPropagation();
     if (audioRef.current) {
       audioRef.current.muted = !isMuted;
@@ -121,13 +179,13 @@ export default function App() {
     }
   };
 
-  const navLinks: { id: ViewState, label: string }[] = [
-    { id: 'home', label: 'Inicio' },
-    { id: 'about', label: 'Nosotros' },
-    { id: 'gallery', label: 'Galería' },
-    { id: 'reviews', label: 'Reseñas' },
-    { id: 'repertoire', label: 'Repertorio' },
-    { id: 'contact', label: 'Contacto' },
+  const navLinks: { id: string, label: string, path: string }[] = [
+    { id: 'home', label: 'Inicio', path: '/' },
+    { id: 'about', label: 'Nosotros', path: '/nosotros' },
+    { id: 'gallery', label: 'Galería', path: '/galeria' },
+    { id: 'reviews', label: 'Reseñas', path: '/resenas' },
+    { id: 'repertoire', label: 'Repertorio', path: '/repertorio' },
+    { id: 'contact', label: 'Contacto', path: '/contacto' },
   ];
 
   const handleYoutubePlayerStateChange = (isOpen: boolean) => {
@@ -138,6 +196,26 @@ export default function App() {
 
   const toggleTheme = () => {
     setThemeMode((prev) => (prev === 'dark' ? 'light' : 'dark'));
+  };
+
+  const handleNavigate = (path: string) => {
+    navigate(path);
+    setIsMobileMenuOpen(false);
+  };
+
+  const viewToPath: Record<string, string> = {
+    home: '/',
+    about: '/nosotros',
+    gallery: '/galeria',
+    reviews: '/resenas',
+    repertoire: '/repertorio',
+    contact: '/contacto',
+    admin: '/portal-mcl'
+  };
+
+  const handleNavigateView = (view: string) => {
+    const path = viewToPath[view as string] || '/';
+    handleNavigate(path);
   };
 
   const handleTrackEnd = () => {
@@ -175,11 +253,13 @@ export default function App() {
   }, [currentTrackIndex]);
 
   return (<>
-    <Toaster 
-      position="top-right" 
-      toastOptions={{ duration: 4000 }} 
+    <Toaster
+      position="top-right"
+      toastOptions={{ duration: 4000 }}
       containerStyle={{ top: 100 }}
-    />    <div className="min-h-screen relative overflow-hidden bg-surface">
+    />
+    <ScrollToTop />
+    <div className="min-h-screen relative overflow-hidden bg-surface">
       {/* Audio Element */}
       <audio
         ref={audioRef}
@@ -206,11 +286,11 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
           <button
             onClick={() => {
-              setCurrentView('home');
+              handleNavigate('/');
               if (!user) {
                 const now = Date.now();
                 const diff = now - lastLogoClickTime.current;
-                
+
                 // If interval is less than 600ms, it's a consecutive click
                 if (diff < 600) {
                   const newClicks = logoClicks + 1;
@@ -223,7 +303,7 @@ export default function App() {
                 } else {
                   setLogoClicks(1); // Reset to first click if too slow
                 }
-                
+
                 lastLogoClickTime.current = now;
               }
             }}
@@ -247,8 +327,8 @@ export default function App() {
             {navLinks.map(link => (
               <button
                 key={link.id}
-                onClick={() => setCurrentView(link.id)}
-                className={`transition-colors pb-1 ${currentView === link.id ? 'text-primary border-b border-primary' : 'text-on-surface-variant hover:text-primary'}`}
+                onClick={() => handleNavigate(link.path)}
+                className={`transition-colors pb-1 ${location.pathname === link.path ? 'text-primary border-b border-primary' : 'text-on-surface-variant hover:text-primary'}`}
               >
                 {link.label}
               </button>
@@ -262,11 +342,11 @@ export default function App() {
             {themeMode === 'dark' ? <Sun size={18} /> : <Moon size={18} />}
           </button>
           {(user || isDoorRevealed) && (
-            <button 
-              onClick={() => setCurrentView(currentView === 'admin' ? 'home' : 'admin')} 
+            <button
+              onClick={() => handleNavigate(location.pathname === '/portal-mcl' ? '/' : '/portal-mcl')}
               className="hidden md:block gold-gradient text-on-primary px-6 py-3 font-label font-semibold text-sm hover:shadow-[0_0_20px_rgba(255,203,70,0.3)] transition-all active:scale-95 rounded-full"
             >
-              {!user ? 'Acceso Usuarios' : (currentView === 'admin' ? 'Volver al Inicio' : 'Panel Admin')}
+              {!user ? 'Acceso Usuarios' : (location.pathname === '/portal-mcl' ? 'Volver al Inicio' : 'Panel Admin')}
             </button>
           )}
           <div className="md:hidden flex items-center gap-1">
@@ -300,24 +380,18 @@ export default function App() {
                 {navLinks.map(link => (
                   <button
                     key={link.id}
-                    onClick={() => {
-                      setCurrentView(link.id);
-                      setIsMobileMenuOpen(false);
-                    }}
-                    className={`text-left text-lg py-2 transition-colors ${currentView === link.id ? 'text-primary font-bold' : 'text-on-surface-variant'}`}
+                    onClick={() => handleNavigate(link.path)}
+                    className={`text-left text-lg py-2 transition-colors ${location.pathname === link.path ? 'text-primary font-bold' : 'text-on-surface-variant'}`}
                   >
                     {link.label}
                   </button>
                 ))}
                 {(user || isDoorRevealed) && (
-                  <button 
-                    onClick={() => {
-                      setCurrentView(currentView === 'admin' ? 'home' : 'admin');
-                      setIsMobileMenuOpen(false);
-                    }} 
+                  <button
+                    onClick={() => handleNavigate(location.pathname === '/portal-mcl' ? '/' : '/portal-mcl')}
                     className="gold-gradient text-on-primary px-6 py-3 font-label font-semibold text-sm rounded-full w-full mt-2"
                   >
-                    {!user ? 'Acceso Usuarios' : (currentView === 'admin' ? 'Volver al Inicio' : 'Panel Admin')}
+                    {!user ? 'Acceso Usuarios' : (location.pathname === '/portal-mcl' ? 'Volver al Inicio' : 'Panel Admin')}
                   </button>
                 )}
               </div>
@@ -329,21 +403,35 @@ export default function App() {
       {/* Main Content Area with Transitions */}
       <main className="w-full min-h-screen">
         <AnimatePresence mode="wait">
-          {currentView === 'home' && <HomeView key="home" setView={setCurrentView} />}
-          {currentView === 'about' && <AboutView key="about" setView={setCurrentView} />}
-          {currentView === 'gallery' && <GalleryView key="gallery" setView={setCurrentView} onYoutubePlayerStateChange={handleYoutubePlayerStateChange} />}
-          {currentView === 'reviews' && <ReviewsView key="reviews" />}
-          {currentView === 'repertoire' && <RepertoireView key="repertoire" setView={setCurrentView} onYoutubePlayerStateChange={handleYoutubePlayerStateChange} />}
-          {currentView === 'contact' && <ContactView key="contact" />}
-          {currentView === 'admin' && (
-            <AdminView 
-              key="admin" 
-              setView={setCurrentView} 
-              onYoutubePlayerStateChange={handleYoutubePlayerStateChange} 
-              user={user}
-              role={userRole}
-            />
-          )}
+          <motion.div
+            key={location.pathname}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
+          >
+            <Routes location={location}>
+              <Route path="/" element={<HomeView setView={handleNavigateView} />} />
+              <Route path="/nosotros" element={<AboutView setView={handleNavigateView} />} />
+              <Route path="/galeria" element={<GalleryView setView={handleNavigateView} onYoutubePlayerStateChange={handleYoutubePlayerStateChange} />} />
+              <Route path="/resenas" element={<ReviewsView />} />
+              <Route path="/repertorio" element={<RepertoireView setView={handleNavigateView} onYoutubePlayerStateChange={handleYoutubePlayerStateChange} />} />
+              <Route path="/contacto" element={<ContactView />} />
+              <Route path="/portal-mcl" element={
+                (user || isDoorRevealed) ? (
+                  <AdminView
+                    setView={handleNavigateView}
+                    onYoutubePlayerStateChange={handleYoutubePlayerStateChange}
+                    user={user}
+                    role={userRole}
+                  />
+                ) : (
+                  <Navigate to="/" replace />
+                )
+              } />
+              <Route path="*" element={<Navigate to="/" replace />} />
+            </Routes>
+          </motion.div>
         </AnimatePresence>
       </main>
 

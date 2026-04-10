@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Dancing+Script:wght@400;700&display=swap');
 @import "tailwindcss";
-
 @theme {
   --color-primary: #ffcb46;
   --color-primary-container: #e1af27;
@@ -31,11 +30,13 @@
   --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
   --font-body: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
   --font-label: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-script: "Dancing Script", cursive;
 }
 
 @layer utilities {
   .glass-effect {
-    @apply bg-surface-container/60 backdrop-blur-[20px];
+    background-color: color-mix(in srgb, var(--color-surface-container), transparent 40%);
+    backdrop-filter: blur(20px);
   }
   .gold-gradient {
     background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-container) 100%);
@@ -63,7 +64,14 @@
 }
 
 body {
-  @apply bg-background text-on-background font-sans selection:bg-primary selection:text-on-primary;
+  background-color: var(--color-background);
+  color: var(--color-on-background);
+  font-family: var(--font-sans);
+}
+
+::selection {
+  background-color: var(--color-primary);
+  color: var(--color-on-primary);
 }
 
 :root {
