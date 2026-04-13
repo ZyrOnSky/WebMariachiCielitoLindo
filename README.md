@@ -62,3 +62,23 @@ Pasos:
 - La aplicación es una SPA y `netlify.toml` maneja el redirect a `index.html`.
 - La configuración de Firebase se carga desde `firebase-applet-config.json`.
 - Para despliegue, usa la rama `main` desde el repositorio laboral.
+
+## Sincronizar cambios limpios a `main`
+
+Si trabajas en `desarrollo` y quieres mantener `main` solo con los archivos indispensables para la web, usa el script de sincronización:
+
+```bash
+npm run sync:main
+```
+
+Ese script copia desde `desarrollo` a `main` solo los archivos críticos para el despliegue, y deja fuera datos, documentación y scripts internos.
+
+Ejecuta el script desde la rama `desarrollo`.
+
+Si quieres que además empuje los cambios a GitHub, añade `--push`:
+
+```bash
+npm run sync:main -- --push
+```
+
+Este método ayuda a mantener `main` limpio sin tener que limpiar manualmente cada vez.
