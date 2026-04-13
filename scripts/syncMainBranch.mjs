@@ -26,7 +26,8 @@ const allowedRootEntries = new Set([
   'firestore.indexes.json',
   'src',
   'public',
-  'styles'
+  'styles',
+  'medios'
 ]);
 
 const allowedPackageScripts = new Set(['dev', 'build', 'preview', 'clean', 'lint']);
