@@ -40,10 +40,10 @@ const ReviewCard = memo(({ review, isAdmin, onToggleFeature, onDelete, renderSta
         </div>
       )}
     </div>
-    <p className="text-on-surface text-base mb-4 leading-relaxed whitespace-pre-wrap line-clamp-4">{review.comment}</p>
-    <div className="flex justify-between items-end">
-      <p className="font-serif text-on-surface-variant">{review.userName}</p>
-      <span className="text-xs text-on-surface-variant/50">
+    <p className={`text-on-surface mb-4 leading-relaxed whitespace-pre-wrap line-clamp-4 break-words ${review.comment.length <= 80 ? 'text-base' : review.comment.length <= 150 ? 'text-sm' : 'text-xs'}`}>{review.comment}</p>
+    <div className="flex justify-between items-end gap-2 min-w-0">
+      <p className="font-serif text-on-surface-variant truncate max-w-[60%] text-sm" title={review.userName}>{review.userName}</p>
+      <span className="text-xs text-on-surface-variant/50 flex-shrink-0 whitespace-nowrap">
         {review.createdAt ? new Date(review.createdAt.toMillis()).toLocaleDateString() : 'Reciente'}
       </span>
     </div>
@@ -165,10 +165,29 @@ export default function ReviewsView() {
 
   const getDynamicFontSize = (text: string) => {
     const len = text.length;
-    if (len <= 50) return 'text-4xl md:text-6xl';
-    if (len <= 150) return 'text-2xl md:text-4xl';
-    if (len <= 300) return 'text-xl md:text-3xl';
-    return 'text-lg md:text-2xl'; // Minimum reasonable size
+    if (len <= 30) return 'text-3xl sm:text-4xl md:text-5xl';
+    if (len <= 80) return 'text-2xl sm:text-3xl md:text-4xl';
+    if (len <= 150) return 'text-xl sm:text-2xl md:text-3xl';
+    if (len <= 300) return 'text-lg sm:text-xl md:text-2xl';
+    if (len <= 500) return 'text-base sm:text-lg md:text-xl';
+    return 'text-sm sm:text-base md:text-lg';
+  };
+
+  const getCardFontSize = (text: string) => {
+    const len = text.length;
+    if (len <= 30) return 'text-base';
+    if (len <= 80) return 'text-sm';
+    if (len <= 150) return 'text-[13px]';
+    return 'text-xs';
+  };
+
+  const getCarouselFontSize = (text: string) => {
+    const len = text.length;
+    if (len <= 30) return 'text-2xl md:text-3xl';
+    if (len <= 80) return 'text-xl md:text-2xl';
+    if (len <= 150) return 'text-lg md:text-xl';
+    if (len <= 300) return 'text-base md:text-lg';
+    return 'text-sm md:text-base';
   };
 
   useEffect(() => {
@@ -497,13 +516,13 @@ export default function ReviewsView() {
                       {renderStarsList(review.rating)}
                     </div>
                     
-                    <p className="text-on-surface-variant font-script text-2xl md:text-3xl mb-10 leading-relaxed flex-grow opacity-90 group-hover:opacity-100 transition-opacity line-clamp-6">
+                    <p className={`text-on-surface-variant font-script mb-10 leading-relaxed flex-grow opacity-90 group-hover:opacity-100 transition-opacity line-clamp-4 break-words overflow-hidden ${review.comment.length <= 30 ? 'text-2xl md:text-3xl' : review.comment.length <= 80 ? 'text-xl md:text-2xl' : review.comment.length <= 150 ? 'text-lg md:text-xl' : review.comment.length <= 300 ? 'text-base md:text-lg' : 'text-sm md:text-base'}`}>
                       "{review.comment}"
                     </p>
                     
-                    <div className="flex items-center gap-3 border-t border-primary/10 pt-6">
-                      <div className="w-1.5 h-1.5 rounded-full bg-primary" />
-                      <p className="font-serif text-primary text-xl font-medium tracking-wide">
+                    <div className="flex items-center gap-3 border-t border-primary/10 pt-6 min-w-0 overflow-hidden">
+                      <div className="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0" />
+                      <p className="font-serif text-primary text-lg sm:text-xl font-medium tracking-wide truncate" title={review.userName}>
                         {review.userName}
                       </p>
                     </div>
@@ -783,17 +802,17 @@ export default function ReviewsView() {
                   {renderStarsList(viewingReview.rating)}
                 </div>
 
-                <p className={`font-script ${getDynamicFontSize(viewingReview.comment)} text-on-surface leading-[1.4] md:leading-[1.6] mb-12 italic opacity-95 transition-all duration-300`}>
+                <p className={`font-script ${getDynamicFontSize(viewingReview.comment)} text-on-surface leading-[1.4] md:leading-[1.6] mb-12 italic opacity-95 transition-all duration-300 break-words overflow-wrap-anywhere whitespace-pre-wrap`}>
                   "{viewingReview.comment}"
                 </p>
 
                 <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 border-t border-primary/10 pt-8 mt-auto">
-                  <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary font-bold text-lg">
-                      {viewingReview.userName.charAt(0)}
+                  <div className="flex items-center gap-4 min-w-0 overflow-hidden max-w-full">
+                    <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary font-bold text-lg flex-shrink-0">
+                      {viewingReview.userName.charAt(0).toUpperCase()}
                     </div>
-                    <div>
-                      <p className="font-serif text-primary text-2xl font-medium tracking-wide">
+                    <div className="min-w-0 overflow-hidden">
+                      <p className="font-serif text-primary text-lg sm:text-xl md:text-2xl font-medium tracking-wide truncate" title={viewingReview.userName}>
                         {viewingReview.userName}
                       </p>
                       <p className="text-xs text-on-surface-variant font-label uppercase tracking-widest mt-1">

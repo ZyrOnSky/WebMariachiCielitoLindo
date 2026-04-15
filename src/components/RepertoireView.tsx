@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { motion } from 'motion/react';
-import { Search, Lock, Plus, ListMusic, Trash2, Phone, Music, Copy, Check, PlayCircle, X, Sliders, CheckSquare2, Grid3x3, List } from 'lucide-react';
+import { Search, Lock, Plus, ListMusic, Trash2, Phone, Music, Copy, Check, PlayCircle, X, Sliders, CheckSquare2, Grid3x3, List, Cake, Heart, Star, Flame, Cross, User, Wine, PartyPopper, Guitar, Sparkles, ChevronDown } from 'lucide-react';
 import { ViewState } from '../types';
-import { collection, onSnapshot, orderBy, query } from 'firebase/firestore';
+import { collection, onSnapshot, orderBy, query, doc, getDoc } from 'firebase/firestore';
 import { db, handleFirestoreError, OperationType } from '../firebase';
 
 interface Song {
@@ -105,6 +105,76 @@ export default function RepertoireView({
   const [openDropdown, setOpenDropdown] = useState<'ocasion' | 'genero' | 'artista' | null>(null);
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
   const [expandedSongList, setExpandedSongList] = useState<Song | null>(null);
+  const [isSimplified, setIsSimplified] = useState(false);
+  const [openSimplifiedCategory, setOpenSimplifiedCategory] = useState<string | null>(null);
+
+  // Icon map for Firestore-based simplified repertoire
+  const ICON_MAP: Record<string, React.ReactNode> = {
+    music: <Music size={18} />,
+    cake: <Cake size={18} />,
+    heart: <Heart size={18} />,
+    star: <Star size={18} />,
+    flame: <Flame size={18} />,
+    cross: <Cross size={18} />,
+    user: <User size={18} />,
+    wine: <Wine size={18} />,
+    party: <PartyPopper size={18} />,
+    guitar: <Guitar size={18} />,
+    sparkles: <Sparkles size={18} />,
+  };
+
+  // Hardcoded fallback data (used when Firestore config doesn't exist)
+  const FALLBACK_SIMPLIFIED_DATA = [
+    { occasion: "Ambientación", icon: <Music size={18} />, songs: ["Llamarada", "Mi Eterno Amor Secreto", "Sabes Una Cosa", "El triste", "Por el Camino", "Cómo Han Pasado Los Años", "Ya Lo Pasado Pasado", "De Qué Manera Te Olvido", "Despacito", "Collar de Lágrimas"] },
+    { occasion: "Fiestas y Despedidas", icon: <PartyPopper size={18} />, songs: ["Hasta Las 6 De La Mañana", "Alta y Delgadita", "Pollera Colorada", "La Conga", "El Prendedor", "Muchacho Malo", "Es Mentiroso", "Si Una Vez", "A pesar de todo", "Que Agonia"] },
+    { occasion: "Aniversarios y Románticas", icon: <Heart size={18} />, songs: ["Mi Eterno Amor Secreto", "El triste", "Veinticinco Rosas", "Por Debajo de la Mesa", "Malagueña", "La gloria eres tu", "Dulce Pecado", "Mi Mayor Anhelo", "Collar de Lágrimas", "Mía"] },
+    { occasion: "Serenatas", icon: <Guitar size={18} />, songs: ["Júrame", "Sabes Una Cosa", "Sabor a Mí", "Secreto de Amor", "Por Una Mujer Bonita", "Canta, Canta", "La gloria eres tu", "El Amor Más Grande del Planeta", "Mi Mayor Anhelo", "Mía"] },
+    { occasion: "Despecho", icon: <Wine size={18} />, songs: ["Llamarada", "El triste", "Que sufra, que chupe y que llore", "no sufrire por nadie", "De Qué Manera Te Olvido", "A pesar de todo", "Que Agonia", "Collar de Lágrimas", "Pa' Todo el Año", "Que Nadie Sepa Mi Sufrir"] },
+    { occasion: "Día de la Madre", icon: <Heart size={18} />, songs: ["Mi Virgen Bella", "Hoy He Vuelto Madre a Recordar", "Cómo Han Pasado Los Años", "Algo de Mí Se Fue Contigo Madre", "Señora, Señora", "Yo Te Esperaba", "A La Sombra de Mi Madre", "El Amor Más Grande del Planeta", "La Niña de Tus Ojos", "Madre De Los Jóvenes"] },
+    { occasion: "Bodas y Matrimonios", icon: <Sparkles size={18} />, songs: ["Qué Bonito Amor", "Reloj", "Por Debajo de la Mesa", "Yo Te Esperaba", "Sabor a Mí", "La gloria eres tu", "El Amor Más Grande del Planeta", "La Gloria de Dios", "Sabor a Mí", "Hermoso Cariño"] },
+    { occasion: "Cumpleaños", icon: <Cake size={18} />, songs: ["Happy birthday", "Cómo Han Pasado Los Años", "Señora, Señora", "En Tu Día", "Yo Te Esperaba", "A La Sombra de Mi Madre", "Mi Viejo", "Yo Soy el Aventurero", "Hermoso Cariño", "Quinceañera"] },
+    { occasion: "Música Cristiana/Católica", icon: <Cross size={18} />, songs: ["Mi Virgen Bella", "La Guadalupana", "Todopoderoso", "Josué 1:9", "Escalando Peldaños", "Todopoderoso", "Ave María", "Santa María", "Dios Está Aquí", "La Niña de Tus Ojos"] },
+    { occasion: "Velorios y Sepelios", icon: <Flame size={18} />, songs: ["Vasija de Barro", "Hoy He Vuelto Madre a Recordar", "Algo de Mí Se Fue Contigo Madre", "Collar de Lágrimas", "Cuando Quería Ser Grande", "Mi Viejo", "A La Sombra de Mi Madre", "La Gloria de Dios", "Cuando un Amigo Se Va (Velorio)", "Madre De Los Jóvenes"] },
+    { occasion: "Día del Padre", icon: <User size={18} />, songs: ["Cuando Quería Ser Grande", "Mi Viejo", "La Niña de Tus Ojos", "Cómo Han Pasado Los Años", "Hoy He Vuelto Madre a Recordar", "El Rey", "Pa' Todo el Año", "Hermoso Cariño", "Por el Camino", "Yo Soy el Aventurero"] },
+    { occasion: "Quinceañeras", icon: <Star size={18} />, songs: ["Quinceañera", "Yo Te Esperaba", "Hermoso Cariño", "Qué Bonito Amor", "Veinticinco Rosas", "Yo Te Esperaba", "Reloj", "Sabes Una Cosa", "Mi Eterno Amor Secreto", "La gloria eres tu"] },
+    { occasion: "Graduaciones", icon: <Sparkles size={18} />, songs: ["Cómo Han Pasado Los Años", "El triste", "Sabes Una Cosa", "Malagueña", "La Fiesta del Mariachi", "Ya Lo Pasado Pasado", "Por el Camino", "Qué Bonito Amor", "Veinticinco Rosas", "Mi Eterno Amor Secreto"] },
+  ];
+
+  // Firestore-driven simplified config
+  const [firestoreSimplifiedConfig, setFirestoreSimplifiedConfig] = useState<{categories: {name: string; icon: string; songIds: string[]; order: number}[]} | null>(null);
+
+  useEffect(() => {
+    const loadSimplifiedConfig = async () => {
+      try {
+        const docRef = doc(db, 'simplified_repertoire', 'config');
+        const snap = await getDoc(docRef);
+        if (snap.exists()) {
+          setFirestoreSimplifiedConfig(snap.data() as any);
+        }
+      } catch (error) {
+        // Fail silently — fallback to hardcoded data
+        if (import.meta.env.DEV) console.warn('Simplified config not found, using fallback:', error);
+      }
+    };
+    loadSimplifiedConfig();
+  }, []);
+
+  // Build the effective simplified data (Firestore > Fallback)
+  const SIMPLIFIED_DATA = firestoreSimplifiedConfig && firestoreSimplifiedConfig.categories.length > 0
+    ? firestoreSimplifiedConfig.categories
+        .sort((a, b) => a.order - b.order)
+        .map(cat => ({
+          occasion: cat.name,
+          icon: ICON_MAP[cat.icon] || <Music size={18} />,
+          songIds: cat.songIds,
+          mode: 'firestore' as const,
+        }))
+    : FALLBACK_SIMPLIFIED_DATA.map(cat => ({
+        occasion: cat.occasion,
+        icon: cat.icon,
+        songs: cat.songs,
+        mode: 'fallback' as const,
+      }));
 
   const itemsPerPage = windowWidth >= 1536 ? 12 : windowWidth >= 1280 ? 8 : 6;
 
@@ -340,341 +410,516 @@ export default function RepertoireView({
           <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl mb-4 sm:mb-5 md:mb-6 text-primary leading-tight">
             Nuestro <br />Repertorio
           </h1>
-          <p className="text-on-surface-variant font-light text-base sm:text-lg md:text-base lg:text-lg max-w-2xl mb-8 sm:mb-10 md:mb-12 leading-relaxed">
+          <p className="text-on-surface-variant font-light text-base sm:text-lg md:text-base lg:text-lg max-w-2xl mb-4 sm:mb-5 md:mb-6 leading-relaxed">
             Explore nuestra exquisita seleccion de piezas musicales. Añada sus favoritas a su lista personalizada para solicitar una cotizacion detallada.
           </p>
 
-          <div className="flex flex-col gap-3 sm:gap-4 mb-6 sm:mb-8">
-            <div className="flex gap-2 items-center flex-wrap sm:flex-nowrap">
-              <div className="relative flex-1 min-w-0">
-                <Search className="absolute left-3 sm:left-4 top-1/2 -translate-y-1/2 text-on-surface-variant" size={18} />
-                <input
-                  type="text"
-                  placeholder="Buscar por titulo..."
-                  value={searchTerm}
-                  onChange={(e: React.ChangeEvent<HTMLInputElement>) => setSearchTerm(e.target.value)}
-                  className="w-full bg-surface-container-low border border-outline-variant/30 rounded-full py-2 sm:py-3 pl-10 sm:pl-12 pr-3 sm:pr-4 text-xs sm:text-sm md:text-base text-on-surface focus:outline-none focus:border-primary transition-colors"
-                />
-              </div>
-
-              <button
-                onClick={() => setShowAdvancedFilter(true)}
-                className="px-3 sm:px-4 py-2 sm:py-3 bg-surface-container-low border border-outline-variant/30 rounded-full text-on-surface hover:border-primary hover:text-primary transition-colors flex items-center gap-1 sm:gap-2 text-xs sm:text-sm font-medium whitespace-nowrap"
-                title="Abrir filtro avanzado"
-              >
-                <Sliders size={16} /> <span className="hidden sm:inline">Filtro</span>
-              </button>
-
-              {(searchTerm || selectedGenres.length > 0 || selectedOccasions.length > 0 || selectedArtists.length > 0) && (
-                <button
-                  onClick={clearAllFilters}
-                  className="px-2.5 sm:px-4 py-2 sm:py-3 bg-surface-container-low border border-outline-variant/30 rounded-full text-on-surface-variant hover:border-error hover:text-error transition-colors text-xs sm:text-sm font-medium"
-                  title="Limpiar filtros"
-                >
-                  <X size={16} />
-                </button>
-              )}
-
-              <div className="flex gap-1.5 ml-auto">
-                <button
-                  onClick={() => setViewMode('grid')}
-                  className={`px-2 sm:px-3 py-2 sm:py-3 rounded-full transition-colors border ${
-                    viewMode === 'grid'
-                      ? 'bg-primary text-on-primary border-primary'
-                      : 'bg-surface-container-low border-outline-variant/30 text-on-surface hover:border-primary hover:text-primary'
-                  } flex items-center gap-1 sm:gap-2 text-xs sm:text-sm font-medium`}
-                  title="Vista de tarjetas"
-                >
-                  <Grid3x3 size={16} />
-                  <span className="hidden sm:inline">Tarjetas</span>
-                </button>
-                <button
-                  onClick={() => setViewMode('list')}
-                  className={`px-2 sm:px-3 py-2 sm:py-3 rounded-full transition-colors border ${
-                    viewMode === 'list'
-                      ? 'bg-primary text-on-primary border-primary'
-                      : 'bg-surface-container-low border-outline-variant/30 text-on-surface hover:border-primary hover:text-primary'
-                  } flex items-center gap-1 sm:gap-2 text-xs sm:text-sm font-medium`}
-                  title="Vista de lista"
-                >
-                  <List size={16} />
-                  <span className="hidden sm:inline">Lista</span>
-                </button>
-              </div>
+          <div className="mb-8 flex flex-col sm:flex-row items-start sm:items-center gap-4 bg-surface-container-low/50 p-4 rounded-3xl border border-outline-variant/10">
+            <div className="flex-1">
+              <h3 className="text-[#D4AF37] font-serif text-lg font-bold mb-1 italic">¿No encuentras tu canción?</h3>
+              <p className="text-on-surface-variant text-sm font-light">Prueba Nuestro Repertorio Simplificado</p>
             </div>
-
-            {!loading && (quickOccasions.length > 0 || quickGenres.length > 0 || allArtists.length > 0) && (
-              <div className="flex gap-2 flex-wrap sm:flex-nowrap">
-                {/* Dropdown Ocasión */}
-                <div className="relative">
-                  <button
-                    onClick={() => setOpenDropdown(openDropdown === 'ocasion' ? null : 'ocasion')}
-                    className={`px-3 sm:px-4 py-2 sm:py-3 rounded-full text-xs sm:text-sm font-medium transition-all border ${
-                      selectedOccasions.length > 0
-                        ? 'bg-on-surface-variant/10 border-on-surface-variant text-on-surface-variant'
-                        : 'bg-surface-container-low border-outline-variant/30 text-on-surface hover:border-primary'
-                    } flex items-center gap-1.5 whitespace-nowrap`}
-                  >
-                    <Music size={14} />
-                    Ocasión
-                    {selectedOccasions.length > 0 && <span className="text-[10px] font-bold">{selectedOccasions.length}</span>}
-                  </button>
-                  {openDropdown === 'ocasion' && (
-                    <div className="absolute top-full mt-1 left-0 bg-surface-container-low border border-outline-variant/30 rounded-xl shadow-lg z-50 min-w-max max-w-xs max-h-64 overflow-y-auto">
-                      {allOccasions.map((occasion) => (
-                        <button
-                          key={occasion}
-                          onClick={() => {
-                            toggleQuickSingle(occasion, selectedOccasions, setSelectedOccasions);
-                            setOpenDropdown(null);
-                          }}
-                          className={`block w-full text-left px-3 sm:px-4 py-2 sm:py-2.5 border-b border-outline-variant/10 last:border-b-0 text-xs sm:text-sm transition-colors ${
-                            selectedOccasions.includes(occasion)
-                              ? 'bg-on-surface-variant/20 text-on-surface font-semibold'
-                              : 'text-on-surface hover:bg-surface-container/50'
-                          }`}
-                        >
-                          {occasion}
-                        </button>
-                      ))}
-                    </div>
-                  )}
-                </div>
-
-                {/* Dropdown Género */}
-                <div className="relative">
-                  <button
-                    onClick={() => setOpenDropdown(openDropdown === 'genero' ? null : 'genero')}
-                    className={`px-3 sm:px-4 py-2 sm:py-3 rounded-full text-xs sm:text-sm font-medium transition-all border ${
-                      selectedGenres.length > 0
-                        ? 'bg-primary/10 border-primary text-primary'
-                        : 'bg-surface-container-low border-outline-variant/30 text-on-surface hover:border-primary'
-                    } flex items-center gap-1.5 whitespace-nowrap`}
-                  >
-                    <ListMusic size={14} />
-                    Género
-                    {selectedGenres.length > 0 && <span className="text-[10px] font-bold">{selectedGenres.length}</span>}
-                  </button>
-                  {openDropdown === 'genero' && (
-                    <div className="absolute top-full mt-1 left-0 bg-surface-container-low border border-outline-variant/30 rounded-xl shadow-lg z-50 min-w-max max-w-xs max-h-64 overflow-y-auto">
-                      {allGenres.map((genre) => (
-                        <button
-                          key={genre}
-                          onClick={() => {
-                            toggleQuickSingle(genre, selectedGenres, setSelectedGenres);
-                            setOpenDropdown(null);
-                          }}
-                          className={`block w-full text-left px-3 sm:px-4 py-2 sm:py-2.5 border-b border-outline-variant/10 last:border-b-0 text-xs sm:text-sm transition-colors ${
-                            selectedGenres.includes(genre)
-                              ? 'bg-primary/20 text-primary font-semibold'
-                              : 'text-on-surface hover:bg-surface-container/50'
-                          }`}
-                        >
-                          {genre}
-                        </button>
-                      ))}
-                    </div>
-                  )}
-                </div>
-
-                {/* Dropdown Artista */}
-                <div className="relative">
-                  <button
-                    onClick={() => setOpenDropdown(openDropdown === 'artista' ? null : 'artista')}
-                    className={`px-3 sm:px-4 py-2 sm:py-3 rounded-full text-xs sm:text-sm font-medium transition-all border ${
-                      selectedArtists.length > 0
-                        ? 'bg-error/10 border-error text-error'
-                        : 'bg-surface-container-low border-outline-variant/30 text-on-surface hover:border-error'
-                    } flex items-center gap-1.5 whitespace-nowrap`}
-                  >
-                    <Music size={14} />
-                    Artista
-                    {selectedArtists.length > 0 && <span className="text-[10px] font-bold">{selectedArtists.length}</span>}
-                  </button>
-                  {openDropdown === 'artista' && (
-                    <div className="absolute top-full mt-1 left-0 bg-surface-container-low border border-outline-variant/30 rounded-xl shadow-lg z-50 min-w-max max-w-xs max-h-64 overflow-y-auto">
-                      {allArtists.map((artist) => (
-                        <button
-                          key={artist}
-                          onClick={() => {
-                            toggleQuickSingle(artist, selectedArtists, setSelectedArtists);
-                            setOpenDropdown(null);
-                          }}
-                          className={`block w-full text-left px-3 sm:px-4 py-2 sm:py-2.5 border-b border-outline-variant/10 last:border-b-0 text-xs sm:text-sm transition-colors ${
-                            selectedArtists.includes(artist)
-                              ? 'bg-error/20 text-error font-semibold'
-                              : 'text-on-surface hover:bg-surface-container/50'
-                          }`}
-                        >
-                          {artist}
-                        </button>
-                      ))}
-                    </div>
-                  )}
-                </div>
-              </div>
-            )}
-
-            {/* Dropdown Close Handler - click outside */}
-            {openDropdown && (
-              <div
-                className="fixed inset-0 z-40"
-                onClick={() => setOpenDropdown(null)}
-              />
-            )}
-
-            {(selectedGenres.length > 0 || selectedOccasions.length > 0 || selectedArtists.length > 0) && (
-              <div className="flex flex-wrap gap-1.5 sm:gap-2">
-                {selectedGenres.map((g) => (
-                  <span key={g} className="bg-primary/10 border border-primary/30 text-primary text-[10px] sm:text-xs px-2 sm:px-3 py-1 rounded-full flex items-center gap-0.5 sm:gap-1">
-                    <span className="truncate">{g}</span>
-                    <button onClick={() => setSelectedGenres(selectedGenres.filter((x) => x !== g))} className="hover:text-primary/70 flex-shrink-0">
-                      <X size={12} />
-                    </button>
-                  </span>
-                ))}
-
-                {selectedOccasions.map((o) => (
-                  <span key={o} className="bg-on-surface-variant/10 border border-on-surface-variant/30 text-on-surface-variant text-[10px] sm:text-xs px-2 sm:px-3 py-1 rounded-full flex items-center gap-0.5 sm:gap-1">
-                    <span className="truncate">{o}</span>
-                    <button onClick={() => setSelectedOccasions(selectedOccasions.filter((x) => x !== o))} className="hover:text-on-surface-variant/70 flex-shrink-0">
-                      <X size={12} />
-                    </button>
-                  </span>
-                ))}
-
-                {selectedArtists.map((a) => (
-                  <span key={a} className="bg-error/10 border border-error/30 text-error text-[10px] sm:text-xs px-2 sm:px-3 py-1 rounded-full flex items-center gap-0.5 sm:gap-1">
-                    <span className="truncate">{a}</span>
-                    <button onClick={() => setSelectedArtists(selectedArtists.filter((x) => x !== a))} className="hover:text-error/70 flex-shrink-0">
-                      <X size={12} />
-                    </button>
-                  </span>
-                ))}
-              </div>
-            )}
+            <div className="flex items-center gap-3">
+              <span className={`text-xs font-bold uppercase tracking-wider ${!isSimplified ? 'text-primary' : 'text-on-surface-variant/60'}`}>Normal</span>
+              <button 
+                onClick={() => setIsSimplified(!isSimplified)}
+                className={`relative w-14 h-7 rounded-full transition-colors duration-300 focus:outline-none ${isSimplified ? 'bg-primary' : 'bg-outline-variant/30'}`}
+              >
+                <motion.div 
+                  initial={false}
+                  animate={{ x: isSimplified ? 28 : 2 }}
+                  transition={{ type: "spring", stiffness: 500, damping: 30 }}
+                  className="absolute top-1 left-1 w-5 h-5 bg-white rounded-full shadow-md"
+                />
+              </button>
+              <span className={`text-xs font-bold uppercase tracking-wider ${isSimplified ? 'text-primary' : 'text-on-surface-variant/60'}`}>Simplificado</span>
+            </div>
           </div>
 
-          {viewMode === 'grid' ? (
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-3 sm:gap-4 md:gap-5 lg:gap-6 mb-8 sm:mb-10 md:mb-12" style={{ gridAutoRows: 'minmax(0, 1fr)' }}>
-              {loading ? (
-                <div className="col-span-full text-center py-12 text-on-surface-variant">Cargando repertorio...</div>
-              ) : paginatedSongs.length === 0 ? (
-                <div className="col-span-full text-center py-12 text-on-surface-variant">No se encontraron canciones disponibles en este momento.</div>
-              ) : (
-                paginatedSongs.map((song) => {
-                  const isSelected = selected.some((s) => s.id === song.id);
-                  return (
-                    <div key={song.id} className={`flex flex-col h-full bg-surface-container-low border ${isSelected ? 'border-primary' : 'border-outline-variant/10'} rounded-2xl sm:rounded-3xl p-3 sm:p-5 md:p-6 relative group transition-colors`}>
-                      <Lock size={14} className="absolute top-3 sm:top-6 right-3 sm:right-6 text-on-surface-variant/50" />
+          {!isSimplified ? (
+            <>
+              <div className="flex flex-col gap-3 sm:gap-4 mb-6 sm:mb-8">
+                <div className="flex gap-2 items-center flex-wrap sm:flex-nowrap">
+                  <div className="relative flex-1 min-w-0">
+                    <Search className="absolute left-3 sm:left-4 top-1/2 -translate-y-1/2 text-on-surface-variant" size={18} />
+                    <input
+                      type="text"
+                      placeholder="Buscar por titulo..."
+                      value={searchTerm}
+                      onChange={(e: React.ChangeEvent<HTMLInputElement>) => setSearchTerm(e.target.value)}
+                      className="w-full bg-surface-container-low border border-outline-variant/30 rounded-full py-2 sm:py-3 pl-10 sm:pl-12 pr-3 sm:pr-4 text-xs sm:text-sm md:text-base text-on-surface focus:outline-none focus:border-primary transition-colors"
+                    />
+                  </div>
 
-                      <div className="flex flex-wrap gap-1.5 mb-3 sm:mb-4 md:mb-6">
-                        {getDisplayedGenres(song.genres).map((g) => (
-                          <span key={`g-${g}`} className="text-[9px] sm:text-[10px] font-bold uppercase tracking-wider text-primary border border-primary/30 px-2 py-1 rounded-md">
-                            {g}
-                          </span>
-                        ))}
-                        {getDisplayedOccasions(song.occasions).map((o) => (
-                          <span key={`o-${o}`} className="text-[9px] sm:text-[10px] font-bold uppercase tracking-wider text-on-surface-variant border border-outline-variant/30 px-2 py-1 rounded-md">
-                            {o}
-                          </span>
-                        ))}
-                        {(getHiddenGenresCount(song.genres) > 0 || getHiddenOccasionsCount(song.occasions) > 0) && (
-                          <span className="text-[9px] sm:text-[10px] font-bold uppercase tracking-wider text-on-surface-variant/60 border border-outline-variant/20 px-2 py-1 rounded-md bg-surface-container/30 cursor-pointer hover:border-outline-variant/40 transition-colors">
-                            +{getHiddenGenresCount(song.genres) + getHiddenOccasionsCount(song.occasions)} más
-                          </span>
-                        )}
-                      </div>
+                  <button
+                    onClick={() => setShowAdvancedFilter(true)}
+                    className="px-3 sm:px-4 py-2 sm:py-3 bg-surface-container-low border border-outline-variant/30 rounded-full text-on-surface hover:border-primary hover:text-primary transition-colors flex items-center gap-1 sm:gap-2 text-xs sm:text-sm font-medium whitespace-nowrap"
+                    title="Abrir filtro avanzado"
+                  >
+                    <Sliders size={16} /> <span className="hidden sm:inline">Filtro</span>
+                  </button>
 
-                      <h4 className="font-serif text-lg sm:text-xl md:text-2xl text-on-surface mb-1 line-clamp-2">{song.title}</h4>
-                      <p className="text-xs sm:text-sm text-on-surface-variant italic mb-6 sm:mb-8 flex-1 line-clamp-1">{song.artist}</p>
-
-                      <div className="flex items-center justify-end gap-1.5 sm:gap-2 mt-auto pt-4">
-                        {extractYouTubeId(song.youtubeUrl) && (
-                          <button
-                            onClick={() => setPlayingSong(song)}
-                            className="text-[10px] sm:text-xs font-semibold flex items-center gap-0.5 sm:gap-1 px-2 sm:px-2.5 py-1 sm:py-1.5 rounded-full border border-primary/40 text-primary hover:bg-primary/10 transition-colors whitespace-nowrap"
-                            title="Reproducir en YouTube"
-                          >
-                            <PlayCircle size={12} className="sm:size-3.5" />
-                            <span className="hidden sm:inline">Reproducir</span>
-                            <span className="sm:hidden">Play</span>
-                          </button>
-                        )}
-
-                        <button
-                          onClick={() => toggleSong(song)}
-                          className={`text-xs sm:text-sm font-bold flex items-center gap-0.5 sm:gap-1 px-2 sm:px-3 py-1 sm:py-1.5 rounded-full transition-colors whitespace-nowrap ${isSelected ? 'bg-primary text-on-primary' : 'border border-outline-variant text-on-surface hover:border-primary hover:text-primary'}`}
-                        >
-                          {isSelected ? 'Anadido' : <><Plus size={14} className="sm:size-4" /> <span className="hidden sm:inline">Anadir</span></>}
-                        </button>
-                      </div>
-                    </div>
-                  );
-                })
-              )}
-            </div>
-          ) : (
-            <div className="space-y-2 mb-8 sm:mb-10 md:mb-12">
-              {loading ? (
-                <div className="text-center py-12 text-on-surface-variant">Cargando repertorio...</div>
-              ) : paginatedSongs.length === 0 ? (
-                <div className="text-center py-12 text-on-surface-variant">No se encontraron canciones disponibles en este momento.</div>
-              ) : (
-                paginatedSongs.map((song) => {
-                  const isSelected = selected.some((s) => s.id === song.id);
-                  return (
-                    <div
-                      key={song.id}
-                      onClick={() => setExpandedSongList(song)}
-                      className={`flex items-center justify-between gap-3 bg-surface-container-low border ${
-                        isSelected ? 'border-primary' : 'border-outline-variant/10'
-                      } rounded-lg p-3 sm:p-4 transition-all hover:border-primary/50 cursor-pointer group`}
+                  {(searchTerm || selectedGenres.length > 0 || selectedOccasions.length > 0 || selectedArtists.length > 0) && (
+                    <button
+                      onClick={clearAllFilters}
+                      className="px-2.5 sm:px-4 py-2 sm:py-3 bg-surface-container-low border border-outline-variant/30 rounded-full text-on-surface-variant hover:border-error hover:text-error transition-colors text-xs sm:text-sm font-medium"
+                      title="Limpiar filtros"
                     >
-                      <div className="flex items-center gap-2 sm:gap-3 min-w-0 flex-1">
-                        <div className="w-10 sm:w-12 h-10 sm:h-12 rounded-lg bg-surface-container-highest flex items-center justify-center text-primary flex-shrink-0">
-                          <Music size={14} className="sm:size-4" />
-                        </div>
-                        <div className="min-w-0 flex-1">
-                          <h4 className="font-serif text-xs sm:text-sm font-medium text-on-surface line-clamp-1 group-hover:text-primary transition-colors">
-                            {song.title}
-                          </h4>
-                          <p className="text-[10px] sm:text-xs text-on-surface-variant line-clamp-1">{song.artist}</p>
-                        </div>
-                      </div>
+                      <X size={16} />
+                    </button>
+                  )}
 
-                      <div className="flex items-center gap-1 sm:gap-2 flex-shrink-0">
-                        {extractYouTubeId(song.youtubeUrl) && (
-                          <button
-                            onClick={(e) => {
-                              e.stopPropagation();
-                              setPlayingSong(song);
-                            }}
-                            className="p-1.5 sm:p-2 text-primary hover:bg-primary/10 rounded-lg transition-colors"
-                            title="Reproducir en YouTube"
-                          >
-                            <PlayCircle size={14} className="sm:size-4" />
-                          </button>
-                        )}
+                  <div className="flex gap-1.5 ml-auto">
+                    <button
+                      onClick={() => setViewMode('grid')}
+                      className={`px-2 sm:px-3 py-2 sm:py-3 rounded-full transition-colors border ${
+                        viewMode === 'grid'
+                          ? 'bg-primary text-on-primary border-primary'
+                          : 'bg-surface-container-low border-outline-variant/30 text-on-surface hover:border-primary hover:text-primary'
+                      } flex items-center gap-1 sm:gap-2 text-xs sm:text-sm font-medium`}
+                      title="Vista de tarjetas"
+                    >
+                      <Grid3x3 size={16} />
+                      <span className="hidden sm:inline">Tarjetas</span>
+                    </button>
+                    <button
+                      onClick={() => setViewMode('list')}
+                      className={`px-2 sm:px-3 py-2 sm:py-3 rounded-full transition-colors border ${
+                        viewMode === 'list'
+                          ? 'bg-primary text-on-primary border-primary'
+                          : 'bg-surface-container-low border-outline-variant/30 text-on-surface hover:border-primary hover:text-primary'
+                      } flex items-center gap-1 sm:gap-2 text-xs sm:text-sm font-medium`}
+                      title="Vista de lista"
+                    >
+                      <List size={16} />
+                      <span className="hidden sm:inline">Lista</span>
+                    </button>
+                  </div>
+                </div>
 
-                        <button
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            toggleSong(song);
-                          }}
-                          className={`p-1.5 sm:p-2 rounded-lg transition-colors font-bold ${
-                            isSelected
-                              ? 'bg-primary text-on-primary'
-                              : 'text-on-surface hover:bg-surface-container border border-outline-variant hover:border-primary'
-                          }`}
-                        >
-                          {isSelected ? <Check size={14} className="sm:size-4" /> : <Plus size={14} className="sm:size-4" />}
-                        </button>
-                      </div>
+                {!loading && (quickOccasions.length > 0 || quickGenres.length > 0 || allArtists.length > 0) && (
+                  <div className="flex gap-2 flex-wrap sm:flex-nowrap">
+                    {/* Dropdown Ocasión */}
+                    <div className="relative">
+                      <button
+                        onClick={() => setOpenDropdown(openDropdown === 'ocasion' ? null : 'ocasion')}
+                        className={`px-3 sm:px-4 py-2 sm:py-3 rounded-full text-xs sm:text-sm font-medium transition-all border ${
+                          selectedOccasions.length > 0
+                            ? 'bg-on-surface-variant/10 border-on-surface-variant text-on-surface-variant'
+                            : 'bg-surface-container-low border-outline-variant/30 text-on-surface hover:border-primary'
+                        } flex items-center gap-1.5 whitespace-nowrap`}
+                      >
+                        <Music size={14} />
+                        Ocasión
+                        {selectedOccasions.length > 0 && <span className="text-[10px] font-bold">{selectedOccasions.length}</span>}
+                      </button>
+                      {openDropdown === 'ocasion' && (
+                        <div className="absolute top-full mt-1 left-0 bg-surface-container-low border border-outline-variant/30 rounded-xl shadow-lg z-50 min-w-max max-w-xs max-h-64 overflow-y-auto">
+                          {allOccasions.map((occasion) => (
+                            <button
+                              key={occasion}
+                              onClick={() => {
+                                toggleQuickSingle(occasion, selectedOccasions, setSelectedOccasions);
+                                setOpenDropdown(null);
+                              }}
+                              className={`block w-full text-left px-3 sm:px-4 py-2 sm:py-2.5 border-b border-outline-variant/10 last:border-b-0 text-xs sm:text-sm transition-colors ${
+                                selectedOccasions.includes(occasion)
+                                  ? 'bg-on-surface-variant/20 text-on-surface font-semibold'
+                                  : 'text-on-surface hover:bg-surface-container/50'
+                              }`}
+                            >
+                              {occasion}
+                            </button>
+                          ))}
+                        </div>
+                      )}
                     </div>
-                  );
-                })
+
+                    {/* Dropdown Género */}
+                    <div className="relative">
+                      <button
+                        onClick={() => setOpenDropdown(openDropdown === 'genero' ? null : 'genero')}
+                        className={`px-3 sm:px-4 py-2 sm:py-3 rounded-full text-xs sm:text-sm font-medium transition-all border ${
+                          selectedGenres.length > 0
+                            ? 'bg-primary/10 border-primary text-primary'
+                            : 'bg-surface-container-low border-outline-variant/30 text-on-surface hover:border-primary'
+                        } flex items-center gap-1.5 whitespace-nowrap`}
+                      >
+                        <ListMusic size={14} />
+                        Género
+                        {selectedGenres.length > 0 && <span className="text-[10px] font-bold">{selectedGenres.length}</span>}
+                      </button>
+                      {openDropdown === 'genero' && (
+                        <div className="absolute top-full mt-1 left-0 bg-surface-container-low border border-outline-variant/30 rounded-xl shadow-lg z-50 min-w-max max-w-xs max-h-64 overflow-y-auto">
+                          {allGenres.map((genre) => (
+                            <button
+                              key={genre}
+                              onClick={() => {
+                                toggleQuickSingle(genre, selectedGenres, setSelectedGenres);
+                                setOpenDropdown(null);
+                              }}
+                              className={`block w-full text-left px-3 sm:px-4 py-2 sm:py-2.5 border-b border-outline-variant/10 last:border-b-0 text-xs sm:text-sm transition-colors ${
+                                selectedGenres.includes(genre)
+                                  ? 'bg-primary/20 text-primary font-semibold'
+                                  : 'text-on-surface hover:bg-surface-container/50'
+                              }`}
+                            >
+                              {genre}
+                            </button>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+
+                    {/* Dropdown Artista */}
+                    <div className="relative">
+                      <button
+                        onClick={() => setOpenDropdown(openDropdown === 'artista' ? null : 'artista')}
+                        className={`px-3 sm:px-4 py-2 sm:py-3 rounded-full text-xs sm:text-sm font-medium transition-all border ${
+                          selectedArtists.length > 0
+                            ? 'bg-error/10 border-error text-error'
+                            : 'bg-surface-container-low border-outline-variant/30 text-on-surface hover:border-error'
+                        } flex items-center gap-1.5 whitespace-nowrap`}
+                      >
+                        <Music size={14} />
+                        Artista
+                        {selectedArtists.length > 0 && <span className="text-[10px] font-bold">{selectedArtists.length}</span>}
+                      </button>
+                      {openDropdown === 'artista' && (
+                        <div className="absolute top-full mt-1 left-0 bg-surface-container-low border border-outline-variant/30 rounded-xl shadow-lg z-50 min-w-max max-w-xs max-h-64 overflow-y-auto">
+                          {allArtists.map((artist) => (
+                            <button
+                              key={artist}
+                              onClick={() => {
+                                toggleQuickSingle(artist, selectedArtists, setSelectedArtists);
+                                setOpenDropdown(null);
+                              }}
+                              className={`block w-full text-left px-3 sm:px-4 py-2 sm:py-2.5 border-b border-outline-variant/10 last:border-b-0 text-xs sm:text-sm transition-colors ${
+                                selectedArtists.includes(artist)
+                                  ? 'bg-error/20 text-error font-semibold'
+                                  : 'text-on-surface hover:bg-surface-container/50'
+                              }`}
+                            >
+                              {artist}
+                            </button>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                )}
+
+                {/* Dropdown Close Handler - click outside */}
+                {openDropdown && (
+                  <div
+                    className="fixed inset-0 z-40"
+                    onClick={() => setOpenDropdown(null)}
+                  />
+                )}
+
+                {(selectedGenres.length > 0 || selectedOccasions.length > 0 || selectedArtists.length > 0) && (
+                  <div className="flex flex-wrap gap-1.5 sm:gap-2">
+                    {selectedGenres.map((g) => (
+                      <span key={g} className="bg-primary/10 border border-primary/30 text-primary text-[10px] sm:text-xs px-2 sm:px-3 py-1 rounded-full flex items-center gap-0.5 sm:gap-1">
+                        <span className="truncate">{g}</span>
+                        <button onClick={() => setSelectedGenres(selectedGenres.filter((x) => x !== g))} className="hover:text-primary/70 flex-shrink-0">
+                          <X size={12} />
+                        </button>
+                      </span>
+                    ))}
+
+                    {selectedOccasions.map((o) => (
+                      <span key={o} className="bg-on-surface-variant/10 border border-on-surface-variant/30 text-on-surface-variant text-[10px] sm:text-xs px-2 sm:px-3 py-1 rounded-full flex items-center gap-0.5 sm:gap-1">
+                        <span className="truncate">{o}</span>
+                        <button onClick={() => setSelectedOccasions(selectedOccasions.filter((x) => x !== o))} className="hover:text-on-surface-variant/70 flex-shrink-0">
+                          <X size={12} />
+                        </button>
+                      </span>
+                    ))}
+
+                    {selectedArtists.map((a) => (
+                      <span key={a} className="bg-error/10 border border-error/30 text-error text-[10px] sm:text-xs px-2 sm:px-3 py-1 rounded-full flex items-center gap-0.5 sm:gap-1">
+                        <span className="truncate">{a}</span>
+                        <button onClick={() => setSelectedArtists(selectedArtists.filter((x) => x !== a))} className="hover:text-error/70 flex-shrink-0">
+                          <X size={12} />
+                        </button>
+                      </span>
+                    ))}
+                  </div>
+                )}
+              </div>
+
+              {viewMode === 'grid' ? (
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-3 sm:gap-4 md:gap-5 lg:gap-6 mb-8 sm:mb-10 md:mb-12" style={{ gridAutoRows: 'minmax(0, 1fr)' }}>
+                  {loading ? (
+                    <div className="col-span-full text-center py-12 text-on-surface-variant">Cargando repertorio...</div>
+                  ) : paginatedSongs.length === 0 ? (
+                    <div className="col-span-full text-center py-12 text-on-surface-variant">No se encontraron canciones disponibles en este momento.</div>
+                  ) : (
+                    paginatedSongs.map((song) => {
+                      const isSelected = selected.some((s) => s.id === song.id);
+                      return (
+                        <div key={song.id} className={`flex flex-col h-full bg-surface-container-low border ${isSelected ? 'border-primary' : 'border-outline-variant/10'} rounded-2xl sm:rounded-3xl p-3 sm:p-5 md:p-6 relative group transition-colors`}>
+                          <Lock size={14} className="absolute top-3 sm:top-6 right-3 sm:right-6 text-on-surface-variant/50" />
+
+                          <div className="flex flex-wrap gap-1.5 mb-3 sm:mb-4 md:mb-6">
+                            {getDisplayedGenres(song.genres).map((g) => (
+                              <span key={`g-${g}`} className="text-[9px] sm:text-[10px] font-bold uppercase tracking-wider text-primary border border-primary/30 px-2 py-1 rounded-md">
+                                {g}
+                              </span>
+                            ))}
+                            {getDisplayedOccasions(song.occasions).map((o) => (
+                              <span key={`o-${o}`} className="text-[9px] sm:text-[10px] font-bold uppercase tracking-wider text-on-surface-variant border border-outline-variant/30 px-2 py-1 rounded-md">
+                                {o}
+                              </span>
+                            ))}
+                            {(getHiddenGenresCount(song.genres) > 0 || getHiddenOccasionsCount(song.occasions) > 0) && (
+                              <span className="text-[9px] sm:text-[10px] font-bold uppercase tracking-wider text-on-surface-variant/60 border border-outline-variant/20 px-2 py-1 rounded-md bg-surface-container/30 cursor-pointer hover:border-outline-variant/40 transition-colors">
+                                +{getHiddenGenresCount(song.genres) + getHiddenOccasionsCount(song.occasions)} más
+                              </span>
+                            )}
+                          </div>
+
+                          <h4 className="font-serif text-lg sm:text-xl md:text-2xl text-on-surface mb-1 line-clamp-2">{song.title}</h4>
+                          <p className="text-xs sm:text-sm text-on-surface-variant italic mb-6 sm:mb-8 flex-1 line-clamp-1">{song.artist}</p>
+
+                          <div className="flex items-center justify-end gap-1.5 sm:gap-2 mt-auto pt-4">
+                            {extractYouTubeId(song.youtubeUrl) && (
+                              <button
+                                onClick={() => setPlayingSong(song)}
+                                className="text-[10px] sm:text-xs font-semibold flex items-center gap-0.5 sm:gap-1 px-2 sm:px-2.5 py-1 sm:py-1.5 rounded-full border border-primary/40 text-primary hover:bg-primary/10 transition-colors whitespace-nowrap"
+                                title="Reproducir en YouTube"
+                              >
+                                <PlayCircle size={12} className="sm:size-3.5" />
+                                <span className="hidden sm:inline">Reproducir</span>
+                                <span className="sm:hidden">Play</span>
+                              </button>
+                            )}
+
+                            <button
+                              onClick={() => toggleSong(song)}
+                              className={`text-xs sm:text-sm font-bold flex items-center gap-0.5 sm:gap-1 px-2 sm:px-3 py-1 sm:py-1.5 rounded-full transition-colors whitespace-nowrap ${isSelected ? 'bg-primary text-on-primary' : 'border border-outline-variant text-on-surface hover:border-primary hover:text-primary'}`}
+                            >
+                              {isSelected ? 'Anadido' : <><Plus size={14} className="sm:size-4" /> <span className="hidden sm:inline">Anadir</span></>}
+                            </button>
+                          </div>
+                        </div>
+                      );
+                    })
+                  )}
+                </div>
+              ) : (
+                <div className="space-y-2 mb-8 sm:mb-10 md:mb-12">
+                  {loading ? (
+                    <div className="text-center py-12 text-on-surface-variant">Cargando repertorio...</div>
+                  ) : paginatedSongs.length === 0 ? (
+                    <div className="text-center py-12 text-on-surface-variant">No se encontraron canciones disponibles en este momento.</div>
+                  ) : (
+                    paginatedSongs.map((song) => {
+                      const isSelected = selected.some((s) => s.id === song.id);
+                      return (
+                        <div
+                          key={song.id}
+                          onClick={() => setExpandedSongList(song)}
+                          className={`flex items-center justify-between gap-3 bg-surface-container-low border ${
+                            isSelected ? 'border-primary' : 'border-outline-variant/10'
+                          } rounded-lg p-3 sm:p-4 transition-all hover:border-primary/50 cursor-pointer group`}
+                        >
+                          <div className="flex items-center gap-2 sm:gap-3 min-w-0 flex-1">
+                            <div className="w-10 sm:w-12 h-10 sm:h-12 rounded-lg bg-surface-container-highest flex items-center justify-center text-primary flex-shrink-0">
+                              <Music size={14} className="sm:size-4" />
+                            </div>
+                            <div className="min-w-0 flex-1">
+                              <h4 className="font-serif text-xs sm:text-sm font-medium text-on-surface line-clamp-1 group-hover:text-primary transition-colors">
+                                {song.title}
+                              </h4>
+                              <p className="text-[10px] sm:text-xs text-on-surface-variant line-clamp-1">{song.artist}</p>
+                            </div>
+                          </div>
+
+                          <div className="flex items-center gap-1 sm:gap-2 flex-shrink-0">
+                            {extractYouTubeId(song.youtubeUrl) && (
+                              <button
+                                onClick={(e) => {
+                                  e.stopPropagation();
+                                  setPlayingSong(song);
+                                }}
+                                className="p-1.5 sm:p-2 text-primary hover:bg-primary/10 rounded-lg transition-colors"
+                                title="Reproducir en YouTube"
+                              >
+                                <PlayCircle size={14} className="sm:size-4" />
+                              </button>
+                            )}
+
+                            <button
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                toggleSong(song);
+                              }}
+                              className={`p-1.5 sm:p-2 rounded-lg transition-colors font-bold ${
+                                isSelected
+                                  ? 'bg-primary text-on-primary'
+                                  : 'text-on-surface hover:bg-surface-container border border-outline-variant hover:border-primary'
+                              }`}
+                            >
+                              {isSelected ? <Check size={14} className="sm:size-4" /> : <Plus size={14} className="sm:size-4" />}
+                            </button>
+                          </div>
+                        </div>
+                      );
+                    })
+                  )}
+                </div>
               )}
+
+              {totalPages > 1 && (
+                <div className="flex justify-center flex-wrap gap-2 mt-8">
+                  <button
+                    onClick={() => setCurrentPage((p) => Math.max(1, p - 1))}
+                    disabled={currentPage === 1}
+                    className="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors disabled:opacity-50 disabled:hover:text-on-surface-variant"
+                  >
+                    &lt;
+                  </button>
+
+                  {getPaginationArray(currentPage, totalPages).map((pageItem, idx) => (
+                    <button
+                      key={`page-${idx}`}
+                      onClick={() => typeof pageItem === 'number' ? setCurrentPage(pageItem) : null}
+                      disabled={typeof pageItem !== 'number'}
+                      className={`w-10 h-10 rounded-full flex items-center justify-center transition-colors ${
+                        currentPage === pageItem
+                          ? 'bg-primary/20 text-primary font-bold'
+                          : typeof pageItem !== 'number'
+                          ? 'bg-transparent text-on-surface-variant cursor-default'
+                          : 'bg-surface-container text-on-surface-variant hover:text-primary'
+                      }`}
+                    >
+                      {pageItem}
+                    </button>
+                  ))}
+
+                  <button
+                    onClick={() => setCurrentPage((p) => Math.min(totalPages, p + 1))}
+                    disabled={currentPage === totalPages}
+                    className="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors disabled:opacity-50 disabled:hover:text-on-surface-variant"
+                  >
+                    &gt;
+                  </button>
+                </div>
+              )}
+            </>
+          ) : (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-4 sm:gap-6 mb-12">
+              {SIMPLIFIED_DATA.map((cat, idx) => {
+                const isOpen = openSimplifiedCategory === cat.occasion;
+                return (
+                  <div key={idx} className={`bg-surface-container-low rounded-2xl border transition-all duration-300 overflow-hidden shadow-sm hover:shadow-md ${isOpen ? 'border-primary lg:col-span-2 xl:col-span-3' : 'border-outline-variant/10'}`}>
+                    <button 
+                      onClick={() => setOpenSimplifiedCategory(isOpen ? null : cat.occasion)}
+                      className={`w-full flex items-center justify-between p-4 sm:p-5 text-left transition-colors ${isOpen ? 'bg-primary/5' : 'hover:bg-surface-container-highest'}`}
+                    >
+                      <div className="flex items-center gap-3 sm:gap-4 min-w-0">
+                        <div className={`w-10 h-10 rounded-xl flex items-center justify-center transition-colors ${isOpen ? 'bg-primary text-on-primary' : 'bg-surface-container-highest text-primary'}`}>
+                          {cat.icon}
+                        </div>
+                        <span className={`font-serif text-base sm:text-lg font-bold uppercase tracking-tight leading-tight truncate ${isOpen ? 'text-primary' : 'text-on-surface'}`}>
+                          {cat.occasion}
+                        </span>
+                      </div>
+                      <div className={`transition-transform duration-300 ${isOpen ? 'rotate-180 text-primary' : 'text-on-surface-variant'}`}>
+                        <ChevronDown size={20} />
+                      </div>
+                    </button>
+                    {isOpen && (
+                      <motion.div 
+                        initial={{ height: 0, opacity: 0 }}
+                        animate={{ height: "auto", opacity: 1 }}
+                        className="px-5 pb-5 pt-2 bg-surface-container-highest/20"
+                      >
+                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-6 gap-y-1">
+                          {/* Firestore mode: resolve songs by ID */}
+                          {'songIds' in cat && (cat as any).songIds ? (cat as any).songIds.map((songId: string, sIdx: number) => {
+                            const realSong = songs.find(s => s.id === songId);
+                            if (!realSong) return null;
+                            const isSelected = selected.some(s => s.id === realSong.id);
+
+                            return (
+                              <div key={sIdx} className="group py-2 border-b border-outline-variant/5 last:border-0 sm:border-b">
+                                <div className="flex items-center justify-between gap-3">
+                                  <div 
+                                    className="flex-1 cursor-pointer hover:text-primary transition-colors min-w-0"
+                                    onClick={() => setExpandedSongList(realSong)}
+                                  >
+                                    <span className="text-sm font-medium text-on-surface block leading-tight truncate px-1">{realSong.title}</span>
+                                    <span className="text-[10px] text-on-surface-variant/80 italic block truncate px-1 line-clamp-1">({realSong.artist})</span>
+                                  </div>
+                                  <div className="flex items-center gap-1">
+                                    {extractYouTubeId(realSong.youtubeUrl) && (
+                                      <button 
+                                        onClick={() => setPlayingSong(realSong)}
+                                        className="p-1.5 text-on-surface-variant hover:text-primary transition-colors"
+                                        title="Escuchar"
+                                      >
+                                        <PlayCircle size={14} />
+                                      </button>
+                                    )}
+                                    <button 
+                                      onClick={() => toggleSong(realSong)}
+                                      className={`p-1.5 rounded-full transition-all ${isSelected ? 'bg-primary text-on-primary shadow-sm' : 'text-on-surface-variant hover:bg-primary/10 hover:text-primary'}`}
+                                      title={isSelected ? "Quitar de seleccion" : "Añadir a seleccion"}
+                                    >
+                                      {isSelected ? <Check size={14} /> : <Plus size={14} />}
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                            );
+                          }) : /* Fallback mode: resolve songs by title */
+                          ('songs' in cat && (cat as any).songs ? (cat as any).songs.map((songTitle: string, sIdx: number) => {
+                            const realSong = songs.find(s => normalizeString(s.title) === normalizeString(songTitle));
+                            const songArtist = realSong?.artist || "Famosa de Mariachi";
+                            const isSelected = realSong ? selected.some(s => s.id === realSong.id) : false;
+
+                            return (
+                              <div key={sIdx} className="group py-2 border-b border-outline-variant/5 last:border-0 sm:border-b">
+                                <div className="flex items-center justify-between gap-3">
+                                  <div 
+                                    className="flex-1 cursor-pointer hover:text-primary transition-colors min-w-0"
+                                    onClick={() => realSong && setExpandedSongList(realSong)}
+                                  >
+                                    <span className="text-sm font-medium text-on-surface block leading-tight truncate px-1">{songTitle}</span>
+                                    <span className="text-[10px] text-on-surface-variant/80 italic block truncate px-1 line-clamp-1">({songArtist})</span>
+                                  </div>
+                                  <div className="flex items-center gap-1">
+                                    {realSong && extractYouTubeId(realSong.youtubeUrl) && (
+                                      <button 
+                                        onClick={() => setPlayingSong(realSong)}
+                                        className="p-1.5 text-on-surface-variant hover:text-primary transition-colors"
+                                        title="Escuchar"
+                                      >
+                                        <PlayCircle size={14} />
+                                      </button>
+                                    )}
+                                    <button 
+                                      onClick={() => realSong && toggleSong(realSong)}
+                                      disabled={!realSong}
+                                      className={`p-1.5 rounded-full transition-all ${!realSong ? 'opacity-0' : isSelected ? 'bg-primary text-on-primary shadow-sm' : 'text-on-surface-variant hover:bg-primary/10 hover:text-primary'}`}
+                                      title={isSelected ? "Quitar de seleccion" : "Añadir a seleccion"}
+                                    >
+                                      {isSelected ? <Check size={14} /> : <Plus size={14} />}
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                            );
+                          }) : null)}
+                        </div>
+                      </motion.div>
+                    )}
+                  </div>
+                );
+              })}
             </div>
           )}
 
@@ -764,42 +1009,7 @@ export default function RepertoireView({
             />
           )}
 
-          {totalPages > 1 && (
-            <div className="flex justify-center flex-wrap gap-2 mt-8">
-              <button
-                onClick={() => setCurrentPage((p) => Math.max(1, p - 1))}
-                disabled={currentPage === 1}
-                className="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors disabled:opacity-50 disabled:hover:text-on-surface-variant"
-              >
-                &lt;
-              </button>
-
-              {getPaginationArray(currentPage, totalPages).map((pageItem, idx) => (
-                <button
-                  key={`page-${idx}`}
-                  onClick={() => typeof pageItem === 'number' ? setCurrentPage(pageItem) : null}
-                  disabled={typeof pageItem !== 'number'}
-                  className={`w-10 h-10 rounded-full flex items-center justify-center transition-colors ${
-                    currentPage === pageItem
-                      ? 'bg-primary/20 text-primary font-bold'
-                      : typeof pageItem !== 'number'
-                      ? 'bg-transparent text-on-surface-variant cursor-default'
-                      : 'bg-surface-container text-on-surface-variant hover:text-primary'
-                  }`}
-                >
-                  {pageItem}
-                </button>
-              ))}
-
-              <button
-                onClick={() => setCurrentPage((p) => Math.min(totalPages, p + 1))}
-                disabled={currentPage === totalPages}
-                className="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors disabled:opacity-50 disabled:hover:text-on-surface-variant"
-              >
-                &gt;
-              </button>
-            </div>
-          )}
+          {/* Paginado eliminado aqui - ya esta incluido dentro del bloque !isSimplified */}
         </div>
 
         <div className="order-2 lg:order-2 min-w-0">

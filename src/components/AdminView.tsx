@@ -10,6 +10,7 @@ import {
   List,
   LogOut,
   MessageSquare,
+  Music,
   Pencil,
   PlayCircle,
   Plus,
@@ -20,6 +21,7 @@ import {
   X,
 } from 'lucide-react';
 import AdminReviews from './AdminReviews';
+import AdminSimplifiedRepertoire from './AdminSimplifiedRepertoire';
 import toast from 'react-hot-toast';
 import { ViewState } from '../types';
 import { auth, db, handleFirestoreError, OperationType } from '../firebase';
@@ -94,7 +96,7 @@ interface RejectedUser {
   role: 'admin' | 'musician';
 }
 
-type Section = 'songs' | 'users' | 'filters' | 'addSong' | 'reviews';
+type Section = 'songs' | 'users' | 'filters' | 'addSong' | 'reviews' | 'simplified';
 type RoleFilter = 'admin' | 'musician';
 type SongFilterDropdown = 'genero' | 'ocasion' | 'artista' | null;
 type AuthMode = 'login' | 'register';
@@ -1084,6 +1086,16 @@ export default function AdminView({
               Añadir Canción
             </button>
           )}
+
+          {role === 'admin' && (
+            <button
+              onClick={() => setActiveSection('simplified')}
+              className={`px-4 py-3 rounded-xl border text-sm font-semibold transition-colors flex items-center justify-center gap-2 ${activeSection === 'simplified' ? 'border-primary text-primary bg-primary/10' : 'border-outline-variant/30 text-on-surface hover:border-primary'
+                }`}
+            >
+              <Music size={16} /> R. Simplificado
+            </button>
+          )}
         </div>
 
         {activeSection === 'songs' && (
@@ -1845,6 +1857,15 @@ export default function AdminView({
             <Users size={14} className="mt-[2px]" />
             <span>Esta sección separa usuarios por estado (Pendiente, Aceptado, Descartado), divididos por rol (Músico/Admin), con paginado independiente.</span>
           </div>
+        )}
+
+        {activeSection === 'simplified' && role === 'admin' && (
+          <AdminSimplifiedRepertoire
+            songs={songs}
+            occasions={OCCASIONS}
+            genres={GENRES}
+            userId={user.uid}
+          />
         )}
 
         {playingSong && extractYouTubeId(playingSong.youtubeUrl) && (

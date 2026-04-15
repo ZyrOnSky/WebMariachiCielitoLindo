@@ -205,6 +205,13 @@ service cloud.firestore {
       allow delete: if isAdmin();
     }
 
+    // --- SIMPLIFIED REPERTOIRE CONFIG ---
+    match /simplified_repertoire/{docId} {
+      allow read: if true; // Public: the RepertoireView needs to read this
+      allow create, update: if isAdmin();
+      allow delete: if isAdmin();
+    }
+
     // --- REVIEWS COLLECTION ---
     match /reviews/{reviewId} {
       // Permitir lectura pública para que los contadores de seguridad del frontend funcionen
