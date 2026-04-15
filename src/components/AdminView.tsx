@@ -22,6 +22,7 @@ import {
 } from 'lucide-react';
 import AdminReviews from './AdminReviews';
 import AdminSimplifiedRepertoire from './AdminSimplifiedRepertoire';
+import AdminAdvancedList from './AdminAdvancedList';
 import toast from 'react-hot-toast';
 import { ViewState } from '../types';
 import { auth, db, handleFirestoreError, OperationType } from '../firebase';
@@ -96,7 +97,7 @@ interface RejectedUser {
   role: 'admin' | 'musician';
 }
 
-type Section = 'songs' | 'users' | 'filters' | 'addSong' | 'reviews' | 'simplified';
+type Section = 'songs' | 'users' | 'filters' | 'addSong' | 'reviews' | 'simplified' | 'advanced';
 type RoleFilter = 'admin' | 'musician';
 type SongFilterDropdown = 'genero' | 'ocasion' | 'artista' | null;
 type AuthMode = 'login' | 'register';
@@ -1147,6 +1148,16 @@ export default function AdminView({
               <Music size={16} /> R. Simplificado
             </button>
           )}
+
+          {role === 'admin' && (
+            <button
+              onClick={() => setActiveSection('advanced')}
+              className={`px-4 py-3 rounded-xl border text-sm font-semibold transition-colors flex items-center justify-center gap-2 ${activeSection === 'advanced' ? 'border-primary text-primary bg-primary/10' : 'border-outline-variant/30 text-on-surface hover:border-primary'
+                }`}
+            >
+              <List size={16} /> R. Avanzado
+            </button>
+          )}
         </div>
 
         {activeSection === 'songs' && (
@@ -2098,6 +2109,15 @@ export default function AdminView({
             occasions={OCCASIONS}
             genres={GENRES}
             userId={user.uid}
+          />
+        )}
+
+        {activeSection === 'advanced' && role === 'admin' && (
+          <AdminAdvancedList
+            songs={songs}
+            onPlay={setPlayingSong}
+            onEdit={handleStartEditSong}
+            onDelete={handleDeleteSong}
           />
         )}
 
