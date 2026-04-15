@@ -1,7 +1,7 @@
 {
   "name": "Mariachi Internacional Cielito Lindo",
-  "short_name": "Cielito Lindo",
-  "description": "Web oficial de Mariachi Internacional Cielito Lindo.",
+  "short_name": "Mariachi Cielito Lindo",
+  "description": "El mejor mariachi en Guayaquil, Ecuador. Serenatas, bodas, quinceañeras y eventos.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",

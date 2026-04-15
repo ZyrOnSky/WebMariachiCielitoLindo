@@ -9,6 +9,7 @@ gradlew.bat
 settings.gradle
 manifest-checksum.txt
 *.apk
+!public/Mariachi-Cielito-Lindo.apk
 *.aab
 *.idsig
 *.keystore

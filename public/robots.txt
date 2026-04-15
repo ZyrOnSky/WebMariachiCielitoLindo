@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /portal-mcl
+
+Sitemap: https://mariachicielitolindoec.com/sitemap.xml

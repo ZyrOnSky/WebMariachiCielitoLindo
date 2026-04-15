@@ -33,28 +33,28 @@ const BACKGROUND_PLAYLIST = [
 
 const SEO_CONFIG: Record<string, { title: string, description: string }> = {
   '/': { 
-    title: 'Mariachi Internacional Cielito Lindo 🎺 ¡La mejor música para tu evento!', 
-    description: 'Somos la música que acompaña tus historias más bellas. Contrata el mejor mariachi en Guayaquil para bodas, quinceañeras y todo tipo de eventos.' 
+    title: 'Mariachi Guayaquil | Mariachi Internacional Cielito Lindo 🎺', 
+    description: 'El mejor mariachi en Guayaquil, Ecuador. 12 músicos en escena para serenatas, bodas, quinceañeras y cumpleaños. ☎ 098 721 6439.' 
   },
   '/nosotros': { 
-    title: 'Nuestra Historia | Mariachi Cielito Lindo 🎺', 
-    description: 'Conoce la trayectoria y el profesionalismo de los músicos que dan vida al Mariachi Internacional Cielito Lindo. Tradición y pasión mexicana.' 
+    title: 'Nuestro Mariachi en Guayaquil | Mariachi Cielito Lindo 🎺', 
+    description: 'Conoce la trayectoria del mejor mariachi de Guayaquil. Músicos profesionales brindando serenatas y pasión mexicana en Guayas y Ecuador.' 
   },
   '/galeria': { 
-    title: 'Galería de Momentos | Mariachi Cielito Lindo 📸', 
-    description: 'Mira nuestras presentaciones en vivo, fotos y videos de las serenatas más alegres y emotivas de Guayaquil.' 
+    title: 'Fotos y Videos del Mejor Mariachi en Guayaquil | Cielito Lindo 📸', 
+    description: 'Mira las presentaciones, serenatas, bodas y fiestas animadas por el Mariachi Internacional Cielito Lindo en Guayaquil.' 
   },
   '/resenas': { 
-    title: 'Opiniones de Clientes ★★★★★ | Mariachi Cielito Lindo', 
-    description: 'Lee testimonios reales sobre nuestra puntualidad, talento y carisma. El mariachi mejor calificado para tu celebración.' 
+    title: 'Reseñas 5 Estrellas | Mariachi Guayaquil Cielito Lindo ★★★★★', 
+    description: 'Lee testimonios reales de nuestros clientes en Guayaquil. Somos el mariachi mejor calificado, destacado por puntualidad, talento y carisma.' 
   },
   '/repertorio': { 
-    title: 'Canciones y Repertorio | Mariachi Cielito Lindo 🎵', 
-    description: 'Explora nuestra amplia lista de canciones: desde clásicos rancheros hasta éxitos modernos para tu fiesta.' 
+    title: 'Canciones para Serenata en Guayaquil | Mariachi Cielito Lindo 🎵', 
+    description: 'Explora nuestro repertorio de mariachi: rancheras, boleros, cumbias para cumpleaños, bodas, quinceañeras y velorios en Guayaquil.' 
   },
   '/contacto': { 
-    title: 'Reserva tu Serenata | Mariachi Cielito Lindo 📞', 
-    description: 'Contáctanos ahora y asegura la mejor música para tu evento. Atención inmediata en Guayaquil vía WhatsApp.' 
+    title: 'Contratar Mariachi en Guayaquil | Precios y Reservas 📞', 
+    description: 'Contrata el mejor mariachi en Guayaquil. Agenda tu serenata por WhatsApp al 098 721 6439. Atención rápida y precios competitivos.' 
   },
   '/portal-mcl': { 
     title: 'Portal Privado | Mariachi Cielito Lindo', 

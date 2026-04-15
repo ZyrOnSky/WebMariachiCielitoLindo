@@ -1,6 +1,6 @@
 {
   "packageId": "app.netlify.mcielitolindo.twa",
-  "host": "mcielitolindo.netlify.app",
+  "host": "mariachicielitolindoec.com",
   "name": "Mariachi Internacional Cielito Lindo",
   "launcherName": "CielitoLindo",
   "display": "standalone",
@@ -13,8 +13,8 @@
   "backgroundColor": "#131313",
   "enableNotifications": true,
   "startUrl": "/",
-  "iconUrl": "https://mcielitolindo.netlify.app/brand/icon.png",
-  "maskableIconUrl": "https://mcielitolindo.netlify.app/brand/icon.png",
+  "iconUrl": "https://mariachicielitolindoec.com/brand/icon.png",
+  "maskableIconUrl": "https://mariachicielitolindoec.com/brand/icon.png",
   "splashScreenFadeOutDuration": 300,
   "signingKey": {
     "path": "mi-llave.keystore",
@@ -24,7 +24,7 @@
   "appVersionCode": 3,
   "shortcuts": [],
   "generatorApp": "bubblewrap-cli",
-  "webManifestUrl": "https://mcielitolindo.netlify.app/manifest.webmanifest",
+  "webManifestUrl": "https://mariachicielitolindoec.com/manifest.webmanifest",
   "fallbackType": "customtabs",
   "features": {},
   "alphaDependencies": {
@@ -33,7 +33,7 @@
   "enableSiteSettingsShortcut": true,
   "isChromeOSOnly": false,
   "isMetaQuest": false,
-  "fullScopeUrl": "https://mcielitolindo.netlify.app/",
+  "fullScopeUrl": "https://mariachicielitolindoec.com/",
   "minSdkVersion": 21,
   "orientation": "portrait",
   "fingerprints": [],
