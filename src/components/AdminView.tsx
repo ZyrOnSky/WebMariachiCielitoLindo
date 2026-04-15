@@ -1661,7 +1661,55 @@ export default function AdminView({
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div>
                   <label className="block text-[10px] font-bold uppercase tracking-wider text-on-surface-variant mb-2">Título de la Canción</label>
-                  <input type="text" required value={newSong.title} onChange={(e) => setNewSong({ ...newSong, title: e.target.value })} placeholder="Ej. El Rey" className="w-full bg-surface-container-lowest border border-outline-variant/20 rounded-xl px-4 py-3 text-on-surface" />
+                  {(() => {
+                    const titleTrimmed = newSong.title.trim().toLowerCase();
+                    const exactMatch = titleTrimmed.length > 1 && songs.some(s => s.title.trim().toLowerCase() === titleTrimmed);
+                    const suggestions = titleTrimmed.length > 0
+                      ? songs.filter(s => s.title.toLowerCase().includes(titleTrimmed)).slice(0, 8)
+                      : [];
+                    return (
+                      <div className="relative">
+                        <input
+                          type="text"
+                          required
+                          value={newSong.title}
+                          onChange={(e) => setNewSong({ ...newSong, title: e.target.value })}
+                          placeholder="Ej. El Rey"
+                          className={`w-full bg-surface-container-lowest border rounded-xl px-4 py-3 text-on-surface focus:outline-none transition-all duration-300 ${
+                            exactMatch
+                              ? 'border-red-500/70 focus:border-red-500 bg-red-500/5'
+                              : titleTrimmed.length > 1
+                              ? 'border-primary/60 focus:border-primary bg-primary/5 shadow-[0_0_12px_2px_rgba(255,203,70,0.15)]'
+                              : 'border-outline-variant/20 focus:border-primary'
+                          }`}
+                        />
+                        {suggestions.length > 0 && !exactMatch && (
+                          <div className="absolute top-full left-0 right-0 z-50 mt-1 bg-surface-container-low border border-outline-variant/30 rounded-xl shadow-xl overflow-hidden max-h-48 overflow-y-auto">
+                            {suggestions.map((song) => (
+                              <button
+                                key={song.id}
+                                type="button"
+                                onClick={() => setNewSong({ ...newSong, title: song.title })}
+                                className="w-full text-left px-4 py-2.5 text-sm text-on-surface hover:bg-primary/10 hover:text-primary transition-colors border-b border-outline-variant/5 last:border-0"
+                              >
+                                <span className="font-medium">{song.title}</span>
+                                <span className="text-on-surface-variant ml-2">({song.artist})</span>
+                              </button>
+                            ))}
+                          </div>
+                        )}
+                        {exactMatch && (
+                          <div className="mt-2 px-3 py-2 bg-red-500/10 border border-red-500/30 rounded-xl flex flex-col gap-1">
+                            <p className="text-xs font-bold text-red-400 flex items-center gap-1.5">⚠️ Esta canción ya está registrada en el repertorio.</p>
+                            <p className="text-[10px] text-red-400/80">¿Deseas añadir una variante? Cambia el título ligeramente, ej: <em>"{newSong.title.trim()} (Versión)"</em></p>
+                          </div>
+                        )}
+                        {titleTrimmed.length > 1 && !exactMatch && suggestions.length === 0 && (
+                          <p className="mt-2 text-[10px] text-primary/80 flex items-center gap-1">✨ Nueva canción detectada — no existe en el repertorio.</p>
+                        )}
+                      </div>
+                    );
+                  })()}
                 </div>
                 <div className="relative">
                   <label className="block text-[10px] font-bold uppercase tracking-wider text-on-surface-variant mb-2">Artista / Compositor</label>
