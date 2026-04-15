@@ -103,11 +103,11 @@ const SIMPLE_PHOTO_LABELS = [
   { title: 'Aniversarios', subtitle: 'Serenatas para celebrar momentos en pareja.' },
   { title: 'Celebraciones Especiales', subtitle: 'Presentaciones para fechas memorables.' },
   { title: 'Eventos Conmemorativos', subtitle: 'Acompanamiento musical en homenajes y reuniones.' },
-  { title: 'Cumpleanos', subtitle: 'Shows en vivo para fiestas de cumpleanos.' },
+  { title: 'Cumpleaños', subtitle: 'Shows en vivo para fiestas de cumpleaños.' },
   { title: 'Fiestas en Familia', subtitle: 'Ambiente alegre para compartir con seres queridos.' },
-  { title: 'Gala Quinceanera', subtitle: 'Entrada y repertorio para noches de quince.' },
+  { title: 'Gala Quinceanera', subtitle: 'Entrada y repertorio para noches de quinceaños.' },
   { title: 'Graduaciones', subtitle: 'Musica especial para logros academicos.' },
-  { title: 'Quinceaneras', subtitle: 'Mariachi en vivo para una celebracion inolvidable.' },
+  { title: 'Quinceañeras', subtitle: 'Mariachi en vivo para una celebracion inolvidable.' },
 ];
 
 const PASARELA_SLIDES = Object.entries(PASARELA_PHOTOS)
