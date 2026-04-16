@@ -3,10 +3,10 @@ import { Play, Pause, Volume2, VolumeX, Menu, X, Facebook, Instagram, Youtube, M
 import { AnimatePresence, motion } from 'motion/react';
 import { ViewState } from './types';
 import { HomeView, AboutView, ContactView } from './components/BasicViews';
-import ReviewsView from './components/ReviewsView';
-import GalleryView from './components/GalleryView';
-import RepertoireView from './components/RepertoireView';
-import AdminView from './components/AdminView';
+const ReviewsView = React.lazy(() => import('./components/ReviewsView'));
+const GalleryView = React.lazy(() => import('./components/GalleryView'));
+const RepertoireView = React.lazy(() => import('./components/RepertoireView'));
+const AdminView = React.lazy(() => import('./components/AdminView'));
 import ScrollToTop from './components/ScrollToTop';
 import { Toaster, toast } from 'react-hot-toast';
 import { Routes, Route, useLocation, useNavigate, Navigate } from 'react-router-dom';
@@ -426,18 +426,32 @@ export default function App() {
             <Routes location={location}>
               <Route path="/" element={<HomeView setView={handleNavigateView} />} />
               <Route path="/nosotros" element={<AboutView setView={handleNavigateView} />} />
-              <Route path="/galeria" element={<GalleryView setView={handleNavigateView} onYoutubePlayerStateChange={handleYoutubePlayerStateChange} />} />
-              <Route path="/resenas" element={<ReviewsView />} />
-              <Route path="/repertorio" element={<RepertoireView setView={handleNavigateView} onYoutubePlayerStateChange={handleYoutubePlayerStateChange} />} />
+              <Route path="/galeria" element={
+                <React.Suspense fallback={<div className="h-screen bg-surface" />}>
+                  <GalleryView setView={handleNavigateView} onYoutubePlayerStateChange={handleYoutubePlayerStateChange} />
+                </React.Suspense>
+              } />
+              <Route path="/resenas" element={
+                <React.Suspense fallback={<div className="h-screen bg-surface" />}>
+                  <ReviewsView />
+                </React.Suspense>
+              } />
+              <Route path="/repertorio" element={
+                <React.Suspense fallback={<div className="h-screen bg-surface" />}>
+                  <RepertoireView setView={handleNavigateView} onYoutubePlayerStateChange={handleYoutubePlayerStateChange} />
+                </React.Suspense>
+              } />
               <Route path="/contactenos" element={<ContactView />} />
               <Route path="/portal-mcl" element={
                 (user || isDoorRevealed) ? (
-                  <AdminView
-                    setView={handleNavigateView}
-                    onYoutubePlayerStateChange={handleYoutubePlayerStateChange}
-                    user={user}
-                    role={userRole}
-                  />
+                  <React.Suspense fallback={<div className="h-screen bg-surface" />}>
+                    <AdminView
+                      setView={handleNavigateView}
+                      onYoutubePlayerStateChange={handleYoutubePlayerStateChange}
+                      user={user}
+                      role={userRole}
+                    />
+                  </React.Suspense>
                 ) : (
                   <Navigate to="/" replace />
                 )
