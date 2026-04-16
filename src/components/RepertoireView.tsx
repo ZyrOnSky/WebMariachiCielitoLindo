@@ -211,6 +211,15 @@ export default function RepertoireView({
 
   useEffect(() => {
     onYoutubePlayerStateChange?.(Boolean(playingSong));
+    
+    // Track play when opening a song's youtube player
+    if (playingSong && typeof (window as any).gtag === 'function') {
+      (window as any).gtag('event', 'video_play', { 
+        video_title: playingSong.title,
+        video_context: 'repertoire'
+      });
+    }
+    
     return () => onYoutubePlayerStateChange?.(false);
   }, [playingSong, onYoutubePlayerStateChange]);
 
@@ -1072,6 +1081,11 @@ export default function RepertoireView({
                 onClick={() => {
                   if (selected.length === 0) return;
                   const text = `Me gustaria solicitar las siguientes canciones:\n${selected.map((s) => `- ${s.title} (${s.artist})`).join('\n')}`;
+                  (window as any).gtag?.('event', 'share', {
+                    method: 'WhatsApp',
+                    content_type: 'Repertoire List',
+                    item_count: selected.length
+                  });
                   window.open(`https://wa.me/593987216439?text=${encodeURIComponent(text)}`, '_blank');
                 }}
                 className="w-full gold-gradient text-on-primary py-3 sm:py-4 font-bold text-sm sm:text-base rounded-lg sm:rounded-xl hover:shadow-[0_0_20px_rgba(255,203,70,0.3)] transition-all flex items-center justify-center gap-1 sm:gap-2"

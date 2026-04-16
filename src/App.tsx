@@ -115,6 +115,14 @@ export default function App() {
 
     const ogUrl = document.querySelector('meta[property="og:url"]');
     if (ogUrl) ogUrl.setAttribute('content', window.location.href);
+
+    // Track Page View with GA4
+    if (typeof (window as any).gtag === 'function') {
+      (window as any).gtag('event', 'page_view', {
+        page_path: location.pathname,
+        page_title: config.title
+      });
+    }
   }, [location.pathname]);
 
   // Firebase Auth Listener
@@ -144,9 +152,9 @@ export default function App() {
   useEffect(() => {
     const handleInteraction = () => {
       if (!hasInteracted && audioRef.current) {
+        setHasInteracted(true);
         audioRef.current.play().then(() => {
           setIsPlaying(true);
-          setHasInteracted(true);
           showNowPlayingToast(currentTrackIndex);
         }).catch(err => console.error("Audio playback failed:", err));
       }
@@ -154,18 +162,22 @@ export default function App() {
 
     document.addEventListener('click', handleInteraction);
     return () => document.removeEventListener('click', handleInteraction);
-  }, [hasInteracted]);
+  }, [hasInteracted, currentTrackIndex]);
 
   const togglePlay = (e: React.MouseEvent) => {
     e.stopPropagation();
     if (audioRef.current) {
+      if (!hasInteracted) {
+        setHasInteracted(true);
+      }
+
       if (isPlaying) {
         audioRef.current.pause();
+        (window as any).gtag?.('event', 'music_pause', { track_index: currentTrackIndex });
       } else {
-        audioRef.current.play();
-        if (hasInteracted) {
-          showNowPlayingToast(currentTrackIndex);
-        }
+        audioRef.current.play().catch(console.error);
+        (window as any).gtag?.('event', 'music_play', { track_index: currentTrackIndex });
+        if (!isPlaying && hasInteracted) showNowPlayingToast(currentTrackIndex); 
       }
       setIsPlaying(!isPlaying);
     }
@@ -265,6 +277,7 @@ export default function App() {
         ref={audioRef}
         src={BACKGROUND_PLAYLIST[currentTrackIndex].url}
         onEnded={handleTrackEnd}
+        preload="none"
       />
 
       {/* Floating Audio Controls */}
@@ -452,6 +465,12 @@ export default function App() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Facebook"
+            onClick={() => {
+              (window as any).gtag?.('event', 'social_click', {
+                network: 'Facebook',
+                button_location: 'footer'
+              });
+            }}
             className="w-10 h-10 rounded-full border border-outline-variant/30 text-on-surface-variant hover:text-primary hover:border-primary transition-colors flex items-center justify-center"
           >
             <Facebook size={18} />
@@ -461,6 +480,12 @@ export default function App() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
+            onClick={() => {
+              (window as any).gtag?.('event', 'social_click', {
+                network: 'Instagram',
+                button_location: 'footer'
+              });
+            }}
             className="w-10 h-10 rounded-full border border-outline-variant/30 text-on-surface-variant hover:text-primary hover:border-primary transition-colors flex items-center justify-center"
           >
             <Instagram size={18} />
@@ -470,6 +495,12 @@ export default function App() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="YouTube"
+            onClick={() => {
+              (window as any).gtag?.('event', 'social_click', {
+                network: 'YouTube',
+                button_location: 'footer'
+              });
+            }}
             className="w-10 h-10 rounded-full border border-outline-variant/30 text-on-surface-variant hover:text-primary hover:border-primary transition-colors flex items-center justify-center"
           >
             <Youtube size={18} />
@@ -480,6 +511,12 @@ export default function App() {
             rel="noopener noreferrer"
             aria-label="WhatsApp"
             className="w-10 h-10 rounded-full border border-outline-variant/30 text-on-surface-variant hover:text-primary hover:border-primary transition-colors flex items-center justify-center"
+            onClick={() => {
+              (window as any).gtag?.('event', 'generate_lead', {
+                method: 'WhatsApp',
+                button_location: 'footer_floating_icon'
+              });
+            }}
           >
             <MessageCircle size={18} />
           </a>

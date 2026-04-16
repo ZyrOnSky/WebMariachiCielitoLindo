@@ -70,7 +70,8 @@ interface PendingUser {
   role: 'admin' | 'musician';
 }
 
-function normalizeString(str: string) {
+function normalizeString(str: string | undefined | null) {
+  if (!str) return "";
   return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 }
 
@@ -2114,9 +2115,9 @@ export default function AdminView({
 
         {activeSection === 'advanced' && role === 'admin' && (
           <AdminAdvancedList
-            songs={songs}
-            onPlay={setPlayingSong}
-            onEdit={handleStartEditSong}
+            songs={songs as any[]}
+            onPlay={(s) => setPlayingSong(s as any)}
+            onEdit={(s) => handleStartEditSong(s as any)}
             onDelete={handleDeleteSong}
           />
         )}
