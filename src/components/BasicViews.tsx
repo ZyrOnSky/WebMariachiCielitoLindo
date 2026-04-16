@@ -9,7 +9,7 @@ const ABOUT_BG_VIDEOS = [
   import.meta.env.VITE_ABOUT_BG_VIDEO_3 || 'https://res.cloudinary.com/dkoupxlif/video/upload/v1776194369/hero_seis_yn9hgg.mp4',
 ];
 
-const CONTACT_BG_IMAGE = new URL('../../medios/foto_principal/gradasOK.png', import.meta.url).href;
+const CONTACT_BG_IMAGE = new URL('../../medios/foto_principal/gradasOK.webp', import.meta.url).href;
 
 export const HomeView = ({ setView }: { setView: (v: ViewState) => void, key?: string }) => {
   return (
@@ -20,7 +20,7 @@ export const HomeView = ({ setView }: { setView: (v: ViewState) => void, key?: s
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-surface/70 z-10 mix-blend-multiply"></div>
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-surface/50 to-surface z-10"></div>
-        <img src="https://images.unsplash.com/photo-1511192336575-5a79af67a629?q=80&w=2664&auto=format&fit=crop" alt="Mariachi cantando" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
+        <img src="https://images.unsplash.com/photo-1511192336575-5a79af67a629?q=75&w=1600&auto=format&fm=webp&fit=crop" alt="Mariachi cantando" className="w-full h-full object-cover" fetchPriority="high" loading="eager" referrerPolicy="no-referrer" />
       </div>
       <div className="relative z-20 text-center px-6 max-w-5xl flex flex-col items-center mt-8 md:mt-16">
         <motion.div 
@@ -271,6 +271,12 @@ export const ContactView = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gold-gradient text-on-primary px-10 py-5 font-bold text-lg hover:shadow-[0_0_30px_rgba(255,203,70,0.3)] transition-all rounded-full"
+              onClick={() => {
+                (window as any).gtag?.('event', 'generate_lead', {
+                  method: 'WhatsApp',
+                  button_location: 'contact_section_cta'
+                });
+              }}
             >
               Ir a WhatsApp
             </a>

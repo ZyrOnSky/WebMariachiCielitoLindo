@@ -3,17 +3,17 @@ import { AnimatePresence, motion } from 'motion/react';
 import { Play, ArrowRight, ChevronLeft, ChevronRight, X } from 'lucide-react';
 import { ViewState } from '../types';
 
-const MODERN_PHOTOS = import.meta.glob('../../medios/fotos_modernas/*.{jpg,jpeg,png,JPG,JPEG,PNG}', {
-  eager: true,
-  import: 'default',
+const MODERN_PHOTOS = import.meta.glob('../../medios/fotos_modernas/*.{jpg,jpeg,png,webp,JPG,JPEG,PNG,WEBP}', {
+    eager: true,
+    import: 'default',
 }) as Record<string, string>;
 
-const PASARELA_PHOTOS = import.meta.glob('../../medios/fotos_pasarela/*.{jpg,jpeg,png,JPG,JPEG,PNG}', {
-  eager: true,
-  import: 'default',
+const PASARELA_PHOTOS = import.meta.glob('../../medios/fotos_pasarela/*.{jpg,jpeg,png,webp,JPG,JPEG,PNG,WEBP}', {
+    eager: true,
+    import: 'default',
 }) as Record<string, string>;
 
-const HERO_MAIN_PHOTO = new URL('../../medios/foto_principal/gradasOK.png', import.meta.url).href;
+const HERO_MAIN_PHOTO = new URL('../../medios/foto_principal/gradasOK.webp', import.meta.url).href;
 const FIRST_PASARELA_PHOTO = Object.entries(PASARELA_PHOTOS)
   .sort(([a], [b]) => a.localeCompare(b))
   .map(([_, src]) => src)[0] ?? HERO_MAIN_PHOTO;
@@ -132,7 +132,7 @@ const MODERN_SLIDES = Object.entries(MODERN_PHOTOS)
     };
   });
 
-const PHOTO_SLIDES = [...PASARELA_SLIDES, ...MODERN_SLIDES];
+const PHOTO_SLIDES = [...MODERN_SLIDES, ...PASARELA_SLIDES];
 
 export default function GalleryView({ setView, onYoutubePlayerStateChange }: { setView: (v: ViewState) => void, onYoutubePlayerStateChange?: (isOpen: boolean) => void, key?: string }) {
   const [activePhoto, setActivePhoto] = useState(0);
@@ -250,6 +250,7 @@ export default function GalleryView({ setView, onYoutubePlayerStateChange }: { s
                 onClick={(e) => {
                   e.stopPropagation();
                   setActiveVideoPlayer(FEATURED_VIDEOS[activeFeaturedIndex]);
+                  (window as any).gtag?.('event', 'video_play', { video_title: FEATURED_VIDEOS[activeFeaturedIndex].title });
                 }}
                 className="hidden sm:flex w-20 h-20 md:w-24 md:h-24 rounded-full bg-primary/20 backdrop-blur-md border border-primary/50 items-center justify-center text-primary hover:bg-primary hover:text-on-primary transition-all"
                 aria-label="Reproducir video"
@@ -331,7 +332,10 @@ export default function GalleryView({ setView, onYoutubePlayerStateChange }: { s
               <button
                 key={vid.id}
                 type="button"
-                onClick={() => setActiveVideoPlayer({ id: vid.id, type: 'youtube', src: vid.id, title: vid.title, desc: vid.desc })}
+                onClick={() => {
+                  setActiveVideoPlayer({ id: vid.id, type: 'youtube', src: vid.id, title: vid.title, desc: vid.desc });
+                  (window as any).gtag?.('event', 'video_play', { video_title: vid.title });
+                }}
                 className="group cursor-pointer block text-left"
               >
                 <div className="relative overflow-hidden rounded-2xl mb-4 aspect-video bg-surface-container">
@@ -378,16 +382,26 @@ export default function GalleryView({ setView, onYoutubePlayerStateChange }: { s
                 onClick={() => openPhotoModal(activePhoto)}
                 className="relative block w-full overflow-hidden rounded-3xl border border-outline-variant/20 bg-surface-container-lowest aspect-[16/10] md:aspect-[21/9] mb-5 group"
               >
-                {PHOTO_SLIDES.map((photo, index) => (
-                  <img
-                    key={photo.src}
-                    src={photo.src}
-                    alt={photo.subtitle}
-                    className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-[1400ms] ${index === activePhoto ? 'opacity-100' : 'opacity-0'
-                      }`}
-                    loading="lazy"
-                  />
-                ))}
+                {PHOTO_SLIDES.map((photo, index) => {
+                  // Render only active, next and previous for smooth transitions + performance
+                  const isVisible = index === activePhoto;
+                  const isNear = Math.abs(index - activePhoto) <= 1 || 
+                                 (activePhoto === 0 && index === totalPhotos - 1) ||
+                                 (activePhoto === totalPhotos - 1 && index === 0);
+                  
+                  if (!isNear && !isVisible) return null;
+
+                  return (
+                    <img
+                      key={photo.src}
+                      src={photo.src}
+                      alt={photo.subtitle}
+                      className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-[1400ms] ${isVisible ? 'opacity-100' : 'opacity-0'
+                        }`}
+                      loading={index === 0 ? "eager" : "lazy"}
+                    />
+                  );
+                })}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
 
                 <div className="absolute bottom-0 left-0 right-0 p-5 md:p-7 text-left">

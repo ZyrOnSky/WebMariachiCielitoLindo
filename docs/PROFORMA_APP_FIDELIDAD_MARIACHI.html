@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proforma App Fidelidad - Mariachi Cielito Lindo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #B8860B;
+            --secondary: #1A1A1A;
+            --accent: #FFD700;
+            --text: #333;
+            --bg: #FAFAFA;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Montserrat', sans-serif; background: #e0e0e0; color: var(--text); }
+
+        .page {
+            width: 210mm;
+            height: 297mm; /* Altura fija A4 */
+            padding: 15mm 15mm; /* Relleno optimizado */
+            margin: 10mm auto;
+            background: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.2);
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            border-bottom: 2px solid var(--primary);
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo-txt { font-family: 'Playfair Display', serif; font-size: 24px; color: var(--secondary); }
+        .proforma-no { font-weight: bold; color: var(--primary); }
+
+        h1, h2, h3 { font-family: 'Playfair Display', serif; color: var(--secondary); margin-bottom: 15px; }
+        
+        .client-info { display: grid; grid-template-cols: 1fr 1fr; gap: 40px; margin-bottom: 40px; font-size: 14px; }
+        .client-info div p { margin-bottom: 5px; }
+        .label { color: #888; text-transform: uppercase; font-size: 11px; font-weight: bold; }
+
+        .phase-title {
+            background: var(--secondary);
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 20px 0;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .item-row { 
+            display: flex; 
+            justify-content: space-between; 
+            padding: 12px 0; 
+            border-bottom: 1px solid #eee;
+            font-size: 13px;
+        }
+
+        .item-details { flex: 1; padding-right: 40px; }
+        .item-details strong { display: block; margin-bottom: 4px; color: var(--secondary); }
+        .item-price { font-weight: bold; width: 100px; text-align: right; font-size: 15px; color: var(--primary); }
+
+        .summary-box {
+            margin-top: auto;
+            background: #f9f9f9;
+            padding: 30px;
+            border-radius: 8px;
+        }
+
+        .total-row {
+            display: flex;
+            justify-content: space-between;
+            font-size: 20px;
+            font-weight: bold;
+            border-top: 3px solid var(--primary);
+            padding-top: 20px;
+            margin-top: 20px;
+        }
+
+        .infra-card {
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .highlight { color: var(--primary); font-weight: bold; }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 10px;
+            color: #aaa;
+            text-align: center;
+            border-top: 1px solid #eee;
+            padding-top: 10px;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 3px 8px;
+            background: var(--primary);
+            color: white;
+            font-size: 9px;
+            border-radius: 4px;
+            vertical-align: middle;
+            margin-left: 10px;
+            text-transform: uppercase;
+        }
+
+        @media print {
+            @page { size: A4; margin: 0; }
+            body { background: white; margin: 0; padding: 0; }
+            .page { margin: 0; box-shadow: none; border: none; }
+            .page:not(:last-child) { page-break-after: always; } /* Solo salta si no es la última */
+            .no-print { display: none; }
+        }
+
+        .print-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: var(--primary);
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 16px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- PAGINA 1: INTRODUCCION Y ESTRATEGIA -->
+    <div class="page">
+        <header>
+            <div class="logo-txt">ABVC DIGITAL CONSTRUCTIONS</div>
+            <div class="proforma-no">PROYECTO: APP FIDELIDAD</div>
+        </header>
+
+        <h1 style="font-size: 32px; line-height: 1.2;">Propuesta de Desarrollo:<br>App Móvil "Club Cielito Lindo"</h1>
+        <p style="margin-bottom: 30px;">Ecosistema de Lealtad y Retención de Clientes Nativos (Android - Play Store).</p>
+
+        <div class="client-info">
+            <div>
+                <p class="label">Preparado para:</p>
+                <p><strong>Paola Madero</strong></p>
+                <p>Mariachi Internacional Cielito Lindo</p>
+            </div>
+            <div>
+                <p class="label">Consultor Tecnológico:</p>
+                <p><strong>Milton Villacis Nazareno</strong></p>
+                <p>ABVC Digital Constructions</p>
+            </div>
+        </div>
+
+        <div class="infra-card" style="background: #FAFAFA; border-left: 4px solid var(--primary);">
+            <h3 style="font-size: 18px;">Visión del Negocio (Business Case)</h3>
+            <p style="font-size: 13px; line-height: 1.6;">
+                En la industria de eventos (serenatas, bodas, cumpleaños), el <strong>boca a boca y la recurrencia</strong> son los motores principales de ventas.<br><br>
+                El objetivo de crear el <strong>Club Cielito Lindo</strong> como una Aplicación Móvil nativa es transformar a un cliente de "una sola vez" en un promotor de la marca. Al otorgar puntos o beneficios por reservas y por recomendar a sus amigos, se garantiza un sistema circular de ventas automatizado, incrementando el Lifetime Value (Valor de Vida) de cada cliente.
+            </p>
+        </div>
+
+        <h3 style="margin-top: 30px; font-size: 16px;">Estrategia de Ejecución en 3 Hitos</h3>
+        <p style="font-size: 13px; margin-bottom: 20px;">Para garantizar un lanzamiento seguro y retorno de inversión escalonado, el proyecto se divide en 3 fases de madurez. Se puede contratar una fase a la vez o el proyecto completo.</p>
+
+        <div style="display: grid; grid-template-cols: 1fr 1fr 1fr; gap: 15px;">
+            <div style="padding: 15px; border: 1px solid #eee; border-radius: 8px;">
+                <h4 style="color: var(--primary); margin-bottom: 10px;">Hito 1: MVP</h4>
+                <p style="font-size: 11px;">Módulo fundacional. Credencial digital, acumulación de puntos manual y publicación en Play Store.</p>
+            </div>
+            <div style="padding: 15px; border: 1px solid #eee; border-radius: 8px;">
+                <h4 style="color: var(--primary); margin-bottom: 10px;">Hito 2: Referidos</h4>
+                <p style="font-size: 11px;">Motor de viralidad. Códigos de invitación para amigos y recordatorios de fechas especiales por notificaciones Push.</p>
+            </div>
+            <div style="padding: 15px; border: 1px solid #eee; border-radius: 8px;">
+                <h4 style="color: var(--primary); margin-bottom: 10px;">Hito 3: Premium</h4>
+                <p style="font-size: 11px;">Ecosistema cerrado. Cotizaciones in-app, niveles (Bronce, Plata, Oro) e integración total con el repertorio.</p>
+            </div>
+        </div>
+
+        <div class="footer">Este documento es una estimación oficial válida por 15 días.</div>
+    </div>
+
+    <!-- PAGINA 2: HITO 1 - MVP -->
+    <div class="page">
+        <header>
+            <div class="logo-txt">HITO 1: Producto Mínimo Viable (MVP)</div>
+            <div class="proforma-no">$ 850.00</div>
+        </header>
+
+        <p style="font-size: 13px; margin-bottom: 20px; color: #666;">
+            El objetivo del Hito 1 es ingresar rápidamente al mercado (Google Play Store), permitiendo que los clientes de Mariachi Cielito Lindo comiencen a experimentar un estatus VIP de forma inmediata.
+        </p>
+
+        <div class="phase-title">Funcionalidades del Hito 1</div>
+        
+        <div class="item-row">
+            <div class="item-details">
+                <strong>Autenticación y Registro Seguro</strong>
+                Sistema de Login/Registro de usuarios mediante correo electrónico o número de celular protegido por Firebase Auth. Creación de perfil básico.
+            </div>
+        </div>
+
+        <div class="item-row">
+            <div class="item-details">
+                <strong>Credencial de Miembro VIP (Digital)</strong>
+                Tarjeta digital dentro de la App con el nombre del cliente y un Código QR identificador único, proyectando alto estatus.
+            </div>
+        </div>
+
+        <div class="item-row">
+            <div class="item-details">
+                <strong>Billetera de "Cielito Puntos" (Sistema Manual)</strong>
+                Módulo donde el cliente visualiza sus puntos acumulados. En esta fase, el administrador asigna los puntos manualmente desde el panel de control al confirmar un evento.
+            </div>
+        </div>
+
+        <div class="item-row">
+            <div class="item-details">
+                <strong>Catálogo de Recompensas Básico</strong>
+                Pantalla listando los premios canjeables (Ej. "1 Tema Extra Gratis", "-$15 en su próxima serenata de 1 hora"). El usuario solicita el canje desde la app.
+            </div>
+        </div>
+
+        <div class="item-row">
+            <div class="item-details">
+                <strong>Despliegue Técnico y Publicación en Play Store <span class="badge">LEGAL</span></strong>
+                Compilación del código nativo para Android, creación de llaves de seguridad y subida a la consola de Google Play Store bajo los requerimientos de Google.
+            </div>
+        </div>
+
+        <div class="summary-box">
+            <div class="total-row" style="margin-top: 0; padding-top: 0; border: none;">
+                <span>Subtotal Hito 1</span>
+                <span>$ 850.00 USD</span>
+            </div>
+            <p style="font-size: 11px; margin-top: 5px; color: #666;">Tiempo estimado de desarrollo: 3 a 4 semanas laborables.</p>
+        </div>
+
+        <div class="footer">Al finalizar esta fase, la aplicación ya estará disponible para descarga en teléfonos Android.</div>
+    </div>
+
+    <!-- PAGINA 3: HITO 2 - CRECIMIENTO Y NOTIFICACIONES -->
+    <div class="page">
+        <header>
+            <div class="logo-txt">HITO 2: Motor de Viralidad y Marketing</div>
+            <div class="proforma-no">$ 600.00</div>
+        </header>
+
+        <p style="font-size: 13px; margin-bottom: 20px; color: #666;">
+            Convertimos a sus clientes actuales en su mejor fuerza de ventas. Se automatizan procesos para incentivar compras recurrentes sin esfuerzo manual administrativo.
+        </p>
+
+        <div class="phase-title">Funcionalidades del Hito 2</div>
+
+        <div class="item-row">
+            <div class="item-details">
+                <strong>Sistema de Referidos Automatizado (Boca a Boca 2.0)</strong>
+                Cada usuario recibe un código único (ej: MARIACHI-JUAN). Si un amigo usa este código al contratar, AMBOS ganan puntos automáticamente. Funcionalidad de "Compartir en WhatsApp".
+            </div>
+        </div>
+
+        <div class="item-row">
+            <div class="item-details">
+                <strong>Motor de Notificaciones Push (Firebase Cloud Messaging)</strong>
+                Poder enviar mensajes directos a la pantalla del celular del cliente sin costo de SMS. Permite anunciar promociones de "último minuto" o disponibilidad en fechas pico.
+            </div>
+        </div>
+
+        <div class="item-row">
+            <div class="item-details">
+                <strong>Calendario de Fechas Importantes (Venta Proactiva) <span class="badge">IA CRM</span></strong>
+                El cliente registra cumpleaños, aniversarios, etc. La aplicación envía recordatorios automatizados 2 semanas antes: <i>"Se acerca el aniversario de mamá, anticipa tu serenata y gana el doble de puntos"</i>.
+            </div>
+        </div>
+
+        <div class="summary-box">
+            <div class="total-row" style="margin-top: 0; padding-top: 0; border: none;">
+                <span>Subtotal Hito 2 (Expansión)</span>
+                <span>$ 600.00 USD</span>
+            </div>
+            <p style="font-size: 11px; margin-top: 5px; color: #666;">Tiempo estimado de desarrollo: 2 a 3 semanas laborables.</p>
+        </div>
+
+        <div class="footer">Escalabilidad orientada a resultados financieros directos.</div>
+    </div>
+
+    <!-- PAGINA 4: HITO 3 - PREMIUM -->
+    <div class="page">
+        <header>
+            <div class="logo-txt">HITO 3: Ecosistema Premium</div>
+            <div class="proforma-no">$ 750.00</div>
+        </header>
+
+        <p style="font-size: 13px; margin-bottom: 20px; color: #666;">
+            La integración final. La aplicación se convierte en la única herramienta que el cliente necesita para gestionar su relación comercial y musical con Cielito Lindo.
+        </p>
+
+        <div class="phase-title">Funcionalidades del Hito 3</div>
+
+        <div class="item-row">
+            <div class="item-details">
+                <strong>Sistema de Niveles o "Tiers" (Gamificación)</strong>
+                Escalamiento de categorías de socio: Bronce, Plata (3+ reservas) y Oro (Cliente Corporativo/Frecuente). Cada nivel desbloquea beneficios exclusivos, incentivando al cliente a no buscar otra opción.
+            </div>
+        </div>
+
+        <div class="item-row">
+            <div class="item-details">
+                <strong>Integración Nativa del Repertorio Cielito Lindo</strong>
+                Se conecta la base de datos de la web con la App. El cliente puede armar su "Playlist" oficial y cotizar su evento directamente desde su celular sin salir de la app.
+            </div>
+        </div>
+
+        <div class="item-row">
+            <div class="item-details">
+                <strong>Dashboard Administrativo Integral de Fidelidad</strong>
+                Un panel de análisis avanzado para el administrador que muestra métricas clave (Lifetime Value, Top Clientes, Frecuencia de Compra) para tomar decisiones gerenciales informadas.
+            </div>
+        </div>
+
+        <div class="summary-box">
+            <div class="total-row" style="margin-top: 0; padding-top: 0; border: none;">
+                <span>Subtotal Hito 3 (Premium)</span>
+                <span>$ 750.00 USD</span>
+            </div>
+            <p style="font-size: 11px; margin-top: 5px; color: #666;">Tiempo estimado de desarrollo: 3 semanas laborables.</p>
+        </div>
+
+        <div class="footer">Implementación de estándares tecnológicos de clase mundial.</div>
+    </div>
+
+    <!-- PAGINA 5: ANALISIS DE ROI Y VALOR ESTRATEGICO -->
+    <div class="page">
+        <header>
+            <div class="logo-txt">Análisis de Rentabilidad y Valor Estratégico</div>
+            <div class="proforma-no">ROI (Retorno de Inversión)</div>
+        </header>
+
+        <h3>¿Por qué invertir $2,200 en su propia App?</h3>
+        <p style="font-size: 14px; margin-bottom: 25px;">Esta no es una herramienta estética, es una infraestructura financiera que mejora tres áreas críticas de su negocio:</p>
+
+        <div class="infra-card" style="border-left: 4px solid #2ecc71; background: #f4fff7; margin-bottom: 20px;">
+            <h4 style="color: #27ae60; margin-bottom: 8px;">1. Independencia Publicitaria (Ahorro en Ads)</h4>
+            <p style="font-size: 13px;">
+                Hoy, para anunciar una promoción por el Día del Padre o San Valentín, usted debe pagar a Facebook o Instagram para "interceptar" a sus clientes. <br>
+                <strong>Con la App:</strong> Al tener el celular de sus clientes en su base datos, usted envía una <strong>Notificación Push GRATIS</strong>. Si tiene 500 usuarios, son 500 mensajes directos con costo $0. En un año, este ahorro puede sumar cientos de dólares.
+            </p>
+        </div>
+
+        <div class="infra-card" style="border-left: 4px solid #3498db; background: #f4faff; margin-bottom: 20px;">
+            <h4 style="color: #2980b9; margin-bottom: 8px;">2. Viralidad y Referidos (Vendedores Gratuitos)</h4>
+            <p style="font-size: 13px;">
+                El cliente más fiel es el que ya la conoce. La App incentiva que ellos la recomienden a cambio de puntos. <br>
+                <strong>El cálculo:</strong> Si el beneficio por referido le genera <strong>2.5 eventos adicionales al mes</strong>, la inversión se recupera por completo en menos de un año solo con clientes nuevos que llegaron "por recomendación automática".
+            </p>
+        </div>
+
+        <div class="infra-card" style="border-left: 4px solid var(--primary); background: #fffdf5; margin-bottom: 20px;">
+            <h4 style="color: var(--primary); margin-bottom: 8px;">3. Blindaje de Marca</h4>
+            <p style="font-size: 13px;">
+                En un mercado competitivo, quien "posee" la atención del cliente en el celular, gana. Al instalar su App, usted crea un <strong>obstáculo para la competencia</strong>. El cliente preferirá contratarla a usted para no perder sus puntos acumulados y sus beneficios de "Socio Oro".
+            </p>
+        </div>
+
+        <div class="summary-box" style="margin-top: auto; padding: 20px;">
+            <p style="font-size: 14px; text-align: center; color: var(--secondary); font-style: italic;">
+                "La tecnología no es un gasto, es un activo que trabaja 24/7 para traerle más clientes y hacer más eficiente su dinero."
+            </p>
+        </div>
+
+        <div class="footer">Estrategia de crecimiento acelerado para Mariachi Cielito Lindo.</div>
+    </div>
+
+    <!-- PAGINA 6: RESUMEN Y COSTOS EXTERNOS -->
+    <div class="page">
+        <header>
+            <div class="logo-txt">Resumen de Inversión y Licencias</div>
+            <div class="proforma-no">Costos Externos</div>
+        </header>
+
+        <h3>Consideraciones de Plataforma (Google Play / Servidores)</h3>
+        <p style="font-size: 13px; margin-bottom: 20px;">Aparte del desarrollo, publicar una App en tiendas oficiales requiere de infraestructura externa:</p>
+
+        <div class="infra-card" style="background: #fff; border-color: #eee;">
+            <div class="item-row" style="border:none; padding: 0;">
+                <div class="item-details">
+                    <strong>Cuenta de Desarrollador Google Play (Pago Único)</strong>
+                    Google cobra una tarifa única de por vida para tener derecho a publicar apps en la tienda de Android bajo el nombre de la empresa.
+                </div>
+                <div class="item-price" style="color:#666;">$ 25.00</div>
+            </div>
+        </div>
+
+        <div class="infra-card" style="background: #fff; border-color: #eee;">
+            <div class="item-row" style="border:none; padding: 0;">
+                <div class="item-details">
+                    <strong>Servidor de Base de Datos y Notificaciones (Firebase Cloud)</strong>
+                    Plan gratuito escalable. Soporta hasta 50,000 usuarios activos mensuales gratis. El costo a futuro dependerá del crecimiento masivo de la app.
+                </div>
+                <div class="item-price" style="color:#008800;">$ 0.00 / mes</div>
+            </div>
+        </div>
+
+        <div class="summary-box">
+            <h3 style="margin-bottom: 20px;">Inversión Total de Construcción</h3>
+            <div class="item-row" style="font-size: 14px;">
+                <span>Hito 1 - Aplicación MVP Inicial</span>
+                <span>$ 850.00</span>
+            </div>
+            <div class="item-row" style="font-size: 14px;">
+                <span>Hito 2 - Motor de Referidos y Push</span>
+                <span>$ 600.00</span>
+            </div>
+            <div class="item-row" style="font-size: 14px;">
+                <span>Hito 3 - Ecosistema Gamificado Premium</span>
+                <span>$ 750.00</span>
+            </div>
+            
+            <div class="total-row">
+                <span>VALOR FULL APPS (3 HITOS)</span>
+                <span>$ 2,200.00 USD</span>
+            </div>
+
+            <p style="font-size: 11px; color: #777; margin-top: 15px;">
+                * El proyecto puede contratarse y pagarse por fases separadas (Hito por Hito). <br>
+                * No incluye diseño de la versión iOS (Apple App Store), la cual se cotizaría por separado si el mercado objetivo lo requiere en un futuro.
+            </p>
+        </div>
+
+        <div style="display: grid; grid-template-cols: 1fr 1fr; gap: 40px; margin-top: 50px; text-align: center;">
+            <div style="border-top: 1px solid #000; padding-top: 10px;">
+                <p style="font-size: 12px;"><strong>Milton Villacis Nazareno</strong></p>
+                <p style="font-size: 10px;">ABVC Digital Constructions</p>
+            </div>
+            <div style="border-top: 1px solid #000; padding-top: 10px;">
+                <p style="font-size: 12px;"><strong>Firma de Aprobación</strong></p>
+                <p style="font-size: 10px;">Cliente</p>
+            </div>
+        </div>
+
+        <div class="footer">Potenciando negocios físicos a través de tecnología exponencial.</div>
+    </div>
+
+    <button class="print-btn no-print" onclick="window.print()">🖨️ Generar PDF para Cliente</button>
+
+</body>
+</html>

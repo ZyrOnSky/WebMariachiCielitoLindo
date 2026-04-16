@@ -340,6 +340,10 @@ export default function ReviewsView() {
         createdAt: serverTimestamp()
       });
 
+      (window as any).gtag?.('event', 'review_submit', {
+        rating: ratingInput
+      });
+
       localStorage.setItem(STORAGE_KEY, Date.now().toString());
       setSubmitSuccess(true);
 
@@ -567,11 +571,11 @@ export default function ReviewsView() {
         )}
       </div>
 
-      {/* FAB - FLOATING ACTION BUTTON */}
       <button
         onClick={() => {
           setIsModalOpen(true);
           setModalOpenTime(Date.now());
+          (window as any).gtag?.('event', 'review_open_modal', { location: 'reviews_page' });
         }}
         className="fixed bottom-8 left-1/2 -translate-x-1/2 md:-translate-x-0 md:left-auto md:right-8 z-50 flex items-center gap-3 gold-gradient text-on-primary px-6 py-4 rounded-full shadow-[0_10px_30px_rgba(255,203,70,0.4)] hover:scale-105 transition-transform"
       >

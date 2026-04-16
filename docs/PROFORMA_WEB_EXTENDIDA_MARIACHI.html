@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proforma Evolutiva - Mariachi Cielito Lindo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #B8860B;
+            --secondary: #1A1A1A;
+            --accent: #FFD700;
+            --text: #333;
+            --bg: #FAFAFA;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Montserrat', sans-serif; background: #e0e0e0; color: var(--text); }
+
+        .page {
+            width: 210mm;
+            height: 297mm; /* Altura fija para evitar desbordes */
+            padding: 15mm 15mm; /* Reducido para ganar espacio */
+            margin: 10mm auto;
+            background: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.2);
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            border-bottom: 2px solid var(--primary);
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo-txt { font-family: 'Playfair Display', serif; font-size: 24px; color: var(--secondary); }
+        .proforma-no { font-weight: bold; color: var(--primary); }
+
+        h1, h2, h3 { font-family: 'Playfair Display', serif; color: var(--secondary); margin-bottom: 15px; }
+        
+        .client-info { display: grid; grid-template-cols: 1fr 1fr; gap: 40px; margin-bottom: 40px; font-size: 14px; }
+        .client-info div p { margin-bottom: 5px; }
+        .label { color: #888; text-transform: uppercase; font-size: 11px; font-weight: bold; }
+
+        .phase-title {
+            background: var(--secondary);
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 30px 0 20px 0;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .item-row { 
+            display: flex; 
+            justify-content: space-between; 
+            padding: 12px 0; 
+            border-bottom: 1px solid #eee;
+            font-size: 13px;
+        }
+
+        .item-details { flex: 1; padding-right: 40px; }
+        .item-details strong { display: block; margin-bottom: 4px; color: var(--secondary); }
+        .item-price { font-weight: bold; width: 100px; text-align: right; font-size: 15px; }
+
+        .summary-box {
+            margin-top: 40px;
+            background: #f9f9f9;
+            padding: 30px;
+            border-radius: 8px;
+        }
+
+        .total-row {
+            display: flex;
+            justify-content: space-between;
+            font-size: 24px;
+            font-weight: bold;
+            border-top: 3px solid var(--primary);
+            padding-top: 20px;
+            margin-top: 20px;
+        }
+
+        .infra-card {
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .highlight { color: var(--primary); font-weight: bold; }
+
+        .footer {
+            position: absolute;
+            bottom: 20mm;
+            left: 20mm;
+            right: 20mm;
+            font-size: 10px;
+            color: #aaa;
+            text-align: center;
+            border-top: 1px solid #eee;
+            padding-top: 10px;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 2px 8px;
+            background: var(--primary);
+            color: white;
+            font-size: 10px;
+            border-radius: 4px;
+            vertical-align: middle;
+            margin-left: 10px;
+        }
+
+        @media print {
+            @page { size: A4; margin: 0; }
+            body { background: white; margin: 0; padding: 0; }
+            .page { margin: 0; box-shadow: none; border: none; page-break-after: always; }
+            .no-print { display: none; }
+        }
+
+        .print-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: var(--primary);
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 16px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- PAGINA 1: INTRODUCCION Y RESUMEN EJECUTIVO -->
+    <div class="page">
+        <header>
+            <div class="logo-txt">ABVC DIGITAL CONSTRUCTIONS</div>
+            <div class="proforma-no">PROFORMA #2026-MCL-02</div>
+        </header>
+
+        <h1>Propuesta de Evolución Estratégica Web</h1>
+        <p style="margin-bottom: 30px;">Digitalización y Rescate de Infraestructura Digital para Mariachi Cielito Lindo.</p>
+
+        <div class="client-info">
+            <div>
+                <p class="label">Preparado para:</p>
+                <p><strong>Paola Madero</strong></p>
+                <p>Mariachi Internacional Cielito Lindo</p>
+                <p>Guayaquil, Ecuador</p>
+            </div>
+            <div>
+                <p class="label">Emitido por:</p>
+                <p><strong>Milton Villacis Nazareno</strong></p>
+                <p>ABVC Digital Constructions</p>
+                <p>Consultoría y Desarrollo de Software</p>
+            </div>
+        </div>
+
+        <div class="infra-card">
+            <h3>Antecedentes del Proyecto</h3>
+            <p style="font-size: 13px; line-height: 1.6;">
+                El proyecto inició ante la necesidad crítica de reemplazar la antigua solución basada en WordPress, la cual presentaba una experiencia de usuario deficiente, tiempos de carga lentos y un catálogo de canciones difícil de navegar. <br><br>
+                La solución ejecutada consistió en el desarrollo de una <strong>Arquitectura desde Cero</strong>, priorizando la velocidad, la seguridad y una interfaz elegante que permitiera a Mariachi Cielito Lindo destacar profesionalmente en el mercado de Guayaquil.
+            </p>
+        </div>
+
+        <div class="summary-box">
+            <h3>Resumen de Inversión Total</h3>
+            <div class="item-row">
+                <span>Fase I: Infraestructura Base y Transición Digital</span>
+                <span style="font-weight: bold;">$ 380.00</span>
+            </div>
+            <div class="item-row">
+                <span>Fase II: Optimizaciones y Módulos de Control Avanzado</span>
+                <span style="font-weight: bold;">$ 170.00</span>
+            </div>
+            <div class="total-row">
+                <span>TOTAL DEL PROYECTO</span>
+                <span>$ 550.00 USD</span>
+            </div>
+        </div>
+
+        <div class="footer">Este documento detalla el alcance técnico y operativo entregado hasta la fecha.</div>
+    </div>
+
+    <!-- PAGINA 2: FASE 1 - DESARROLLO BASE -->
+    <div class="page">
+        <header>
+            <div class="logo-txt">Fase I: El Cimiento Digital</div>
+            <div class="proforma-no">$ 380.00</div>
+        </header>
+
+        <p style="font-size: 13px; margin-bottom: 20px; color: #666;">
+            Esta fase comprendió la creación de la plataforma robusta que hoy sostiene la operación digital de la empresa.
+        </p>
+
+        <div class="phase-title">Desarrollo Core y Migraciones</div>
+        
+        <div class="item-row">
+            <div class="item-details">
+                <strong>Arquitectura de Navegación 360°</strong>
+                Estructura de alto rendimiento con vistas de Inicio, Nosotros, Galería de fotos, Catálogo de canciones y Contacto.
+            </div>
+        </div>
+
+        <div class="item-row">
+            <div class="item-details">
+                <strong>Repertorio Interactivo v1.0</strong>
+                Desarrollo del sistema de búsqueda, filtros por ocasión y género, y modos de visualización (Grid/Lista). 
+            </div>
+        </div>
+
+        <div class="item-row">
+            <div class="item-details">
+                <strong>Panel Administrativo & Seguridad Firebase</strong>
+                Portal de administración con sistema de login seguro y protección de datos. Configuración de base de datos en la nube (Firestore) para gestión autónoma.
+            </div>
+        </div>
+
+        <div class="item-row">
+            <div class="item-details">
+                <strong>Migración Crítica de Datos (WordPress a Clean Web)</strong>
+                Extracción, normalización y limpieza de la base de datos original. Alimentación manual de enlaces de YouTube para asegurar que cada canción pueda ser escuchada.
+            </div>
+        </div>
+
+        <div class="item-row">
+            <div class="item-details">
+                <strong>Tecnología PWA (App Web Descargable)</strong>
+                Conversión de la web en una aplicación instalable en teléfonos Android e iOS sin necesidad de tiendas oficiales, facilitando el acceso rápido a los clientes recurrentes.
+            </div>
+        </div>
+
+        <div class="item-row">
+            <div class="item-details">
+                <strong>Despliegue de Infraestructura y Seguridad SSL <span class="badge">SEGURIDAD</span></strong>
+                Configuración técnica de NameServers (DNS) para vinculación de dominio, despliegue en red de entrega de contenido (CDN) para carga rápida mundial e instalación de Certificado de Seguridad SSL (Candado de navegación segura).
+            </div>
+        </div>
+
+        <div class="footer">ABVC Digital Constructions - Soluciones a Medida</div>
+    </div>
+
+    <!-- PAGINA 3: FASE 2 - MEJORAS Y OPTIMIZACIONES -->
+    <div class="page">
+        <header>
+            <div class="logo-txt">Fase II: Expansión de Valor</div>
+            <div class="proforma-no">$ 170.00</div>
+        </header>
+
+        <p style="font-size: 13px; margin-bottom: 20px; color: #666;">
+            Posterior a la entrega base, se implementaron mejoras solicitadas para maximizar el control y la conversión de clientes.
+        </p>
+
+        <div class="phase-title">Mejoras de Gestión y Marketing</div>
+
+        <div class="item-row">
+            <div class="item-details">
+                <strong>Segunda Migración y Enriquecimiento de Datos</strong>
+                Carga de nuevo repertorio adicional solicitado, normalización de formatos y vinculación de enlaces de video para el nuevo catálogo.
+            </div>
+        </div>
+
+        <div class="item-row">
+            <div class="item-details">
+                <strong>Módulo de Reseñas y Moderación</strong>
+                Sistema de testimonios de clientes con interfaz pública y tablero de control en el panel admin para aprobar o descartar comentarios.
+            </div>
+        </div>
+
+        <div class="item-row">
+            <div class="item-details">
+                <strong>Repertorio Simplificado (Modo Recomendado) <span class="badge">MEJORA ESTRATÉGICA</span></strong>
+                Implementación de un switch de vista rápida con sugerencias de canciones seleccionadas por la empresa para facilitar la decisión del cliente indeciso.
+            </div>
+        </div>
+
+        <div class="item-row">
+            <div class="item-details">
+                <strong>Auditoría de Control Administrativo (Exportación)</strong>
+                Añadido sistema de descarga de Repertorio en Excel y Respaldo JSON, permitiendo a la clienta tener una copia física de su base de datos en cualquier momento.
+            </div>
+        </div>
+
+        <div class="item-row">
+            <div class="item-details">
+                <strong>Diseño de Activos de Marca y UI Polish</strong>
+                Creación y ajuste de banners, iconos personalizados y pulido visual de la interfaz para una estética más "Premium".
+            </div>
+        </div>
+
+        <div class="footer">Innovación continua para Mariachi Cielito Lindo</div>
+    </div>
+
+    <!-- PAGINA 4: SEO, ANALYTICS Y RENDIMIENTO -->
+    <div class="page">
+        <header>
+            <div class="logo-txt">Marketing y Visibilidad Digital</div>
+            <div class="proforma-no">Incluido</div>
+        </header>
+
+        <div class="phase-title">Optimización de Motores de Búsqueda (SEO)</div>
+
+        <div class="infra-card">
+            <p style="font-size: 13px;">
+                Se ha realizado una configuración avanzada de <strong>Local SEO</strong> enfocado en Guayaquil, asegurando que la web aparezca en búsquedas relevantes y que los enlaces compartidos en WhatsApp muestren imágenes de "Formato Largo" (Summary Large Image) para mayor impacto visual.
+            </p>
+        </div>
+
+        <table style="width: 100%; font-size: 13px; border-collapse: collapse;">
+            <tr>
+                <td style="padding: 15px; border-bottom: 1px solid #eee;">
+                    <strong>Google Search Console</strong><br>Registro e indexación oficial de todas las páginas para aparecer en Google.
+                </td>
+                <td style="padding: 15px; border-bottom: 1px solid #eee; text-align: right;">Activo ✅</td>
+            </tr>
+            <tr>
+                <td style="padding: 15px; border-bottom: 1px solid #eee;">
+                    <strong>Google Analytics (Medición)</strong><br>Configuración de rastreo para saber cuántas personas presionan el botón de WhatsApp.
+                </td>
+                <td style="padding: 15px; border-bottom: 1px solid #eee; text-align: right;">Activo ✅</td>
+            </tr>
+            <tr>
+                <td style="padding: 15px; border-bottom: 1px solid #eee;">
+                    <strong>Sitemap & Robots.txt</strong><br>Guías técnicas para que los robots de Google entiendan la web rápidamente.
+                </td>
+                <td style="padding: 15px; border-bottom: 1px solid #eee; text-align: right;">Activo ✅</td>
+            </tr>
+        </table>
+
+        <div class="summary-box" style="margin-top: 40px;">
+            <h3>Dato de Rendimiento Actual</h3>
+            <p style="font-size: 14px;">Peso de carga de la web: <strong>~ 15 MB</strong></p>
+            <p style="font-size: 14px;">Rendimiento: <strong>95/100 (Google PageSpeed)</strong></p>
+        </div>
+
+        <div class="footer">Su presencia digital, ahora con base científica.</div>
+    </div>
+
+    <!-- PAGINA 5: INFRAESTRUCTURA NETLIFY -->
+    <div class="page">
+        <header>
+            <div class="logo-txt">Infraestructura y Conectividad</div>
+            <div class="proforma-no">Netlify Cloud</div>
+        </header>
+
+        <h3>Análisis de Tráfico y Costos de Operación</h3>
+        <p style="font-size: 14px; margin-bottom: 20px;">
+            La web utiliza tecnología de punta en la nube a través de Netlify. Es importante entender cómo funciona el consumo de datos para mantener la gratuidad del servicio el mayor tiempo posible.
+        </p>
+
+        <div class="infra-card">
+            <h4>1. Cuota Gratuita Mensual</h4>
+            <p style="font-size: 13px;">
+                Netlify ofrece <strong>100 GB</strong> de transferencia de datos gratuita cada mes. 
+                Dado que la web pesa 15 MB por carga, usted tiene un margen aproximado de:
+            </p>
+            <h2 style="text-align: center; color: var(--primary); margin: 20px 0;">~ 6,600 visitas gratis / mes</h2>
+            <p style="font-size: 12px; color: #666; text-align: center;">
+                (Estimación conservadora para asegurar que nunca exceda el límite en uso normal)
+            </p>
+        </div>
+
+        <div class="infra-card" style="background: #fff8e1; border-color: #ffe082;">
+            <h4>2. Manejo de Excedentes y Campañas</h4>
+            <p style="font-size: 13px;">
+                Si Mariachi Cielito Lindo realiza una campaña masiva (ej. Día de las Madres) y supera las 6,600 visitas, Netlify aplicará un cargo de:
+            </p>
+            <h3 style="text-align: center; margin: 15px 0;">$ 10.00 USD por paquete adicional</h3>
+            <p style="font-size: 12px; color: #666; line-height: 1.5;">
+                Este paquete le otorga un "boost" de tráfico por 30 días. <br>
+                <strong>Estrategia ABVC:</strong> Milton monitoreará las tasas de consumo y le notificará con antelación para activar esta mejora solo si es estrictamente necesario, protegiendo su presupuesto.
+            </p>
+        </div>
+
+        <div class="footer">Optimización de costos para el crecimiento de su negocio.</div>
+    </div>
+
+    <!-- PAGINA 6: MANTENIMIENTO Y CIERRE -->
+    <div class="page">
+        <header>
+            <div class="logo-txt">Continuidad y Garantía</div>
+            <div class="proforma-no">$ 45.00 / mes</div>
+        </header>
+
+        <h3>Plan de Soporte y Mantenimiento Mensual</h3>
+        <p style="font-size: 13px; margin-bottom: 20px;">
+            Un sistema vivo requiere cuidado. Para que usted no se preocupe por la parte técnica, ABVC ofrece el siguiente plan mensual opcional pero recomendado:
+        </p>
+
+        <div style="background: #f9f9f9; padding: 25px; border-radius: 8px; margin-bottom: 30px;">
+            <ul style="font-size: 13px; line-height: 2;">
+                <li><strong>Monitoreo de Infraestructura:</strong> Vigilancia del tráfico en Netlify y salud de la base de datos Firebase.</li>
+                <li><strong>Respaldos de Seguridad:</strong> Backup mensual de toda la base de datos de canciones y reseñas.</li>
+                <li><strong>Vigilancia SEO:</strong> Monitoreo mensual de Google Search Console para asegurar que la web no pierda posiciones.</li>
+                <li><strong>Soporte de Contenido:</strong> Hasta 1 hora mensual para actualizaciones de fotos, banners o carga de canciones que usted no desee hacer por su cuenta.</li>
+                <li><strong>Actualización de Seguridad:</strong> Parche de dependencias para proteger el portal contra nuevas vulnerabilidades.</li>
+            </ul>
+        </div>
+
+        <div style="margin-bottom: 30px; background: #f0f0f0; padding: 20px; border-radius: 8px; border-left: 5px solid var(--primary);">
+            <h3 style="font-size: 14px; margin-bottom: 10px; color: var(--secondary); text-transform: uppercase;">Datos para Transferencia Bancaria</h3>
+            <p style="font-size: 13px;"><strong>Beneficiario:</strong> VILLACIS NAZARENO MILTON MOISES</p>
+            <p style="font-size: 13px;"><strong>Cédula:</strong> 0940977630</p>
+            <p style="font-size: 13px;"><strong>Banco:</strong> Produbanco</p>
+            <p style="font-size: 13px;"><strong>Tipo de Cuenta:</strong> Ahorros</p>
+            <p style="font-size: 13px;"><strong>Número de Cuenta:</strong> 18000779770</p>
+        </div>
+
+        <div class="summary-box">
+            <h3>Conformidad de Inversión</h3>
+            <div class="item-row" style="font-size: 15px;">
+                <span>Total Desarrollo y Mejoras (Fases I y II)</span>
+                <span>$ 550.00</span>
+            </div>
+            <div class="item-row" style="color: #666;">
+                <span>Mantenimiento Mensual (Pago a partir del siguiente mes)</span>
+                <span>$ 45.00</span>
+            </div>
+            <div class="total-row">
+                <span>TOTAL A LIQUIDAR</span>
+                <span>$ 550.00 USD</span>
+            </div>
+        </div>
+
+        <div style="display: grid; grid-template-cols: 1fr 1fr; gap: 40px; margin-top: 50px; text-align: center;">
+            <div style="border-top: 1px solid #000; padding-top: 10px;">
+                <p style="font-size: 12px;"><strong>Milton Villacis Nazareno</strong></p>
+                <p style="font-size: 10px;">ABVC Digital Constructions</p>
+            </div>
+            <div style="border-top: 1px solid #000; padding-top: 10px;">
+                <p style="font-size: 12px;"><strong>Paola Madero</strong></p>
+                <p style="font-size: 10px;">Mariachi Cielito Lindo</p>
+            </div>
+        </div>
+
+        <div class="footer">Gracias por confiar en el mejor desarrollo tecnológico para el mejor Mariachi.</div>
+    </div>
+
+    <button class="print-btn no-print" onclick="window.print()">🖨️ Generar PDF para Paola</button>
+
+</body>
+</html>
