@@ -19,16 +19,16 @@ import { onAuthStateChanged, User } from 'firebase/auth';
 import { doc, getDoc } from 'firebase/firestore';
 
 const BACKGROUND_PLAYLIST = [
-  { title: "Cielito Lindo", artist: "Quirino Mendoza y Cortés", url: "/canciones/Cielito%20Lindo.mp3" },
-  { title: "El Mariachi Loco", artist: "Román Palomar", url: "/canciones/El%20Mariachi%20Loco.mp3" },
-  { title: "Guadalajara", artist: "Pepe Guízar", url: "/canciones/Guadalajara_Mariachi_letra%20original_letra_lyrics.mp3" },
-  { title: "Jarabe Tapatío", artist: "Jesús González Rubio", url: "/canciones/Jarabe%20tapat%C3%ADo.mp3" },
-  { title: "Jesusita en Chihuahua", artist: "Quirino Mendoza y Cortés", url: "/canciones/Jesusita%20En%20Chihuahua%20by%20Mariachi%20Mexico.mp3" },
-  { title: "La Bikina", artist: "Rubén Fuentes", url: "/canciones/LA%20BIKINA%20MARIACHI%20VARGAS%20DE%20TECALITLAN.mp3" },
-  { title: "Sabes Una Cosa", artist: "Luis Miguel", url: "/canciones/La%20hija%20del%20mariachi%20%20-%20Sabes%20Una%20cosa.%20CD2.mp3" },
-  { title: "El Son de la Negra", artist: "Blas Galindo", url: "/canciones/Mariachi%20Vargas%20%20%20Son%20de%20la%20negra.mp3" },
-  { title: "El Aventurero", artist: "Pedro Fernández", url: "/canciones/Pedro%20Fern%C3%A1ndez%20El%20Aventurero%20Letra.mp3" },
-  { title: "Hermoso Cariño", artist: "Vicente Fernández", url: "/canciones/Vicente%20Fern%C3%A1ndez%20Hermoso%20Cari%C3%B1o%20Oficial%20En%20Vivo.mp3" }
+  { title: "Cielito Lindo",        artist: "Quirino Mendoza y Cortés", url: "https://res.cloudinary.com/dkoupxlif/video/upload/v1778267088/Cielito_Lindo_sccbgi.mp3" },
+  { title: "El Mariachi Loco",     artist: "Román Palomar",            url: "https://res.cloudinary.com/dkoupxlif/video/upload/v1778267083/El_Mariachi_Loco_scvbht.mp3" },
+  { title: "Guadalajara",          artist: "Pepe Guízar",              url: "https://res.cloudinary.com/dkoupxlif/video/upload/v1778267083/Guadalajara_Mariachi_letra_original_letra_lyrics_bwvncu.mp3" },
+  { title: "Jarabe Tapatío",       artist: "Jesús González Rubio",     url: "https://res.cloudinary.com/dkoupxlif/video/upload/v1778267083/Jarabe_tapat%C3%ADo_dy19gs.mp3" },
+  { title: "Jesusita en Chihuahua",artist: "Quirino Mendoza y Cortés", url: "https://res.cloudinary.com/dkoupxlif/video/upload/v1778267083/Jesusita_En_Chihuahua_by_Mariachi_Mexico_nhd7by.mp3" },
+  { title: "La Bikina",            artist: "Rubén Fuentes",            url: "https://res.cloudinary.com/dkoupxlif/video/upload/v1778267083/LA_BIKINA_MARIACHI_VARGAS_DE_TECALITLAN_wvu399.mp3" },
+  { title: "Sabes Una Cosa",       artist: "Luis Miguel",              url: "https://res.cloudinary.com/dkoupxlif/video/upload/v1778267086/La_hija_del_mariachi_-_Sabes_Una_cosa._CD2_xds4kq.mp3" },
+  { title: "El Son de la Negra",   artist: "Blas Galindo",             url: "https://res.cloudinary.com/dkoupxlif/video/upload/v1778267083/Mariachi_Vargas_Son_de_la_negra_bubkhd.mp3" },
+  { title: "El Aventurero",        artist: "Pedro Fernández",          url: "https://res.cloudinary.com/dkoupxlif/video/upload/v1778267083/Pedro_Fern%C3%A1ndez_El_Aventurero_Letra_escdgd.mp3" },
+  { title: "Hermoso Cariño",       artist: "Vicente Fernández",        url: "https://res.cloudinary.com/dkoupxlif/video/upload/v1778267086/Vicente_Fern%C3%A1ndez_Hermoso_Cari%C3%B1o_Oficial_En_Vivo_v7odsg.mp3" },
 ];
 
 const SEO_CONFIG: Record<string, { title: string, description: string }> = {

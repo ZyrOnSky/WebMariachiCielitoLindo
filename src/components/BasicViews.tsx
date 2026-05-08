@@ -22,8 +22,6 @@ export const HomeView = ({ setView }: { setView: (v: ViewState) => void, key?: s
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-surface/50 to-surface z-10"></div>
         <img 
           src="https://images.unsplash.com/photo-1511192336575-5a79af67a629?q=80&w=1600&auto=format" 
-          srcSet="https://images.unsplash.com/photo-1511192336575-5a79af67a629?q=70&w=800&auto=format 800w, https://images.unsplash.com/photo-1511192336575-5a79af67a629?q=80&w=1600&auto=format 1600w"
-          sizes="(max-width: 768px) 800px, 1600px"
           width="1600"
           height="900"
           alt="Mariachi cantando" 
