@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { motion } from 'motion/react';
-import { Search, Lock, Plus, ListMusic, Trash2, Phone, Music, Copy, Check, PlayCircle, X, Sliders, CheckSquare2, Grid3x3, List, Cake, Heart, Star, Flame, Cross, User, Wine, PartyPopper, Guitar, Sparkles, ChevronDown } from 'lucide-react';
+import { Search, Lock, Plus, ListMusic, Trash2, Phone, Music, Copy, Check, PlayCircle, X, Sliders, CheckSquare2, Grid3x3, List, Cake, Heart, Star, Flame, Cross, User, Wine, PartyPopper, Guitar, Sparkles, ChevronDown, FileDown } from 'lucide-react';
 import { ViewState } from '../types';
 import { collection, onSnapshot, orderBy, query, doc, getDoc } from 'firebase/firestore';
 import { db, handleFirestoreError, OperationType } from '../firebase';
+import logoMain from '../../medios/logos/logo.svg';
+import { toast } from 'react-hot-toast';
 
 interface Song {
   id: string;
@@ -92,7 +94,6 @@ export default function RepertoireView({
   const [selectedGenres, setSelectedGenres] = useState<string[]>([]);
   const [selectedOccasions, setSelectedOccasions] = useState<string[]>([]);
   const [selectedArtists, setSelectedArtists] = useState<string[]>([]);
-
   const [currentPage, setCurrentPage] = useState(1);
   const [hasCopied, setHasCopied] = useState(false);
   const [playingSong, setPlayingSong] = useState<Song | null>(null);
@@ -105,8 +106,306 @@ export default function RepertoireView({
   const [openDropdown, setOpenDropdown] = useState<'ocasion' | 'genero' | 'artista' | null>(null);
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
   const [expandedSongList, setExpandedSongList] = useState<Song | null>(null);
-  const [isSimplified, setIsSimplified] = useState(false);
+  const [showFullRepertoire, setShowFullRepertoire] = useState(false);
+  const [isGeneratingPDF, setIsGeneratingPDF] = useState(false);
   const [openSimplifiedCategory, setOpenSimplifiedCategory] = useState<string | null>(null);
+
+  const handleDownloadPDF = async () => {
+    if (!songs.length) {
+      toast.error("Espera a que carguen las canciones.");
+      return;
+    }
+
+    setIsGeneratingPDF(true);
+    const loadingToast = toast.loading("Generando reporte PDF...");
+
+    try {
+      // ── 1. Resolver canciones ─────────────────────────────────────────────
+      const resolvedData = SIMPLIFIED_DATA.map(cat => ({
+        occasion: cat.occasion,
+        items: (cat.songIds || cat.songs || [])
+          .map((idOrTitle: string) => {
+            if (!idOrTitle) return { title: '', artist: '' };
+            if (cat.mode === 'firestore') {
+              const s = songs.find(s => s.id === idOrTitle);
+              return { title: s?.title || '', artist: s?.artist || '' };
+            }
+            const norm = (t: string) =>
+              t.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+            const s = songs.find(s => s?.title && norm(s.title) === norm(idOrTitle));
+            return { title: s?.title || idOrTitle, artist: s?.artist || '' };
+          })
+          .filter(i => i.title),
+      })).filter(cat => cat.items.length > 0);
+
+      // ── 2. Logo: SVG → PNG preservando aspect ratio ─────────────────────
+      let logoPngDataUrl = '';
+      let logoAspectRatio = 1; // width / height
+      try {
+        const resp = await fetch(logoMain);
+        const svgText = await resp.text();
+        const svgBlob = new Blob([svgText], { type: 'image/svg+xml' });
+        const svgObjectUrl = URL.createObjectURL(svgBlob);
+
+        const result = await new Promise<{ dataUrl: string; ratio: number }>((resolve, reject) => {
+          const img = new Image();
+          img.onload = () => {
+            // Obtener dimensiones reales del SVG
+            const svgW = img.naturalWidth  || 200;
+            const svgH = img.naturalHeight || 200;
+            const ratio = svgW / svgH;
+
+            // Canvas con alta resolución manteniendo proporciones
+            const CANVAS_H = 512;
+            const CANVAS_W = Math.round(CANVAS_H * ratio);
+            const canvas = document.createElement('canvas');
+            canvas.width  = CANVAS_W;
+            canvas.height = CANVAS_H;
+            const ctx = canvas.getContext('2d');
+            if (!ctx) { reject(new Error('No canvas context')); return; }
+            ctx.drawImage(img, 0, 0, CANVAS_W, CANVAS_H);
+            URL.revokeObjectURL(svgObjectUrl);
+            resolve({ dataUrl: canvas.toDataURL('image/png'), ratio });
+          };
+          img.onerror = reject;
+          img.src = svgObjectUrl;
+        });
+
+        logoPngDataUrl  = result.dataUrl;
+        logoAspectRatio = result.ratio;
+      } catch (e) {
+        console.warn('Logo no disponible:', e);
+      }
+
+      // ── 3. Constantes de diseño ───────────────────────────────────────────
+      const { jsPDF } = await import('jspdf');
+
+      const PAGE_W   = 210;
+      const PAGE_H   = 297;
+      const MARGIN   = 14;
+      const CONTENT_W = PAGE_W - MARGIN * 2;
+      const COL_W    = (CONTENT_W - 6) / 2;
+
+      // Alturas fijas (mm)
+      const ROW_H      = 7;    // altura de cada fila de canción
+      const CAT_HDR_H  = 8;    // cabecera de categoría
+      const CAT_GAP    = 5;    // espacio entre categorías
+      const FOOTER_H   = 28;   // espacio reservado para el footer
+
+      // Colores
+      const BG       : [number,number,number] = [19,  19,  19 ];
+      const GOLD     : [number,number,number] = [212, 175, 55 ];
+      const WHITE    : [number,number,number] = [255, 255, 255];
+      const CREAM    : [number,number,number] = [210, 197, 174];
+      const DARK_HDR : [number,number,number] = [32,  32,  32 ];
+      const SEP      : [number,number,number] = [50,  50,  50 ];
+
+      const pdf = new jsPDF({ unit: 'mm', format: 'a4', orientation: 'portrait' });
+
+      // ── 4. Helpers ────────────────────────────────────────────────────────
+      let y = MARGIN;
+
+      // Logo en esquina inferior derecha — pequeño, dentro del margen físico
+      const CORNER_LOGO_H = 6;   // ~60% más pequeño que el original de 14mm
+      const CORNER_LOGO_W = Math.round(CORNER_LOGO_H * logoAspectRatio * 10) / 10;
+      const CORNER_X = PAGE_W - MARGIN - CORNER_LOGO_W;
+      const CORNER_Y = PAGE_H - 4 - CORNER_LOGO_H; // 4mm del borde inferior físico
+
+      /** Estampa el logo en la esquina superior derecha */
+      const drawCornerLogo = () => {
+        if (!logoPngDataUrl) return;
+        try {
+          pdf.addImage(logoPngDataUrl, 'PNG', CORNER_X, CORNER_Y, CORNER_LOGO_W, CORNER_LOGO_H);
+        } catch (e) { console.warn('Corner logo error:', e); }
+      };
+
+      /** Pinta el fondo oscuro con sangrado +1mm para evitar línea de artefacto en el visor */
+      const paintBg = () => {
+        pdf.setFillColor(...BG);
+        pdf.rect(-1, -1, PAGE_W + 2, PAGE_H + 2, 'F'); // sangrado para evitar borde blanco
+        drawCornerLogo();
+      };
+
+      /** Retorna la altura total que ocupa una categoría (sin gap final) */
+      const catHeight = (itemCount: number) => {
+        const rowCount = Math.ceil(itemCount / 2);
+        return CAT_HDR_H + rowCount * ROW_H;
+      };
+
+      /** Crea una nueva página con fondo oscuro */
+      const newPage = () => {
+        pdf.addPage();
+        paintBg();
+        y = MARGIN;
+      };
+
+      /**
+       * Verifica si `needed` mm caben en la página.
+       * Si no caben, crea una nueva página.
+       * El footer siempre se reserva al final.
+       */
+      const ensureSpace = (needed: number, reserveFooter = true) => {
+        const limit = PAGE_H - MARGIN - (reserveFooter ? FOOTER_H : 0);
+        if (y + needed > limit) newPage();
+      };
+
+      // ── 5. Primera página: fondo ──────────────────────────────────────────
+      paintBg();
+
+      // ── 6. Header ─────────────────────────────────────────────────────────
+      // Logo
+      if (logoPngDataUrl) {
+        try {
+          // Altura fija para el logo central, ancho calculado con el aspect ratio
+          const lH = 28;
+          const lW = Math.round(lH * logoAspectRatio * 10) / 10;
+          pdf.addImage(logoPngDataUrl, 'PNG', PAGE_W / 2 - lW / 2, y, lW, lH);
+          y += lH + 3;
+        } catch (e) { console.warn('Center logo error:', e); }
+      }
+
+      // Título principal
+      pdf.setFont('helvetica', 'bold');
+      pdf.setFontSize(20);
+      pdf.setTextColor(...WHITE);
+      pdf.text('Repertorio Sugerido', PAGE_W / 2, y, { align: 'center' });
+      y += 7;
+
+      // Subtítulo en dorado
+      pdf.setFont('helvetica', 'italic');
+      pdf.setFontSize(10);
+      pdf.setTextColor(...GOLD);
+      pdf.text('Mariachi Internacional Cielito Lindo', PAGE_W / 2, y, { align: 'center' });
+      y += 5;
+
+      // Línea decorativa dorada
+      pdf.setDrawColor(...GOLD);
+      pdf.setLineWidth(0.6);
+      pdf.line(MARGIN, y, PAGE_W - MARGIN, y);
+      y += 7;
+
+      // ── 7. Categorías ─────────────────────────────────────────────────────
+      for (let ci = 0; ci < resolvedData.length; ci++) {
+        const cat = resolvedData[ci];
+        const rowCount = Math.ceil(cat.items.length / 2);
+        const totalCatH = catHeight(cat.items.length);
+
+        // ¿Cabe la categoría completa en la página?
+        // Si no cabe en absoluto (categoría muy larga), al menos aseguramos
+        // que el header no quede solo al final de la página.
+        const isLastCat = ci === resolvedData.length - 1;
+        const spaceNeeded = totalCatH + (isLastCat ? 0 : CAT_GAP);
+        ensureSpace(spaceNeeded, true);
+
+        // ─ Cabecera de categoría ─
+        pdf.setFillColor(...DARK_HDR);
+        pdf.rect(MARGIN, y, CONTENT_W, CAT_HDR_H, 'F');
+        // Acento dorado lateral
+        pdf.setFillColor(...GOLD);
+        pdf.rect(MARGIN, y, 1.5, CAT_HDR_H, 'F');
+
+        pdf.setFont('helvetica', 'bold');
+        pdf.setFontSize(8);
+        pdf.setTextColor(...WHITE);
+        pdf.text(cat.occasion.toUpperCase(), MARGIN + 5, y + 5.2);
+        y += CAT_HDR_H + 1;
+
+        // ─ Filas de canciones ─
+        for (let r = 0; r < rowCount; r++) {
+          // Comprobación de espacio para esta fila individual
+          // (solo si la categoría entera no cupo de golpe)
+          if (y + ROW_H > PAGE_H - MARGIN - FOOTER_H) {
+            newPage();
+          }
+
+          const left  = cat.items[r * 2];
+          const right = cat.items[r * 2 + 1];
+
+          const drawSong = (
+            item: { title: string; artist: string },
+            colX: number
+          ) => {
+            const rightEdge = colX + COL_W;
+
+            // Título de la canción
+            pdf.setFont('helvetica', 'bold');
+            pdf.setFontSize(7.5);
+            pdf.setTextColor(...WHITE);
+            const titleLines = pdf.splitTextToSize(item.title, COL_W * 0.57);
+            pdf.text(titleLines[0] || item.title, colX, y + 4.5);
+
+            // Artista (alineado a la derecha dentro de la columna)
+            if (item.artist) {
+              pdf.setFont('helvetica', 'italic');
+              pdf.setFontSize(6.5);
+              pdf.setTextColor(...CREAM);
+              const artistLines = pdf.splitTextToSize(item.artist, COL_W * 0.41);
+              pdf.text(artistLines[0] || item.artist, rightEdge, y + 4.5, { align: 'right' });
+            }
+          };
+
+          if (left)  drawSong(left,  MARGIN);
+          if (right) drawSong(right, MARGIN + COL_W + 6);
+
+          // Separador sutil entre filas
+          pdf.setDrawColor(...SEP);
+          pdf.setLineWidth(0.08);
+          pdf.line(MARGIN, y + ROW_H - 0.5, PAGE_W - MARGIN, y + ROW_H - 0.5);
+          y += ROW_H;
+        }
+
+        // Espacio entre categorías (no después de la última)
+        if (!isLastCat) y += CAT_GAP;
+      }
+
+      // ── 8. Footer ─────────────────────────────────────────────────────────
+      // Siempre va al final de la última página, con espacio garantizado
+      ensureSpace(FOOTER_H, false);
+
+      // Si todavía hay mucho espacio, saltamos directamente al final de la página
+      // para que el footer no quede flotando en el medio
+      const footerY = Math.max(y + 6, PAGE_H - MARGIN - FOOTER_H + 4);
+      y = footerY;
+
+      pdf.setDrawColor(...GOLD);
+      pdf.setLineWidth(0.4);
+      pdf.line(MARGIN, y, PAGE_W - MARGIN, y);
+      y += 5;
+
+      pdf.setFont('helvetica', 'bold');
+      pdf.setFontSize(9);
+      pdf.setTextColor(...GOLD);
+      pdf.text('La mejor serenata de Guayaquil!', PAGE_W / 2, y, { align: 'center' });
+      y += 6;
+
+      pdf.setFont('helvetica', 'bold');
+      pdf.setFontSize(12);
+      pdf.setTextColor(...WHITE);
+      pdf.text('Tel: 098 721 6439', PAGE_W / 2, y, { align: 'center' });
+      y += 5;
+
+      pdf.setFont('helvetica', 'normal');
+      pdf.setFontSize(8);
+      pdf.setTextColor(...CREAM);
+      pdf.text('Guayaquil, Ecuador', PAGE_W / 2, y, { align: 'center' });
+      y += 4;
+
+      pdf.setFontSize(7);
+      pdf.setTextColor(90, 90, 90);
+      pdf.text(
+        'Documento generado dinamicamente  |  www.mariachicielitolindoec.com',
+        PAGE_W / 2, y, { align: 'center' }
+      );
+
+      pdf.save('Repertorio_Sugerido_Mariachi_Cielito_Lindo.pdf');
+      toast.success('PDF descargado correctamente', { id: loadingToast });
+    } catch (error) {
+      console.error('Error generating PDF:', error);
+      toast.error('Error al generar el PDF. Intente de nuevo.', { id: loadingToast });
+    } finally {
+      setIsGeneratingPDF(false);
+    }
+  };
 
   // Icon map for Firestore-based simplified repertoire
   const ICON_MAP: Record<string, React.ReactNode> = {
@@ -425,27 +724,54 @@ export default function RepertoireView({
 
           <div className="mb-8 flex flex-col sm:flex-row items-start sm:items-center gap-4 bg-surface-container-low/50 p-4 rounded-3xl border border-outline-variant/10">
             <div className="flex-1">
-              <h3 className="text-[#D4AF37] font-serif text-lg font-bold mb-1 italic">¿No encuentras tu canción?</h3>
-              <p className="text-on-surface-variant text-sm font-light">Prueba Nuestro Repertorio Simplificado</p>
+              <h3 className="text-[#D4AF37] font-serif text-lg font-bold mb-1 italic">
+                {showFullRepertoire ? "¿Buscas sugerencias rápidas?" : "¿Buscas algo más específico?"}
+              </h3>
+              <p className="text-on-surface-variant text-sm font-light">
+                {showFullRepertoire ? "Prueba nuestro Repertorio Simple" : "Explora nuestro Repertorio Completo"}
+              </p>
             </div>
             <div className="flex items-center gap-3">
-              <span className={`text-xs font-bold uppercase tracking-wider ${!isSimplified ? 'text-primary' : 'text-on-surface-variant/60'}`}>Normal</span>
+              <span className={`text-xs font-bold uppercase tracking-wider ${!showFullRepertoire ? 'text-primary' : 'text-on-surface-variant/60'}`}>Simple</span>
               <button 
-                onClick={() => setIsSimplified(!isSimplified)}
-                className={`relative w-14 h-7 rounded-full transition-colors duration-300 focus:outline-none ${isSimplified ? 'bg-primary' : 'bg-outline-variant/30'}`}
+                onClick={() => setShowFullRepertoire(!showFullRepertoire)}
+                className={`relative w-14 h-7 rounded-full transition-colors duration-300 focus:outline-none ${showFullRepertoire ? 'bg-primary' : 'bg-outline-variant/30'}`}
               >
                 <motion.div 
                   initial={false}
-                  animate={{ x: isSimplified ? 28 : 2 }}
+                  animate={{ x: showFullRepertoire ? 28 : 2 }}
                   transition={{ type: "spring", stiffness: 500, damping: 30 }}
                   className="absolute top-1 left-1 w-5 h-5 bg-white rounded-full shadow-md"
                 />
               </button>
-              <span className={`text-xs font-bold uppercase tracking-wider ${isSimplified ? 'text-primary' : 'text-on-surface-variant/60'}`}>Simplificado</span>
+              <span className={`text-xs font-bold uppercase tracking-wider ${showFullRepertoire ? 'text-primary' : 'text-on-surface-variant/60'}`}>Completo</span>
             </div>
           </div>
 
-          {!isSimplified ? (
+          {/* Botón PDF — solo visible en vista Simple, fuera del card del switch */}
+          {!showFullRepertoire && (
+            <div className="mb-6 flex flex-col sm:flex-row items-start sm:items-center gap-3 no-print">
+              <button 
+                onClick={handleDownloadPDF}
+                disabled={isGeneratingPDF}
+                className={`px-5 py-2.5 bg-[#D4AF37]/10 hover:bg-[#D4AF37]/20 text-[#D4AF37] border border-[#D4AF37]/30 rounded-2xl flex items-center gap-2.5 transition-all ${isGeneratingPDF ? 'opacity-50 cursor-not-allowed' : 'active:scale-95'}`}
+              >
+                {isGeneratingPDF ? (
+                  <div className="w-4 h-4 border-2 border-[#D4AF37] border-t-transparent rounded-full animate-spin"></div>
+                ) : (
+                  <FileDown size={18} />
+                )}
+                <span className="font-bold text-sm">
+                  {isGeneratingPDF ? "Generando PDF..." : "Descargar Repertorio Recomendado (PDF)"}
+                </span>
+              </button>
+              <p className="text-on-surface-variant/50 text-xs font-light italic">
+                El PDF incluye únicamente las canciones recomendadas del Repertorio Simple.
+              </p>
+            </div>
+          )}
+
+          {showFullRepertoire ? (
             <>
               <div className="flex flex-col gap-3 sm:gap-4 mb-6 sm:mb-8">
                 <div className="flex gap-2 items-center flex-wrap sm:flex-nowrap">
@@ -1018,7 +1344,7 @@ export default function RepertoireView({
             />
           )}
 
-          {/* Paginado eliminado aqui - ya esta incluido dentro del bloque !isSimplified */}
+          {/* Paginado eliminado aqui - ya esta incluido dentro del bloque showFullRepertoire */}
         </div>
 
         <div className="order-2 lg:order-2 min-w-0">
