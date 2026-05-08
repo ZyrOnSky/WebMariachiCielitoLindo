@@ -4,6 +4,9 @@
 
 [build.environment]
   NODE_VERSION = "20"
+  # Firebase public API keys (AIza*) are intentionally public and protected
+  # by domain restrictions in Firebase Console — not actual secrets.
+  SECRETS_SCAN_SMART_DETECTION_OMIT_VALUES = "AIza"
 
 [[redirects]]
   from = "/*"
